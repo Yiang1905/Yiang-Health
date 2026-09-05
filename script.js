@@ -1,12 +1,11 @@
 /**
- * YIANG HEALTH - Main UI Script
+ * YIANG HEALTH V1.1 - Main UI Script
  * UI Layer only. Business logic lives in modules/.
  */
 
 (function () {
   'use strict';
 
-  // ---------- Shared UI helpers ----------
   function $(sel, ctx) { return (ctx || document).querySelector(sel); }
   function $$(sel, ctx) { return Array.from((ctx || document).querySelectorAll(sel)); }
 
@@ -17,10 +16,8 @@
       toggle.addEventListener('click', () => nav.classList.toggle('open'));
     }
 
-    // Language selector
     const sel = $('#lang-select');
     if (sel) {
-      // Populate options
       const langs = [
         { code: 'en', label: 'English' },
         { code: 'zh-CN', label: '简体中文' },
@@ -47,7 +44,6 @@
       sel.addEventListener('change', () => I18n.setLanguage(sel.value));
     }
 
-    // Active nav
     const path = location.pathname.split('/').pop() || 'index.html';
     $$('.nav-links a').forEach(a => {
       const href = a.getAttribute('href');
@@ -57,7 +53,7 @@
     });
   }
 
-  // ---------- Planner page logic (UI only) ----------
+  // ---------- Wellness Planner (V1.1) ----------
   function initPlanner() {
     const formWrap = $('#planner-form-wrap');
     if (!formWrap) return;
@@ -65,14 +61,15 @@
     let step = 1;
     const totalSteps = 4;
     const state = {
-      country: '',
-      age: '',
-      language: I18n.getCurrentLang(),
-      purpose: '',
-      duration: '',
-      budget: '',
-      preferredDestinations: [],
-      concernText: ''
+      goal: '',
+      ageRange: '',
+      location: '',
+      activityLevel: '',
+      sleepPattern: '',
+      dietPreference: '',
+      dailyTime: '',
+      lifestyle: '',
+      notes: ''
     };
 
     const steps = $$('.planner-step');
@@ -90,26 +87,28 @@
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    // Populate destination chips
-    async function loadDestChips() {
-      const container = $('#dest-chips');
-      if (!container) return;
-      const cities = await DestinationsModule.listPilotCities();
-      const lang = I18n.getCurrentLang();
-      container.innerHTML = cities.map(c => {
-        const name = c.name[lang] || c.name.en || c.id;
-        return `
-          <div class="dest-chip">
-            <input type="checkbox" id="dest-${c.id}" value="${c.id}">
-            <label for="dest-${c.id}">${name}</label>
-          </div>`;
-      }).join('');
+    function renderGoals() {
+      const grid = $('#goal-grid');
+      if (!grid || !window.WellnessCore) return;
+      const goals = WellnessCore.getGoals();
+      grid.innerHTML = goals.map(g => `
+        <label class="goal-option">
+          <input type="radio" name="wellness-goal" value="${g.id}" ${state.goal === g.id ? 'checked' : ''}>
+          <span class="goal-card">
+            <span class="goal-icon" aria-hidden="true">${g.icon}</span>
+            <span class="goal-title">${I18n.t(g.titleKey)}</span>
+            <span class="goal-desc">${I18n.t(g.descKey)}</span>
+          </span>
+        </label>
+      `).join('');
     }
 
-    loadDestChips();
-    window.addEventListener('yiang:langchange', loadDestChips);
+    renderGoals();
+    window.addEventListener('yiang:langchange', () => {
+      renderGoals();
+      I18n.applyTranslations();
+    });
 
-    // Navigation buttons
     formWrap.addEventListener('click', (e) => {
       const btn = e.target.closest('[data-action]');
       if (!btn) return;
@@ -124,33 +123,37 @@
       } else if (action === 'generate') {
         if (!validateStep(step)) return;
         collectStep(step);
-        runPlanner();
-      } else if (action === 'restart') {
-        location.reload();
+        runWellnessPlanner();
       }
     });
 
+    const restartBtn = $('#btn-restart');
+    if (restartBtn) {
+      restartBtn.addEventListener('click', () => {
+        if (window.WellnessCore) WellnessCore.clearPlan();
+        location.reload();
+      });
+    }
+
     function validateStep(s) {
       if (s === 1) {
-        const country = $('#input-country')?.value?.trim();
-        const age = $('#input-age')?.value;
-        if (!country || !age) {
-          alert(I18n.t('select_placeholder') + ' (Country / Age)');
+        const g = document.querySelector('input[name="wellness-goal"]:checked');
+        if (!g) {
+          alert(I18n.t('select_placeholder') + ' — Goal');
           return false;
         }
       }
       if (s === 2) {
-        const purpose = document.querySelector('input[name="purpose"]:checked');
-        if (!purpose) {
-          alert(I18n.t('select_placeholder') + ' (Purpose)');
+        const age = $('#input-age')?.value;
+        if (!age) {
+          alert(I18n.t('select_placeholder') + ' — Age');
           return false;
         }
       }
       if (s === 3) {
-        const duration = $('#input-duration')?.value;
-        const budget = $('#input-budget')?.value;
-        if (!duration || !budget) {
-          alert(I18n.t('select_placeholder'));
+        const time = $('#input-time')?.value;
+        if (!time) {
+          alert(I18n.t('select_placeholder') + ' — Time');
           return false;
         }
       }
@@ -159,205 +162,249 @@
 
     function collectStep(s) {
       if (s === 1) {
-        state.country = $('#input-country').value.trim();
-        state.age = $('#input-age').value;
-        state.language = $('#input-lang')?.value || I18n.getCurrentLang();
+        const g = document.querySelector('input[name="wellness-goal"]:checked');
+        state.goal = g ? g.value : '';
       }
       if (s === 2) {
-        const p = document.querySelector('input[name="purpose"]:checked');
-        state.purpose = p ? p.value : '';
+        state.ageRange = $('#input-age')?.value || '';
+        state.location = $('#input-location')?.value?.trim() || '';
+        state.activityLevel = $('#input-activity')?.value || '';
       }
       if (s === 3) {
-        state.duration = $('#input-duration').value;
-        state.budget = $('#input-budget').value;
-        state.preferredDestinations = $$('#dest-chips input:checked').map(i => i.value);
+        state.sleepPattern = $('#input-sleep')?.value || '';
+        state.dietPreference = $('#input-diet')?.value || '';
+        state.dailyTime = $('#input-time')?.value || '30';
       }
       if (s === 4) {
-        state.concernText = $('#input-concern')?.value?.trim() || '';
+        state.lifestyle = $('#input-lifestyle')?.value || '';
+        state.notes = $('#input-notes')?.value?.trim() || '';
       }
     }
 
-    async function runPlanner() {
-      const resultArea = $('#planner-result');
-      const formArea = $('#planner-form-wrap');
-      formArea.classList.add('hidden');
-      resultArea.classList.remove('hidden');
-      resultArea.innerHTML = `
-        <div class="text-center" style="padding:48px 0">
-          <div class="loading-spinner" style="margin:0 auto 16px"></div>
-          <p data-i18n="loading">${I18n.t('loading')}</p>
-        </div>`;
+    async function runWellnessPlanner() {
+      // Safety filter on free text
+      if (state.notes && window.SafetyLayer) {
+        const safety = SafetyLayer.safetyFilter(state.notes);
+        if (safety && safety.block) {
+          $('#planner-form-wrap').classList.add('hidden');
+          $('#emergency-block').classList.remove('hidden');
+          return;
+        }
+      }
+
+      $('#planner-form-wrap').classList.add('hidden');
+      $('#steps-indicator')?.classList.add('hidden');
+      const loading = $('#planner-loading');
+      if (loading) loading.classList.remove('hidden');
 
       try {
-        const report = await PlannerCore.generateJourney(state);
+        // Small delay for UX
+        await new Promise(r => setTimeout(r, 600));
 
-        if (report.type === 'emergency') {
-          renderEmergency(resultArea);
-          return;
-        }
-
-        if (report.type === 'error') {
-          resultArea.innerHTML = `<div class="emergency-box"><p>${report.message}</p>
-            <button class="btn btn-primary" data-action="restart">${I18n.t('btn_restart')}</button></div>`;
-          return;
-        }
-
-        renderJourneyReport(resultArea, report);
+        const plan = WellnessCore.generatePlan(state);
+        if (loading) loading.classList.add('hidden');
+        renderPlanResult(plan);
       } catch (err) {
         console.error(err);
-        resultArea.innerHTML = `<div class="emergency-box"><p>Something went wrong. Please try again.</p>
-          <button class="btn btn-primary" data-action="restart">${I18n.t('btn_restart')}</button></div>`;
+        if (loading) loading.classList.add('hidden');
+        alert('Something went wrong. Please try again.');
+        $('#planner-form-wrap').classList.remove('hidden');
       }
     }
 
-    function renderEmergency(container) {
-      container.innerHTML = `
-        <div class="emergency-box">
-          <h2 data-i18n="emergency_title">${I18n.t('emergency_title')}</h2>
-          <p data-i18n="emergency_body">${I18n.t('emergency_body')}</p>
-          <a href="index.html" class="btn btn-primary" data-i18n="emergency_btn">${I18n.t('emergency_btn')}</a>
-        </div>`;
+    function renderPlanResult(plan) {
+      const results = $('#planner-results');
+      if (!results) return;
+      results.classList.remove('hidden');
+
+      $('#result-plan-id').textContent = plan.planId || '—';
+
+      const goal = WellnessCore.getGoalById(plan.goal);
+      const badge = $('#result-goal-badge');
+      if (badge && goal) {
+        badge.innerHTML = `<span class="goal-icon">${goal.icon}</span> <strong>${I18n.t(goal.titleKey)}</strong>`;
+      }
+
+      const list = $('#result-actions');
+      if (list) {
+        list.innerHTML = (plan.dailyActions || []).map(a => `
+          <div class="action-item" data-id="${a.id}">
+            <div class="action-main">
+              <div class="action-title">${I18n.t(a.titleKey)}</div>
+              <div class="action-rec">${I18n.t(a.recKey)}</div>
+              <div class="action-meta">
+                <span class="action-cat">${a.category}</span>
+                <span class="action-dur">${a.duration}</span>
+              </div>
+            </div>
+            <div class="action-status">${I18n.t('plan_pending')}</div>
+          </div>
+        `).join('');
+      }
+
+      I18n.applyTranslations();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
-
-    function renderJourneyReport(container, report) {
-      const lang = I18n.getCurrentLang();
-
-      const destHtml = (report.potentialDestinations || []).map(d => {
-        const name = (d.name && (d.name[lang] || d.name.en)) || d.id;
-        const highlights = (d.highlights && (d.highlights[lang] || d.highlights.en)) || [];
-        return `
-          <div class="dest-item">
-            <strong>${name}</strong>
-            <div style="font-size:0.85rem;color:var(--text-muted)">${d.region || ''}</div>
-            ${highlights.length ? `<ul class="list-plain">${highlights.map(h => `<li>${h}</li>`).join('')}</ul>` : ''}
-            <div class="note">${d.note || ''}</div>
-          </div>`;
-      }).join('');
-
-      const structureHtml = (report.suggestedJourneyStructure || []).map(p => `
-        <div class="phase-item">
-          <div class="phase-name">${p.phase}</div>
-          <div style="font-size:0.9rem;color:var(--text-secondary)">${p.description}</div>
-        </div>`).join('');
-
-      const servicesHtml = (report.relevantServiceCategories || []).map(s => {
-        const name = (s.name && (s.name[lang] || s.name.en)) || s.id;
-        return `<li>${name}</li>`;
-      }).join('');
-
-      const considerationsHtml = (report.travelConsiderations || []).map(c => `<li>${c}</li>`).join('');
-      const sourcesHtml = (report.officialInformationSources || []).map(s => `
-        <div class="source-item">
-          <a href="${s.url}" target="_blank" rel="noopener">${s.name}</a>
-          <div style="font-size:0.8rem;color:var(--text-muted)">${s.note || ''}</div>
-        </div>`).join('');
-
-      const nextHtml = (report.nextSteps || []).map(n => `<li>${n}</li>`).join('');
-      const safetyHtml = (report.safetyNotes || []).map(n => `<li>${n}</li>`).join('');
-
-      container.innerHTML = `
-        <div class="result-meta">
-          <span><strong data-i18n="result_id">${I18n.t('result_id')}</strong>: ${report.journeyId}</span>
-          <span>${new Date(report.createdAt).toLocaleString()}</span>
-        </div>
-        <h2 class="section-title" data-i18n="result_title">${I18n.t('result_title')}</h2>
-
-        <div class="result-card">
-          <h3 data-i18n="result_destinations">${I18n.t('result_destinations')}</h3>
-          ${destHtml || '<p style="color:var(--text-muted)">—</p>'}
-        </div>
-
-        <div class="result-card">
-          <h3 data-i18n="result_structure">${I18n.t('result_structure')}</h3>
-          ${structureHtml}
-        </div>
-
-        ${servicesHtml ? `<div class="result-card">
-          <h3 data-i18n="result_services">${I18n.t('result_services')}</h3>
-          <ul class="list-plain">${servicesHtml}</ul>
-        </div>` : ''}
-
-        <div class="result-card">
-          <h3 data-i18n="result_considerations">${I18n.t('result_considerations')}</h3>
-          <ul class="list-plain">${considerationsHtml}</ul>
-        </div>
-
-        <div class="result-card">
-          <h3 data-i18n="result_sources">${I18n.t('result_sources')}</h3>
-          ${sourcesHtml}
-        </div>
-
-        <div class="result-card">
-          <h3 data-i18n="result_framework">${I18n.t('result_framework')}</h3>
-          <p style="font-size:0.92rem;color:var(--text-secondary)">
-            ${report.estimatedJourneyFramework?.suggestedLength || ''} · 
-            ${(report.estimatedJourneyFramework?.primaryFocusCities || []).join(', ')}
-          </p>
-          <p style="font-size:0.85rem;color:var(--text-muted);margin-top:8px">
-            ${report.estimatedJourneyFramework?.flexibilityNote || ''}
-          </p>
-        </div>
-
-        <div class="result-card">
-          <h3 data-i18n="result_next">${I18n.t('result_next')}</h3>
-          <ul class="list-plain">${nextHtml}</ul>
-        </div>
-
-        <div class="result-card">
-          <h3 data-i18n="result_safety">${I18n.t('result_safety')}</h3>
-          <ul class="list-plain">${safetyHtml}</ul>
-        </div>
-
-        <div class="disclaimer-box">
-          <strong data-i18n="result_disclaimer">${I18n.t('result_disclaimer')}</strong><br>
-          ${report.disclaimer || ''}
-        </div>
-
-        <div class="planner-actions mt-24">
-          <button class="btn btn-secondary" data-action="restart" data-i18n="btn_restart">${I18n.t('btn_restart')}</button>
-          <a href="pricing.html" class="btn btn-primary" data-i18n="pricing_premium_name">${I18n.t('pricing_premium_name')}</a>
-        </div>
-      `;
-
-      // Re-bind restart
-      container.querySelector('[data-action="restart"]')?.addEventListener('click', () => location.reload());
-    }
-
-    showStep(1);
   }
 
-  // ---------- Destinations page ----------
-  async function initDestinations() {
-    const grid = $('#city-grid');
-    if (!grid) return;
+  // ---------- Dashboard ----------
+  function initDashboard() {
+    const content = $('#dash-content');
+    const empty = $('#dash-empty');
+    if (!content && !empty) return;
+    if (!window.WellnessCore) return;
 
-    const cities = await DestinationsModule.listPilotCities();
-    const lang = I18n.getCurrentLang();
+    const plan = WellnessCore.getPlan();
+    if (!plan || !plan.dailyActions || plan.dailyActions.length === 0) {
+      if (empty) empty.classList.remove('hidden');
+      if (content) content.classList.add('hidden');
+      return;
+    }
 
-    function render() {
-      const l = I18n.getCurrentLang();
-      grid.innerHTML = cities.map(c => {
-        const name = c.name[l] || c.name.en || c.id;
-        const highlights = (c.highlights && (c.highlights[l] || c.highlights.en)) || [];
-        return `
-          <div class="city-card">
-            <h3>${name}</h3>
-            <div class="region">${c.region || ''}</div>
-            <ul>${highlights.map(h => `<li>${h}</li>`).join('')}</ul>
-            <div class="city-status">Status: ${c.status || 'verified-partial'} · Official sources available</div>
-          </div>`;
+    if (empty) empty.classList.add('hidden');
+    if (content) content.classList.remove('hidden');
+
+    $('#dash-plan-id').textContent = plan.planId || '—';
+
+    function refreshStats() {
+      const stats = WellnessCore.getCompletionStats();
+      $('#dash-percent').textContent = stats.percent + '%';
+      $('#dash-completed').textContent = stats.completed;
+      $('#dash-total').textContent = stats.total;
+    }
+
+    function renderActions() {
+      const list = $('#dash-actions');
+      if (!list) return;
+      const current = WellnessCore.getPlan();
+      list.innerHTML = (current.dailyActions || []).map(a => `
+        <div class="action-item ${a.completed ? 'is-done' : ''}" data-id="${a.id}">
+          <label class="action-check">
+            <input type="checkbox" ${a.completed ? 'checked' : ''} data-task-id="${a.id}" aria-label="${I18n.t(a.titleKey)}">
+            <span class="checkmark"></span>
+          </label>
+          <div class="action-main">
+            <div class="action-title">${I18n.t(a.titleKey)}</div>
+            <div class="action-rec">${I18n.t(a.recKey)}</div>
+            <div class="action-meta">
+              <span class="action-cat">${a.category}</span>
+              <span class="action-dur">${a.duration}</span>
+            </div>
+          </div>
+        </div>
+      `).join('');
+
+      list.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+        cb.addEventListener('change', () => {
+          WellnessCore.toggleTask(cb.dataset.taskId, cb.checked);
+          const item = cb.closest('.action-item');
+          if (item) item.classList.toggle('is-done', cb.checked);
+          refreshStats();
+          renderWeekly();
+        });
+      });
+    }
+
+    function renderWeekly() {
+      const wrap = $('#dash-weekly');
+      if (!wrap) return;
+      const days = WellnessCore.getWeeklyStats();
+      const max = Math.max(1, ...days.map(d => d.count));
+      wrap.innerHTML = days.map(d => {
+        const h = Math.round((d.count / max) * 100);
+        const label = d.date.slice(5);
+        return `<div class="week-bar"><div class="bar" style="height:${h}%"></div><span>${label}</span></div>`;
       }).join('');
     }
 
-    render();
-    window.addEventListener('yiang:langchange', render);
+    refreshStats();
+    renderActions();
+    renderWeekly();
+
+    window.addEventListener('yiang:langchange', () => {
+      renderActions();
+      I18n.applyTranslations();
+    });
+  }
+
+  // ---------- Destinations page (18 pilots) ----------
+  function initDestinations() {
+    const grid = $('#destinations-grid');
+    if (!grid) return;
+
+    async function loadPilots() {
+      try {
+        const r = await fetch('data/pilots.json');
+        return await r.json();
+      } catch (e) {
+        console.warn(e);
+        return null;
+      }
+    }
+
+    function locName(obj, l) {
+      if (!obj) return '';
+      if (typeof obj === 'string') return obj;
+      return obj[l] || obj.en || obj['zh-CN'] || '';
+    }
+
+    async function load() {
+      const data = await loadPilots();
+      if (!data || !data.pilots) {
+        grid.innerHTML = '<p>Could not load pilot data.</p>';
+        return;
+      }
+      function render() {
+        const l = I18n.getCurrentLang();
+        const unlocked = window.AccessControl && AccessControl.hasAccess('essentials');
+        grid.innerHTML = data.pilots.map(c => {
+          const name = locName(c.name, l);
+          const region = locName(c.region, l);
+          const climate = locName(c.climate, l);
+          const lock = unlocked ? '' : '<div class="city-status">Preview · Unlock for full guide</div>';
+          return `
+            <a class="city-card city-card-link" href="city.html?id=${c.id}">
+              <h3>${name}</h3>
+              <div class="region">${region}</div>
+              <p style="font-size:0.85rem;color:var(--text-secondary);margin-top:8px">${(climate || '').slice(0, 100)}…</p>
+              ${lock}
+            </a>`;
+        }).join('');
+      }
+      render();
+      window.addEventListener('yiang:langchange', render);
+    }
+    load();
+
+    const btnHome = $('#btn-save-home');
+    if (btnHome) {
+      btnHome.addEventListener('click', async () => {
+        const q = ($('#home-city') || {}).value || '';
+        if (!q.trim()) return alert('Enter a city name');
+        try {
+          const url = 'https://nominatim.openstreetmap.org/search?format=json&limit=1&q=' + encodeURIComponent(q.trim());
+          const r = await fetch(url, { headers: { 'Accept': 'application/json' } });
+          const j = await r.json();
+          if (!j || !j[0]) return alert('Location not found');
+          localStorage.setItem('yiang_home_coords', JSON.stringify({
+            lat: parseFloat(j[0].lat),
+            lon: parseFloat(j[0].lon),
+            label: q.trim()
+          }));
+          alert('Saved. Open a city page to see approximate distance.');
+        } catch (e) {
+          alert('Could not resolve location (network). You can still browse cities.');
+        }
+      });
+    }
   }
 
   // ---------- Init ----------
   document.addEventListener('DOMContentLoaded', () => {
-    I18n.init();
+    if (window.I18n) I18n.init();
     initHeader();
     initPlanner();
+    initDashboard();
     initDestinations();
   });
 })();

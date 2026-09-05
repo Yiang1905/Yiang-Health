@@ -1,14 +1,25 @@
 {
-  "name": "YIANG HEALTH",
-  "short_name": "YIANG Health",
-  "description": "AI-Powered China Health Journey Planning. We don't diagnose. We help you navigate.",
+  "name": "Yiang Health",
+  "short_name": "Yiang Health",
+  "description": "Global Health & Wellness Platform. AI-powered personalized guidance for sleep, stress, fitness, nutrition and recovery.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#fafafa",
   "theme_color": "#0d7377",
   "orientation": "any",
   "lang": "en",
+  "categories": [
+    "health",
+    "lifestyle",
+    "fitness"
+  ],
   "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
     {
       "src": "assets/icon-192.png",
       "sizes": "192x192",

@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="description" content="Pilot destinations for China health journey planning — Beijing, Shanghai, Chengdu, Urumqi, Heihe and more.">
-  <meta name="theme-color" content="#0d7377">
-  <title>Destinations — YIANG HEALTH</title>
+  <meta name="description" content="Wellness Destinations — places and experiences that support recovery, nature, sleep and healthy travel. Sample data.">
+  <meta name="theme-color" content="#1a7a72">
+  <title>Wellness Destinations — Yiang Health</title>
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -19,7 +19,8 @@
       </button>
       <ul class="nav-links">
         <li><a href="index.html" data-i18n="nav_home">Home</a></li>
-        <li><a href="planner.html" data-i18n="nav_planner">Plan</a></li>
+        <li><a href="planner.html" data-i18n="nav_planner">Planner</a></li>
+        <li><a href="dashboard.html" data-i18n="nav_dashboard">My Plan</a></li>
         <li><a href="destinations.html" data-i18n="nav_destinations">Destinations</a></li>
         <li><a href="pricing.html" data-i18n="nav_pricing">Pricing</a></li>
         <li><a href="safety.html" data-i18n="nav_safety">Safety</a></li>
@@ -32,13 +33,18 @@
   </header>
 
   <main class="main">
-    <h1 class="section-title" data-i18n="nav_destinations">Destinations</h1>
-    <p class="section-sub">First-batch pilot cities. Data structure is ready for expansion to the full 18 pilot regions. Official information will be added after verification.</p>
-    <div class="city-grid" id="city-grid">
-      <!-- Populated by script -->
+    <h1 class="section-title" data-i18n="nav_destinations">Pilot Cities</h1>
+    <p class="section-sub">18 regions under China's TCM service consumption &amp; service-trade pilot program. Preview is free; full hospital orientation, climate, food, hotels and transport unlock after a small planning fee.</p>
+    <div class="form-group" style="max-width:420px;margin-bottom:20px">
+      <label for="home-city">Optional: your city (for rough distance)</label>
+      <input type="text" id="home-city" placeholder="e.g. Tokyo, Berlin, Singapore, New York">
+      <button type="button" class="btn btn-secondary" id="btn-save-home" style="margin-top:8px">Save for distance estimate</button>
+      <p class="form-hint">We only store a rough lat/lon on this device when possible.</p>
     </div>
+    <div class="city-grid" id="destinations-grid"></div>
     <p class="mt-24" style="font-size:0.85rem;color:var(--text-muted)">
-      Future expansion: Tianjin, Hulunbuir, Yanbian, Nantong, Zhejiang, Shandong, Guangdong, Guangxi, Hainan, Chongqing, Kunming, Shaanxi, Gansu and more.
+      Policy list (public): Beijing, Tianjin, Hulunbuir, Yanbian, Heihe, Shanghai, Nantong, Zhejiang, Shandong, Guangdong, Guangxi, Hainan, Chongqing, Chengdu, Kunming, Shaanxi, Gansu, Urumqi.
+      All hospital notes are DEMO / public orientation — not partnerships or medical advice.
     </p>
   </main>
 
@@ -54,9 +60,12 @@
     </div>
   </footer>
 
+  <script src="modules/config.js"></script>
   <script src="modules/data.js"></script>
   <script src="modules/safety.js"></script>
   <script src="modules/i18n.js"></script>
+  <script src="modules/wellness.js"></script>
+  <script src="modules/access.js"></script>
   <script src="modules/destinations.js"></script>
   <script src="modules/planner.js"></script>
   <script src="script.js"></script>

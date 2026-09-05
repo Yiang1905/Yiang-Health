@@ -1,22 +1,24 @@
 /* YIANG HEALTH V1.0 - Premium Minimal Design System */
 :root {
-  --bg: #fafafa;
-  --bg-card: #ffffff;
-  --text: #1a1a1a;
-  --text-secondary: #5c5c5c;
-  --text-muted: #8a8a8a;
-  --accent: #0d7377;
-  --accent-hover: #095c5f;
-  --accent-soft: #e6f3f3;
-  --border: #e8e8e8;
-  --border-strong: #d0d0d0;
+  /* Warm Yiang Health palette — calm, inviting, trustworthy */
+  --bg: #f7f4ef;
+  --bg-card: #fffcf8;
+  --text: #2c2a26;
+  --text-secondary: #5c574f;
+  --text-muted: #8a847a;
+  --accent: #1a7a72;
+  --accent-hover: #14635d;
+  --accent-soft: #e4f3f1;
+  --accent-warm: #c4784a;
+  --border: #ebe6de;
+  --border-strong: #d4cdc2;
   --danger: #b91c1c;
   --danger-bg: #fef2f2;
-  --success: #047857;
-  --radius: 12px;
-  --radius-sm: 8px;
-  --shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03);
-  --shadow-lg: 0 4px 24px rgba(0,0,0,0.06);
+  --success: #2d7a4f;
+  --radius: 14px;
+  --radius-sm: 10px;
+  --shadow: 0 1px 3px rgba(44,42,38,0.04), 0 6px 20px rgba(44,42,38,0.05);
+  --shadow-lg: 0 8px 32px rgba(44,42,38,0.08);
   --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   --font-cjk: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
   --max-width: 1100px;
@@ -827,3 +829,371 @@ img { max-width: 100%; height: auto; }
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
+
+/* ========== V1.1 Wellness additions ========== */
+.goal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.goal-option {
+  display: block;
+  cursor: pointer;
+}
+
+.goal-option input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.goal-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 14px 12px;
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg-card);
+  transition: border-color 0.15s, box-shadow 0.15s;
+  min-height: 110px;
+  height: 100%;
+}
+
+.goal-option input:checked + .goal-card,
+.goal-option:hover .goal-card {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+.goal-icon {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.goal-title {
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: var(--text);
+}
+
+.goal-desc {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  line-height: 1.35;
+}
+
+.action-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.action-item {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg);
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.action-item.is-done {
+  background: rgba(13, 115, 119, 0.06);
+  border-color: rgba(13, 115, 119, 0.35);
+}
+
+.action-item.is-done .action-title {
+  text-decoration: line-through;
+  opacity: 0.75;
+}
+
+.action-check {
+  position: relative;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.action-check input {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  cursor: pointer;
+}
+
+.action-check .checkmark {
+  display: block;
+  width: 22px;
+  height: 22px;
+  border: 2px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg-card);
+}
+
+.action-check input:checked + .checkmark {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.action-check input:checked + .checkmark::after {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: 3px;
+  width: 6px;
+  height: 11px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.action-main { flex: 1; min-width: 0; }
+
+.action-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+}
+
+.action-rec {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  margin-bottom: 6px;
+}
+
+.action-meta {
+  display: flex;
+  gap: 10px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.action-cat {
+  text-transform: capitalize;
+  background: var(--bg-card);
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+}
+
+.action-status {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.plan-goal-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  background: rgba(13, 115, 119, 0.08);
+  border-radius: 999px;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+.storage-notice {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin: 8px 0 16px;
+}
+
+.result-actions-bar,
+.dash-actions-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.disclaimer-box {
+  margin-top: 28px;
+  padding: 14px;
+  background: var(--bg);
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.progress-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: center;
+}
+
+.progress-ring-wrap {
+  text-align: center;
+  min-width: 100px;
+}
+
+.progress-percent {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1.1;
+}
+
+.progress-label {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.weekly-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  height: 100px;
+  padding-top: 8px;
+}
+
+.week-bar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.week-bar .bar {
+  width: 100%;
+  max-width: 28px;
+  background: var(--accent);
+  border-radius: 4px 4px 0 0;
+  min-height: 4px;
+  transition: height 0.3s;
+}
+
+.week-bar span {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
+.dashboard-wrap {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.emergency-card {
+  border-color: #c44;
+  background: #fff8f8;
+}
+
+.loading-text {
+  text-align: center;
+  padding: 40px 0;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 640px) {
+  .goal-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .action-item {
+    flex-wrap: wrap;
+  }
+}
+
+/* RTL fine-tuning */
+[dir="rtl"] .action-item {
+  flex-direction: row-reverse;
+}
+[dir="rtl"] .action-check .checkmark::after {
+  left: auto;
+  right: 7px;
+}
+
+/* V1.2 warm journey accents */
+.hero {
+  background: linear-gradient(165deg, #f7f4ef 0%, #eef6f4 45%, #f7f4ef 100%);
+  border-radius: 0 0 24px 24px;
+}
+.hero-badge {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(26,122,114,0.15);
+}
+.core-position {
+  margin-top: 28px;
+  padding: 16px 20px;
+  background: rgba(255,252,248,0.9);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  max-width: 640px;
+}
+.price-card.featured {
+  border-color: var(--accent);
+  box-shadow: var(--shadow-lg);
+}
+
+/* V1.3 city cards & paywall */
+a.city-card-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+a.city-card-link:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+  color: inherit;
+}
+.paywall-card .pay-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+.pay-block {
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  text-align: center;
+  background: var(--bg);
+}
+.qr-img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  margin: 12px auto;
+  display: block;
+  background: #fff;
+  border-radius: 8px;
+}
+.hospital-card {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+.hospital-card:last-child { border-bottom: none; }
+.breadcrumb { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px; }
+.city-dist { font-size: 0.9rem; margin: 8px 0 16px; }
+@media (max-width: 640px) {
+  .paywall-card .pay-row { grid-template-columns: 1fr; }
+}
+
+.pay-methods {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 16px 0 20px;
+}
+@media (max-width: 720px) {
+  .pay-methods { grid-template-columns: 1fr; }
+}
+.pay-panel { border: 2px solid var(--accent); }

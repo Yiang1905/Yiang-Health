@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Pilot city detail — TCM orientation, climate, food, transport, hotels. Yiang Health planning intermediary. Not medical advice.">
+  <meta name="theme-color" content="#1a7a72">
+  <title>City Guide — Yiang Health</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">YIANG <span>HEALTH</span></a>
+      <button class="nav-toggle" aria-label="Menu" type="button"><span></span><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="planner.html" data-i18n="nav_planner">Plan Journey</a></li>
+        <li><a href="destinations.html" data-i18n="nav_destinations">Pilot Cities</a></li>
+        <li><a href="pricing.html" data-i18n="nav_pricing">Pricing</a></li>
+        <li><a href="safety.html" data-i18n="nav_safety">Safety</a></li>
+      </ul>
+      <div class="header-actions">
+        <select id="lang-select" aria-label="Language"></select>
+        <a href="pricing.html" class="btn btn-primary" data-i18n="nav_start">Start Planning</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="city-page" id="city-root">
+      <p class="section-sub">Loading…</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-disclaimer" data-i18n="footer_disclaimer">Yiang Health organizes information and journey planning only. Not medical advice.</p>
+      <p class="footer-copy">© 2026 YIANG HEALTH</p>
+    </div>
+  </footer>
+
+  <script src="modules/config.js"></script>
+  <script src="modules/data.js"></script>
+  <script src="modules/safety.js"></script>
+  <script src="modules/i18n.js"></script>
+  <script src="modules/access.js"></script>
+  <script src="modules/wellness.js"></script>
+  <script src="script.js"></script>
+  <script>
+  (function(){
+    function lang(){ return (window.I18n && I18n.getCurrentLang()) || 'en'; }
+    function L(obj){ if(!obj) return ''; if(typeof obj==='string') return obj; return obj[lang()] || obj.en || obj['zh-CN'] || ''; }
+
+    async function loadPilots(){
+      try {
+        const r = await fetch('data/pilots.json');
+        return await r.json();
+      } catch(e){ return null; }
+    }
+
+    function paywallHtml(){
+      const cfg = window.YiangConfig || {};
+      const ess = (cfg.pricing||{}).essentials || {};
+      const full = (cfg.pricing||{}).full || {};
+      return `
+        <div class="planner-card paywall-card">
+          <h2>Unlock full city guides</h2>
+          <p>Free visitors see a short preview. Paid plans unlock hospitals (public orientation), climate, food, hotels, transport and more for all 18 pilot regions.</p>
+          <p class="storage-notice"><strong>Essentials $9.90</strong> · <strong>Full Journey $29</strong> — planning fees only. Not medical care.</p>
+          <div class="pay-row">
+            <div class="pay-block">
+              <h3>Essentials — $9.90</h3>
+              ${ess.qrImage ? `<img class="qr-img" src="${ess.qrImage}" alt="Pay QR Essentials" onerror="this.style.display='none'">` : ''}
+              <a class="btn btn-primary" id="city-pay-ess" href="${ess.paymentUrl || '#'}" target="_blank" rel="noopener">Pay / Scan</a>
+            </div>
+            <div class="pay-block">
+              <h3>Full — $29</h3>
+              ${full.qrImage ? `<img class="qr-img" src="${full.qrImage}" alt="Pay QR Full" onerror="this.style.display='none'">` : ''}
+              <a class="btn btn-secondary" id="city-pay-full" href="${full.paymentUrl || '#'}" target="_blank" rel="noopener">Pay / Scan</a>
+            </div>
+          </div>
+          <div class="form-group" style="margin-top:20px">
+            <label for="unlock-code">Already paid? Enter access code</label>
+            <input type="text" id="unlock-code" placeholder="YH-…">
+            <button type="button" class="btn btn-primary" id="btn-unlock" style="margin-top:10px">Unlock</button>
+            <p class="form-hint">After Stripe payment, we send you a code (or use the demo master code while testing).</p>
+          </div>
+        </div>`;
+    }
+
+    function render(city, meta){
+      const root = document.getElementById('city-root');
+      const unlocked = window.AccessControl && AccessControl.hasAccess('essentials');
+      const name = L(city.name);
+      document.title = name + ' — Yiang Health';
+
+      let distHtml = '';
+      try {
+        const home = JSON.parse(localStorage.getItem('yiang_home_coords')||'null');
+        if(home && city.coords){
+          const km = AccessControl.distanceKm(home.lat, home.lon, city.coords[0], city.coords[1]);
+          distHtml = `<p class="city-dist">Approx. distance from your saved location: <strong>${km} km</strong> (great-circle, not flight path).</p>`;
+        }
+      } catch(e){}
+
+      const preview = `
+        <p class="breadcrumb"><a href="destinations.html">Pilot Cities</a> / ${name}</p>
+        <h1 class="section-title">${name}</h1>
+        <p class="section-sub">${L(city.region)} · ${city.pilotLevel || 'pilot'}</p>
+        ${distHtml}
+        <div class="disclaimer-box"><p>${L(meta.dataDisclaimer)}</p></div>
+        <div class="planner-card">
+          <h3>Climate</h3>
+          <p>${L(city.climate)}</p>
+          <h3>Price level</h3>
+          <p>${L(city.priceLevel)}</p>
+        </div>`;
+
+      if(!unlocked){
+        root.innerHTML = preview + paywallHtml();
+        wireUnlock();
+        return;
+      }
+
+      const hospitals = (city.hospitals||[]).map(h => `
+        <div class="hospital-card">
+          <strong>${L(h.name)}</strong>
+          <div class="note">${L(h.note)}</div>
+          <div class="action-meta">${(h.focus||[]).map(f=>`<span class="action-cat">${f}</span>`).join(' ')}</div>
+        </div>`).join('');
+
+      const attrs = (city.attractions||[]).map(a => `<li>${L(a)}</li>`).join('');
+
+      root.innerHTML = preview + `
+        <div class="planner-card">
+          <h3>TCM / wellness orientation</h3>
+          <p>${L(city.tcmFocus)}</p>
+          <h3>Publicly known institutions (DEMO)</h3>
+          ${hospitals || '<p>See official sources.</p>'}
+        </div>
+        <div class="planner-card">
+          <h3>Transport</h3><p>${L(city.transport)}</p>
+          <h3>Food</h3><p>${L(city.food)}</p>
+          <h3>Hotels</h3><p>${L(city.hotelsNote)}</p>
+          <h3>Attractions</h3><ul>${attrs}</ul>
+        </div>
+        <div class="planner-card">
+          <h3>Official sources</h3>
+          ${(city.officialSources||[]).map(s=>`<div><a href="${s.url}" target="_blank" rel="noopener">${s.name}</a></div>`).join('')}
+          <p class="storage-notice">${city.disclaimer || ''}</p>
+        </div>`;
+    }
+
+    function wireUnlock(){
+      const btn = document.getElementById('btn-unlock');
+      if(!btn) return;
+      btn.addEventListener('click', () => {
+        const code = (document.getElementById('unlock-code')||{}).value || '';
+        const r = AccessControl.unlock('essentials', code.trim());
+        if(r.ok){ location.reload(); }
+        else alert(r.message || 'Invalid code');
+      });
+      // fix empty payment urls
+      ['city-pay-ess','city-pay-full'].forEach((id,i)=>{
+        const a = document.getElementById(id);
+        if(!a) return;
+        if(!a.getAttribute('href') || a.getAttribute('href')==='#'){
+          a.addEventListener('click', e => {
+            e.preventDefault();
+            alert('Set Stripe Payment Link in modules/config.js (pricing.essentials.paymentUrl / full.paymentUrl), and optional QR images under assets/qr/');
+          });
+        }
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      if(window.I18n) I18n.init();
+      const params = new URLSearchParams(location.search);
+      const id = params.get('id') || 'beijing';
+      const data = await loadPilots();
+      if(!data){ document.getElementById('city-root').innerHTML = '<p>Failed to load data.</p>'; return; }
+      const city = (data.pilots||[]).find(c => c.id === id);
+      if(!city){ document.getElementById('city-root').innerHTML = '<p>City not found. <a href="destinations.html">Back</a></p>'; return; }
+      render(city, data);
+    });
+  })();
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('service-worker.js').catch(()=>{});
+  </script>
+</body>
+</html>

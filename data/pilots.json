@@ -1,0 +1,1516 @@
+{
+  "version": "1.3",
+  "policy": {
+    "en": "Pilot regions under China's TCM service consumption and service-trade integration program (six ministries, 2026).",
+    "zh-CN": "商务部等六部门「中医药服务消费和服务贸易融合发展」试点地区（2026）。"
+  },
+  "dataDisclaimer": {
+    "en": "ALL hospital and specialty notes are DEMO / public orientation only. Not partnerships, rankings, referrals, or medical advice. Always verify with official hospital international desks and government sources. Yiang Health is a planning intermediary only.",
+    "zh-CN": "所有医院与专科说明均为演示/公开信息导向，非合作、非排名、非转诊、非医疗建议。请通过医院国际部与官方渠道核实。Yiang Health 仅提供规划中介信息整理。"
+  },
+  "pilots": [
+    {
+      "id": "beijing",
+      "pilotLevel": "municipality",
+      "name": {
+        "en": "Beijing",
+        "zh-CN": "北京"
+      },
+      "region": {
+        "en": "North China",
+        "zh-CN": "华北"
+      },
+      "coords": [
+        39.9,
+        116.4
+      ],
+      "climate": {
+        "en": "Temperate monsoon; cold dry winters, hot humid summers. Best mild seasons: Apr–May, Sep–Oct.",
+        "zh-CN": "温带季风；冬冷干燥，夏热多雨。较舒适：4–5月、9–10月。"
+      },
+      "priceLevel": {
+        "en": "High (international city)",
+        "zh-CN": "偏高（一线国际都市）",
+        "index": 5
+      },
+      "transport": {
+        "en": "Two major airports (PEK/PKX), extensive metro, high-speed rail hub.",
+        "zh-CN": "双机场（首都/大兴）、地铁发达、高铁枢纽。"
+      },
+      "food": {
+        "en": "Imperial & northern cuisine, roast duck, temple snacks, diverse international options.",
+        "zh-CN": "京味与宫廷菜、烤鸭、庙会小吃，国际餐饮丰富。"
+      },
+      "attractions": [
+        {
+          "en": "Forbidden City",
+          "zh-CN": "故宫"
+        },
+        {
+          "en": "Temple of Heaven",
+          "zh-CN": "天坛"
+        },
+        {
+          "en": "Summer Palace",
+          "zh-CN": "颐和园"
+        },
+        {
+          "en": "Great Wall (nearby)",
+          "zh-CN": "长城（近郊）"
+        }
+      ],
+      "hotelsNote": {
+        "en": "Wide range from international brands to courtyard boutique stays. Book early in peak season.",
+        "zh-CN": "国际品牌到四合院精品民宿都有；旺季建议提前预订。"
+      },
+      "tcmFocus": {
+        "en": "Strong TCM hospital network and international departments; acupuncture, herbal medicine, tuina commonly available in major TCM centers.",
+        "zh-CN": "中医医院网络完善，多家设国际部；针灸、中药、推拿等常见。"
+      },
+      "hospitals": [
+        {
+          "name": {
+            "en": "Guang'anmen Hospital (CACMS)",
+            "zh-CN": "中国中医科学院广安门医院"
+          },
+          "note": {
+            "en": "Well-known national TCM hospital (public info).",
+            "zh-CN": "知名国家级中医院（公开信息）。"
+          },
+          "focus": [
+            "TCM internal medicine",
+            "Acupuncture",
+            "Oncology TCM support"
+          ]
+        },
+        {
+          "name": {
+            "en": "Dongzhimen Hospital (BUCM)",
+            "zh-CN": "北京中医药大学东直门医院"
+          },
+          "note": {
+            "en": "University-affiliated TCM hospital.",
+            "zh-CN": "高校附属中医院。"
+          },
+          "focus": [
+            "TCM",
+            "Tuina",
+            "Rehabilitation"
+          ]
+        },
+        {
+          "name": {
+            "en": "Beijing Hospital of TCM",
+            "zh-CN": "首都医科大学附属北京中医医院"
+          },
+          "note": {
+            "en": "Municipal TCM center.",
+            "zh-CN": "市级中医中心。"
+          },
+          "focus": [
+            "Acupuncture",
+            "Dermatology TCM",
+            "General TCM"
+          ]
+        }
+      ],
+      "officialSources": [
+        {
+          "name": "Beijing Municipal Government",
+          "url": "https://www.beijing.gov.cn/"
+        },
+        {
+          "name": "Visit Beijing",
+          "url": "https://www.visitbeijing.com.cn/"
+        }
+      ],
+      "disclaimer": "DEMO / public orientation only. Not hospital partnerships. Not medical advice or referrals."
+    },
+    {
+      "id": "tianjin",
+      "pilotLevel": "municipality",
+      "name": {
+        "en": "Tianjin",
+        "zh-CN": "天津"
+      },
+      "region": {
+        "en": "North China",
+        "zh-CN": "华北"
+      },
+      "coords": [
+        39.12,
+        117.2
+      ],
+      "climate": {
+        "en": "Similar to Beijing; coastal influence, windy springs.",
+        "zh-CN": "与北京相近，略受海风影响，春季多风。"
+      },
+      "priceLevel": {
+        "en": "Upper-mid",
+        "zh-CN": "中高",
+        "index": 4
+      },
+      "transport": {
+        "en": "High-speed rail to Beijing (~30–40 min), metro, Binhai airport.",
+        "zh-CN": "高铁至北京约半小时，地铁，滨海机场。"
+      },
+      "food": {
+        "en": "Seafood, Goubuli buns, ear-hole fried cake, river cuisine.",
+        "zh-CN": "海鲜、狗不理包子、耳朵眼炸糕等。"
+      },
+      "attractions": [
+        {
+          "en": "Italian Style Town",
+          "zh-CN": "意式风情区"
+        },
+        {
+          "en": "Ancient Culture Street",
+          "zh-CN": "古文化街"
+        },
+        {
+          "en": "Haihe riverfront",
+          "zh-CN": "海河沿岸"
+        }
+      ],
+      "hotelsNote": {
+        "en": "Business hotels near station and river; generally easier rates than Beijing.",
+        "zh-CN": "车站与海河附近商务酒店较多，整体比北京好订一些。"
+      },
+      "tcmFocus": {
+        "en": "Municipal TCM hospitals and coastal wellness tourism mix.",
+        "zh-CN": "市级中医院与滨海康养结合。"
+      },
+      "hospitals": [
+        {
+          "name": {
+            "en": "First Teaching Hospital of Tianjin University of TCM",
+            "zh-CN": "天津中医药大学第一附属医院"
+          },
+          "note": {
+            "en": "Major TCM teaching hospital.",
+            "zh-CN": "重要中医教学医院。"
+          },
+          "focus": [
+            "Acupuncture",
+            "TCM internal",
+            "Rehabilitation"
+          ]
+        }
+      ],
+      "officialSources": [
+        {
+          "name": "Tianjin Government",
+          "url": "https://www.tj.gov.cn/"
+        }
+      ],
+      "disclaimer": "DEMO / public orientation only. Not partnerships or medical advice."
+    },
+    {
+      "id": "hulunbuir",
+      "pilotLevel": "city",
+      "name": {
+        "en": "Hulunbuir",
+        "zh-CN": "呼伦贝尔"
+      },
+      "region": {
+        "en": "Inner Mongolia",
+        "zh-CN": "内蒙古"
+      },
+      "coords": [
+        49.17,
+        119.76
+      ],
+      "climate": {
+        "en": "Cold long winters; short pleasant summers on the grassland. Pack warm layers year-round awareness.",
+        "zh-CN": "冬长严寒，草原夏季凉爽短暂；注意保暖。"
+      },
+      "priceLevel": {
+        "en": "Mid (seasonal spikes in summer tourism)",
+        "zh-CN": "中等（夏季旅游旺季上浮）",
+        "index": 3
+      },
+      "transport": {
+        "en": "Hailar airport; long distances by road across grassland.",
+        "zh-CN": "海拉尔机场；草原公路行程较长。"
+      },
+      "food": {
+        "en": "Lamb, dairy, grassland cuisine.",
+        "zh-CN": "牛羊肉、奶制品、草原风味。"
+      },
+      "attractions": [
+        {
+          "en": "Hulunbuir Grassland",
+          "zh-CN": "呼伦贝尔大草原"
+        },
+        {
+          "en": "Ergun Wetland",
+          "zh-CN": "额尔古纳湿地"
+        }
+      ],
+      "hotelsNote": {
+        "en": "Resort and yurt stays in peak summer; book early.",
+        "zh-CN": "夏季度假与蒙古包体验需提前订。"
+      },
+      "tcmFocus": {
+        "en": "Nature recovery + ethnic medicine cultural context; confirm services locally.",
+        "zh-CN": "自然恢复与民族医药文化语境；具体服务请当地核实。"
+      },
+      "hospitals": [
+        {
+          "name": {
+            "en": "Hulunbuir People's Hospital / local TCM departments",
+            "zh-CN": "呼伦贝尔市人民医院等本地中医科室"
+          },
+          "note": {
+            "en": "Local public system; verify current international services.",
+            "zh-CN": "本地公立体系；国际服务请现场确认。"
+          },
+          "focus": [
+            "General TCM",
+            "Recovery support"
+          ]
+        }
+      ],
+      "officialSources": [
+        {
+          "name": "Inner Mongolia Government",
+          "url": "https://www.nmg.gov.cn/"
+        }
+      ],
+      "disclaimer": "DEMO / public orientation only. Remote region — plan logistics carefully."
+    },
+    {
+      "id": "yanbian",
+      "pilotLevel": "prefecture",
+      "name": {
+        "en": "Yanbian (Yanji)",
+        "zh-CN": "延边（延吉）"
+      },
+      "region": {
+        "en": "Jilin",
+        "zh-CN": "吉林"
+      },
+      "coords": [
+        42.9,
+        129.5
+      ],
+      "climate": {
+        "en": "Four seasons; cold winters, comfortable autumns.",
+        "zh-CN": "四季分明，冬冷，秋较舒适。"
+      },
+      "priceLevel": {
+        "en": "Mid-low",
+        "zh-CN": "中偏低",
+        "index": 2
+      },
+      "transport": {
+        "en": "Yanji airport; rail links within Northeast.",
+        "zh-CN": "延吉机场；东北铁路网络。"
+      },
+      "food": {
+        "en": "Korean-Chinese cuisine, cold noodles, barbecue.",
+        "zh-CN": "朝鲜族风味、冷面、烤肉。"
+      },
+      "attractions": [
+        {
+          "en": "Changbai Mountain (regional access)",
+          "zh-CN": "长白山（区域可达）"
+        },
+        {
+          "en": "Yanji night markets",
+          "zh-CN": "延吉夜市"
+        }
+      ],
+      "hotelsNote": {
+        "en": "Practical city hotels; mountain stays need separate booking.",
+        "zh-CN": "市区实用型酒店；景区住宿另订。"
+      },
+      "tcmFocus": {
+        "en": "Border culture + TCM/Korean medicine cultural interest.",
+        "zh-CN": "边境文化与中朝医药文化兴趣点。"
+      },
+      "hospitals": [
+        {
+          "name": {
+            "en": "Yanbian University Hospital / TCM services",
+            "zh-CN": "延边大学附属医院等"
+          },
+          "note": {
+            "en": "Regional public hospital network.",
+            "zh-CN": "区域公立医院网络。"
+          },
+          "focus": [
+            "General",
+            "TCM departments"
+          ]
+        }
+      ],
+      "officialSources": [
+        {
+          "name": "Jilin Government",
+          "url": "https://www.jl.gov.cn/"
+        }
+      ],
+      "disclaimer": "DEMO / public orientation only."
+    },
+    {
+      "id": "heihe",
+      "pilotLevel": "city",
+      "name": {
+        "en": "Heihe",
+        "zh-CN": "黑河"
+      },
+      "region": {
+        "en": "Heilongjiang",
+        "zh-CN": "黑龙江"
+      },
+      "coords": [
+        50.25,
+        127.5
+      ],
+      "climate": {
+        "en": "Very cold winters; short summers. Cross-border climate awareness essential.",
+        "zh-CN": "冬季极寒，夏季短；跨境气候需重视。"
+      },
+      "priceLevel": {
+        "en": "Mid-low",
+        "zh-CN": "中偏低",
+        "index": 2
+      },
+      "transport": {
+        "en": "Heihe airport; border city logistics.",
+        "zh-CN": "黑河机场；边境城市交通。"
+      },
+      "food": {
+        "en": "Northeastern cuisine, river fish, Russian-influenced tastes nearby.",
+        "zh-CN": "东北菜、江鱼，邻近俄式风味影响。"
+      },
+      "attractions": [
+        {
+          "en": "Amur River waterfront",
+          "zh-CN": "黑龙江畔"
+        },
+        {
+          "en": "Border sightseeing",
+          "zh-CN": "边境观光"
+        }
+      ],
+      "hotelsNote": {
+        "en": "Limited international chain presence; book practical hotels.",
+        "zh-CN": "国际连锁较少，以实用酒店为主。"
+      },
+      "tcmFocus": {
+        "en": "Border wellness interest; confirm service language support.",
+        "zh-CN": "边境康养兴趣点；请确认语言服务。"
+      },
+      "hospitals": [
+        {
+          "name": {
+            "en": "Heihe City hospitals / TCM departments",
+            "zh-CN": "黑河市医院等中医科室"
+          },
+          "note": {
+            "en": "Local public services.",
+            "zh-CN": "本地公立服务。"
+          },
+          "focus": [
+            "General TCM"
+          ]
+        }
+      ],
+      "officialSources": [
+        {
+          "name": "Heilongjiang Government",
+          "url": "https://www.hlj.gov.cn/"
+        }
+      ],
+      "disclaimer": "DEMO / public orientation only. Border procedures may apply."
+    },
+    {
+      "id": "shanghai",
+      "pilotLevel": "municipality",
+      "name": {
+        "en": "Shanghai",
+        "zh-CN": "上海"
+      },
+      "region": {
+        "en": "East China",
+        "zh-CN": "华东"
+      },
+      "coords": [
+        31.23,
+        121.47
+      ],
+      "climate": {
+        "en": "Humid subtropical; rainy June, hot summers, mild winters.",
+        "zh-CN": "亚热带湿润；梅雨、夏热、冬温和。"
+      },
+      "priceLevel": {
+        "en": "High",
+        "zh-CN": "偏高",
+        "index": 5
+      },
+      "transport": {
+        "en": "Two airports, world-class metro, Hongqiao HSR hub.",
+        "zh-CN": "双机场、地铁发达、虹桥高铁枢纽。"
+      },
+      "food": {
+        "en": "Benbang cuisine, xiaolongbao, international dining capital.",
+        "zh-CN": "本帮菜、小笼包，国际餐饮之都。"
+      },
+      "attractions": [
+        {
+          "en": "The Bund",
+          "zh-CN": "外滩"
+        },
+        {
+          "en": "Yu Garden",
+          "zh-CN": "豫园"
+        },
+        {
+          "en": "French Concession walks",
+          "zh-CN": "法租界漫步"
+        }
+      ],
+      "hotelsNote": {
+        "en": "Full spectrum from luxury to boutique; prices rise in expo/peak weeks.",
+        "zh-CN": "奢华到精品全覆盖；展会旺季涨价。"
+      },
+      "tcmFocus": {
+        "en": "Strong TCM + international hospital departments; bilingual services more common.",
+        "zh-CN": "中医与国际医疗部较强，双语服务相对多见。"
+      },
+      "hospitals": [
+        {
+          "name": {
+            "en": "Longhua Hospital (SHUTCM)",
+            "zh-CN": "上海中医药大学附属龙华医院"
+          },
+          "note": {
+            "en": "Major TCM hospital.",
+            "zh-CN": "重要中医院。"
+          },
+          "focus": [
+            "TCM internal",
+            "Oncology TCM support",
+            "Acupuncture"
+          ]
+        },
+        {
+          "name": {
+            "en": "Shuguang Hospital",
+            "zh-CN": "上海中医药大学附属曙光医院"
+          },
+          "note": {
+            "en": "University TCM hospital.",
+            "zh-CN": "高校中医院。"
+          },
+          "focus": [
+            "TCM",
+            "Hepatology TCM context",
+            "Rehabilitation"
+          ]
+        },
+        {
+          "name": {
+            "en": "Yueyang Hospital",
+            "zh-CN": "上海中医药大学附属岳阳中西医结合医院"
+          },
+          "note": {
+            "en": "Integrative Chinese-Western.",
+            "zh-CN": "中西医结合。"
+          },
+          "focus": [
+            "Integrative care",
+            "Tuina",
+            "Acupuncture"
+          ]
+        }
+      ],
+      "officialSources": [
+        {
+          "name": "Shanghai Government",
+          "url": "https://www.shanghai.gov.cn/"
+        }
+      ],
+      "disclaimer": "DEMO / public orientation only. Not referrals."
+    },
+    {
+      "id": "nantong",
+      "pilotLevel": "city",
+      "name": {
+        "en": "Nantong",
+        "zh-CN": "南通"
+      },
+      "region": {
+        "en": "Jiangsu",
+        "zh-CN": "江苏"
+      },
+      "coords": [
+        32.02,
+        120.86
+      ],
+      "climate": {
+        "en": "Mild Jiangnan climate; humid.",
+        "zh-CN": "江南气候温和湿润。"
+      },
+      "priceLevel": {
+        "en": "Mid",
+        "zh-CN": "中等",
+        "index": 3
+      },
+      "transport": {
+        "en": "HSR to Shanghai; local airport options growing.",
+        "zh-CN": "高铁通上海；航空运力在增强。"
+      },
+      "food": {
+        "en": "Jianghai cuisine, freshwater seafood.",
+        "zh-CN": "江海风味、河鲜海鲜。"
+      },
+      "attractions": [
+        {
+          "en": "Hao River scenic",
+          "zh-CN": "濠河风景区"
+        },
+        {
+          "en": "TCM culture museums (local)",
+          "zh-CN": "本地中医药文化场馆"
+        }
+      ],
+      "hotelsNote": {
+        "en": "City business hotels; quieter than Shanghai.",
+        "zh-CN": "市区商务酒店，节奏比上海更安静。"
+      },
+      "tcmFocus": {
+        "en": "Pilot highlight for TCM + tourism routes in Jiangsu.",
+        "zh-CN": "江苏试点中医药+旅游线路亮点城市。"
+      },
+      "hospitals": [
+        {
+          "name": {
+            "en": "Nantong TCM Hospital / municipal hospitals",
+            "zh-CN": "南通市中医院等"
+          },
+          "note": {
+            "en": "Local TCM strength; verify international desks.",
+            "zh-CN": "本地中医力量；请核实国际服务窗口。"
+          },
+          "focus": [
+            "TCM",
+            "Acupuncture",
+            "Kangyang support"
+          ]
+        }
+      ],
+      "officialSources": [
+        {
+          "name": "Nantong Government",
+          "url": "https://www.nantong.gov.cn/"
+        }
+      ],
+      "disclaimer": "DEMO / public orientation only."
+    },
+    {
+      "id": "zhejiang",
+      "pilotLevel": "province",
+      "primaryCity": "hangzhou",
+      "name": {
+        "en": "Zhejiang (Hangzhou focus)",
+        "zh-CN": "浙江（杭州重点）"
+      },
+      "region": {
+        "en": "East China",
+        "zh-CN": "华东"
+      },
+      "coords": [
+        30.27,
+        120.15
+      ],
+      "climate": {
+        "en": "Humid; beautiful springs and autumns around West Lake.",
+        "zh-CN": "湿润；西湖春秋宜人。"
+      },
+      "priceLevel": {
+        "en": "Upper-mid to high in Hangzhou",
+        "zh-CN": "杭州中高至偏高",
+        "index": 4
+      },
+      "transport": {
+        "en": "Hangzhou airport, HSR hub, metro.",
+        "zh-CN": "杭州机场、高铁枢纽、地铁。"
+      },
+      "food": {
+        "en": "Zhejiang cuisine, Dongpo pork, Longjing tea culture.",
+        "zh-CN": "浙菜、东坡肉、龙井茶文化。"
+      },
+      "attractions": [
+        {
+          "en": "West Lake",
+          "zh-CN": "西湖"
+        },
+        {
+          "en": "Lingyin Temple",
+          "zh-CN": "灵隐寺"
+        },
+        {
+          "en": "Tea plantations",
+          "zh-CN": "茶园"
+        }
+      ],
+      "hotelsNote": {
+        "en": "Lake-view and design hotels popular; book weekends early.",
+        "zh-CN": "湖景与设计酒店热门，周末宜早订。"
+      },
+      "tcmFocus": {
+        "en": "Provincial pilot — Hangzhou TCM heritage and wellness tourism.",
+        "zh-CN": "省级试点——杭州中医底蕴与康养旅游。"
+      },
+      "hospitals": [
+        {
+          "name": {
+            "en": "Zhejiang Provincial Hospital of TCM",
+            "zh-CN": "浙江省中医院"
+          },
+          "note": {
+            "en": "Provincial TCM center.",
+            "zh-CN": "省级中医中心。"
+          },
+          "focus": [
+            "TCM",
+            "Acupuncture",
+            "Integrative"
+          ]
+        },
+        {
+          "name": {
+            "en": "The First Affiliated Hospital of Zhejiang Chinese Medical University",
+            "zh-CN": "浙江中医药大学附属第一医院"
+          },
+          "note": {
+            "en": "University TCM hospital.",
+            "zh-CN": "高校中医院。"
+          },
+          "focus": [
+            "TCM",
+            "Rehabilitation"
+          ]
+        }
+      ],
+      "officialSources": [
+        {
+          "name": "Zhejiang Government",
+          "url": "https://www.zj.gov.cn/"
+        }
+      ],
+      "disclaimer": "DEMO / province-level pilot represented via Hangzhou orientation."
+    },
+    {
+      "id": "shandong",
+      "pilotLevel": "province",
+      "primaryCity": "jinan",
+      "name": {
+        "en": "Shandong (Jinan / Qingdao)",
+        "zh-CN": "山东（济南 / 青岛）"
+      },
+      "region": {
+        "en": "East China",
+        "zh-CN": "华东"
+      },
+      "coords": [
+        36.67,
+        117.0
+      ],
+      "climate": {
+        "en": "Warm temperate; Qingdao cooler coastal summers.",
+        "zh-CN": "暖温带；青岛海滨夏较凉爽。"
+      },
+      "priceLevel": {
+        "en": "Mid",
+        "zh-CN": "中等",
+        "index": 3
+      },
+      "transport": {
+        "en": "Multiple airports; dense HSR in province.",
+        "zh-CN": "多机场；省内高铁密集。"
+      },
+      "food": {
+        "en": "Shandong cuisine — one of the major Chinese culinary schools.",
+        "zh-CN": "鲁菜——中国主要菜系之一。"
+      },
+      "attractions": [
+        {
+          "en": "Baotu Spring (Jinan)",
+          "zh-CN": "趵突泉（济南）"
+        },
+        {
+          "en": "Qingdao seafront",
+          "zh-CN": "青岛海滨"
+        },
+        {
+          "en": "Mount Tai (regional)",
+          "zh-CN": "泰山（区域）"
+        }
+      ],
+      "hotelsNote": {
+        "en": "Strong business hotel networks in Jinan and Qingdao.",
+        "zh-CN": "济南、青岛商务酒店网络完善。"
+      },
+      "tcmFocus": {
+        "en": "Provincial pilot with deep Confucian-medical cultural roots.",
+        "zh-CN": "省级试点，儒医文化底蕴。"
+      },
+      "hospitals": [
+        {
+          "name": {
+            "en": "Affiliated Hospital of Shandong University of TCM",
+            "zh-CN": "山东中医药大学附属医院"
+          },
+          "note": {
+            "en": "Provincial TCM teaching hospital.",
+            "zh-CN": "省级中医教学医院。"
+          },
+          "focus": [
+            "TCM",
+            "Acupuncture",
+            "Tuina"
+          ]
+        }
+      ],
+      "officialSources": [
+        {
+          "name": "Shandong Government",
+          "url": "https://www.shandong.gov.cn/"
+        }
+      ],
+      "disclaimer": "DEMO / province-level orientation."
+    },
+    {
+      "id": "guangdong",
+      "pilotLevel": "province",
+      "primaryCity": "guangzhou",
+      "name": {
+        "en": "Guangdong (Guangzhou focus)",
+        "zh-CN": "广东（广州重点）"
+      },
+      "region": {
+        "en": "South China",
+        "zh-CN": "华南"
+      },
+      "coords": [
+        23.13,
+        113.26
+      ],
+      "climate": {
+        "en": "Subtropical; hot humid summers, mild winters. Typhoon season awareness.",
+        "zh-CN": "亚热带；夏热湿，冬温和。注意台风季。"
+      },
+      "priceLevel": {
+        "en": "Upper-mid",
+        "zh-CN": "中高",
+        "index": 4
+      },
+      "transport": {
+        "en": "Major aviation & HSR hub; metro.",
+        "zh-CN": "航空与高铁枢纽，地铁。"
+      },
+      "food": {
+        "en": "Cantonese cuisine, morning tea (yum cha), herbal soups.",
+        "zh-CN": "粤菜、早茶、广式靓汤。"
+      },
+      "attractions": [
+        {
+          "en": "Chen Clan Academy",
+          "zh-CN": "陈家祠"
+        },
+        {
+          "en": "Pearl River night cruise",
+          "zh-CN": "珠江夜游"
+        },
+        {
+          "en": "Yongqing Fang",
+          "zh-CN": "永庆坊"
+        }
+      ],
+      "hotelsNote": {
+        "en": "International brands and quality business hotels plentiful.",
+        "zh-CN": "国际品牌与优质商务酒店充足。"
+      },
+      "tcmFocus": {
+        "en": "Lingnan TCM tradition; strong herbal and wellness culture.",
+        "zh-CN": "岭南中医传统；药膳与康养文化强。"
+      },
+      "hospitals": [
+        {
+          "name": {
+            "en": "Guangdong Provincial Hospital of TCM",
+            "zh-CN": "广东省中医院"
+          },
+          "note": {
+            "en": "Very well-known provincial TCM hospital.",
+            "zh-CN": "知名省级中医院。"
+          },
+          "focus": [
+            "TCM",
+            "Integrative",
+            "Acupuncture"
+          ]
+        },
+        {
+          "name": {
+            "en": "The First Affiliated Hospital of Guangzhou University of Chinese Medicine",
+            "zh-CN": "广州中医药大学第一附属医院"
+          },
+          "note": {
+            "en": "University TCM hospital.",
+            "zh-CN": "高校中医院。"
+          },
+          "focus": [
+            "TCM",
+            "Rehabilitation"
+          ]
+        }
+      ],
+      "officialSources": [
+        {
+          "name": "Guangdong Government",
+          "url": "https://www.gd.gov.cn/"
+        }
+      ],
+      "disclaimer": "DEMO / province-level orientation via Guangzhou."
+    },
+    {
+      "id": "guangxi",
+      "pilotLevel": "region",
+      "primaryCity": "nanning",
+      "name": {
+        "en": "Guangxi (Nanning focus)",
+        "zh-CN": "广西（南宁重点）"
+      },
+      "region": {
+        "en": "South China",
+        "zh-CN": "华南"
+      },
+      "coords": [
+        22.82,
+        108.37
+      ],
+      "climate": {
+        "en": "Subtropical; green winters, hot summers.",
+        "zh-CN": "亚热带；冬青夏热。"
+      },
+      "priceLevel": {
+        "en": "Mid-low to mid",
+        "zh-CN": "中偏低至中等",
+        "index": 2
+      },
+      "transport": {
+        "en": "Nanning hub for ASEAN links; HSR expanding.",
+        "zh-CN": "南宁面向东盟枢纽；高铁在扩展。"
+      },
+      "food": {
+        "en": "Rice noodles, sour and spicy Guangxi flavors.",
+        "zh-CN": "米粉、酸辣广西风味。"
+      },
+      "attractions": [
+        {
+          "en": "Qingxiu Mountain",
+          "zh-CN": "青秀山"
+        },
+        {
+          "en": "Detian Waterfall (regional trip)",
+          "zh-CN": "德天瀑布（区域行程）"
+        }
+      ],
+      "hotelsNote": {
+        "en": "Growing hotel stock; good value vs. coastal tier-1 cities.",
+        "zh-CN": "酒店供给增加，性价比优于一线沿海。"
+      },
+      "tcmFocus": {
+        "en": "Zhuang medicine cultural context + TCM; nature recovery.",
+        "zh-CN": "壮医药文化语境 + 中医；自然恢复。"
+      },
+      "hospitals": [
+        {
+          "name": {
+            "en": "The First Affiliated Hospital of Guangxi University of Chinese Medicine",
+            "zh-CN": "广西中医药大学第一附属医院"
+          },
+          "note": {
+            "en": "Regional TCM university hospital.",
+            "zh-CN": "区域中医药大学附属医院。"
+          },
+          "focus": [
+            "TCM",
+            "Ethnic medicine cultural context"
+          ]
+        }
+      ],
+      "officialSources": [
+        {
+          "name": "Guangxi Government",
+          "url": "https://www.gxzf.gov.cn/"
+        }
+      ],
+      "disclaimer": "DEMO / region-level orientation."
+    },
+    {
+      "id": "hainan",
+      "pilotLevel": "province",
+      "primaryCity": "haikou",
+      "name": {
+        "en": "Hainan (Haikou / Sanya / Boao context)",
+        "zh-CN": "海南（海口 / 三亚 / 博鳌语境）"
+      },
+      "region": {
+        "en": "South China Sea",
+        "zh-CN": "南海"
+      },
+      "coords": [
+        20.04,
+        110.34
+      ],
+      "climate": {
+        "en": "Tropical; warm year-round. Peak winter escape season.",
+        "zh-CN": "热带；全年温暖。冬季避寒旺季。"
+      },
+      "priceLevel": {
+        "en": "Mid to high in Sanya peak season",
+        "zh-CN": "三亚旺季中高至偏高",
+        "index": 4
+      },
+      "transport": {
+        "en": "Haikou & Sanya airports; island HSR.",
+        "zh-CN": "海口与三亚机场；环岛高铁。"
+      },
+      "food": {
+        "en": "Tropical fruit, fresh seafood, Hainanese chicken rice roots.",
+        "zh-CN": "热带水果、海鲜、文昌鸡等。"
+      },
+      "attractions": [
+        {
+          "en": "Sanya beaches",
+          "zh-CN": "三亚海滩"
+        },
+        {
+          "en": "Boao Lecheng medical tourism zone (policy context)",
+          "zh-CN": "博鳌乐城（政策语境）"
+        },
+        {
+          "en": "Rainforest parks",
+          "zh-CN": "雨林公园"
+        }
+      ],
+      "hotelsNote": {
+        "en": "Resort density high in Sanya; Haikou more business-oriented.",
+        "zh-CN": "三亚度假密集；海口偏商务。"
+      },
+      "tcmFocus": {
+        "en": "Island kangyang + policy pilot for international medical/wellness access — verify current rules.",
+        "zh-CN": "海岛康养 + 国际医疗康养政策试点语境——请核实现行规则。"
+      },
+      "hospitals": [
+        {
+          "name": {
+            "en": "Hainan TCM institutions / Boao Lecheng zone hospitals (public listings)",
+            "zh-CN": "海南中医机构 / 博鳌乐城公开入驻机构"
+          },
+          "note": {
+            "en": "Boao has special policy context; not automatic entitlement — check official channels.",
+            "zh-CN": "博鳌有特殊政策语境；非自动权利——请走官方渠道核实。"
+          },
+          "focus": [
+            "Kangyang",
+            "TCM",
+            "International medical tourism context"
+          ]
+        }
+      ],
+      "officialSources": [
+        {
+          "name": "Hainan Government",
+          "url": "https://www.hainan.gov.cn/"
+        }
+      ],
+      "disclaimer": "DEMO. Boao policies change — always verify officially. Not medical advice."
+    },
+    {
+      "id": "chongqing",
+      "pilotLevel": "municipality",
+      "name": {
+        "en": "Chongqing",
+        "zh-CN": "重庆"
+      },
+      "region": {
+        "en": "Southwest",
+        "zh-CN": "西南"
+      },
+      "coords": [
+        29.56,
+        106.55
+      ],
+      "climate": {
+        "en": "Hot summers, foggy winters; spicy food culture pairs with climate.",
+        "zh-CN": "夏热冬雾；与麻辣饮食文化相称。"
+      },
+      "priceLevel": {
+        "en": "Mid",
+        "zh-CN": "中等",
+        "index": 3
+      },
+      "transport": {
+        "en": "Major aviation & rail hub; unique mountain metro.",
+        "zh-CN": "航空铁路枢纽；山地轨道交通有特色。"
+      },
+      "food": {
+        "en": "Hot pot, Sichuan-Chongqing flavors.",
+        "zh-CN": "火锅、川渝风味。"
+      },
+      "attractions": [
+        {
+          "en": "Hongya Cave",
+          "zh-CN": "洪崖洞"
+        },
+        {
+          "en": "Ciqikou",
+          "zh-CN": "磁器口"
+        },
+        {
+          "en": "Yangtze river views",
+          "zh-CN": "长江景观"
+        }
+      ],
+      "hotelsNote": {
+        "en": "Strong hotel supply in Yuzhong and Jiangbei.",
+        "zh-CN": "渝中、江北酒店供给充足。"
+      },
+      "tcmFocus": {
+        "en": "Mountain city wellness + TCM hospitals.",
+        "zh-CN": "山城康养 + 中医院。"
+      },
+      "hospitals": [
+        {
+          "name": {
+            "en": "Chongqing Traditional Chinese Medicine Hospital",
+            "zh-CN": "重庆市中医院"
+          },
+          "note": {
+            "en": "Municipal TCM hospital.",
+            "zh-CN": "市级中医院。"
+          },
+          "focus": [
+            "TCM",
+            "Acupuncture",
+            "Rehabilitation"
+          ]
+        }
+      ],
+      "officialSources": [
+        {
+          "name": "Chongqing Government",
+          "url": "https://www.cq.gov.cn/"
+        }
+      ],
+      "disclaimer": "DEMO / public orientation only."
+    },
+    {
+      "id": "chengdu",
+      "pilotLevel": "city",
+      "name": {
+        "en": "Chengdu",
+        "zh-CN": "成都"
+      },
+      "region": {
+        "en": "Sichuan",
+        "zh-CN": "四川"
+      },
+      "coords": [
+        30.67,
+        104.06
+      ],
+      "climate": {
+        "en": "Mild basin climate; humid, less extreme winter cold.",
+        "zh-CN": "盆地温和湿润，冬不极寒。"
+      },
+      "priceLevel": {
+        "en": "Mid to upper-mid",
+        "zh-CN": "中等至中高",
+        "index": 3
+      },
+      "transport": {
+        "en": "Tianfu & Shuangliu airports; metro; HSR.",
+        "zh-CN": "天府与双流机场、地铁、高铁。"
+      },
+      "food": {
+        "en": "Sichuan cuisine capital — world-famous flavors.",
+        "zh-CN": "川菜之都。"
+      },
+      "attractions": [
+        {
+          "en": "Giant Panda bases",
+          "zh-CN": "大熊猫基地"
+        },
+        {
+          "en": "Jinli / Kuanzhai Alleys",
+          "zh-CN": "锦里 / 宽窄巷子"
+        },
+        {
+          "en": "Tea houses",
+          "zh-CN": "茶馆文化"
+        }
+      ],
+      "hotelsNote": {
+        "en": "Excellent boutique and international options.",
+        "zh-CN": "精品与国际酒店选择优秀。"
+      },
+      "tcmFocus": {
+        "en": "Deep TCM culture; strong hospital presence.",
+        "zh-CN": "中医文化深厚，医院资源强。"
+      },
+      "hospitals": [
+        {
+          "name": {
+            "en": "Hospital of Chengdu University of TCM",
+            "zh-CN": "成都中医药大学附属医院"
+          },
+          "note": {
+            "en": "Major TCM university hospital.",
+            "zh-CN": "重要中医药大学附属医院。"
+          },
+          "focus": [
+            "TCM",
+            "Acupuncture",
+            "Tuina"
+          ]
+        },
+        {
+          "name": {
+            "en": "Sichuan Provincial TCM institutions",
+            "zh-CN": "四川省内中医机构"
+          },
+          "note": {
+            "en": "Provincial network.",
+            "zh-CN": "省级网络。"
+          },
+          "focus": [
+            "TCM",
+            "Kangyang"
+          ]
+        }
+      ],
+      "officialSources": [
+        {
+          "name": "Chengdu Government",
+          "url": "https://www.chengdu.gov.cn/"
+        }
+      ],
+      "disclaimer": "DEMO / public orientation only."
+    },
+    {
+      "id": "kunming",
+      "pilotLevel": "city",
+      "name": {
+        "en": "Kunming",
+        "zh-CN": "昆明"
+      },
+      "region": {
+        "en": "Yunnan",
+        "zh-CN": "云南"
+      },
+      "coords": [
+        25.04,
+        102.71
+      ],
+      "climate": {
+        "en": "Spring city — mild most of the year.",
+        "zh-CN": "春城——多数时节温和。"
+      },
+      "priceLevel": {
+        "en": "Mid",
+        "zh-CN": "中等",
+        "index": 3
+      },
+      "transport": {
+        "en": "Changshui airport; gateway to Yunnan.",
+        "zh-CN": "长水机场；云南门户。"
+      },
+      "food": {
+        "en": "Yunnan cuisine, mushrooms, crossing-the-bridge noodles.",
+        "zh-CN": "滇菜、菌子、过桥米线。"
+      },
+      "attractions": [
+        {
+          "en": "Dianchi Lake",
+          "zh-CN": "滇池"
+        },
+        {
+          "en": "Stone Forest (day trip)",
+          "zh-CN": "石林（一日可达）"
+        },
+        {
+          "en": "Old streets",
+          "zh-CN": "老街"
+        }
+      ],
+      "hotelsNote": {
+        "en": "Good value; easy base for Yunnan trips.",
+        "zh-CN": "性价比好，适合作为云南行程基地。"
+      },
+      "tcmFocus": {
+        "en": "Herbal richness of Yunnan + TCM hospitals.",
+        "zh-CN": "云南本草资源 + 中医院。"
+      },
+      "hospitals": [
+        {
+          "name": {
+            "en": "Yunnan Provincial Hospital of TCM",
+            "zh-CN": "云南省中医医院"
+          },
+          "note": {
+            "en": "Provincial TCM hospital.",
+            "zh-CN": "省级中医院。"
+          },
+          "focus": [
+            "TCM",
+            "Herbal tradition context",
+            "Acupuncture"
+          ]
+        }
+      ],
+      "officialSources": [
+        {
+          "name": "Yunnan Government",
+          "url": "https://www.yn.gov.cn/"
+        }
+      ],
+      "disclaimer": "DEMO / public orientation only."
+    },
+    {
+      "id": "shaanxi",
+      "pilotLevel": "province",
+      "primaryCity": "xian",
+      "name": {
+        "en": "Shaanxi (Xi'an focus)",
+        "zh-CN": "陕西（西安重点）"
+      },
+      "region": {
+        "en": "Northwest",
+        "zh-CN": "西北"
+      },
+      "coords": [
+        34.26,
+        108.94
+      ],
+      "climate": {
+        "en": "Cold winters, hot summers; dry.",
+        "zh-CN": "冬冷夏热，偏干燥。"
+      },
+      "priceLevel": {
+        "en": "Mid",
+        "zh-CN": "中等",
+        "index": 3
+      },
+      "transport": {
+        "en": "Xianyang airport; major HSR crossroads.",
+        "zh-CN": "咸阳机场；高铁十字枢纽。"
+      },
+      "food": {
+        "en": "Biangbiang noodles, roujiamo, Muslim Quarter flavors.",
+        "zh-CN": "油泼面、肉夹馍、回民街风味。"
+      },
+      "attractions": [
+        {
+          "en": "Terracotta Warriors",
+          "zh-CN": "兵马俑"
+        },
+        {
+          "en": "City Wall",
+          "zh-CN": "城墙"
+        },
+        {
+          "en": "Muslim Quarter",
+          "zh-CN": "回民街"
+        }
+      ],
+      "hotelsNote": {
+        "en": "Strong tourism hotel base near old city.",
+        "zh-CN": "古城附近旅游酒店基础好。"
+      },
+      "tcmFocus": {
+        "en": "Ancient capital medical culture + modern TCM hospitals.",
+        "zh-CN": "古都医药文化 + 现代中医院。"
+      },
+      "hospitals": [
+        {
+          "name": {
+            "en": "Affiliated Hospital of Shaanxi University of Chinese Medicine / Xi'an TCM hospitals",
+            "zh-CN": "陕西中医药大学附属医院 / 西安中医院"
+          },
+          "note": {
+            "en": "Provincial TCM network.",
+            "zh-CN": "省级中医网络。"
+          },
+          "focus": [
+            "TCM",
+            "Acupuncture"
+          ]
+        }
+      ],
+      "officialSources": [
+        {
+          "name": "Shaanxi Government",
+          "url": "https://www.shaanxi.gov.cn/"
+        }
+      ],
+      "disclaimer": "DEMO / province-level orientation via Xi'an."
+    },
+    {
+      "id": "gansu",
+      "pilotLevel": "province",
+      "primaryCity": "lanzhou",
+      "name": {
+        "en": "Gansu (Lanzhou focus)",
+        "zh-CN": "甘肃（兰州重点）"
+      },
+      "region": {
+        "en": "Northwest",
+        "zh-CN": "西北"
+      },
+      "coords": [
+        36.06,
+        103.83
+      ],
+      "climate": {
+        "en": "Dry, strong sun; cold winters.",
+        "zh-CN": "干燥日照强；冬冷。"
+      },
+      "priceLevel": {
+        "en": "Mid-low",
+        "zh-CN": "中偏低",
+        "index": 2
+      },
+      "transport": {
+        "en": "Lanzhou airport & HSR; long-distance province.",
+        "zh-CN": "兰州机场与高铁；省域距离长。"
+      },
+      "food": {
+        "en": "Lanzhou beef noodles — nationally famous.",
+        "zh-CN": "兰州牛肉面——全国知名。"
+      },
+      "attractions": [
+        {
+          "en": "Yellow River scenery",
+          "zh-CN": "黄河风光"
+        },
+        {
+          "en": "Silk Road heritage (regional)",
+          "zh-CN": "丝路遗产（区域）"
+        }
+      ],
+      "hotelsNote": {
+        "en": "Practical city hotels; plan extra time for regional travel.",
+        "zh-CN": "实用型酒店；区域行程需预留时间。"
+      },
+      "tcmFocus": {
+        "en": "Herbal producing regions nearby; TCM hospitals in Lanzhou.",
+        "zh-CN": "周边药材产区；兰州中医院。"
+      },
+      "hospitals": [
+        {
+          "name": {
+            "en": "Gansu Provincial Hospital of TCM",
+            "zh-CN": "甘肃省中医院"
+          },
+          "note": {
+            "en": "Provincial TCM hospital.",
+            "zh-CN": "省级中医院。"
+          },
+          "focus": [
+            "TCM",
+            "Herbal context"
+          ]
+        }
+      ],
+      "officialSources": [
+        {
+          "name": "Gansu Government",
+          "url": "https://www.gansu.gov.cn/"
+        }
+      ],
+      "disclaimer": "DEMO / province-level orientation."
+    },
+    {
+      "id": "urumqi",
+      "pilotLevel": "city",
+      "name": {
+        "en": "Urumqi",
+        "zh-CN": "乌鲁木齐"
+      },
+      "region": {
+        "en": "Xinjiang",
+        "zh-CN": "新疆"
+      },
+      "coords": [
+        43.83,
+        87.62
+      ],
+      "climate": {
+        "en": "Dry continental; large day-night temperature swings.",
+        "zh-CN": "干旱大陆性；昼夜温差大。"
+      },
+      "priceLevel": {
+        "en": "Mid",
+        "zh-CN": "中等",
+        "index": 3
+      },
+      "transport": {
+        "en": "Urumqi airport hub for Xinjiang; long domestic flights.",
+        "zh-CN": "乌鲁木齐机场为新疆枢纽；国内航程较长。"
+      },
+      "food": {
+        "en": "Xinjiang cuisine — lamb, noodles, fruit.",
+        "zh-CN": "新疆风味——羊肉、拉面、瓜果。"
+      },
+      "attractions": [
+        {
+          "en": "Grand Bazaar",
+          "zh-CN": "大巴扎"
+        },
+        {
+          "en": "Nearby mountain and lake day trips",
+          "zh-CN": "近郊山水一日游"
+        }
+      ],
+      "hotelsNote": {
+        "en": "International and local brands in city center.",
+        "zh-CN": "市中心国际与本地品牌均有。"
+      },
+      "tcmFocus": {
+        "en": "TCM + regional ethnomedicine cultural context; confirm language support.",
+        "zh-CN": "中医 + 区域民族医药文化语境；请确认语言服务。"
+      },
+      "hospitals": [
+        {
+          "name": {
+            "en": "Traditional Chinese Medicine Hospital of Xinjiang",
+            "zh-CN": "新疆维吾尔自治区中医医院"
+          },
+          "note": {
+            "en": "Regional TCM hospital.",
+            "zh-CN": "自治区中医院。"
+          },
+          "focus": [
+            "TCM",
+            "Regional medicine cultural context"
+          ]
+        }
+      ],
+      "officialSources": [
+        {
+          "name": "Xinjiang Government",
+          "url": "https://www.xinjiang.gov.cn/"
+        }
+      ],
+      "disclaimer": "DEMO / public orientation only. Check travel advisories and entry rules."
+    }
+  ]
+}
