@@ -1,0 +1,21 @@
+﻿# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local / temporary
+.env
+*.log
+*.tmp
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Build output
+dist/
+build/

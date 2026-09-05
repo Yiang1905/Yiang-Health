@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="YIANG HEALTH pricing — Basic Explorer free, Premium and Premium Plus journey planning plans.">
+  <meta name="theme-color" content="#0d7377">
+  <title>Pricing — YIANG HEALTH</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">YIANG <span>HEALTH</span></a>
+      <button class="nav-toggle" aria-label="Menu" type="button">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="planner.html" data-i18n="nav_planner">Plan</a></li>
+        <li><a href="destinations.html" data-i18n="nav_destinations">Destinations</a></li>
+        <li><a href="pricing.html" data-i18n="nav_pricing">Pricing</a></li>
+        <li><a href="safety.html" data-i18n="nav_safety">Safety</a></li>
+      </ul>
+      <div class="header-actions">
+        <select id="lang-select" aria-label="Language"></select>
+        <a href="planner.html" class="btn btn-primary" data-i18n="nav_start">Start Planning</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <h1 class="section-title text-center" data-i18n="pricing_title">Simple, Transparent Pricing</h1>
+    <p class="section-sub text-center">Information organization and journey planning services only.</p>
+
+    <div class="pricing-grid">
+      <div class="price-card">
+        <h3 data-i18n="pricing_free_name">Basic Explorer</h3>
+        <div class="price-amount" data-i18n="pricing_free_price">$0</div>
+        <p data-i18n="pricing_free_desc">Core planning tools and public destination information.</p>
+        <a href="planner.html" class="btn btn-secondary btn-block" data-i18n="btn_start">Start Planning</a>
+      </div>
+      <div class="price-card featured">
+        <h3 data-i18n="pricing_premium_name">Premium</h3>
+        <div class="price-amount" data-i18n="pricing_premium_price">$19.90</div>
+        <p data-i18n="pricing_premium_desc">Personalized Health Journey Plan with structured report.</p>
+        <button class="btn btn-primary btn-block" disabled data-i18n="pricing_cta">Coming Soon</button>
+      </div>
+      <div class="price-card">
+        <h3 data-i18n="pricing_plus_name">Premium Plus</h3>
+        <div class="price-amount" data-i18n="pricing_plus_price">$49.90</div>
+        <p data-i18n="pricing_plus_desc">Comprehensive Journey Plan with extended framework and sources.</p>
+        <button class="btn btn-secondary btn-block" disabled data-i18n="pricing_cta">Coming Soon</button>
+      </div>
+    </div>
+
+    <div class="pricing-note" data-i18n="pricing_note">
+      Yiang Health provides information organization and journey planning services only. Does not include medical diagnosis, treatment, prescriptions or emergency care. Payments will be processed through an authorized payment channel connected to the designated legal service provider.
+    </div>
+
+    <div class="pricing-note" style="margin-top:16px">
+      <strong>What we do not charge for (unless explicitly stated in the future):</strong>
+      hospital fees, doctor fees, medication costs, airfare, hotel costs, or third-party service fees.
+      <br><br>
+      Purchasing a planning service does not create a doctor–patient relationship. You remain responsible for contacting and evaluating qualified providers yourself.
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="safety.html" data-i18n="footer_safety">Safety</a>
+        <a href="privacy.html" data-i18n="footer_privacy">Privacy</a>
+        <a href="terms.html" data-i18n="footer_terms">Terms</a>
+      </div>
+      <p class="footer-disclaimer" data-i18n="footer_disclaimer">Yiang Health provides information organization and journey planning services only. Not medical advice. Not emergency service.</p>
+      <p class="footer-copy">© 2026 YIANG HEALTH</p>
+    </div>
+  </footer>
+
+  <script src="modules/data.js"></script>
+  <script src="modules/safety.js"></script>
+  <script src="modules/i18n.js"></script>
+  <script src="modules/destinations.js"></script>
+  <script src="modules/planner.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

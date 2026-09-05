@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Pilot destinations for China health journey planning — Beijing, Shanghai, Chengdu, Urumqi, Heihe and more.">
+  <meta name="theme-color" content="#0d7377">
+  <title>Destinations — YIANG HEALTH</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">YIANG <span>HEALTH</span></a>
+      <button class="nav-toggle" aria-label="Menu" type="button">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="planner.html" data-i18n="nav_planner">Plan</a></li>
+        <li><a href="destinations.html" data-i18n="nav_destinations">Destinations</a></li>
+        <li><a href="pricing.html" data-i18n="nav_pricing">Pricing</a></li>
+        <li><a href="safety.html" data-i18n="nav_safety">Safety</a></li>
+      </ul>
+      <div class="header-actions">
+        <select id="lang-select" aria-label="Language"></select>
+        <a href="planner.html" class="btn btn-primary" data-i18n="nav_start">Start Planning</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <h1 class="section-title" data-i18n="nav_destinations">Destinations</h1>
+    <p class="section-sub">First-batch pilot cities. Data structure is ready for expansion to the full 18 pilot regions. Official information will be added after verification.</p>
+    <div class="city-grid" id="city-grid">
+      <!-- Populated by script -->
+    </div>
+    <p class="mt-24" style="font-size:0.85rem;color:var(--text-muted)">
+      Future expansion: Tianjin, Hulunbuir, Yanbian, Nantong, Zhejiang, Shandong, Guangdong, Guangxi, Hainan, Chongqing, Kunming, Shaanxi, Gansu and more.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="safety.html" data-i18n="footer_safety">Safety</a>
+        <a href="privacy.html" data-i18n="footer_privacy">Privacy</a>
+        <a href="terms.html" data-i18n="footer_terms">Terms</a>
+      </div>
+      <p class="footer-disclaimer" data-i18n="footer_disclaimer">Yiang Health provides information organization and journey planning services only. Not medical advice. Not emergency service.</p>
+      <p class="footer-copy">© 2026 YIANG HEALTH</p>
+    </div>
+  </footer>
+
+  <script src="modules/data.js"></script>
+  <script src="modules/safety.js"></script>
+  <script src="modules/i18n.js"></script>
+  <script src="modules/destinations.js"></script>
+  <script src="modules/planner.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

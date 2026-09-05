@@ -1,0 +1,177 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-09-05",
+  "cities": [
+    {
+      "id": "beijing",
+      "name": {
+        "en": "Beijing",
+        "zh-CN": "北京",
+        "zh-TW": "北京",
+        "ja": "北京",
+        "ko": "베이징",
+        "es": "Pekín",
+        "fr": "Pékin",
+        "de": "Peking",
+        "it": "Pechino",
+        "pt": "Pequim",
+        "ru": "Пекин",
+        "ar": "بكين",
+        "hi": "बीजिंग",
+        "id": "Beijing",
+        "vi": "Bắc Kinh",
+        "th": "ปักกิ่ง",
+        "tr": "Pekin"
+      },
+      "region": "North China",
+      "pilot": true,
+      "tags": ["medical-research", "tcm", "wellness", "cultural", "checkup"],
+      "highlights": {
+        "en": ["Capital city", "Top-tier medical institutions", "Rich TCM heritage", "International hospitals", "Cultural wellness sites"],
+        "zh-CN": ["首都", "顶尖医疗机构", "丰富中医文化", "国际医院", "文化康养景点"]
+      },
+      "officialSources": [
+        {"name": "Beijing Municipal Government", "url": "https://www.beijing.gov.cn/", "type": "government"},
+        {"name": "Beijing Tourism", "url": "https://www.visitbeijing.com.cn/", "type": "tourism"}
+      ],
+      "status": "verified-partial"
+    },
+    {
+      "id": "shanghai",
+      "name": {
+        "en": "Shanghai",
+        "zh-CN": "上海",
+        "zh-TW": "上海",
+        "ja": "上海",
+        "ko": "상하이",
+        "es": "Shanghái",
+        "fr": "Shanghai",
+        "de": "Shanghai",
+        "it": "Shanghai",
+        "pt": "Xangai",
+        "ru": "Шанхай",
+        "ar": "شنغهاي",
+        "hi": "शंघाई",
+        "id": "Shanghai",
+        "vi": "Thượng Hải",
+        "th": "เซี่ยงไฮ้",
+        "tr": "Şanghay"
+      },
+      "region": "East China",
+      "pilot": true,
+      "tags": ["medical-research", "wellness", "checkup", "international"],
+      "highlights": {
+        "en": ["International hub", "Advanced healthcare facilities", "Modern wellness centers", "Easy international access"],
+        "zh-CN": ["国际大都市", "先进医疗设施", "现代康养中心", "国际交通便利"]
+      },
+      "officialSources": [
+        {"name": "Shanghai Municipal Government", "url": "https://www.shanghai.gov.cn/", "type": "government"},
+        {"name": "Shanghai Tourism", "url": "https://www.meet-in-shanghai.net/", "type": "tourism"}
+      ],
+      "status": "verified-partial"
+    },
+    {
+      "id": "chengdu",
+      "name": {
+        "en": "Chengdu",
+        "zh-CN": "成都",
+        "zh-TW": "成都",
+        "ja": "成都",
+        "ko": "청두",
+        "es": "Chengdú",
+        "fr": "Chengdu",
+        "de": "Chengdu",
+        "it": "Chengdu",
+        "pt": "Chengdu",
+        "ru": "Чэнду",
+        "ar": "تشنغدو",
+        "hi": "चेंगदू",
+        "id": "Chengdu",
+        "vi": "Thành Đô",
+        "th": "เฉิงตู",
+        "tr": "Çengdu"
+      },
+      "region": "Southwest China",
+      "pilot": true,
+      "tags": ["tcm", "wellness", "relaxation", "cultural", "recovery"],
+      "highlights": {
+        "en": ["Leisure capital", "Strong TCM tradition", "Relaxation culture", "Natural surroundings"],
+        "zh-CN": ["休闲之都", "深厚中医传统", "慢生活文化", "自然环境优美"]
+      },
+      "officialSources": [
+        {"name": "Chengdu Municipal Government", "url": "https://www.chengdu.gov.cn/", "type": "government"}
+      ],
+      "status": "verified-partial"
+    },
+    {
+      "id": "urumqi",
+      "name": {
+        "en": "Urumqi",
+        "zh-CN": "乌鲁木齐",
+        "zh-TW": "烏魯木齊",
+        "ja": "ウルムチ",
+        "ko": "우루무치",
+        "es": "Ürümqi",
+        "fr": "Ürümqi",
+        "de": "Ürümqi",
+        "it": "Ürümqi",
+        "pt": "Ürümqi",
+        "ru": "Урумчи",
+        "ar": "أورومتشي",
+        "hi": "उरुमची",
+        "id": "Urumqi",
+        "vi": "Ürümqi",
+        "th": "อุรุมชี",
+        "tr": "Urumçi"
+      },
+      "region": "Northwest China",
+      "pilot": true,
+      "tags": ["cultural", "wellness", "tcm"],
+      "highlights": {
+        "en": ["Silk Road gateway", "Unique cultural wellness", "Regional medical centers"],
+        "zh-CN": ["丝绸之路门户", "独特文化康养", "区域医疗中心"]
+      },
+      "officialSources": [
+        {"name": "Xinjiang Government", "url": "https://www.xinjiang.gov.cn/", "type": "government"}
+      ],
+      "status": "verified-partial"
+    },
+    {
+      "id": "heihe",
+      "name": {
+        "en": "Heihe",
+        "zh-CN": "黑河",
+        "zh-TW": "黑河",
+        "ja": "黒河",
+        "ko": "헤이허",
+        "es": "Heihe",
+        "fr": "Heihe",
+        "de": "Heihe",
+        "it": "Heihe",
+        "pt": "Heihe",
+        "ru": "Хэйхэ",
+        "ar": "خيهي",
+        "hi": "हेइहे",
+        "id": "Heihe",
+        "vi": "Hắc Hà",
+        "th": "เฮย์เหอ",
+        "tr": "Heyhe"
+      },
+      "region": "Northeast China",
+      "pilot": true,
+      "tags": ["border", "wellness", "cultural"],
+      "highlights": {
+        "en": ["Border city with Russia", "Cross-border health travel potential", "Natural environment"],
+        "zh-CN": ["中俄边境城市", "跨境健康旅行潜力", "自然环境"]
+      },
+      "officialSources": [
+        {"name": "Heihe Municipal Government", "url": "https://www.heihe.gov.cn/", "type": "government"}
+      ],
+      "status": "verified-partial"
+    }
+  ],
+  "futurePilotRegions": [
+    "tianjin", "hulunbuir", "yanbian", "nantong", "zhejiang", "shandong",
+    "guangdong", "guangxi", "hainan", "chongqing", "kunming", "shaanxi", "gansu"
+  ]
+}

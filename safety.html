@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="YIANG HEALTH safety boundaries — what we do and do not do.">
+  <meta name="theme-color" content="#0d7377">
+  <title>Safety — YIANG HEALTH</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">YIANG <span>HEALTH</span></a>
+      <button class="nav-toggle" aria-label="Menu" type="button">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="planner.html" data-i18n="nav_planner">Plan</a></li>
+        <li><a href="destinations.html" data-i18n="nav_destinations">Destinations</a></li>
+        <li><a href="pricing.html" data-i18n="nav_pricing">Pricing</a></li>
+        <li><a href="safety.html" data-i18n="nav_safety">Safety</a></li>
+      </ul>
+      <div class="header-actions">
+        <select id="lang-select" aria-label="Language"></select>
+        <a href="planner.html" class="btn btn-primary" data-i18n="nav_start">Start Planning</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="legal-content">
+      <h1 data-i18n="safety_title">Safety & Boundaries</h1>
+      <p><strong>We don't diagnose. We help you navigate.</strong></p>
+
+      <h2>What Yiang Health Does</h2>
+      <ul>
+        <li>Organizes publicly available information related to health, wellness, TCM and cultural journeys in China.</li>
+        <li>Helps structure potential travel frameworks based on user-stated preferences.</li>
+        <li>Points users toward official government, tourism and public institutional sources.</li>
+        <li>Provides a multilingual interface for international users.</li>
+      </ul>
+
+      <h2>What Yiang Health Does Not Do</h2>
+      <ul>
+        <li>Diagnose any disease or medical condition.</li>
+        <li>Predict disease risk or outcomes.</li>
+        <li>Prescribe or recommend specific medications or treatments.</li>
+        <li>Judge whether a particular treatment is suitable for an individual.</li>
+        <li>Promise therapeutic results.</li>
+        <li>Rank hospitals by treatment effectiveness.</li>
+        <li>Claim any hospital or provider is “the best”.</li>
+        <li>Provide emergency diagnosis or triage.</li>
+        <li>Impersonate a doctor or establish a doctor–patient relationship.</li>
+        <li>Act as a hospital, clinic, or licensed medical service.</li>
+      </ul>
+
+      <h2>Emergency Situations</h2>
+      <p>Yiang Health is <strong>not</strong> an emergency medical service.</p>
+      <p>If you may be experiencing a medical emergency (for example: chest pain, difficulty breathing, signs of stroke, severe bleeding, loss of consciousness, severe allergic reaction), contact your local emergency services or seek immediate medical attention right away. Do not rely on this website.</p>
+      <p>Our system includes a safety gate that blocks ordinary journey planning when certain emergency-related language is detected in free-text input.</p>
+
+      <h2>Medical Decision Responsibility</h2>
+      <p>All medical and health decisions remain solely your responsibility (and that of qualified professionals you choose to consult). Yiang Health does not make medical decisions for you.</p>
+
+      <h2>Third-party Providers</h2>
+      <p>Any hospitals, clinics, wellness centers, hotels, or travel services you contact are independent third parties. Yiang Health does not control their quality, availability, pricing, or outcomes. Future commercial partnerships, if any, will be clearly disclosed.</p>
+
+      <h2>AI Limitations</h2>
+      <p>V1.0 uses a rule-based Mock AI Planner. It does not call external large language model APIs. Future AI integration will still run a Safety Filter before any planning engine and will remain non-diagnostic.</p>
+
+      <h2>Information Accuracy</h2>
+      <p>We prioritize official public sources. Unverified claims are not invented. Where verification is incomplete, we state that official information will be added after verification.</p>
+
+      <h2>Privacy</h2>
+      <p>V1.0 processes planning inputs primarily on the client side. We ask you not to enter medical records, passport numbers, national IDs, payment card details, or passwords. Language preference may be stored locally in your browser.</p>
+
+      <h2>Payment Transparency</h2>
+      <p>Paid planning products (when enabled) cover information organization and journey planning only. They do not cover hospital, doctor, medication, airfare, hotel, or other third-party service fees unless explicitly stated. Payments will be processed through an authorized channel connected to the designated legal service provider.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="safety.html" data-i18n="footer_safety">Safety</a>
+        <a href="privacy.html" data-i18n="footer_privacy">Privacy</a>
+        <a href="terms.html" data-i18n="footer_terms">Terms</a>
+      </div>
+      <p class="footer-disclaimer" data-i18n="footer_disclaimer">Yiang Health provides information organization and journey planning services only. Not medical advice. Not emergency service.</p>
+      <p class="footer-copy">© 2026 YIANG HEALTH</p>
+    </div>
+  </footer>
+
+  <script src="modules/data.js"></script>
+  <script src="modules/safety.js"></script>
+  <script src="modules/i18n.js"></script>
+  <script src="modules/destinations.js"></script>
+  <script src="modules/planner.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

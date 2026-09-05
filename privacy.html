@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Privacy policy for YIANG HEALTH V1.0.">
+  <meta name="theme-color" content="#0d7377">
+  <title>Privacy — YIANG HEALTH</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">YIANG <span>HEALTH</span></a>
+      <button class="nav-toggle" aria-label="Menu" type="button">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="planner.html" data-i18n="nav_planner">Plan</a></li>
+        <li><a href="destinations.html" data-i18n="nav_destinations">Destinations</a></li>
+        <li><a href="pricing.html" data-i18n="nav_pricing">Pricing</a></li>
+        <li><a href="safety.html" data-i18n="nav_safety">Safety</a></li>
+      </ul>
+      <div class="header-actions">
+        <select id="lang-select" aria-label="Language"></select>
+        <a href="planner.html" class="btn btn-primary" data-i18n="nav_start">Start Planning</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="legal-content">
+      <h1>Privacy</h1>
+      <p>Last updated: September 2026. This notice describes how V1.0 of YIANG HEALTH handles information.</p>
+
+      <h2>Client-side Processing</h2>
+      <p>The Journey Planner in V1.0 runs primarily in your browser. Your planning inputs (country, age range, purpose, duration, budget, optional free text) are processed locally to generate a mock plan. They are not automatically uploaded to a server in this version.</p>
+
+      <h2>What We Ask You Not to Enter</h2>
+      <ul>
+        <li>Medical records or detailed clinical history</li>
+        <li>Passport or national ID numbers</li>
+        <li>Bank or payment card details</li>
+        <li>Passwords or account credentials</li>
+        <li>Emergency medical information that should go to emergency services instead</li>
+      </ul>
+
+      <h2>Local Storage</h2>
+      <p>We may store your language preference in the browser’s localStorage so the interface remembers your choice. You can clear this at any time via browser settings.</p>
+
+      <h2>No Accounts in V1.0</h2>
+      <p>There is no user registration, login, or cloud account system in this version. Future versions may introduce accounts (email, Google, Apple, WeChat, etc.) with appropriate privacy notices at that time.</p>
+
+      <h2>Analytics & Logs</h2>
+      <p>V1.0 does not include third-party analytics SDKs by default. If hosting providers collect standard server logs (IP, user-agent), those are subject to the host’s policies.</p>
+
+      <h2>Future Changes</h2>
+      <p>When cloud sync, accounts, payments, or real AI APIs are introduced, this privacy notice will be updated before those features process personal data on servers.</p>
+
+      <h2>Contact</h2>
+      <p>For privacy-related questions, use the official contact channel published on the site when available.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="safety.html" data-i18n="footer_safety">Safety</a>
+        <a href="privacy.html" data-i18n="footer_privacy">Privacy</a>
+        <a href="terms.html" data-i18n="footer_terms">Terms</a>
+      </div>
+      <p class="footer-disclaimer" data-i18n="footer_disclaimer">Yiang Health provides information organization and journey planning services only. Not medical advice. Not emergency service.</p>
+      <p class="footer-copy">© 2026 YIANG HEALTH</p>
+    </div>
+  </footer>
+
+  <script src="modules/data.js"></script>
+  <script src="modules/safety.js"></script>
+  <script src="modules/i18n.js"></script>
+  <script src="modules/destinations.js"></script>
+  <script src="modules/planner.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

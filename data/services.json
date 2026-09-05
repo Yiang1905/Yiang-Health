@@ -1,0 +1,101 @@
+{
+  "version": "1.0",
+  "categories": [
+    {
+      "id": "medical-research",
+      "name": {
+        "en": "Medical Information Research",
+        "zh-CN": "医疗信息研究"
+      },
+      "description": {
+        "en": "Public information about medical facilities, research institutions and health systems for informational purposes only.",
+        "zh-CN": "关于医疗设施、研究机构和健康体系的公开信息，仅供参考。"
+      },
+      "disclaimer": "Not medical advice. Not diagnosis. Not treatment recommendation."
+    },
+    {
+      "id": "tcm",
+      "name": {
+        "en": "Traditional Chinese Medicine",
+        "zh-CN": "中医药"
+      },
+      "description": {
+        "en": "Information about TCM cultural heritage, wellness practices and related public resources.",
+        "zh-CN": "关于中医药文化遗产、康养实践及相关公开资源的信息。"
+      },
+      "disclaimer": "Cultural and informational only. Not medical treatment advice."
+    },
+    {
+      "id": "wellness",
+      "name": {
+        "en": "Wellness",
+        "zh-CN": "康养"
+      },
+      "description": {
+        "en": "Wellness travel, relaxation and lifestyle-related destination information.",
+        "zh-CN": "康养旅行、放松与生活方式相关的目的地信息。"
+      },
+      "disclaimer": "Lifestyle and travel information only."
+    },
+    {
+      "id": "sleep-relaxation",
+      "name": {
+        "en": "Sleep & Relaxation",
+        "zh-CN": "睡眠与放松"
+      },
+      "description": {
+        "en": "Destinations and environments often associated with rest and relaxation.",
+        "zh-CN": "常与休息放松相关的目的地与环境。"
+      },
+      "disclaimer": "Environmental and travel suggestions only."
+    },
+    {
+      "id": "rehabilitation",
+      "name": {
+        "en": "Rehabilitation & Recovery Information",
+        "zh-CN": "康复信息"
+      },
+      "description": {
+        "en": "Public information about rehabilitation-related facilities and recovery environments.",
+        "zh-CN": "关于康复相关设施与恢复环境的公开信息。"
+      },
+      "disclaimer": "Informational only. Not clinical rehabilitation advice."
+    },
+    {
+      "id": "checkup",
+      "name": {
+        "en": "Health Check-up Information",
+        "zh-CN": "健康体检信息"
+      },
+      "description": {
+        "en": "Public information about health examination services available in China.",
+        "zh-CN": "关于中国健康体检服务的公开信息。"
+      },
+      "disclaimer": "Information navigation only. Not a medical recommendation."
+    },
+    {
+      "id": "cultural-wellness",
+      "name": {
+        "en": "Cultural Wellness",
+        "zh-CN": "文化康养"
+      },
+      "description": {
+        "en": "Cultural experiences connected to traditional wellness concepts.",
+        "zh-CN": "与传统康养理念相关的文化体验。"
+      },
+      "disclaimer": "Cultural tourism information."
+    },
+    {
+      "id": "general-health-travel",
+      "name": {
+        "en": "General Health Travel",
+        "zh-CN": "一般健康旅行"
+      },
+      "description": {
+        "en": "Broad health and wellness oriented travel planning support.",
+        "zh-CN": "广泛的健康与康养导向旅行规划支持。"
+      },
+      "disclaimer": "Travel planning assistance only."
+    }
+  ]
+}

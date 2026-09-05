@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="YIANG HEALTH — AI-Powered China Health Journey Planning. We don't diagnose. We help you navigate.">
+  <meta name="theme-color" content="#0d7377">
+  <title>YIANG HEALTH — AI-Powered China Health Journey Planning</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">YIANG <span>HEALTH</span></a>
+      <button class="nav-toggle" aria-label="Menu" type="button">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="planner.html" data-i18n="nav_planner">Plan</a></li>
+        <li><a href="destinations.html" data-i18n="nav_destinations">Destinations</a></li>
+        <li><a href="pricing.html" data-i18n="nav_pricing">Pricing</a></li>
+        <li><a href="safety.html" data-i18n="nav_safety">Safety</a></li>
+      </ul>
+      <div class="header-actions">
+        <select id="lang-select" aria-label="Language"></select>
+        <a href="planner.html" class="btn btn-primary" data-i18n="nav_start">Start Planning</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="hero-badge" data-i18n="tagline">AI-Powered China Health Journey Planning</div>
+      <h1 data-i18n="hero_title">Plan Your Journey. Understand Your Options. Navigate China With Confidence.</h1>
+      <p class="hero-sub" data-i18n="hero_subtitle">Personalized AI-powered planning for international health, wellness, TCM and cultural journeys in China.</p>
+      <div class="hero-cta">
+        <a href="planner.html" class="btn btn-primary btn-lg" data-i18n="btn_start">Start Planning</a>
+        <a href="destinations.html" class="btn btn-secondary btn-lg" data-i18n="btn_explore">Explore Destinations</a>
+      </div>
+      <div class="core-position">
+        <p data-i18n="corePosition">We don't diagnose. We help you navigate.</p>
+        <p class="zh" data-i18n="corePositionZh">我们不替你诊断，我们帮助你找到正确的方向。</p>
+      </div>
+    </section>
+
+    <section class="values">
+      <div class="value-card">
+        <h3 data-i18n="value_ai_title">AI Journey Planning</h3>
+        <p data-i18n="value_ai_desc">Organize and structure your China health-related journey with clear, non-diagnostic guidance.</p>
+      </div>
+      <div class="value-card">
+        <h3 data-i18n="value_match_title">China Destination Matching</h3>
+        <p data-i18n="value_match_desc">Match your stated preferences with potential pilot destinations based on public information.</p>
+      </div>
+      <div class="value-card">
+        <h3 data-i18n="value_nav_title">Public Information Navigation</h3>
+        <p data-i18n="value_nav_desc">Find pathways to official government, health and tourism information sources.</p>
+      </div>
+      <div class="value-card">
+        <h3 data-i18n="value_lang_title">Multilingual Experience</h3>
+        <p data-i18n="value_lang_desc">Use the platform in your preferred language with consistent safety messaging.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="safety.html" data-i18n="footer_safety">Safety</a>
+        <a href="privacy.html" data-i18n="footer_privacy">Privacy</a>
+        <a href="terms.html" data-i18n="footer_terms">Terms</a>
+        <a href="pricing.html" data-i18n="nav_pricing">Pricing</a>
+      </div>
+      <p class="footer-disclaimer" data-i18n="footer_disclaimer">Yiang Health provides information organization and journey planning services only. Not medical advice. Not emergency service.</p>
+      <p class="footer-copy">© 2026 YIANG HEALTH. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="modules/data.js"></script>
+  <script src="modules/safety.js"></script>
+  <script src="modules/i18n.js"></script>
+  <script src="modules/destinations.js"></script>
+  <script src="modules/planner.js"></script>
+  <script src="script.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js').catch(() => {});
+    }
+  </script>
+</body>
+</html>

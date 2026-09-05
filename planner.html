@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Plan your China health journey with YIANG HEALTH. Non-diagnostic, information-first planning.">
+  <meta name="theme-color" content="#0d7377">
+  <title>Journey Planner — YIANG HEALTH</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">YIANG <span>HEALTH</span></a>
+      <button class="nav-toggle" aria-label="Menu" type="button">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="planner.html" data-i18n="nav_planner">Plan</a></li>
+        <li><a href="destinations.html" data-i18n="nav_destinations">Destinations</a></li>
+        <li><a href="pricing.html" data-i18n="nav_pricing">Pricing</a></li>
+        <li><a href="safety.html" data-i18n="nav_safety">Safety</a></li>
+      </ul>
+      <div class="header-actions">
+        <select id="lang-select" aria-label="Language"></select>
+        <a href="planner.html" class="btn btn-primary" data-i18n="nav_start">Start Planning</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="planner-wrap">
+      <h1 class="section-title" data-i18n="planner_title">Journey Planner</h1>
+      <p class="section-sub" data-i18n="corePosition">We don't diagnose. We help you navigate.</p>
+
+      <div class="steps-indicator">
+        <div class="step-dot active"></div>
+        <div class="step-dot"></div>
+        <div class="step-dot"></div>
+        <div class="step-dot"></div>
+      </div>
+
+      <div id="planner-form-wrap">
+        <!-- Step 1 -->
+        <div class="planner-step planner-card" data-step="1">
+          <h2 data-i18n="planner_step1">About You</h2>
+          <div class="form-group">
+            <label for="input-country" data-i18n="label_country">Country / Region</label>
+            <input type="text" id="input-country" placeholder="e.g. United States, Germany, Japan…" autocomplete="country-name">
+          </div>
+          <div class="form-group">
+            <label for="input-age" data-i18n="label_age">Age Range</label>
+            <select id="input-age">
+              <option value="" data-i18n="select_placeholder">Please select</option>
+              <option value="18-30" data-i18n="age_18_30">18–30</option>
+              <option value="31-45" data-i18n="age_31_45">31–45</option>
+              <option value="46-60" data-i18n="age_46_60">46–60</option>
+              <option value="60+" data-i18n="age_60plus">60+</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="input-lang" data-i18n="label_lang">Preferred Language</label>
+            <select id="input-lang">
+              <option value="en">English</option>
+              <option value="zh-CN">简体中文</option>
+              <option value="zh-TW">繁體中文</option>
+              <option value="ja">日本語</option>
+              <option value="ko">한국어</option>
+              <option value="es">Español</option>
+              <option value="fr">Français</option>
+              <option value="de">Deutsch</option>
+              <option value="it">Italiano</option>
+              <option value="pt">Português</option>
+              <option value="ru">Русский</option>
+              <option value="ar">العربية</option>
+              <option value="hi">हिन्दी</option>
+              <option value="id">Bahasa Indonesia</option>
+              <option value="vi">Tiếng Việt</option>
+              <option value="th">ไทย</option>
+              <option value="tr">Türkçe</option>
+            </select>
+          </div>
+          <div class="planner-actions">
+            <button type="button" class="btn btn-primary" data-action="next" data-i18n="btn_next">Next</button>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="planner-step planner-card hidden" data-step="2">
+          <h2 data-i18n="planner_step2">Purpose</h2>
+          <p class="form-hint mb-16" data-i18n="label_purpose">What best describes your purpose?</p>
+          <div class="purpose-grid">
+            <div class="purpose-option">
+              <input type="radio" name="purpose" id="p-medical" value="medical-research">
+              <label for="p-medical" data-i18n="purpose_medical">Medical Information Research</label>
+            </div>
+            <div class="purpose-option">
+              <input type="radio" name="purpose" id="p-tcm" value="tcm">
+              <label for="p-tcm" data-i18n="purpose_tcm">Traditional Chinese Medicine</label>
+            </div>
+            <div class="purpose-option">
+              <input type="radio" name="purpose" id="p-wellness" value="wellness">
+              <label for="p-wellness" data-i18n="purpose_wellness">Wellness</label>
+            </div>
+            <div class="purpose-option">
+              <input type="radio" name="purpose" id="p-sleep" value="sleep-relaxation">
+              <label for="p-sleep" data-i18n="purpose_sleep">Sleep & Relaxation</label>
+            </div>
+            <div class="purpose-option">
+              <input type="radio" name="purpose" id="p-rehab" value="rehabilitation">
+              <label for="p-rehab" data-i18n="purpose_rehab">Rehabilitation & Recovery Information</label>
+            </div>
+            <div class="purpose-option">
+              <input type="radio" name="purpose" id="p-checkup" value="checkup">
+              <label for="p-checkup" data-i18n="purpose_checkup">Health Check-up Information</label>
+            </div>
+            <div class="purpose-option">
+              <input type="radio" name="purpose" id="p-cultural" value="cultural-wellness">
+              <label for="p-cultural" data-i18n="purpose_cultural">Cultural Wellness</label>
+            </div>
+            <div class="purpose-option">
+              <input type="radio" name="purpose" id="p-general" value="general-health-travel">
+              <label for="p-general" data-i18n="purpose_general">General Health Travel</label>
+            </div>
+          </div>
+          <div class="planner-actions">
+            <button type="button" class="btn btn-secondary" data-action="back" data-i18n="btn_back">Back</button>
+            <button type="button" class="btn btn-primary" data-action="next" data-i18n="btn_next">Next</button>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="planner-step planner-card hidden" data-step="3">
+          <h2 data-i18n="planner_step3">Travel Preferences</h2>
+          <div class="form-group">
+            <label for="input-duration" data-i18n="label_duration">Travel Duration</label>
+            <select id="input-duration">
+              <option value="" data-i18n="select_placeholder">Please select</option>
+              <option value="1-3" data-i18n="dur_1_3">1–3 days</option>
+              <option value="4-7" data-i18n="dur_4_7">4–7 days</option>
+              <option value="8-14" data-i18n="dur_8_14">8–14 days</option>
+              <option value="15-30" data-i18n="dur_15_30">15–30 days</option>
+              <option value="30+" data-i18n="dur_30plus">30+ days</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="input-budget" data-i18n="label_budget">Budget Level</label>
+            <select id="input-budget">
+              <option value="" data-i18n="select_placeholder">Please select</option>
+              <option value="budget" data-i18n="budget_budget">Budget-conscious</option>
+              <option value="mid" data-i18n="budget_mid">Mid-range</option>
+              <option value="premium" data-i18n="budget_premium">Premium</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label data-i18n="label_destinations">Preferred Destinations (optional)</label>
+            <div class="dest-chips" id="dest-chips"></div>
+          </div>
+          <div class="planner-actions">
+            <button type="button" class="btn btn-secondary" data-action="back" data-i18n="btn_back">Back</button>
+            <button type="button" class="btn btn-primary" data-action="next" data-i18n="btn_next">Next</button>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="planner-step planner-card hidden" data-step="4">
+          <h2 data-i18n="planner_step4">Additional Context</h2>
+          <div class="form-group">
+            <label for="input-concern" data-i18n="label_concern">Brief description of what you hope to explore (optional)</label>
+            <textarea id="input-concern" rows="4" placeholder=""></textarea>
+            <p class="form-hint" data-i18n="concern_hint">Do NOT enter medical records, passport numbers, ID numbers, bank details, passwords or emergency medical information.</p>
+          </div>
+          <div class="planner-actions">
+            <button type="button" class="btn btn-secondary" data-action="back" data-i18n="btn_back">Back</button>
+            <button type="button" class="btn btn-primary" data-action="generate" data-i18n="btn_generate">Generate Plan</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="planner-result" class="hidden"></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="safety.html" data-i18n="footer_safety">Safety</a>
+        <a href="privacy.html" data-i18n="footer_privacy">Privacy</a>
+        <a href="terms.html" data-i18n="footer_terms">Terms</a>
+      </div>
+      <p class="footer-disclaimer" data-i18n="footer_disclaimer">Yiang Health provides information organization and journey planning services only. Not medical advice. Not emergency service.</p>
+      <p class="footer-copy">© 2026 YIANG HEALTH</p>
+    </div>
+  </footer>
+
+  <script src="modules/data.js"></script>
+  <script src="modules/safety.js"></script>
+  <script src="modules/i18n.js"></script>
+  <script src="modules/destinations.js"></script>
+  <script src="modules/planner.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
