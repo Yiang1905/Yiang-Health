@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="description" content="YIANG HEALTH pricing — Basic Explorer free, Premium and Premium Plus journey planning plans.">
-  <meta name="theme-color" content="#0d7377">
-  <title>Pricing — YIANG HEALTH</title>
+  <meta name="description" content="Yiang Health pricing — Free wellness planner, Plus and Premium plans for global users.">
+  <meta name="theme-color" content="#1a7a72">
+  <title>Pricing — Yiang Health</title>
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -19,7 +19,8 @@
       </button>
       <ul class="nav-links">
         <li><a href="index.html" data-i18n="nav_home">Home</a></li>
-        <li><a href="planner.html" data-i18n="nav_planner">Plan</a></li>
+        <li><a href="planner.html" data-i18n="nav_planner">Planner</a></li>
+        <li><a href="dashboard.html" data-i18n="nav_dashboard">My Plan</a></li>
         <li><a href="destinations.html" data-i18n="nav_destinations">Destinations</a></li>
         <li><a href="pricing.html" data-i18n="nav_pricing">Pricing</a></li>
         <li><a href="safety.html" data-i18n="nav_safety">Safety</a></li>
@@ -31,40 +32,53 @@
     </div>
   </header>
 
-  <main class="main">
-    <h1 class="section-title text-center" data-i18n="pricing_title">Simple, Transparent Pricing</h1>
-    <p class="section-sub text-center">Information organization and journey planning services only.</p>
+    <main class="main">
+    <h1 class="section-title text-center" data-i18n="pricing_title">Simple plans for your China journey</h1>
+    <p class="section-sub text-center">Pay with <strong>PayPal</strong>, <strong>WeChat</strong> or <strong>Alipay</strong>. Planning fee only — not medical care.</p>
 
     <div class="pricing-grid">
       <div class="price-card">
-        <h3 data-i18n="pricing_free_name">Basic Explorer</h3>
-        <div class="price-amount" data-i18n="pricing_free_price">$0</div>
-        <p data-i18n="pricing_free_desc">Core planning tools and public destination information.</p>
-        <a href="planner.html" class="btn btn-secondary btn-block" data-i18n="btn_start">Start Planning</a>
+        <h3>Explorer</h3>
+        <div class="price-amount">$0</div>
+        <p>Browse pilot cities, basic planner, notes on this device.</p>
+        <a href="destinations.html" class="btn btn-secondary btn-block">Browse free</a>
       </div>
       <div class="price-card featured">
-        <h3 data-i18n="pricing_premium_name">Premium</h3>
-        <div class="price-amount" data-i18n="pricing_premium_price">$19.90</div>
-        <p data-i18n="pricing_premium_desc">Personalized Health Journey Plan with structured report.</p>
-        <button class="btn btn-primary btn-block" disabled data-i18n="pricing_cta">Coming Soon</button>
+        <h3>Essentials</h3>
+        <div class="price-amount">$9.90 <span style="font-size:0.85rem;font-weight:500">/ ¥68</span></div>
+        <p>Unlock full guides for all 18 pilot regions (hospitals orientation, climate, food, hotels, transport).</p>
+        <button type="button" class="btn btn-primary btn-block" data-open-pay="essentials">Choose payment</button>
       </div>
       <div class="price-card">
-        <h3 data-i18n="pricing_plus_name">Premium Plus</h3>
-        <div class="price-amount" data-i18n="pricing_plus_price">$49.90</div>
-        <p data-i18n="pricing_plus_desc">Comprehensive Journey Plan with extended framework and sources.</p>
-        <button class="btn btn-secondary btn-block" disabled data-i18n="pricing_cta">Coming Soon</button>
+        <h3>Full Journey Pack</h3>
+        <div class="price-amount">$29 <span style="font-size:0.85rem;font-weight:500">/ ¥198</span></div>
+        <p>Everything in Essentials + richer journey framing. Still information &amp; planning only.</p>
+        <button type="button" class="btn btn-secondary btn-block" data-open-pay="full">Choose payment</button>
       </div>
     </div>
 
-    <div class="pricing-note" data-i18n="pricing_note">
-      Yiang Health provides information organization and journey planning services only. Does not include medical diagnosis, treatment, prescriptions or emergency care. Payments will be processed through an authorized payment channel connected to the designated legal service provider.
+    <!-- Payment panel -->
+    <div id="pay-panel" class="planner-card pay-panel hidden" style="max-width:720px;margin:28px auto 0">
+      <h2 id="pay-panel-title">Pay — Essentials</h2>
+      <p id="pay-panel-desc" class="section-sub">Pick one method. After payment, send a screenshot to get your access code.</p>
+      <div class="pay-methods" id="pay-methods"></div>
+      <p class="storage-notice" id="pay-contact-note"></p>
+      <button type="button" class="btn btn-secondary" id="pay-panel-close">Close</button>
     </div>
 
-    <div class="pricing-note" style="margin-top:16px">
-      <strong>What we do not charge for (unless explicitly stated in the future):</strong>
-      hospital fees, doctor fees, medication costs, airfare, hotel costs, or third-party service fees.
-      <br><br>
-      Purchasing a planning service does not create a doctor–patient relationship. You remain responsible for contacting and evaluating qualified providers yourself.
+    <div class="planner-card" style="max-width:640px;margin:32px auto 0">
+      <h2>Already paid?</h2>
+      <p>Enter the access code we send after confirming your payment.</p>
+      <div class="form-group">
+        <label for="unlock-code-pricing">Access code</label>
+        <input type="text" id="unlock-code-pricing" placeholder="YH-…">
+      </div>
+      <button type="button" class="btn btn-primary" id="btn-unlock-pricing">Unlock guides</button>
+    </div>
+
+    <div class="pricing-note" style="max-width:720px;margin:24px auto">
+      Yiang Health is a light planning intermediary. Fees cover information organization only.
+      Hospital, hotel, flight and treatment costs are paid by you directly to providers.
     </div>
   </main>
 
@@ -80,11 +94,82 @@
     </div>
   </footer>
 
+  <script src="modules/config.js"></script>
   <script src="modules/data.js"></script>
   <script src="modules/safety.js"></script>
   <script src="modules/i18n.js"></script>
+  <script src="modules/wellness.js"></script>
+  <script src="modules/access.js"></script>
   <script src="modules/destinations.js"></script>
   <script src="modules/planner.js"></script>
   <script src="script.js"></script>
+
+  <script>
+    (function(){
+      function $(s){ return document.querySelector(s); }
+      function showPay(tier){
+        var cfg = window.YiangConfig || {};
+        var pay = cfg.payments || {};
+        var pricing = cfg.pricing || {};
+        var panel = $('#pay-panel');
+        var methods = $('#pay-methods');
+        if(!panel || !methods) return;
+        var isFull = tier === 'full';
+        var price = isFull ? pricing.full : pricing.essentials;
+        $('#pay-panel-title').textContent = (isFull ? 'Pay — Full Journey Pack' : 'Pay — Essentials') +
+          '  ($' + ((price && price.priceUsd) || '') + ' / ¥' + ((price && price.priceCny) || '') + ')';
+        var html = '';
+        if(pay.paypal && pay.paypal.enabled !== false){
+          var url = isFull ? (pay.paypal.fullUrl || pay.paypal.meUrl) : (pay.paypal.essentialsUrl || pay.paypal.meUrl);
+          html += '<div class="pay-block"><h3>PayPal</h3><p style="font-size:0.85rem;color:var(--text-muted)">International cards</p>';
+          if(url) html += '<a class="btn btn-primary" href="'+url+'" target="_blank" rel="noopener">Pay with PayPal</a>';
+          else html += '<p class="form-hint">Set payments.paypal in config.js</p>';
+          html += '</div>';
+        }
+        if(pay.wechat && pay.wechat.enabled !== false){
+          var wqr = isFull ? pay.wechat.fullQr : pay.wechat.essentialsQr;
+          html += '<div class="pay-block"><h3>WeChat 微信</h3>';
+          if(wqr) html += '<img class="qr-img" src="'+wqr+'" alt="WeChat QR" onerror="this.style.display=\'none\'">';
+          html += '<p style="font-size:0.8rem;margin-top:8px">用微信扫一扫</p></div>';
+        }
+        if(pay.alipay && pay.alipay.enabled !== false){
+          var aqr = isFull ? pay.alipay.fullQr : pay.alipay.essentialsQr;
+          html += '<div class="pay-block"><h3>Alipay 支付宝</h3>';
+          if(aqr) html += '<img class="qr-img" src="'+aqr+'" alt="Alipay QR" onerror="this.style.display=\'none\'">';
+          html += '<p style="font-size:0.8rem;margin-top:8px">用支付宝扫一扫</p></div>';
+        }
+        methods.innerHTML = html;
+        var note = '';
+        if(cfg.contact && cfg.contact.note) note = cfg.contact.note['zh-CN'] || cfg.contact.note.en || '';
+        if(cfg.contact && cfg.contact.wechatId) note += ' 微信: ' + cfg.contact.wechatId;
+        if(cfg.contact && cfg.contact.email) note += ' Email: ' + cfg.contact.email;
+        var n = $('#pay-contact-note'); if(n) n.textContent = note;
+        panel.classList.remove('hidden');
+        panel.scrollIntoView({behavior:'smooth', block:'nearest'});
+      }
+      document.addEventListener('DOMContentLoaded', function(){
+        document.querySelectorAll('[data-open-pay]').forEach(function(btn){
+          btn.addEventListener('click', function(){ showPay(btn.getAttribute('data-open-pay')); });
+        });
+        var close = $('#pay-panel-close');
+        if(close) close.addEventListener('click', function(){ $('#pay-panel').classList.add('hidden'); });
+        var b = $('#btn-unlock-pricing');
+        if(b){
+          b.addEventListener('click', function(){
+            var code = ($('#unlock-code-pricing')||{}).value || '';
+            if(!window.AccessControl) return alert('Access module missing');
+            var r = AccessControl.unlock('full', code.trim());
+            if(!r.ok) r = AccessControl.unlock('essentials', code.trim());
+            if(r.ok){ alert('Unlocked!'); location.href='destinations.html'; }
+            else alert(r.message||'Invalid code');
+          });
+        }
+      });
+    })();
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js').catch(function(){});
+    }
+  </script>
+
 </body>
 </html>

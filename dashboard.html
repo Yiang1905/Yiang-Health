@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Your daily wellness plan and progress — Yiang Health. Track sleep, movement, nutrition and recovery actions.">
+  <meta name="theme-color" content="#1a7a72">
+  <title>My Plan — Yiang Health</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">YIANG <span>HEALTH</span></a>
+      <button class="nav-toggle" aria-label="Menu" type="button">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="planner.html" data-i18n="nav_planner">Planner</a></li>
+        <li><a href="dashboard.html" data-i18n="nav_dashboard">My Plan</a></li>
+        <li><a href="destinations.html" data-i18n="nav_destinations">Destinations</a></li>
+        <li><a href="pricing.html" data-i18n="nav_pricing">Pricing</a></li>
+        <li><a href="safety.html" data-i18n="nav_safety">Safety</a></li>
+      </ul>
+      <div class="header-actions">
+        <select id="lang-select" aria-label="Language"></select>
+        <a href="planner.html" class="btn btn-primary" data-i18n="nav_start">Start Your Plan</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="dashboard-wrap">
+      <h1 class="section-title" data-i18n="dash_title">My Wellness Plan</h1>
+      <p class="section-sub" data-i18n="dash_subtitle">Track today's actions and build consistency.</p>
+
+      <div id="dash-empty" class="planner-card hidden">
+        <p data-i18n="dash_no_plan">You do not have an active plan yet.</p>
+        <a href="planner.html" class="btn btn-primary" data-i18n="dash_cta_create">Create a Plan</a>
+      </div>
+
+      <div id="dash-content" class="hidden">
+        <div class="progress-summary planner-card">
+          <div class="progress-ring-wrap">
+            <div class="progress-percent" id="dash-percent">0%</div>
+            <p class="progress-label"><span data-i18n="dash_today_score">Today</span>: <span id="dash-completed">0</span> / <span id="dash-total">0</span></p>
+          </div>
+          <div class="plan-meta">
+            <p><span data-i18n="result_id">Plan ID</span>: <strong id="dash-plan-id"></strong></p>
+            <p class="storage-notice" data-i18n="storage_notice">Your plan and progress are stored only on this device (localStorage).</p>
+          </div>
+        </div>
+
+        <div class="planner-card">
+          <h2 data-i18n="plan_today">Today's Wellness</h2>
+          <div id="dash-actions" class="action-list"></div>
+        </div>
+
+        <div class="planner-card">
+          <h2 data-i18n="plan_weekly">This Week</h2>
+          <div id="dash-weekly" class="weekly-bars" aria-label="Weekly progress"></div>
+        </div>
+
+        <div class="dash-actions-bar">
+          <a href="planner.html" class="btn btn-secondary" data-i18n="btn_restart">Create New Plan</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="safety.html" data-i18n="footer_safety">Safety</a>
+        <a href="privacy.html" data-i18n="footer_privacy">Privacy</a>
+        <a href="terms.html" data-i18n="footer_terms">Terms</a>
+        <a href="pricing.html" data-i18n="nav_pricing">Pricing</a>
+      </div>
+      <p class="footer-disclaimer" data-i18n="footer_disclaimer">Yiang Health provides wellness guidance and lifestyle information only. Not medical advice.</p>
+      <p class="footer-copy">© 2026 YIANG HEALTH. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="modules/config.js"></script>
+  <script src="modules/data.js"></script>
+  <script src="modules/safety.js"></script>
+  <script src="modules/i18n.js"></script>
+  <script src="modules/wellness.js"></script>
+  <script src="modules/destinations.js"></script>
+  <script src="modules/planner.js"></script>
+  <script src="script.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js').catch(() => {});
+    }
+  </script>
+</body>
+</html>
