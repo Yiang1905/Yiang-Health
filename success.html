@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Journey Plans Ready · Yiang Health</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .success-hero { text-align: center; padding: 48px 20px 24px; }
+    .success-hero h1 { font-size: 1.8rem; margin-bottom: 8px; }
+    .success-hero p { color: #555; max-width: 560px; margin: 0 auto 24px; }
+    .plan-tabs { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-bottom: 24px; }
+    .plan-tab { padding: 10px 18px; border: 1px solid #ddd; border-radius: 999px; background: #fff; cursor: pointer; font-size: 0.95rem; }
+    .plan-tab.active { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
+    .plan-card { max-width: 720px; margin: 0 auto 32px; background: #fff; border-radius: 16px; padding: 28px; box-shadow: 0 8px 30px rgba(0,0,0,0.06); display: none; }
+    .plan-card.active { display: block; }
+    .plan-card h2 { margin-top: 0; font-size: 1.35rem; }
+    .plan-section { margin: 20px 0; }
+    .plan-section h3 { font-size: 1rem; color: #333; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
+    .plan-section p { color: #444; line-height: 1.65; margin: 0; }
+    .unlock-note { text-align: center; font-size: 0.9rem; color: #666; margin-top: 16px; }
+    .btn-row { text-align: center; margin-top: 28px; }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Yiang Health</a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="planner.html">Planner</a>
+        <a href="pricing.html">Pricing</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="success-hero">
+      <h1 data-en="Payment received. Here are your three tailored plans." data-zh="付款成功。这是为你量身准备的三个方案。">
+        Payment received. Here are your three tailored plans.
+      </h1>
+      <p data-en="I’ve looked at the 18 pilot regions and put together three realistic options. Pick the one that feels right — you can switch anytime."
+         data-zh="我根据 18 个试点地区为你整理了三个切实可行的方案。选一个最合适你的，随时可以切换查看。">
+        I’ve looked at the 18 pilot regions and put together three realistic options. Pick the one that feels right — you can switch anytime.
+      </p>
+    </div>
+
+    <div class="plan-tabs" id="plan-tabs">
+      <button class="plan-tab active" data-plan="1">Plan A · Balanced</button>
+      <button class="plan-tab" data-plan="2">Plan B · Deep TCM</button>
+      <button class="plan-tab" data-plan="3">Plan C · City + Culture</button>
+    </div>
+
+    <!-- PLAN 1 -->
+    <div class="plan-card active" id="plan-1">
+      <h2>Plan A — Balanced Wellness Journey</h2>
+      <p style="color:#555;margin-bottom:20px">A gentle mix of classic experiences, good food and practical comfort. Ideal if this is your first longer stay in China.</p>
+
+      <div class="plan-section">
+        <h3>✈️ Getting around</h3>
+        <p>Fly into Shanghai or Guangzhou as the main gateway, then use high-speed rail for inter-city hops (clean, fast, English signs at major stations). Within cities, Metro + DiDi is the easiest combination. Avoid peak-hour taxis if you can.</p>
+      </div>
+      <div class="plan-section">
+        <h3>🍜 Food you’ll actually enjoy</h3>
+        <p>Start with light Cantonese or Huaiyang dishes — steamed fish, congee, seasonal vegetables. Many places near hospitals and wellness hotels now have English menus. If you prefer milder flavours, ask for “少油少盐” (less oil, less salt). Street food is fun but keep it to well-known spots the first few days.</p>
+      </div>
+      <div class="plan-section">
+        <h3>🏛️ Classic experiences</h3>
+        <p>Morning tai-chi or gentle qigong in a park, a traditional tea house afternoon, and one or two carefully chosen heritage sites (not the most crowded ones). Leave space for rest — that’s part of the point.</p>
+      </div>
+      <div class="plan-section">
+        <h3>🌤️ Weather & timing</h3>
+        <p>Spring (Apr–May) and autumn (Sep–Oct) are the most comfortable windows for most pilot cities. Summer is hot and humid in the south; winter in the north can be dry and cold. Pack layers and a light rain jacket.</p>
+      </div>
+      <div class="plan-section">
+        <h3>💰 Price reality check</h3>
+        <p>Mid-range hotels ¥400–800/night, good meals ¥60–150 per person, high-speed rail tickets are reasonable. Budget roughly $80–150 per day all-in if you stay comfortable but not luxury. Local transport is cheap.</p>
+      </div>
+    </div>
+
+    <!-- PLAN 2 -->
+    <div class="plan-card" id="plan-2">
+      <h2>Plan B — Deeper TCM & Recovery Focus</h2>
+      <p style="color:#555;margin-bottom:20px">For visitors who want more time around traditional medicine resources and quieter recovery environments.</p>
+
+      <div class="plan-section">
+        <h3>✈️ Getting around</h3>
+        <p>Consider flying into cities with strong TCM hospitals and surrounding wellness facilities (examples in the pilot list: certain areas in Zhejiang, Guangdong, Sichuan). Once there, stay in one base for several days so you don’t waste energy on constant moving.</p>
+      </div>
+      <div class="plan-section">
+        <h3>🍜 Food as part of the plan</h3>
+        <p>Many places near TCM centres offer medicinal cuisine or light therapeutic menus. Think clear soups, herbal teas, seasonal produce. It’s milder and easier on the system after travel. Still keep ordinary enjoyable meals — balance matters.</p>
+      </div>
+      <div class="plan-section">
+        <h3>🏛️ Classic & quiet experiences</h3>
+        <p>Focus on gardens, temple walks, tea culture and shorter guided orientation visits rather than long tourist days. The goal is rhythm and recovery, not ticking boxes.</p>
+      </div>
+      <div class="plan-section">
+        <h3>🌤️ Weather & timing</h3>
+        <p>Same seasons as Plan A work well. If you are sensitive to heat or dry air, avoid peak summer in the south and deep winter in the far north. Check local forecasts a week before you fly.</p>
+      </div>
+      <div class="plan-section">
+        <h3>💰 Price reality check</h3>
+        <p>Staying longer in one place often costs less overall. Mid-range wellness-oriented hotels or apartments can be good value for weekly stays. Meals stay moderate. Transport costs drop because you move less.</p>
+      </div>
+    </div>
+
+    <!-- PLAN 3 -->
+    <div class="plan-card" id="plan-3">
+      <h2>Plan C — City Life + Culture Mix</h2>
+      <p style="color:#555;margin-bottom:20px">More urban energy, modern comforts and classic cultural highlights. Good if you like walking cities and want variety.</p>
+
+      <div class="plan-section">
+        <h3>✈️ Getting around</h3>
+        <p>Base yourself in one of the larger pilot cities with excellent metro systems (Shanghai, Guangzhou, Chengdu, etc.). Use high-speed rail for 1–2 day trips to nearby pilot areas. Metro + walking + occasional DiDi covers almost everything.</p>
+      </div>
+      <div class="plan-section">
+        <h3>🍜 Food scene</h3>
+        <p>You’ll have the widest choice here — from refined regional restaurants to lively night markets. Try local specialties but pace yourself. Many modern cafés and international options exist if you need a break from Chinese food.</p>
+      </div>
+      <div class="plan-section">
+        <h3>🏛️ Classic highlights</h3>
+        <p>Pick 3–4 must-see cultural or heritage spots and give each proper time. Mix them with neighbourhood walks, parks and evening riverside or lake areas. Avoid trying to see everything in one trip.</p>
+      </div>
+      <div class="plan-section">
+        <h3>🌤️ Weather & timing</h3>
+        <p>Cities have more indoor options, so shoulder seasons still feel best, but you have more flexibility. Air quality can vary — check the daily index if you are sensitive.</p>
+      </div>
+      <div class="plan-section">
+        <h3>💰 Price reality check</h3>
+        <p>Big cities have a wider price range. You can spend more on nice hotels and dinners, or keep it moderate by choosing well-located mid-range places and local restaurants. Transport is efficient and inexpensive once you’re in the metro network.</p>
+      </div>
+    </div>
+
+    <div class="unlock-note">
+      Your guides for the 18 pilot regions are now unlocked on this device.<br>
+      You can return to the Planner or Destinations anytime.
+    </div>
+
+    <div class="btn-row">
+      <a href="planner.html" class="btn btn-primary">Open full Planner</a>
+      <a href="destinations.html" class="btn btn-secondary" style="margin-left:12px">Browse destinations</a>
+    </div>
+  </main>
+
+  <script>
+    // Simple tab switcher
+    document.querySelectorAll('.plan-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.plan-tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.plan-card').forEach(c => c.classList.remove('active'));
+        tab.classList.add('active');
+        document.getElementById('plan-' + tab.dataset.plan).classList.add('active');
+      });
+    });
+
+    // Auto-unlock based on URL param or default
+    (function() {
+      const params = new URLSearchParams(location.search);
+      const plan = params.get('plan') || 'full';
+      // Mark as unlocked in localStorage so other pages know
+      try {
+        localStorage.setItem('yiang_health_unlocked', plan);
+        localStorage.setItem('yiang_health_unlock_time', Date.now());
+      } catch(e) {}
+    })();
+  </script>
+</body>
+</html>
