@@ -1,49 +1,53 @@
 /**
- * Yiang Health — 收款配置（PayPal + 微信 + 支付宝）
+ * Yiang Health — 收款配置（支持自动跳转）
  *
  * 填好后部署即可。不要把任何密码、Secret Key 写进本文件。
+ * 推荐：用 Stripe Payment Link（支持跨境到国内银行卡，付款后自动跳转成功页）
  */
 const YiangConfig = {
-  version: '1.3.1',
+  version: '1.4.0',
   productName: 'Yiang Health',
   positioning: 'China TCM · Wellness · Culture journey planning for global visitors',
 
-  /** 展示用价格（可同时写美元与人民币说明） */
+  /** 展示用价格 */
   pricing: {
     essentials: {
       id: 'essentials',
-      priceUsd: 9.9,
-      priceCny: 68,
+      priceUsd: 14.9,
+      priceCny: 99,
       label: { en: 'Essentials', 'zh-CN': '基础解锁' }
     },
     full: {
       id: 'full-journey',
-      priceUsd: 29,
-      priceCny: 198,
+      priceUsd: 24.9,
+      priceCny: 168,
       label: { en: 'Full Journey Pack', 'zh-CN': '完整旅程包' }
     }
   },
 
   /**
-   * 三种收款方式
-   * - paypalUrl: PayPal.me 或付款链接（海外客户点按钮跳转）
-   * - wechatQr: 微信收款码图片路径
-   * - alipayQr: 支付宝收款码图片路径
+   * 收款方式（优先推荐 Stripe，实现真正自动跳转）
+   * Stripe Payment Link 创建后，把链接填到 stripe.essentialsUrl / fullUrl
+   * 成功页地址设为：你的域名/health/success.html?plan=essentials 或 full
    */
   payments: {
-    paypal: {
+    stripe: {
       enabled: true,
-      // 例: 'https://paypal.me/YourName/9.90' 或商品链接
+      // 在 Stripe Dashboard → Payment Links 创建，成功 URL 设为 success.html
+      essentialsUrl: '',  // 例: 'https://buy.stripe.com/xxxx'
+      fullUrl: '',        // 例: 'https://buy.stripe.com/yyyy'
+      note: { en: 'Pay securely with card (international supported)', 'zh-CN': '信用卡安全支付（支持跨境）' }
+    },
+    paypal: {
+      enabled: false,
       essentialsUrl: '',
       fullUrl: '',
-      // 若只有一个通用 PayPal.me，可只填 meUrl，金额让客户选
       meUrl: ''
     },
     wechat: {
       enabled: true,
       essentialsQr: 'assets/qr/wechat-essentials.png',
       fullQr: 'assets/qr/wechat-full.png',
-      // 若两个档位共用一个码，都指向同一张图即可
       note: { en: 'WeChat Pay — scan with WeChat', 'zh-CN': '微信扫码支付' }
     },
     alipay: {
@@ -55,8 +59,8 @@ const YiangConfig = {
   },
 
   /**
-   * 付款成功后你发给客户的解锁码（务必改成自己的）
-   * master 仅自己测试，上线后改掉或删除
+   * 自动解锁码（付款成功页会自动使用，也可手动输入）
+   * 上线后请立即修改这些码
    */
   accessCodes: {
     essentials: 'YH-ESSENTIALS-2026',
@@ -64,13 +68,15 @@ const YiangConfig = {
     master: 'YH-MASTER-DEMO'
   },
 
-  /** 客户付款后如何联系你（可选，显示在支付区） */
+  /** 付款成功后自动跳转的页面（已实现） */
+  successPage: 'success.html',
+
   contact: {
     email: '',
-    wechatId: '',  // 你的微信号，方便客户付款后联系要解锁码
+    wechatId: '',
     note: {
-      en: 'After payment, send a screenshot to us and we will reply with your access code.',
-      'zh-CN': '付款后请把转账截图发给我们，我们回复解锁码。'
+      en: 'After payment you will be redirected automatically. No need to contact us.',
+      'zh-CN': '付款成功后会自动跳转，无需联系我们。'
     }
   },
 

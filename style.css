@@ -145,6 +145,8 @@ img { max-width: 100%; height: auto; }
 .btn-primary:hover {
   background: var(--accent-hover);
   color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(26,122,114,0.25);
 }
 
 .btn-secondary {
@@ -258,10 +260,35 @@ img { max-width: 100%; height: auto; }
   border-radius: var(--radius);
   padding: 24px;
   box-shadow: var(--shadow);
-  transition: box-shadow 0.2s;
+  transition: box-shadow 0.25s, transform 0.25s;
+  animation: cardFadeUp 0.6s ease-out both;
 }
 
-.value-card:hover { box-shadow: var(--shadow-lg); }
+.value-card:nth-child(1) { animation-delay: 0.05s; }
+.value-card:nth-child(2) { animation-delay: 0.15s; }
+.value-card:nth-child(3) { animation-delay: 0.25s; }
+.value-card:nth-child(4) { animation-delay: 0.35s; }
+
+.value-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.value-icon {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+@keyframes cardFadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes heroFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
 
 .value-card h3 {
   font-size: 1rem;
@@ -682,6 +709,34 @@ img { max-width: 100%; height: auto; }
   font-size: 0.88rem;
   color: var(--text-secondary);
   line-height: 1.55;
+}
+
+.foreign-card-tip {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  max-width: 780px;
+  margin: 18px auto 8px;
+  padding: 16px 20px;
+  background: #fff6ee;
+  border: 1.5px solid var(--accent-warm);
+  border-radius: var(--radius);
+  box-shadow: 0 2px 10px rgba(196,120,74,0.12);
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+.foreign-card-tip-icon {
+  font-size: 1.4rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.foreign-card-tip-zh {
+  margin-top: 6px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
 }
 
 /* Safety / Legal pages */
@@ -1121,8 +1176,13 @@ img { max-width: 100%; height: auto; }
 
 /* V1.2 warm journey accents */
 .hero {
-  background: linear-gradient(165deg, #f7f4ef 0%, #eef6f4 45%, #f7f4ef 100%);
+  background:
+    linear-gradient(165deg, rgba(247,244,239,0.94) 0%, rgba(238,246,244,0.92) 45%, rgba(247,244,239,0.94) 100%),
+    url("image/hero-wellness.webp");
+  background-size: cover;
+  background-position: center;
   border-radius: 0 0 24px 24px;
+  animation: heroFadeIn 0.8s ease-out both;
 }
 .hero-badge {
   background: var(--accent-soft);
