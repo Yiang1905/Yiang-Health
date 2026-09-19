@@ -72,8 +72,9 @@ const YiangConfig = {
   successPage: 'success.html',
 
   contact: {
-    email: '',
-    wechatId: '',
+    email: 'xhsj2005@gmail.com',
+    wechatId: '+86 186 0356 7665',
+    tel: '+8618603567665',
     note: {
       en: 'After payment you will be redirected automatically. No need to contact us.',
       'zh-CN': '付款成功后会自动跳转，无需联系我们。'
