@@ -74,6 +74,7 @@ const YiangConfig = {
   contact: {
     email: '',
     wechatId: '',
+    tel: '',
     note: {
       en: 'After payment you will be redirected automatically. No need to contact us.',
       'zh-CN': '付款成功后会自动跳转，无需联系我们。'
