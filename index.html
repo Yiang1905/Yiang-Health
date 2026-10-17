@@ -3,94 +3,213 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="description" content="Yiang Health — Plan your China TCM, wellness and culture journey. Warm guidance for global visitors to pilot regions. Not medical advice.">
-  <meta name="keywords" content="wellness, health, lifestyle, sleep, stress management, fitness, nutrition, recovery, personalized wellness, global health">
-  <meta name="theme-color" content="#1a7a72">
+  <meta name="description" content="Explore China's TCM culture, wellness traditions and local experiences with a thoughtful, multilingual journey planner from Yiang Health.">
+  <meta name="theme-color" content="#173e35">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Yiang Health — China TCM · Wellness · Culture">
-  <meta property="og:description" content="A warm guide for international visitors exploring TCM, wellness, food, nature and culture across China pilot regions.">
+  <meta property="og:title" content="Yiang Health — A more thoughtful way to explore China">
+  <meta property="og:description" content="Explore TCM culture, wellness traditions, nature and local life. Plan at your own pace with clear information and safety boundaries.">
   <meta property="og:site_name" content="Yiang Health">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Yiang Health — China TCM · Wellness · Culture">
-  <meta name="twitter:description" content="Personalized wellness plans for sleep, stress, fitness, nutrition and recovery.">
-  <title>Yiang Health — China TCM, Wellness & Culture for Global Visitors</title>
-  <link rel="manifest" href="manifest.json">
+  <meta name="twitter:title" content="Yiang Health — Explore China, thoughtfully">
+  <meta name="twitter:description" content="A multilingual starting point for TCM culture, wellness and local experiences in China.">
+  <title>Yiang Health — Explore China, Thoughtfully</title>
   <link rel="canonical" href="https://yiang1905.github.io/Yiang-Health/">
-  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="shanxi.css">
 </head>
-<body>
+<body class="home-redesign">
   <header class="site-header">
     <div class="header-inner">
-      <a href="index.html" class="logo">YIANG <span>HEALTH</span></a>
-      <button class="nav-toggle" aria-label="Menu" type="button">
+      <a href="index.html" class="logo" aria-label="Yiang Health home">YIANG <span>HEALTH</span></a>
+      <button class="nav-toggle" aria-label="Menu" type="button" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links">
         <li><a href="index.html" data-i18n="nav_home">Home</a></li>
-        <li><a href="planner.html" data-i18n="nav_planner">Planner</a></li>
-        <li><a href="dashboard.html" data-i18n="nav_dashboard">My Plan</a></li>
-        <li><a href="destinations.html" data-i18n="nav_destinations">Destinations</a></li>
+        <li><a href="planner.html" data-i18n="nav_planner">Plan Journey</a></li>
+        <li><a href="dashboard.html" data-i18n="nav_dashboard">My Journey</a></li>
+        <li><a href="destinations.html" data-i18n="nav_destinations">Pilot Cities</a></li>
         <li><a href="pricing.html" data-i18n="nav_pricing">Pricing</a></li>
         <li><a href="safety.html" data-i18n="nav_safety">Safety</a></li>
       </ul>
       <div class="header-actions">
         <select id="lang-select" aria-label="Language"></select>
-        <a href="planner.html" class="btn btn-primary" data-i18n="nav_start">Start Your Plan</a>
+        <a href="planner.html" class="btn btn-primary" data-i18n="nav_start">Start Planning</a>
       </div>
     </div>
   </header>
 
-  <main class="main">
-    <section class="hero">
-      <div class="hero-badge" data-i18n="tagline">China TCM · Wellness · Culture — For Global Visitors</div>
-      <h1 data-i18n="hero_title">Come to China. Experience TCM. Feel the Culture.</h1>
-      <p class="hero-sub" data-i18n="hero_subtitle">A warm guide for international visitors exploring Traditional Chinese Medicine, wellness, food, nature and local life — across China's pilot regions for TCM service trade.</p>
-      <div class="hero-cta">
-        <a href="planner.html" class="btn btn-primary btn-lg" data-i18n="btn_start">Plan My China Journey</a>
-        <a href="destinations.html" class="btn btn-secondary btn-lg" data-i18n="btn_explore">Explore Pilot Cities</a>
+  <main>
+    <section class="home-hero">
+      <div class="home-hero-inner">
+        <div class="home-hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span><span data-i18n="home_eyebrow">A thoughtful guide to China</span></div>
+          <h1 data-i18n="hero_title">Come to China. Experience TCM. Feel the Culture.</h1>
+          <p class="home-hero-sub" data-i18n="hero_subtitle">A warm guide for international visitors exploring Traditional Chinese Medicine, wellness, food, nature and local life.</p>
+          <div class="home-hero-cta">
+            <a href="planner.html" class="btn btn-primary btn-lg" data-i18n="btn_start">Plan My China Journey</a>
+            <a href="destinations.html" class="btn btn-secondary btn-lg" data-i18n="btn_explore">Explore Pilot Cities</a>
+          </div>
+          <div class="home-hero-note"><span class="note-mark">✓</span><span data-i18n="home_hero_note">Clear information. Your pace. No medical claims.</span></div>
+        </div>
+        <div class="home-hero-visual">
+          <img src="image/hero-wellness.webp" alt="A calm, nature-inspired wellness scene in China" fetchpriority="high">
+          <div class="visual-caption">
+            <span class="caption-kicker" data-i18n="home_visual_kicker">YOUR JOURNEY, YOUR WAY</span>
+            <span class="caption-title" data-i18n="home_visual_title">Culture, nature & mindful discovery</span>
+          </div>
+          <div class="floating-note"><span class="floating-note-icon">✦</span><span data-i18n="home_float_note">Start with what matters to you</span></div>
+        </div>
       </div>
-      <div class="core-position">
-        <p data-i18n="corePosition">We don't diagnose. We help you plan a warmer journey into China's TCM, wellness and culture.</p>
+      <div class="hero-bottom-line" aria-hidden="true"></div>
+    </section>
+
+    <section class="home-proof-strip" aria-label="Yiang Health approach">
+      <div class="proof-item"><span class="proof-number">17</span><span data-i18n="home_proof_languages">interface languages</span></div>
+      <div class="proof-divider"></div>
+      <div class="proof-item"><span class="proof-number">18</span><span data-i18n="home_proof_regions">pilot regions to explore</span></div>
+      <div class="proof-divider"></div>
+      <div class="proof-item"><span class="proof-number">01</span><span data-i18n="home_proof_rule">simple rule: your journey, your choice</span></div>
+    </section>
+
+    <section class="shanxi-feature" aria-labelledby="shanxi-feature-title">
+      <div class="shanxi-feature-inner">
+        <div class="shanxi-feature-top">
+          <div>
+            <span class="shanxi-feature-kicker">A NEW WAY TO EXPLORE CHINA</span>
+            <h2 id="shanxi-feature-title">Start in Shanxi.<br>Discover a thousand stories.</h2>
+            <p class="shanxi-feature-intro">Explore China's ancient architecture, mountain landscapes, folk traditions and local food through an interactive province map. We are building the guide city by city — starting with Jincheng and the Southern Taihang.</p>
+          </div>
+          <a class="shx-open-map" href="shanxi.html">Open the Shanxi map <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="shanxi-feature-grid">
+          <div class="shx-map-panel">
+            <div class="shx-map-heading"><strong>Shanxi · 山西</strong><span>11 cities · one living map</span></div>
+            <svg class="shx-map" viewBox="0 0 390 470" role="img" aria-label="Interactive map preview of Shanxi province">
+              <path class="shx-province-shape" d="M96.6 366.3 L98.1 371.7 L96.1 379.8 L91.2 388.3 L85.9 402.2 L84.1 410.8 L81.7 417.4 L77.9 424.7 L78.6 435.3 L81.4 443.1 L94.2 445 L103.6 443.6 L111.5 441.5 L115.9 435 L123 433.5 L129 430 L133.2 428.9 L140.8 429.2 L147.9 426.8 L151.4 424.7 L156.2 419.8 L159.4 416.3 L163.2 414.1 L167.3 411.8 L171.4 411.2 L176.8 412.8 L175.7 403.6 L176.6 397.5 L186.5 400.6 L193.3 401.6 L199.9 400.9 L204.5 401.5 L207.8 398.6 L210.3 400.6 L212.3 402.5 L217.8 399 L224 397.2 L226.7 393.5 L231.1 392.5 L235.5 392.6 L237.4 388.7 L243.9 387.5 L244.3 383.8 L248.6 382 L254.8 381.3 L257.5 374.3 L261.2 373.5 L260 368.4 L260.1 362 L261.1 359.9 L262.2 358.3 L261.8 350 L264.2 347.4 L264.5 344.5 L266 339.3 L262.6 336.6 L265.2 333.7 L266.1 330.4 L266.8 325.1 L261.4 317.3 L257.7 312.1 L258.2 308.4 L253.7 305 L253.2 300.8 L256.4 298.4 L262.9 294.8 L264 290 L267 289.8 L270.3 287.3 L269.1 279 L268.4 275 L272.4 268.7 L275.3 262.4 L279.3 256.3 L282.8 250 L288.1 239.1 L288.4 232.5 L281.3 232.1 L282.5 225.9 L279.9 220.9 L274.6 212.6 L273.6 206.7 L272.5 201.9 L266.9 200.4 L265.9 197.3 L259.8 196.4 L256.9 191.9 L256.5 183.4 L257.5 177.5 L260.1 169.9 L265.4 167.5 L267.7 164.1 L272.8 160.2 L272.6 154.4 L268.9 146.5 L275.2 140.2 L279.4 136.8 L284.2 134.4 L288.3 140.2 L293.7 139.2 L301.4 136.4 L305.4 131.8 L305 128 L305.1 121.9 L306.9 115.8 L310.4 108.7 L311.5 104 L304.8 101.8 L304 90.7 L296.8 85.1 L292.4 84.2 L290.9 82.5 L284 81.2 L279.3 75.4 L279 73.4 L280.4 67.8 L286.9 68.1 L288.1 62.6 L294.2 62 L299.6 58.7 L309 54.8 L306.9 51.6 L300.1 50.3 L296.3 44.2 L296.3 37.8 L292.8 32.5 L290.2 26.8 L284.9 27.2 L284 34.8 L282.1 40.3 L275.5 43.7 L270.4 40.1 L263.5 46.6 L254.5 52.7 L243.8 52.6 L239.3 48 L226.9 51.1 L219.1 61.6 L210 61.8 L198.1 55 L189.1 60.2 L185.5 66.7 L181.1 73.6 L175.7 83.2 L171.7 90.3 L171.1 96.8 L168.1 101.6 L158.5 102.4 L151.3 99.7 L144.4 99.6 L143.8 102.2 L142.8 105.4 L140.4 110.1 L137.6 115 L128.7 114.8 L127.8 118.6 L130 120.2 L132.8 123.1 L128.2 133.3 L126.9 139.3 L118.5 145 L119.2 152.7 L117.1 158.9 L114.9 165.9 L115.1 172.2 L112.6 181 L107.4 181.8 L101.5 190.5 L96.1 195.2 L92.9 199.3 L92.9 207.7 L93.4 213.5 L98.2 219 L105.2 227.6 L103.4 231.1 L108.4 234.9 L108.4 241.5 L106.4 248 L100.1 255.6 L102.7 260.6 L94.6 270.3 L88.4 277.4 L87.7 278.8 L88.3 282.6 L85.8 288.8 L87.4 292.1 L86.4 296.2 L88.2 299.1 L89.1 301.6 L88.2 303.2 L91.9 310.8 L92 319.5 L91 327.2 L89.6 337.2 L92 346 L93.3 351.1 L95.2 356.9 L95.9 362.8 L96.6 366.3 Z"/>
+              <path class="shx-map-ridge" d="M115 72 Q160 115 135 160 T139 245 T156 330 T191 412 M220 62 Q193 124 224 166 T218 250 T237 322"/>
+              <g class="shx-city" data-city="datong"><circle class="shx-dot" cx="243.4" cy="69.3" r="6"/><text x="253.4" y="64.3">Datong</text></g>
+              <g class="shx-city" data-city="shuozhou"><circle class="shx-dot" cx="196.8" cy="121.1" r="6"/><text x="144.8" y="114.1">Shuozhou</text></g>
+              <g class="shx-city" data-city="xinzhou"><circle class="shx-dot" cx="213.1" cy="183.4" r="6"/><text x="223.1" y="178.4">Xinzhou</text></g>
+              <g class="shx-city" data-city="taiyuan"><circle class="shx-dot" cx="203.1" cy="221.7" r="6"/><text x="213.1" y="216.7">Taiyuan</text></g>
+              <g class="shx-city" data-city="lvliang"><circle class="shx-dot" cx="127.2" cy="244.8" r="6"/><text x="74.2" y="237.8">Lvliang</text></g>
+              <g class="shx-city" data-city="yangquan"><circle class="shx-dot" cx="258.9" cy="221.4" r="6"/><text x="268.9" y="216.4">Yangquan</text></g>
+              <g class="shx-city" data-city="jinzhong"><circle class="shx-dot" cx="213.2" cy="232.6" r="6"/><text x="223.2" y="247.6">Jinzhong</text></g>
+              <g class="shx-city" data-city="linfen"><circle class="shx-dot" cx="147.4" cy="342.6" r="6"/><text x="99.4" y="335.6">Linfen</text></g>
+              <g class="shx-city" data-city="changzhi"><circle class="shx-dot" cx="233.7" cy="335" r="6"/><text x="243.7" y="330">Changzhi</text></g>
+              <g class="shx-city is-active" data-city="jincheng"><circle class="shx-dot" cx="219.4" cy="383.1" r="7"/><text x="229.4" y="378.1">Jincheng</text></g>
+              <g class="shx-city" data-city="yuncheng"><circle class="shx-dot" cx="119.6" cy="415" r="6"/><text x="129.6" y="431">Yuncheng</text></g>
+            </svg>
+            <p class="shx-map-note">Select a city on the full map to view its introduction. The map is a schematic locator, not for navigation.</p>
+          </div>
+          <div class="shx-story-panel">
+            <span class="shx-kicker">OUR FIRST DESTINATION</span>
+            <h3>Jincheng · 晋城</h3>
+            <p>Where Southern Taihang landscapes meet folk performance, ancient compounds and the everyday flavours of Shanxi.</p>
+            <span class="shx-city-status">● Destination guide now available</span>
+            <div class="shx-highlights">
+              <div class="shx-highlight"><strong>Nature</strong><span>Wangmangling & Southern Taihang</span></div>
+              <div class="shx-highlight"><strong>Culture</strong><span>Situ Town & historic compounds</span></div>
+            </div>
+            <div class="shx-city-list"><span class="shx-city-chip">南太行</span><span class="shx-city-chip">司徒小镇</span><span class="shx-city-chip">皇城相府</span><span class="shx-city-chip">地方美食</span></div>
+            <a class="shx-panel-cta" href="jincheng.html">Discover Jincheng <span aria-hidden="true">↗</span></a>
+            <p class="shx-soon">Next: build each Shanxi city profile, then expand the map system across China.</p>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="values">
-      <div class="value-card">
-        <div class="value-icon">🌿</div>
-        <h3 data-i18n="value_ai_title">Personalized Journey Planner</h3>
-        <p data-i18n="value_ai_desc">Share your purpose and preferences. Receive a clear, non-diagnostic journey framework for TCM, wellness and culture.</p>
+    <section class="home-section home-how">
+      <div class="section-heading">
+        <span class="section-kicker" data-i18n="home_how_kicker">A CLEARER WAY TO BEGIN</span>
+        <h2 data-i18n="home_how_title">From a first idea to a journey outline.</h2>
+        <p data-i18n="home_how_sub">No complicated research required to get started. Explore first, then shape a plan around your own interests.</p>
       </div>
-      <div class="value-card">
-        <div class="value-icon">🏮</div>
-        <h3 data-i18n="value_match_title">Pilot Cities & Experiences</h3>
-        <p data-i18n="value_match_desc">Orient yourself among pilot regions known for TCM services, wellness and cultural exchange.</p>
+      <div class="home-steps">
+        <article class="home-step">
+          <span class="step-index">01</span>
+          <div class="step-icon" aria-hidden="true">⌕</div>
+          <h3 data-i18n="home_step1_title">Discover</h3>
+          <p data-i18n="home_step1_desc">Browse pilot regions and get a feel for local culture, landscapes and wellness traditions.</p>
+          <a href="destinations.html" class="text-link" data-i18n="home_step1_link">Explore destinations <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="home-step">
+          <span class="step-index">02</span>
+          <div class="step-icon" aria-hidden="true">✳</div>
+          <h3 data-i18n="home_step2_title">Personalize</h3>
+          <p data-i18n="home_step2_desc">Share your interests, pace and practical preferences to create a simple starting framework.</p>
+          <a href="planner.html" class="text-link" data-i18n="home_step2_link">Build your outline <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="home-step">
+          <span class="step-index">03</span>
+          <div class="step-icon" aria-hidden="true">↗</div>
+          <h3 data-i18n="home_step3_title">Prepare</h3>
+          <p data-i18n="home_step3_desc">Use the outline to identify what to confirm with official providers before making arrangements.</p>
+          <a href="safety.html" class="text-link" data-i18n="home_step3_link">Know the boundaries <span aria-hidden="true">↗</span></a>
+        </article>
       </div>
-      <div class="value-card">
-        <div class="value-icon">🍵</div>
-        <h3 data-i18n="value_nav_title">Culture Beyond the Clinic</h3>
-        <p data-i18n="value_nav_desc">Food, landscapes, transport tips and local rhythm — so your trip feels human.</p>
+    </section>
+
+    <section class="home-feature-band">
+      <div class="feature-image-wrap">
+        <img src="image/hero-wellness.webp" alt="" loading="lazy">
+        <div class="feature-image-label" data-i18n="home_feature_image_label">SLOW DOWN. LOOK CLOSER.</div>
       </div>
-      <div class="value-card">
-        <div class="value-icon">🌍</div>
-        <h3 data-i18n="value_lang_title">Built for Global Friends</h3>
-        <p data-i18n="value_lang_desc">Multilingual experience with RTL support and localStorage privacy by design.</p>
+      <div class="feature-copy">
+        <span class="section-kicker" data-i18n="home_feature_kicker">MORE THAN A CHECKLIST</span>
+        <h2 data-i18n="home_feature_title">The best journeys leave room for discovery.</h2>
+        <p data-i18n="home_feature_desc">From tea and regional food to gardens, mountains and everyday local life, explore the cultural context around China's wellness traditions — at a pace that feels right for you.</p>
+        <ul class="feature-list">
+          <li><span>✓</span><span data-i18n="home_feature_bullet1">Culture and local experiences alongside practical planning</span></li>
+          <li><span>✓</span><span data-i18n="home_feature_bullet2">Public information pathways to help you ask better questions</span></li>
+          <li><span>✓</span><span data-i18n="home_feature_bullet3">A clear distinction between travel information and medical care</span></li>
+        </ul>
+        <a href="destinations.html" class="btn btn-primary" data-i18n="btn_explore">Explore Pilot Cities</a>
+      </div>
+    </section>
+
+    <section class="home-safety">
+      <div class="safety-symbol" aria-hidden="true">✳</div>
+      <div class="safety-copy">
+        <span class="section-kicker" data-i18n="home_safety_kicker">A PROMISE OF CLARITY</span>
+        <h2 data-i18n="home_safety_title">Helpful planning. Honest boundaries.</h2>
+        <p data-i18n="home_safety_desc">Yiang Health helps organize information and travel ideas. It does not diagnose, recommend treatment, arrange clinical referrals or replace advice from qualified professionals.</p>
+        <a href="safety.html" class="text-link" data-i18n="home_safety_link">Read our safety approach <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="safety-side-note"><span data-i18n="home_safety_side">Your health decisions belong with you and qualified professionals.</span></div>
+    </section>
+
+    <section class="home-final-cta">
+      <span class="section-kicker" data-i18n="home_final_kicker">YOUR NEXT CHAPTER STARTS HERE</span>
+      <h2 data-i18n="home_final_title">Curious about China? Start with a simple plan.</h2>
+      <p data-i18n="home_final_desc">Take a first look, explore at your own pace, and decide what you want to learn more about.</p>
+      <div class="home-hero-cta">
+        <a href="planner.html" class="btn btn-light btn-lg" data-i18n="btn_start">Plan My China Journey</a>
+        <a href="pricing.html" class="btn btn-outline-light btn-lg" data-i18n="home_view_pricing">View transparent pricing</a>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-footer home-footer">
     <div class="footer-inner">
+      <div class="home-footer-top">
+        <a href="index.html" class="logo">YIANG <span>HEALTH</span></a>
+        <p data-i18n="home_footer_mission">A thoughtful starting point for exploring China's wellness culture and local life.</p>
+      </div>
       <div class="footer-links">
+        <a href="planner.html" data-i18n="nav_planner">Plan Journey</a>
+        <a href="destinations.html" data-i18n="nav_destinations">Pilot Cities</a>
+        <a href="pricing.html" data-i18n="nav_pricing">Pricing</a>
         <a href="safety.html" data-i18n="footer_safety">Safety</a>
         <a href="privacy.html" data-i18n="footer_privacy">Privacy</a>
         <a href="terms.html" data-i18n="footer_terms">Terms</a>
-        <a href="pricing.html" data-i18n="nav_pricing">Pricing</a>
       </div>
-      <p class="footer-disclaimer" data-i18n="footer_disclaimer">Yiang Health provides wellness guidance and lifestyle information only. Not medical advice. Not a diagnostic or emergency service. Seek professional care when needed.</p>
-      <p class="footer-copy">© 2026 YIANG HEALTH. All rights reserved.</p>
+      <p class="footer-disclaimer" data-i18n="footer_disclaimer">Yiang Health organizes information and journey planning only. Not medical advice, diagnosis, treatment or emergency care. Always consult qualified professionals and official sources.</p>
+      <p class="footer-copy">© 2026 YIANG HEALTH. <span data-i18n="home_footer_rights">Made for curious minds, with care.</span></p>
     </div>
   </footer>
 
@@ -103,9 +222,14 @@
   <script src="modules/planner.js"></script>
   <script src="script.js"></script>
   <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js').catch(() => {});
-    }
+    document.querySelectorAll('.shanxi-feature .shx-city[data-city]').forEach(function (node) {
+      node.setAttribute('tabindex', '0');
+      node.setAttribute('role', 'link');
+      node.setAttribute('aria-label', 'Explore ' + node.dataset.city + ' on the Shanxi map');
+      node.addEventListener('click', function () { location.href = 'shanxi.html?city=' + encodeURIComponent(node.dataset.city); });
+      node.addEventListener('keydown', function (event) { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); location.href = 'shanxi.html?city=' + encodeURIComponent(node.dataset.city); } });
+    });
+    if ('serviceWorker' in navigator) navigator.serviceWorker.register('service-worker.js').catch(() => {});
   </script>
 </body>
 </html>
