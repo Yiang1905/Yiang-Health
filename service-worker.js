@@ -1,7 +1,7 @@
-﻿const CACHE = 'yiang-health-v1.6-jincheng-climate';
+﻿const CACHE = 'yiang-health-v1.7-linfen-guide';
 const ASSETS = [
   './','./index.html','./planner.html','./dashboard.html','./destinations.html',
-  './city.html','./shanxi.html','./jincheng.html','./pricing.html','./safety.html','./terms.html','./privacy.html',
+  './city.html','./shanxi.html','./jincheng.html','./linfen.html','./pricing.html','./safety.html','./terms.html','./privacy.html',
   './style.css','./shanxi.css','./script.js','./manifest.json','./image/hero-wellness.webp',
   './modules/config.js','./modules/data.js','./modules/safety.js','./modules/i18n.js',
   './modules/wellness.js','./modules/access.js','./modules/destinations.js','./modules/planner.js',

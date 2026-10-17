@@ -31,13 +31,13 @@
       <span class="shx-kicker">A PROVINCE OF MOUNTAINS, COURTYARDS & LIVING CULTURE</span>
       <h1>Discover Shanxi,<br>one city at a time.</h1>
       <p>From the ancient walled compounds and wooden temples of the north to the Southern Taihang Mountains, folk performance and slow-living villages of the south — explore Shanxi through its places, stories, food and everyday culture.</p>
-      <div class="shx-hero-actions"><a class="shx-button" href="jincheng.html">Start with Jincheng <span aria-hidden="true">↗</span></a><a class="shx-button alt" href="#shanxi-map">Explore the map ↓</a></div>
+      <div class="shx-hero-actions"><a class="shx-button" href="jincheng.html#situ">Explore Jincheng <span aria-hidden="true">↗</span></a><a class="shx-button" href="linfen.html">Discover Linfen &amp; its food <span aria-hidden="true">↗</span></a><a class="shx-button alt" href="#shanxi-map">Explore the map ↓</a></div>
     </section>
     <section class="shx-section" id="shanxi-map">
       <div class="shx-section-heading">
         <span class="shx-kicker">THE INTERACTIVE PROVINCE GUIDE</span>
         <h2>Choose a city. Find your next story.</h2>
-        <p>Select any city on the map or in the list. The guide is being built city by city; Jincheng is the first fully developed destination in this pilot.</p>
+        <p>Select any city on the map or in the list. Jincheng and Linfen now have detailed destination guides; more Shanxi city profiles will follow.</p>
       </div>
       <div class="shanxi-feature-grid">
         <div class="shx-map-panel">
@@ -102,7 +102,7 @@
   lvliang:{name:'Lvliang · 吕梁',desc:'A western Shanxi region of loess landscapes, historic villages and distinctive food and wine traditions. Specific destinations will be added as official visitor information is verified.',status:'● City overview · guide in development',highlights:[['Landscape','Loess plateau & countryside'],['Local life','Village culture & regional food']]},
   yangquan:{name:'Yangquan · 阳泉',desc:'Explore eastern Shanxi’s mountain-edge landscapes, industrial heritage and access routes toward the Taihang region. The detailed guide is being developed.',status:'● City overview · guide in development',highlights:[['Landscape','Taihang foothills'],['History','Industrial & local heritage']]},
   jinzhong:{name:'Jinzhong · 晋中',desc:'A region strongly associated with historic merchant compounds, old towns and courtyard architecture. Check preservation rules and local opening information before visits.',status:'● City overview · guide in development',highlights:[['Architecture','Courtyard compounds & old towns'],['Culture','Merchant history & local crafts']]},
-  linfen:{name:'Linfen · 临汾',desc:'Southern Shanxi history, traditional settlements and the wider Fen River valley form a varied cultural journey. A source-checked visitor guide is planned.',status:'● City overview · guide in development',highlights:[['Heritage','Historic sites & settlements'],['Landscape','Fen River valley & countryside']]},
+  linfen:{name:'Linfen · 临汾',desc:'A major southern Shanxi destination for Yellow River landscapes, early Chinese civilization, historic temples, family-root traditions and one of the region’s most distinctive food cultures.',status:'● Detailed destination guide available',highlights:[['Food','Beef-ball noodles, lamb soup & county specialties'],['Heritage','Hukou Waterfall, Taosi, Guangsheng Temple & Hongtong']] },
   changzhi:{name:'Changzhi · 长治',desc:'The eastern Shanxi highlands connect historic towns, traditional architecture and the wider Taihang landscape. Seasonal conditions can shape road and trail access.',status:'● City overview · guide in development',highlights:[['Nature','Taihang landscapes'],['Culture','Traditional settlements']]},
   jincheng:{name:'Jincheng · 晋城',desc:'Southern Taihang landscapes, folk performance, traditional food and historic courtyard culture meet in this emerging wellness-travel destination.',status:'● First destination guide available',highlights:[['Nature','Southern Taihang & Wangmangling'],['Culture','Situ Town & ancient compounds']]},
   yuncheng:{name:'Yuncheng · 运城',desc:'Southernmost Shanxi combines ancient history, salt-lake landscapes, temples and local food traditions. A fuller guide will follow source checks.',status:'● City overview · guide in development',highlights:[['Heritage','Ancient temples & historic sites'],['Landscape','Salt-lake region & southern Shanxi']]}
@@ -114,7 +114,8 @@
   mapNodes.forEach(n=>n.classList.toggle('is-active',n.dataset.city===id));chips.forEach(n=>n.classList.toggle('is-active',n.dataset.city===id));
   name.textContent=c.name;desc.textContent=c.desc;status.textContent=c.status;
   highlights.innerHTML=c.highlights.map(h=>'<div class="shx-highlight"><strong>'+h[0]+'</strong><span>'+h[1]+'</span></div>').join('');
-  if(id==='jincheng'){link.href='jincheng.html';link.style.display='inline-flex';link.innerHTML='Explore Jincheng guide <span aria-hidden="true">↗</span>';soon.textContent='The Jincheng guide is the first destination page in this pilot.';}
+  if(id==='jincheng'){link.href='jincheng.html#situ';link.style.display='inline-flex';link.innerHTML='Explore Situ Town &amp; Jincheng guide <span aria-hidden="true">↗</span>';soon.textContent='Explore Jincheng’s mountain scenery, folk culture and historic compounds.';}
+  else if(id==='linfen'){link.href='linfen.html';link.style.display='inline-flex';link.innerHTML='Explore Linfen: food, culture &amp; landscapes <span aria-hidden="true">↗</span>';soon.textContent='Linfen now has a detailed guide with local food, major sites, seasonal climate and a suggested three-day route.';}
   else{link.href='#';link.style.display='none';soon.textContent='This city profile is an initial orientation. A fully sourced destination guide is coming in a later build.';}
  }
  mapNodes.forEach(n=>{n.addEventListener('click',()=>selectCity(n.dataset.city));n.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectCity(n.dataset.city);}})});
