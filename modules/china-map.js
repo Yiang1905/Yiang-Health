@@ -23,7 +23,7 @@
     ['wuhan','Wuhan',114.3,30.59,'planned','A transport hub where the Yangtze and Han rivers meet, with room for future city and regional itineraries.','Wuhan Tianhe International Airport.','Wuhan, Hankou and Wuchang stations serve different routes; verify your ticket.','Combine metro and taxis, allowing time for cross-river trips.','River junction','City walks','destinations.html'],
     ['xiamen','Xiamen',118.08,24.48,'planned','A coastal city and a potential base for exploring Minnan culture and seaside scenery.','Xiamen Gaoqi International Airport.','Check whether Xiamen or Xiamen North best matches your accommodation.','Island and mainland transfers differ; check the location of your hotel and sights.','Coastal scenery','Minnan culture','destinations.html'],
     ['lhasa','Lhasa',91.13,29.65,'planned','A high-altitude cultural and landscape destination. Elevation, season and a gradual itinerary deserve careful planning.','Lhasa Gonggar Airport.','Check the current rail route and allow for a long journey.','Distances and altitude matter; use reliable transport and check current local requirements.','High-altitude scenery','Culture','destinations.html'],
-    ['shanxi','Shanxi · Jincheng first',112.85,35.49,'home','Yiang Health comes from Shanxi. Our first in-depth local guide starts in Jincheng: Southern Taihang scenery, Situ Town’s iron-flower show, regional food and historic courtyards.','Compare nearby airports plus ground transfers by total door-to-door time, not flight time alone.','Check current services to Jincheng East and plan the final transfer to your hotel or attraction.','Before visiting Situ Town, verify the visitor entrance, parking arrangements and any dated offers. Check weather and road conditions for mountain trips.','Our home province','First local guide','jincheng.html']
+    ['shanxi','Shanxi · Jincheng first',112.85,35.49,'home','Yiang Health comes from Shanxi. Our first in-depth local guide starts in Jincheng: Southern Taihang scenery, Situ Town’s iron-flower show, regional food and historic courtyards.','Compare nearby airports plus ground transfers by total door-to-door time, not flight time alone.','Check current services to Jincheng East and plan the final transfer to your hotel or attraction.','Before visiting Situ Town, verify the visitor entrance, parking arrangements and any dated offers. Check weather and road conditions for mountain trips.','Our home province','First local guide','jincheng.html#situ']
   ];
 
   const layer = document.getElementById('china-map-markers');
@@ -57,7 +57,7 @@
     rail.textContent = place[7];
     road.textContent = place[8];
     link.href = place[11];
-    link.textContent = place[0] === 'shanxi' ? 'Explore Shanxi & Jincheng ↗' : 'Explore destination overview ↗';
+    link.textContent = place[0] === 'shanxi' ? 'Explore Situ Town & Jincheng ↗' : 'Explore destination overview ↗';
     kicker.textContent = place[0] === 'shanxi' ? 'OUR HOME BASE · FIRST DETAILED GUIDE' : (place[4] === 'planned' ? 'FUTURE DESTINATION · TRAVEL NOTES' : 'PILOT DESTINATION · GETTING THERE');
   }
 
