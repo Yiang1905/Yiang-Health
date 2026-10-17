@@ -1,4 +1,4 @@
-﻿const CACHE = 'yiang-health-v1.5-shanxi';
+﻿const CACHE = 'yiang-health-v1.6-jincheng-climate';
 const ASSETS = [
   './','./index.html','./planner.html','./dashboard.html','./destinations.html',
   './city.html','./shanxi.html','./jincheng.html','./pricing.html','./safety.html','./terms.html','./privacy.html',
