@@ -36,7 +36,7 @@
 .shx-highlight strong{display:block;color:#f4e2bc;font-size:1.15rem;margin-bottom:4px}
 .shx-highlight span{font-size:.77rem;line-height:1.45;color:#c9d9ce}
 .shx-city-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto}
-.shx-city-chip{border:1px solid #ffffff30;border-radius:999px;padding:8px 11px;color:#e7eee7;background:#ffffff09;font-size:.78rem;cursor:pointer;transition:background .18s,border-color .18s}
+.shx-city-chip{display:inline-flex;align-items:center;border:1px solid #ffffff30;border-radius:999px;padding:8px 11px;color:#e7eee7;background:#ffffff09;font-size:.78rem;cursor:pointer;text-decoration:none;transition:background .18s,border-color .18s}
 .shx-city-chip:hover,.shx-city-chip.is-active{background:#e0c18b;color:#203d32;border-color:#e0c18b}
 .shx-panel-cta{display:inline-flex;align-items:center;justify-content:center;gap:10px;margin-top:20px;border-radius:999px;padding:14px 18px;background:#f0d9aa;color:#213f33;text-decoration:none;font-weight:800;transition:transform .18s}
 .shx-panel-cta:hover{transform:translateY(-2px)}

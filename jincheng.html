@@ -24,7 +24,7 @@
     .jt-info-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.jt-info{padding:20px;border-radius:20px;background:#e8eee5;border:1px solid #d8e3d6}.jt-info h3{margin:0 0 8px;color:#1b4133}.jt-info p{margin:0;color:#68796f;line-height:1.7;font-size:.92rem}
     .jt-status{display:inline-block;border-radius:30px;background:#fff2d9;color:#765a22;padding:6px 10px;font-size:.76rem;font-weight:800}
     .jt-source{font-size:.82rem;color:#7b847b;line-height:1.7}.jt-source a{color:#356b56}
-    @media(max-width:760px){.jt-quick{grid-template-columns:1fr 1fr}.jt-feature{grid-template-columns:1fr}.jt-photo-grid,.jt-info-grid{grid-template-columns:1fr}.jt-photo-grid img{height:230px}.jt-hero{min-height:390px}}
+    .jt-weather{display:grid;grid-template-columns:1fr 1.2fr;gap:20px;margin-top:18px;padding:24px;border:1px solid #dfe7dc;border-radius:24px;background:linear-gradient(130deg,#173e35,#2d5d4a);color:#f5f5e9}.jt-weather h3{font:500 clamp(1.5rem,3vw,2.2rem)/1.1 Georgia,serif;margin:12px 0;color:#fff}.jt-weather p{color:#d4e0d6;line-height:1.65}.jt-weather .shx-kicker{color:#e0c18b}.jt-weather .shx-kicker:before{background:#e0c18b}.jt-weather-metrics{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.jt-weather-metrics div{padding:15px;border:1px solid #ffffff22;background:#ffffff0b;border-radius:16px}.jt-weather-metrics span{display:block;color:#c8d8cd;font-size:.8rem}.jt-weather-metrics strong{display:block;color:#fff;font-size:1.45rem;margin-top:5px}.jt-weather-note{grid-column:1/-1;margin:0}.jt-attraction-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.jt-attraction{display:grid;grid-template-columns:40% 1fr;overflow:hidden;border:1px solid #dfe7dc;border-radius:22px;background:#fff;min-height:230px}.jt-attraction img{width:100%;height:100%;min-height:230px;object-fit:cover}.jt-attraction div{padding:20px}.jt-attraction span{font-size:.68rem;font-weight:800;letter-spacing:.13em;color:#628573}.jt-attraction h3{font:500 1.4rem/1.15 Georgia,serif;color:#1b3d32;margin:9px 0}.jt-attraction p{font-size:.9rem;line-height:1.65;color:#68796f}.jt-attraction a{color:#356b56;font-size:.85rem;font-weight:800;text-decoration:none}.jt-attraction a:hover{text-decoration:underline}.jt-weather-note{font-size:.84rem}.jt-quick a:hover{transform:translateY(-2px);border-color:#a9c2ad}.jt-quick a{transition:transform .2s,border-color .2s}@media(max-width:900px){.jt-attraction-grid{grid-template-columns:1fr}.jt-attraction{grid-template-columns:35% 1fr}}@media(max-width:760px){.jt-quick{grid-template-columns:1fr 1fr}.jt-feature{grid-template-columns:1fr}.jt-photo-grid,.jt-info-grid{grid-template-columns:1fr}.jt-photo-grid img{height:230px}.jt-hero{min-height:390px}.jt-weather{grid-template-columns:1fr}.jt-attraction{grid-template-columns:1fr}.jt-attraction img{height:210px;min-height:0}}
   </style>
 </head>
 <body>
@@ -47,7 +47,23 @@
     <a href="#wangmangling">02 · Wangmangling<small>Mountain views & clouds</small></a>
     <a href="#huangcheng">03 · Huangcheng Xiangfu<small>Grand historic residences</small></a>
     <a href="#dayang">04 · Dayang Ancient Town<small>Old streets & local life</small></a>
+    <a href="#climate">05 · Climate & live weather<small>Seasonal guide and current conditions</small></a>
+    <a href="#local-highlights">06 · More local highlights<small>Temples, forts and nature</small></a>
   </nav>
+
+  <section class="shx-section" id="climate">
+    <div class="shx-section-heading"><span class="shx-kicker">WEATHER & SEASONS</span><h2>Know the climate before you go.</h2><p>Jincheng has a warm-temperate, semi-humid continental monsoon climate with four distinct seasons. Spring can be breezy, summer is warmer and wetter, autumn is often crisp, and winter is cold and comparatively dry. Mountain areas such as Wangmangling can be cooler and foggier than the city.</p></div>
+    <div class="jt-info-grid">
+      <article class="jt-info"><h3>Spring · Mar–May</h3><p>Changeable temperatures and breezy days. Bring layers and check dust, wind and mountain-road conditions.</p></article>
+      <article class="jt-info"><h3>Summer · Jun–Aug</h3><p>Warmer weather with most of the seasonal rain. Carry water and rain protection; check warnings before hiking or driving in the Taihang mountains.</p></article>
+      <article class="jt-info"><h3>Autumn & winter</h3><p>Autumn is often comfortable for heritage visits; winter can be cold with icy or windy conditions. Pack a warm outer layer and check local forecasts.</p></article>
+    </div>
+    <div class="jt-weather" id="jt-weather" aria-live="polite">
+      <div><span class="shx-kicker">JINCHENG · LIVE WEATHER</span><h3 id="jt-weather-summary">Checking current conditions…</h3><p id="jt-weather-updated">Live readings load from a public weather service when you open this page.</p></div>
+      <div class="jt-weather-metrics"><div><span>Temperature</span><strong id="jt-temp">—</strong></div><div><span>Feels like</span><strong id="jt-feels">—</strong></div><div><span>Humidity</span><strong id="jt-humidity">—</strong></div><div><span>Wind</span><strong id="jt-wind">—</strong></div></div>
+      <p class="jt-weather-note" id="jt-weather-note">For mountain visits, check the destination-specific forecast too; city weather does not guarantee clear views at elevation.</p>
+    </div>
+  </section>
 
   <section class="shx-section" id="situ">
     <span class="shx-kicker">THE NIGHT-TIME SIGNATURE</span>
@@ -96,6 +112,19 @@
     </div>
   </section>
 
+  <section class="shx-section" id="local-highlights">
+    <div class="shx-section-heading"><span class="shx-kicker">BEYOND THE FIRST FOUR</span><h2>More reasons to stay in Jincheng.</h2><p>Use the city as a base for ancient temples, traditional settlements and Southern Taihang nature. Travel times and opening arrangements vary, so group stops by area and verify access before departure.</p></div>
+    <div class="jt-attraction-grid">
+      <article class="jt-attraction"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Yuhuangmiao_Jincheng.jpg/800px-Yuhuangmiao_Jincheng.jpg" alt="Historic temple architecture in Jincheng" loading="lazy"><div><span>ANCIENT ART</span><h3>Yuhuang Temple · 玉皇庙</h3><p>Known for its remarkable historic sculpture tradition, including the celebrated Twenty-Eight Constellations. A strong choice for visitors interested in Chinese temple art and architectural history.</p><a href="https://ditu.amap.com/search?query=%E6%99%8B%E5%9F%8E%E7%8E%89%E7%9A%87%E5%BA%99" target="_blank" rel="noopener">Find the temple on Amap ↗</a></div></article>
+      <article class="jt-attraction"><img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1000&q=80" alt="Mountain landscape representing the region's nature routes" loading="lazy"><div><span>TAIHANG NATURE</span><h3>Wangmangling · 王莽岭</h3><p>Layered cliffs, broad ridgelines and cloud-sea views when conditions cooperate. Reserve a full day and confirm mountain transport, trail access and weather.</p><a href="#wangmangling">Read the mountain guide ↗</a></div></article>
+      <article class="jt-attraction"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Huangcheng_Xiangfu_2.JPG/800px-Huangcheng_Xiangfu_2.JPG" alt="Traditional towers and courtyard architecture at Huangcheng Xiangfu" loading="lazy"><div><span>HISTORIC RESIDENCES</span><h3>Guoyu Ancient City · 郭峪古城</h3><p>A historic walled settlement near Huangcheng Xiangfu, worth considering for its lanes, traditional dwellings and defensive architecture. Check which areas are open to visitors.</p><a href="https://ditu.amap.com/search?query=%E9%83%AD%E5%B3%AA%E5%8F%A4%E5%9F%8E" target="_blank" rel="noopener">Find Guoyu Ancient City on Amap ↗</a></div></article>
+      <article class="jt-attraction"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Manghe_nature_reserve.jpg/800px-Manghe_nature_reserve.jpg" alt="Green mountain valleys in a nature reserve" loading="lazy"><div><span>WILDLIFE & VALLEYS</span><h3>Manghe Scenic Area · 蟒河景区</h3><p>A nature-focused outing in Yangcheng County, with forested slopes and valley scenery. Best planned as a separate trip; check seasonal access and road conditions.</p><a href="https://ditu.amap.com/search?query=%E8%9F%92%E6%B2%B3%E6%99%AF%E5%8C%BA" target="_blank" rel="noopener">Find Manghe on Amap ↗</a></div></article>
+      <article class="jt-attraction"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Di_Ji_Cheng.jpg/800px-Di_Ji_Cheng.jpg" alt="Historic stone settlement architecture" loading="lazy"><div><span>STONE FORTRESS</span><h3>Diji City · 砥洎城</h3><p>A distinctive fortified settlement in Yangcheng County, built with local materials and shaped by defensive needs. A rewarding stop for architecture enthusiasts travelling in the county.</p><a href="https://ditu.amap.com/search?query=%E7%A0%A5%E6%B4%8E%E5%9F%8E" target="_blank" rel="noopener">Find Diji City on Amap ↗</a></div></article>
+      <article class="jt-attraction"><img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1000&q=80" alt="Wooded landscape for a relaxed city outing" loading="lazy"><div><span>GREEN ESCAPE</span><h3>Baimasi Mountain · 白马寺山</h3><p>An accessible green-space option for a lighter outing around the city. Suitable for a walk and views; check local opening arrangements and trail conditions.</p><a href="https://ditu.amap.com/search?query=%E7%99%BD%E9%A9%AC%E5%AF%BA%E5%B1%B1" target="_blank" rel="noopener">Find Baimasi Mountain on Amap ↗</a></div></article>
+    </div>
+    <div class="jt-callout"><b>Planning tip:</b> Yuhuang Temple and Baimasi Mountain suit shorter city-area visits. Huangcheng Xiangfu, Guoyu Ancient City, Diji City and Manghe are in the wider region and are better grouped by county rather than squeezed into one route.</div>
+  </section>
+
   <section class="shx-section" id="trip-plan">
     <div class="shx-section-heading"><span class="shx-kicker">MAKE IT A REAL TRIP</span><h2>A simple plan that feels good on the ground.</h2><p>Don't cram every attraction into one day. Use this as a starting point, then confirm live transport and opening information.</p></div>
     <div class="jt-info-grid">
@@ -113,4 +142,32 @@
 </div></main>
 <footer class="site-footer"><div class="footer-inner"><p class="footer-disclaimer">Travel planning and cultural information only. Not medical advice, diagnosis, treatment or emergency care.</p><p class="footer-copy">© 2026 YIANG HEALTH · <a href="shanxi.html">Shanxi</a> · <a href="index.html">Home</a></p></div></footer>
 <script src="modules/i18n.js"></script><script src="script.js"></script>
+<script>
+(function(){
+  const $ = id => document.getElementById(id);
+  const labels = {0:'Clear sky',1:'Mainly clear',2:'Partly cloudy',3:'Overcast',45:'Fog',48:'Depositing rime fog',51:'Light drizzle',53:'Drizzle',55:'Dense drizzle',56:'Freezing drizzle',57:'Heavy freezing drizzle',61:'Light rain',63:'Rain',65:'Heavy rain',66:'Freezing rain',67:'Heavy freezing rain',71:'Light snow',73:'Snow',75:'Heavy snow',77:'Snow grains',80:'Rain showers',81:'Rain showers',82:'Heavy rain showers',85:'Snow showers',86:'Heavy snow showers',95:'Thunderstorm',96:'Thunderstorm with hail',99:'Thunderstorm with heavy hail'};
+  async function loadWeather(){
+    try {
+      const url='https://api.open-meteo.com/v1/forecast?latitude=35.490&longitude=112.852&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,weather_code&forecast_days=3&timezone=Asia%2FShanghai';
+      const response=await fetch(url,{cache:'no-store'});
+      if(!response.ok) throw new Error('weather service unavailable');
+      const data=await response.json(), c=data.current, d=data.daily;
+      const fmt=n=>Math.round(n);
+      $('jt-weather-summary').textContent=(labels[c.weather_code]||'Current conditions')+' · Jincheng';
+      $('jt-temp').textContent=fmt(c.temperature_2m)+'°C';
+      $('jt-feels').textContent=fmt(c.apparent_temperature)+'°C';
+      $('jt-humidity').textContent=fmt(c.relative_humidity_2m)+'%';
+      $('jt-wind').textContent=fmt(c.wind_speed_10m)+' km/h';
+      const time=(c.time||'').replace('T',' ');
+      $('jt-weather-updated').textContent='Updated from Open-Meteo · '+time+' (China Standard Time). Forecast for the next days: '+d.time.map((day,i)=>day.slice(5)+' '+fmt(d.temperature_2m_min[i])+'–'+fmt(d.temperature_2m_max[i])+'°C, '+(labels[d.weather_code[i]]||'conditions vary')).join(' · ')+'.';
+      $('jt-weather-note').textContent='Current city reading, not a guarantee for the mountain areas. Check the local forecast again before leaving, especially for Wangmangling and other exposed routes.';
+    } catch (e) {
+      $('jt-weather-summary').textContent='Live weather is temporarily unavailable';
+      $('jt-weather-updated').textContent='Please check the latest Jincheng forecast before travelling.';
+      $('jt-weather-note').textContent='Climate guide: warm-temperate, semi-humid continental monsoon climate; four distinct seasons. Mountain conditions may differ from the city.';
+    }
+  }
+  loadWeather();
+})();
+</script>
 </body></html>
