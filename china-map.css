@@ -1,4 +1,3 @@
-
 /* China-first interactive destination map */
 body.home-redesign .shanxi-feature{display:none}
 .china-map-section{padding:clamp(48px,7vw,92px) 20px;background:#f2f0e8;border-top:1px solid #e2e0d6;border-bottom:1px solid #e2e0d6}
@@ -14,12 +13,10 @@ body.home-redesign .shanxi-feature{display:none}
 .china-map-promise strong{color:#244b3b;font-size:.95rem}.china-map-promise span{color:#718075;line-height:1.65;font-size:.88rem}
 .china-map-stage{background:#fcfbf7;border:1px solid #e3e3d8;border-radius:26px;padding:16px 16px 13px;box-shadow:0 15px 45px #233d2c0b}
 .china-map-stage-top{display:flex;justify-content:space-between;gap:10px;padding:5px 8px 0;color:#7d897c;font-size:.69rem;letter-spacing:.12em;font-weight:800}.china-map-stage-top span:last-child{letter-spacing:0;font-weight:500}
-.china-national-map{display:block;width:100%;max-height:490px;overflow:visible}
-.china-land{fill:url(#chinaLand);stroke:#aabca8;stroke-width:1.7;stroke-linejoin:round}
-.china-west-ridge,.china-river{fill:none;stroke:#9eb7a3;stroke-width:1.4;opacity:.72;stroke-linecap:round}.china-river{stroke:#8ab5b3;stroke-width:2.2;opacity:.8}
+.china-national-map{display:block;width:100%;height:auto;max-height:560px;overflow:visible}.china-national-map image{opacity:.88;filter:sepia(.12) saturate(.72)}
 .china-island{fill:#d4dfd0;stroke:#aabca8;stroke-width:1.4}.china-map-label{font:700 24px Georgia,serif;letter-spacing:.18em;fill:#a2b3a0;opacity:.7;text-anchor:middle}.china-map-sub-label{font:500 14px sans-serif;fill:#9aac9c;text-anchor:middle}
-.china-marker{cursor:pointer;outline:none}.china-marker .marker-halo{fill:#c4784a;opacity:.13}.china-marker .marker-dot{fill:#c4784a;stroke:#fffaf2;stroke-width:2.5;transition:r .15s ease,fill .15s ease}.china-marker.is-planned .marker-dot{fill:#aeb7ac}.china-marker.is-planned .marker-halo{fill:#aeb7ac;opacity:.13}.china-marker.is-planned .marker-label{fill:#778177}
-.china-marker .marker-label{font:600 11px 'DM Sans',sans-serif;fill:#654a3c;paint-order:stroke;stroke:#f7f5ed;stroke-width:3.5px;stroke-linejoin:round;pointer-events:none}
+.china-marker{cursor:pointer;outline:none}.china-marker .marker-halo{fill:#c4784a;opacity:.18}.china-marker .marker-dot{fill:#c4784a;stroke:#fffaf2;stroke-width:2.5;transition:r .15s ease,fill .15s ease}.china-marker.is-planned .marker-dot{fill:#aeb7ac}.china-marker.is-planned .marker-halo{fill:#aeb7ac;opacity:.13}.china-marker.is-planned .marker-label{fill:#778177}
+.china-marker .marker-label{font:700 18px 'DM Sans',sans-serif;fill:#654a3c;paint-order:stroke;stroke:#f7f5ed;stroke-width:3.5px;stroke-linejoin:round;pointer-events:none}
 .china-marker.is-home .marker-dot{fill:#176e54;stroke:#eaf5ec;stroke-width:3}.china-marker.is-home .marker-halo{fill:#176e54;opacity:.2}.china-marker.is-home .marker-label{fill:#155540;font-weight:800}
 .china-marker.is-selected .marker-halo{opacity:.36;r:14}.china-marker.is-selected .marker-dot{fill:#243f33;r:7}.china-marker.is-selected .marker-label{fill:#193d2e;font-weight:800}.china-marker:focus-visible .marker-dot{stroke:#263c2f;stroke-width:4}
 .china-map-caption{display:flex;justify-content:space-between;align-items:center;gap:12px;border-top:1px solid #e9e7dd;padding:13px 7px 3px;color:#899087;font-size:.76rem}.china-map-caption a{font-weight:700;color:#315e49;white-space:nowrap}

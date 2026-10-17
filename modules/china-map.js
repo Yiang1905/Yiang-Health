@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   const places = [
     ['hulunbuir','Hulunbuir',119.76,49.17,'pilot','Open grasslands, wetlands and vast northern landscapes. Distances between sights can be substantial, so plan the final road transfer.','Hailar Dongshan Airport; check seasonal routes.','Compare rail arrivals in Hailar with your exact destination.','Arrange reliable local transport for remote grassland and wetland sites.','Grasslands','Long-distance travel','destinations.html'],
     ['heihe','Heihe',127.5,50.25,'pilot','A Heilongjiang River border city with northeastern food and seasonal nature experiences. Check current rules before visiting border areas.','Check current flights to Heihe Airport.','Compare train services from Harbin and other regional hubs.','Taxis can work in town; confirm access rules for border-area visits.','Riverfront city','Border culture','destinations.html'],
@@ -34,7 +34,7 @@
     Object.entries(attrs).forEach(([key, value]) => n.setAttribute(key, value));
     return n;
   };
-  const xy = p => ({ x: 55 + (p[2] - 73) / (135 - 73) * 585, y: 48 + (54 - p[3]) / (54 - 18) * 405 });
+  const xy = p => ({ x: 55 + (p[2] - 73) / (135 - 73) * 890, y: 28 + (54 - p[3]) / (54 - 18) * 760 });
   const title = document.getElementById('china-panel-title');
   const desc = document.getElementById('china-panel-description');
   const tags = document.getElementById('china-panel-tags');
