@@ -1,5 +1,5 @@
 /* China-first interactive destination map */
-body.home-redesign .shanxi-feature{display:none}
+/* Keep the dedicated Shanxi feature visible alongside the national destination map. */
 .china-map-section{padding:clamp(48px,7vw,92px) 20px;background:#f2f0e8;border-top:1px solid #e2e0d6;border-bottom:1px solid #e2e0d6}
 .china-map-wrap,.china-destination-panel{max-width:1160px;margin:0 auto}
 .china-map-wrap{display:grid;grid-template-columns:minmax(260px,.8fr) minmax(420px,1.2fr);gap:clamp(24px,5vw,68px);align-items:center}
