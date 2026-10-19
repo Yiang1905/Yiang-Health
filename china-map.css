@@ -42,3 +42,9 @@
 /* Neutral province labels, translated with the active interface language. */
 .province-label{font:600 11px/1.1 Arial,sans-serif;fill:#50665b;paint-order:stroke;stroke:#f7f7f0;stroke-width:3px;stroke-linejoin:round;pointer-events:none;opacity:.92}
 @media(max-width:700px){.province-label{font-size:9px;stroke-width:2.5px}}
+
+/* Extra spacing for the densest eastern-coast province labels. */
+#province-labels text:nth-of-type(17){transform:translate(22px,-10px)}
+#province-labels text:nth-of-type(18){transform:translate(-22px,12px)}
+#province-labels text:nth-of-type(33){transform:translate(24px,-10px)}
+#province-labels text:nth-of-type(34){transform:translate(-22px,14px)}
