@@ -38,3 +38,7 @@
 /* City names are real map links, not decorative labels. */
 .china-marker .marker-label { pointer-events: auto; cursor: pointer; }
 .china-marker .marker-label:hover, .china-marker .marker-label:focus-visible { text-decoration: underline; paint-order: stroke; stroke: rgba(255,255,255,.95); stroke-width: 3px; stroke-linejoin: round; }
+
+/* Neutral province labels, translated with the active interface language. */
+.province-label{font:600 11px/1.1 Arial,sans-serif;fill:#50665b;paint-order:stroke;stroke:#f7f7f0;stroke-width:3px;stroke-linejoin:round;pointer-events:none;opacity:.92}
+@media(max-width:700px){.province-label{font-size:9px;stroke-width:2.5px}}
