@@ -47,19 +47,22 @@
 
   function selectPlace(place, marker) {
     layer.querySelectorAll('.china-marker').forEach(node => node.classList.toggle('is-selected', node === marker));
-    title.textContent = place[1];
-    desc.textContent = place[5];
+    const lang = window.I18n ? I18n.getCurrentLang() : 'en';
+    const zh = lang === 'zh-CN' || lang === 'zh-TW';
+    const namesZh = {hulunbuir:'呼伦贝尔',heihe:'黑河',yanbian:'延边 / 延吉',beijing:'北京',tianjin:'天津',shanghai:'上海',nantong:'南通',zhejiang:'浙江 · 杭州',shandong:'山东 · 济南',guangdong:'广东 · 广州',guangxi:'广西 · 南宁',hainan:'海南',chongqing:'重庆',chengdu:'成都',kunming:'昆明',shaanxi:'陕西 · 西安',gansu:'甘肃 · 兰州',urumqi:'乌鲁木齐',zhengzhou:'郑州',nanjing:'南京',wuhan:'武汉',xiamen:'厦门',lhasa:'拉萨',linfen:'临汾',shanxi:'山西 · 晋城'};
+    title.textContent = zh ? (namesZh[place[0]] || place[1]) : place[1];
+    desc.textContent = zh ? '这里提供目的地出行概览。航班、车次、景区开放时间和道路状况可能变化，请在出发前核对官方信息。' : place[5];
     tags.replaceChildren(...place.slice(9, 11).map(label => {
       const span = document.createElement('span');
-      span.textContent = label;
+      span.textContent = zh ? (place[0] === 'shanxi' ? '山西家乡' : place[0] === 'linfen' ? '黄河风光' : '目的地指南') : label;
       return span;
     }));
-    air.textContent = place[6];
-    rail.textContent = place[7];
-    road.textContent = place[8];
+    air.textContent = zh ? '按抵达机场、住宿地点与最终接驳时间综合比较航班。' : place[6];
+    rail.textContent = zh ? '核对车票上的具体车站，并提前规划车站至酒店或景点的接驳。' : place[7];
+    road.textContent = zh ? '提前确认最后一段路程、停车与当地交通安排。' : place[8];
     link.href = place[11];
-    link.textContent = place[0] === 'shanxi' ? 'Explore Situ Town and Jincheng' : 'Explore destination overview';
-    kicker.textContent = place[0] === 'shanxi' ? 'OUR HOME BASE | FIRST DETAILED GUIDE' : (place[4] === 'planned' ? 'FUTURE DESTINATION | TRAVEL NOTES' : 'PILOT DESTINATION | GETTING THERE');
+    link.textContent = zh ? '查看目的地指南 ↗' : (place[0] === 'shanxi' ? 'Explore Situ Town and Jincheng' : 'Explore destination overview');
+    kicker.textContent = zh ? (place[4] === 'planned' ? '未来目的地 · 出行提示' : place[0] === 'shanxi' ? '山西家乡 · 首个详细指南' : '试点目的地 · 出行提示') : (place[0] === 'shanxi' ? 'OUR HOME BASE | FIRST DETAILED GUIDE' : (place[4] === 'planned' ? 'FUTURE DESTINATION | TRAVEL NOTES' : 'PILOT DESTINATION | GETTING THERE'));
   }
 
   places.forEach(place => {
