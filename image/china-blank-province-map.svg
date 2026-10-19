@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="850">
 <title>Blank map of China (provinces only)</title>
 <defs>
@@ -7,7 +7,7 @@
 	<!-- Options for disputed areas are #pXJd and #pXZd for PRC-controlled areas, and #pTW for Taiwan. -->
 	
 	.province {fill:#dce6dc}
-	#pXJd, #pXZd {fill:#eef1e8}
+	#pXJd, #pXZd {fill:#dce6dc}
 	
   </style>
 </defs>
