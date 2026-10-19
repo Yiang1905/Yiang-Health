@@ -34,3 +34,7 @@
 .china-marker:hover .marker-label,
 .china-marker:focus-visible .marker-label,
 .china-marker.is-selected .marker-label { display: block; }
+
+/* City names are real map links, not decorative labels. */
+.china-marker .marker-label { pointer-events: auto; cursor: pointer; }
+.china-marker .marker-label:hover, .china-marker .marker-label:focus-visible { text-decoration: underline; paint-order: stroke; stroke: rgba(255,255,255,.95); stroke-width: 3px; stroke-linejoin: round; }
