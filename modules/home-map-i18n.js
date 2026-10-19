@@ -26,6 +26,17 @@
     const link=document.getElementById('china-panel-link');if(link)link.textContent=zh?'查看目的地指南 ↗':'Explore destination overview ↗';
     document.querySelectorAll('.china-route-row strong').forEach((e,i)=>{if(zh)e.textContent=['乘飞机','乘高铁','公路与当地接驳'][i];else e.textContent=['By air','By high-speed rail','By road & local transfer'][i];});
     document.querySelectorAll('.scp-card h3').forEach((e,i)=>e.textContent=zh?['晋城','临汾'][i]:['Jincheng · 晋城','Linfen · 临汾'][i]);
+    const cardText=zh?[
+      ['太行南段','打铁花表演、山地风光、古堡院落与地方美食。','探索晋城 ↗'],
+      ['黄河与古老中国','壶口瀑布、陶寺遗址、洪洞寻根文化、古寺与丰富的县域饮食。','探索临汾 ↗']
+    ]:[
+      ['THE SOUTHERN TAIHANG','Iron-flower performances, mountain ridgelines, historic courtyards and hearty local food.','Explore Jincheng ↗'],
+      ['THE YELLOW RIVER & ANCIENT CHINA','Hukou Waterfall, Taosi archaeology, Hongtong family-history traditions, temples and a rich county-by-county food culture.','Explore Linfen ↗']
+    ];
+    document.querySelectorAll('.scp-card').forEach((e,i)=>{const spans=e.querySelectorAll('span');if(spans[0])spans[0].textContent=cardText[i][0];const p=e.querySelector('p');if(p)p.textContent=cardText[i][1];const strong=e.querySelector('strong');if(strong)strong.textContent=cardText[i][2];});
+    const panelDesc=document.getElementById('china-panel-description');if(panelDesc&&zh)panelDesc.textContent='选择地图上的城市标记，查看当地交通与行程提示。具体航班、车次、开放时间和道路情况，请出行前以官方信息为准。';
+    document.querySelectorAll('.china-route-row p').forEach((e,i)=>{if(zh)e.textContent=['请按抵达机场、住宿地点与最终接驳时间综合比较航班。','核对车票上的具体车站，并提前规划车站至酒店或景点的接驳。','提前确认最后一段路程、停车与当地交通安排。'][i];});
+    document.querySelectorAll('.scp-card img').forEach((e,i)=>{if(zh)e.alt=['晋城司徒小镇打铁花表演','临汾附近黄河壶口瀑布'][i];else e.alt=['Golden iron-flower sparks above Situ Town in Jincheng','The Yellow River surges through Hukou Waterfall near Linfen'][i];});
     const svg=document.getElementById('china-national-map');if(svg){let layer=svg.querySelector('#province-labels');if(!layer){layer=document.createElementNS('http://www.w3.org/2000/svg','g');layer.id='province-labels';svg.insertBefore(layer,svg.querySelector('#china-map-markers'));provinces.forEach(p=>{const x=55+(p[2]-73)/(135-73)*890,y=28+(54-p[3])/(54-18)*760;const t=document.createElementNS('http://www.w3.org/2000/svg','text');t.setAttribute('x',x);t.setAttribute('y',y);t.setAttribute('class','province-label');t.setAttribute('text-anchor','middle');t.dataset.en=p[0];t.dataset.zh=p[1];t.textContent=zh?p[1]:p[0];layer.appendChild(t);});}else layer.querySelectorAll('text').forEach(t=>t.textContent=zh?t.dataset.zh:t.dataset.en);}
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
