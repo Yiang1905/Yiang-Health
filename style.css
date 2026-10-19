@@ -1528,3 +1528,16 @@ a.city-card-link:hover {
   .home-redesign .logo { font-size: .96rem; letter-spacing: .06em; }
   .home-redesign .nav-toggle { flex: 0 0 32px; }
 }
+
+
+/* Responsive QA fix: keep navigation readable on compact laptop/tablet widths. */
+@media (min-width: 769px) and (max-width: 1000px) {
+  .header-inner { gap: 8px; padding-left: 12px; padding-right: 12px; }
+  .home-redesign .header-inner { gap: 8px; padding-left: 12px; padding-right: 12px; }
+  .home-redesign .logo { font-size: .95rem; letter-spacing: .02em; }
+  .home-redesign .nav-links { gap: 0; flex-shrink: 1; }
+  .home-redesign .nav-links a { font-size: .78rem; padding: 8px 5px; white-space: nowrap; }
+  .home-redesign .header-actions { gap: 6px; flex-shrink: 0; }
+  .home-redesign #lang-select { max-width: 110px; padding: 6px 6px; font-size: .78rem; }
+  .home-redesign .header-actions .btn { display: inline-flex; padding: 8px 10px; font-size: .78rem; white-space: nowrap; }
+}
