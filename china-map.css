@@ -27,3 +27,10 @@
 .china-route-actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:20px}.china-route-actions .btn{font-size:.82rem;padding:11px 15px}.china-map-footnote{max-width:1160px;margin:15px auto 0;color:#8a8e83;font-size:.75rem;line-height:1.7}
 @media(max-width:850px){.china-map-wrap{grid-template-columns:1fr}.china-map-intro>p{max-width:650px}.china-map-legend{grid-template-columns:1fr 1fr}.china-national-map{max-height:450px}.china-destination-panel{grid-template-columns:1fr}}
 @media(max-width:520px){.china-map-section{padding-left:13px;padding-right:13px}.china-map-stage{padding:10px;border-radius:19px}.china-map-stage-top{font-size:.62rem}.china-map-caption{align-items:flex-start;flex-direction:column}.china-map-caption a{white-space:normal}.china-map-legend{grid-template-columns:1fr}.china-destination-panel{padding:18px}.china-route-actions{display:grid}.china-route-actions .btn{text-align:center}}
+
+
+/* Reduce label collisions on the national map: reveal a name on hover, focus or selection. */
+.china-marker .marker-label { display: none; }
+.china-marker:hover .marker-label,
+.china-marker:focus-visible .marker-label,
+.china-marker.is-selected .marker-label { display: block; }
