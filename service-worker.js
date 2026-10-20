@@ -1,9 +1,9 @@
-﻿const CACHE = 'yiang-health-v1.7-linfen-guide';
+﻿const CACHE = 'yiang-health-v1.8-map-i18n-fix';
 const ASSETS = [
   './','./index.html','./planner.html','./dashboard.html','./destinations.html',
   './city.html','./shanxi.html','./jincheng.html','./linfen.html','./pricing.html','./safety.html','./terms.html','./privacy.html',
-  './style.css','./shanxi.css','./script.js','./manifest.json','./image/hero-wellness.webp',
-  './modules/config.js','./modules/data.js','./modules/safety.js','./modules/i18n.js',
+  './style.css','./shanxi.css','./china-map.css','./script.js','./manifest.json','./image/hero-wellness.webp','./image/china-blank-province-map.svg',
+  './modules/config.js','./modules/data.js','./modules/safety.js','./modules/i18n.js','./modules/china-map.js','./modules/home-map-i18n.js',
   './modules/wellness.js','./modules/access.js','./modules/destinations.js','./modules/planner.js',
   './data/pilots.json','./data/cities.json','./data/services.json'
 ];

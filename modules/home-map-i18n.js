@@ -20,7 +20,7 @@
     put('.city-links-label',d.cityLabel);put('.china-map-caption span',d.caption);put('.china-map-caption a',d.all);
     put('.scp-heading .section-kicker',d.pairKicker);put('#shanxi-city-pair-title',d.pairTitle);put('.scp-heading p',d.pairDesc);
     document.querySelectorAll('.china-city-links a').forEach((a,i)=>{if(cityNames[i])a.textContent=zh?cityNames[i][1]:cityNames[i][0];});
-    const markerZh={'Hulunbuir':'呼伦贝尔','Heihe':'黑河','Yanbian / Yanji':'延边 / 延吉','Beijing':'北京','Tianjin':'天津','Shanghai':'上海','Nantong':'南通','Zhejiang':'浙江','Shandong':'山东','Guangdong':'广东','Guangxi':'广西','Hainan':'海南','Chongqing':'重庆','Chengdu':'成都','Kunming':'昆明',"Shaanxi":"陕西","Gansu":"甘肃","Urumqi":"乌鲁木齐",'Linfen':'临汾','Shanxi':'山西'};
+    const markerZh={'Hulunbuir':'呼伦贝尔','Heihe':'黑河','Yanbian':'延边','Beijing':'北京','Tianjin':'天津','Shanghai':'上海','Nantong':'南通','Zhejiang':'浙江','Shandong':'山东','Guangdong':'广东','Guangxi':'广西','Hainan':'海南','Chongqing':'重庆','Chengdu':'成都','Kunming':'昆明',"Shaanxi":"陕西","Gansu":"甘肃","Urumqi":"乌鲁木齐",'Linfen':'临汾','Shanxi':'山西'};
     document.querySelectorAll('.marker-label').forEach(e=>{if(!e.dataset.en)e.dataset.en=e.textContent;const base=e.dataset.en.split(' / ')[0].split(' - ')[0];e.textContent=zh?(markerZh[base]||e.dataset.en):e.dataset.en;});
     document.querySelectorAll('.china-panel-kicker').forEach(e=>{if(zh){const k=e.id==='china-panel-kicker'?'山西 · 首个详细目的地指南':(e.textContent==='GETTING THERE'?'如何到达':e.textContent);e.textContent=k;}else{if(e.id==='china-panel-kicker')e.textContent='OUR HOME BASE | FIRST DETAILED GUIDE';else if(e.textContent==='如何到达')e.textContent='GETTING THERE';}});
     const link=document.getElementById('china-panel-link');if(link)link.textContent=zh?'查看目的地指南 ↗':'Explore destination overview ↗';
