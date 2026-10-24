@@ -1,4 +1,4 @@
-﻿const CACHE = 'yiang-health-v1.10-shanxi-city-labels';
+﻿const CACHE = 'yiang-health-v1.11-shanxi-page-labels';
 const ASSETS = [
   './','./index.html','./planner.html','./dashboard.html','./destinations.html',
   './city.html','./shanxi.html','./jincheng.html','./linfen.html','./pricing.html','./safety.html','./terms.html','./privacy.html',
