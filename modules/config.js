@@ -7,7 +7,7 @@
 const YiangConfig = {
   version: '1.4.0',
   productName: 'Yiang Health',
-  positioning: 'China TCM · Wellness · Culture journey planning for global visitors',
+  positioning: 'Everyday wellness, local culture, food, nature and health information for people in China',
 
   /** 展示用价格 */
   pricing: {

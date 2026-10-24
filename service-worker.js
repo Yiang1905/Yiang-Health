@@ -1,4 +1,4 @@
-﻿const CACHE = 'yiang-health-v1.8-map-i18n-fix';
+﻿const CACHE = 'yiang-health-v1.9-domestic-home';
 const ASSETS = [
   './','./index.html','./planner.html','./dashboard.html','./destinations.html',
   './city.html','./shanxi.html','./jincheng.html','./linfen.html','./pricing.html','./safety.html','./terms.html','./privacy.html',
