@@ -108,6 +108,9 @@
   yuncheng:{name:'Yuncheng · 运城',desc:'Southernmost Shanxi combines ancient history, salt-lake landscapes, temples and local food traditions. A fuller guide will follow source checks.',status:'● City overview · guide in development',highlights:[['Heritage','Ancient temples & historic sites'],['Landscape','Salt-lake region & southern Shanxi']]}
  };
  const mapNodes=[...document.querySelectorAll('.shx-city[data-city]')], chips=[...document.querySelectorAll('.shx-city-chip[data-city]')];
+ const cityLabels={datong:['Datong','大同','大同'],shuozhou:['Shuozhou','朔州','朔州'],xinzhou:['Xinzhou','忻州','忻州'],taiyuan:['Taiyuan','太原','太原'],lvliang:['Lvliang','吕梁','呂梁'],yangquan:['Yangquan','阳泉','陽泉'],jinzhong:['Jinzhong','晋中','晉中'],linfen:['Linfen','临汾','臨汾'],changzhi:['Changzhi','长治','長治'],jincheng:['Jincheng','晋城','晉城'],yuncheng:['Yuncheng','运城','運城']};
+ function applyCityLabels(){const stored=localStorage.getItem('yiang_health_lang')||'';const lang=stored.startsWith('zh')?stored:(window.I18n?I18n.getCurrentLang():stored||'en');const idx=lang==='zh-CN'?1:lang==='zh-TW'?2:0;mapNodes.forEach(n=>{const v=cityLabels[n.dataset.city],label=n.querySelector('text');if(v&&label)label.textContent=v[idx];if(v)n.setAttribute('aria-label',v[idx]);});chips.forEach(n=>{const v=cityLabels[n.dataset.city];if(v)n.textContent=v[idx];});}
+ window.addEventListener('yiang:langchange',applyCityLabels);applyCityLabels();
  const name=document.getElementById('shx-city-name'),desc=document.getElementById('shx-city-desc'),status=document.getElementById('shx-city-status'),highlights=document.getElementById('shx-city-highlights'),link=document.getElementById('shx-city-link'),soon=document.getElementById('shx-city-soon');
  function selectCity(id){
   const c=cities[id]||cities.jincheng;
