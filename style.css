@@ -1541,3 +1541,8 @@ a.city-card-link:hover {
   .home-redesign #lang-select { max-width: 110px; padding: 6px 6px; font-size: .78rem; }
   .home-redesign .header-actions .btn { display: inline-flex; padding: 8px 10px; font-size: .78rem; white-space: nowrap; }
 }
+
+/* Keep the compact header controls inside narrow mobile viewports. */
+@media(max-width:768px){.header-actions{gap:6px;min-width:0;flex:0 1 auto}#lang-select{width:84px;max-width:84px;min-width:0;padding:5px 5px;font-size:.72rem}.header-actions .btn{padding:6px 7px;font-size:.72rem;white-space:nowrap}}
+
+.photo-credit{margin:12px 0 0;color:var(--muted,#68786c);font-size:.78rem;line-height:1.6}.photo-credit a{color:inherit;text-decoration:underline;text-underline-offset:2px}
