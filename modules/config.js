@@ -46,14 +46,14 @@ const YiangConfig = {
     },
     wechat: {
       enabled: true,
-      essentialsQr: 'assets/qr/wechat-essentials.png',
-      fullQr: 'assets/qr/wechat-full.png',
+      essentialsQr: 'assets/qr/wechat-essentials.jpg',
+      fullQr: 'assets/qr/wechat-full.jpg',
       note: { en: 'WeChat Pay — scan with WeChat', 'zh-CN': '微信扫码支付' }
     },
     alipay: {
       enabled: true,
-      essentialsQr: 'assets/qr/alipay-essentials.png',
-      fullQr: 'assets/qr/alipay-full.png',
+      essentialsQr: 'assets/qr/alipay-essentials.jpg',
+      fullQr: 'assets/qr/alipay-full.jpg',
       note: { en: 'Alipay — scan with Alipay', 'zh-CN': '支付宝扫码支付' }
     }
   },
