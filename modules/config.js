@@ -32,7 +32,7 @@ const YiangConfig = {
    */
   payments: {
     stripe: {
-      enabled: true,
+      enabled: false,
       // 在 Stripe Dashboard → Payment Links 创建，成功 URL 设为 success.html
       essentialsUrl: '',  // 例: 'https://buy.stripe.com/xxxx'
       fullUrl: '',        // 例: 'https://buy.stripe.com/yyyy'
@@ -68,7 +68,7 @@ const YiangConfig = {
     master: 'YH-MASTER-DEMO'
   },
 
-  /** 付款成功后自动跳转的页面（已实现） */
+  /** Stripe Payment Link 成功后可跳转的备用页面；当前二维码收款需人工核验 */
   successPage: 'success.html',
 
   contact: {
@@ -76,8 +76,8 @@ const YiangConfig = {
     wechatId: '+86 186 0356 7665',
     tel: '+8618603567665',
     note: {
-      en: 'After payment you will be redirected automatically. No need to contact us.',
-      'zh-CN': '付款成功后会自动跳转，无需联系我们。'
+      en: 'After payment, send your receipt screenshot to us. We will issue an access code after manually confirming the payment.',
+      'zh-CN': '付款后请将支付凭证截图发送给我们；核实到账后会提供解锁码。'
     }
   },
 
