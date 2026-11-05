@@ -1,8 +1,13 @@
-﻿const CACHE = 'yiang-health-v1.12-shanxi-label-init';
+﻿const CACHE = 'yiang-health-v1.13-local-city-images-20261105';
 const ASSETS = [
   './','./index.html','./planner.html','./dashboard.html','./destinations.html',
   './city.html','./shanxi.html','./jincheng.html','./linfen.html','./pricing.html','./safety.html','./terms.html','./privacy.html',
   './style.css','./shanxi.css','./china-map.css','./script.js','./manifest.json','./image/hero-wellness.webp','./image/china-blank-province-map.svg',
+  './image/cities/jincheng-iron-flower.jpg','./image/cities/jincheng-wangmangling-cableway.jpg',
+  './image/cities/jincheng-huangcheng-xiangfu-1.jpg','./image/cities/jincheng-huangcheng-xiangfu-2.jpg',
+  './image/cities/jincheng-dayang-illustrative.jpg','./image/cities/jincheng-manghe-illustrative.jpg','./image/cities/jincheng-diji-illustrative.jpg',
+  './image/cities/linfen-hukou-waterfall.jpg','./image/cities/linfen-guangsheng-temple.jpg','./image/cities/linfen-xiaoxitian.jpg','./image/cities/linfen-taosi-pottery.jpg',
+  './image/cities/linfen-spring.jpg','./image/cities/linfen-summer.jpg','./image/cities/linfen-autumn.jpg','./image/cities/linfen-winter.jpg',
   './modules/config.js','./modules/data.js','./modules/safety.js','./modules/i18n.js','./modules/china-map.js','./modules/home-map-i18n.js',
   './modules/wellness.js','./modules/access.js','./modules/destinations.js','./modules/planner.js',
   './data/pilots.json','./data/cities.json','./data/services.json'
