@@ -1,8 +1,8 @@
 /**
- * Yiang Health — 收款配置（支持自动跳转）
+ * Yiang Health — 收款配置（当前以人工核验为准）
  *
- * 填好后部署即可。不要把任何密码、Secret Key 写进本文件。
- * 推荐：用 Stripe Payment Link（支持跨境到国内银行卡，付款后自动跳转成功页）
+ * 不要把密码、Secret Key 或私密凭证写进本文件。
+ * 静态页面不能验证实际到账；任何二维码付款都必须由收款方核实后再发放访问码。
  */
 const YiangConfig = {
   version: '1.4.0',
@@ -26,9 +26,8 @@ const YiangConfig = {
   },
 
   /**
-   * 收款方式（优先推荐 Stripe，实现真正自动跳转）
-   * Stripe Payment Link 创建后，把链接填到 stripe.essentialsUrl / fullUrl
-   * 成功页地址设为：你的域名/health/success.html?plan=essentials 或 full
+   * 收款方式：必须先配置并完成真实交易测试。
+   * 当前 Stripe / PayPal 关闭；微信 / 支付宝二维码如启用，均需人工核验到账。
    */
   payments: {
     stripe: {
@@ -59,8 +58,8 @@ const YiangConfig = {
   },
 
   /**
-   * 自动解锁码（付款成功页会自动使用，也可手动输入）
-   * 上线后请立即修改这些码
+   * 客户端演示解锁码：公开可见，不可作为安全的付费凭证。
+   * 不得将这些公开演示码用于真实收费业务；付费访问需服务端验证。
    */
   accessCodes: {
     essentials: 'YH-ESSENTIALS-2026',
@@ -68,11 +67,10 @@ const YiangConfig = {
     master: 'YH-MASTER-DEMO'
   },
 
-  /** Stripe Payment Link 成功后可跳转的备用页面；当前二维码收款需人工核验 */
+  /** 静态说明页；打开此页面不代表支付已成功或已到账 */
   successPage: 'success.html',
 
   contact: {
-    email: 'xhsj2005@gmail.com',
     wechatId: '+86 186 0356 7665',
     tel: '+8618603567665',
     note: {
