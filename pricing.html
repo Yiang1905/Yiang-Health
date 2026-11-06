@@ -34,13 +34,13 @@
 
     <main class="main">
     <h1 class="section-title text-center" data-i18n="pricing_title">Simple plans for your China journey</h1>
-    <p class="section-sub text-center">Pay with <strong>WeChat</strong> or <strong>Alipay</strong>. Planning fee only — not medical care.</p>
+    <p class="section-sub text-center">Pay with <strong>WeChat</strong> or <strong>Alipay</strong>. QR payments are manually checked; access codes are issued only after funds are confirmed. Planning fee only — not medical care.</p>
 
     <div class="foreign-card-tip">
       <span class="foreign-card-tip-icon">💳</span>
       <div>
-        <strong>International cards welcome.</strong> Don't have WeChat or Alipay yet? You can add your Visa / Mastercard / JCB card directly inside the WeChat or Alipay app, then scan our code to pay — no Chinese bank account needed.
-        <div class="foreign-card-tip-zh">境外卡用户请先在支付宝或微信内绑定您的国际信用卡(Visa / Mastercard / JCB),即可直接扫码付款,无需中国银行账户。</div>
+        <strong>Using an international card?</strong> Card binding and QR-payment eligibility depend on your app account, card issuer and merchant settings. Please confirm that your app allows this payment before proceeding.
+        <div class="foreign-card-tip-zh">境外卡用户请先在支付宝或微信中确认已绑定的国际信用卡可用于当前商户二维码付款，再进行支付。</div>
       </div>
     </div>
 
@@ -150,7 +150,6 @@
         var note = '';
         if(cfg.contact && cfg.contact.note) note = cfg.contact.note['zh-CN'] || cfg.contact.note.en || '';
         if(cfg.contact && cfg.contact.wechatId) note += ' 微信: ' + cfg.contact.wechatId;
-        if(cfg.contact && cfg.contact.email) note += ' Email: ' + cfg.contact.email;
         var n = $('#pay-contact-note'); if(n) n.textContent = note;
         panel.classList.remove('hidden');
         panel.scrollIntoView({behavior:'smooth', block:'nearest'});

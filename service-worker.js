@@ -1,4 +1,4 @@
-﻿const CACHE = 'yiang-health-v1.13-local-city-images-20261105';
+﻿const CACHE = 'yiang-health-v1.14-payment-copy-privacy-20261107';
 const ASSETS = [
   './','./index.html','./planner.html','./dashboard.html','./destinations.html',
   './city.html','./shanxi.html','./jincheng.html','./linfen.html','./pricing.html','./safety.html','./terms.html','./privacy.html',
