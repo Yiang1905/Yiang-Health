@@ -134,8 +134,8 @@
     </div>
 
     <div class="unlock-note">
-      Your guides for the 18 pilot regions are now unlocked on this device.<br>
-      You can return to the Planner or Destinations anytime.
+      Payment is not confirmed by opening this page. For QR payments, access is issued only after the funds are manually verified.<br>
+      Please use the access code provided after confirmation on the Pricing page.
     </div>
 
     <div class="btn-row">
@@ -155,16 +155,8 @@
       });
     });
 
-    // Auto-unlock based on URL param or default
-    (function() {
-      const params = new URLSearchParams(location.search);
-      const plan = params.get('plan') || 'full';
-      // Mark as unlocked in localStorage so other pages know
-      try {
-        localStorage.setItem('yiang_health_unlocked', plan);
-        localStorage.setItem('yiang_health_unlock_time', Date.now());
-      } catch(e) {}
-    })();
+    // This page is informational only. It must never mark a payment or unlock as confirmed.
+    // Access is issued manually only after the receiving account confirms the funds.
   </script>
 </body>
 </html>
