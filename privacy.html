@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="description" content="Privacy policy for YIANG HEALTH V1.0.">
+  <meta name="description" content="Yiang Health privacy policy: local browser storage, external weather and location services, and manual QR payment verification.">
   <meta name="theme-color" content="#1a7a72">
   <title>Privacy — YIANG HEALTH</title>
   <link rel="manifest" href="manifest.json">
@@ -35,34 +35,29 @@
   <main class="main">
     <div class="legal-content">
       <h1>Privacy</h1>
-      <p>Last updated: September 2026. This notice describes how V1.0 of YIANG HEALTH handles information.</p>
+      <p>Last updated: 7 November 2026. This notice describes the current browser-based Yiang Health website.</p>
 
-      <h2>Client-side Processing</h2>
-      <p>The Journey Planner in V1.0 runs primarily in your browser. Your planning inputs (country, age range, purpose, duration, budget, optional free text) are processed locally to generate a mock plan. They are not automatically uploaded to a server in this version.</p>
+      <h2>Information stored on your device</h2>
+      <p>The planner processes the choices and optional notes you enter in your browser. Your selected wellness goal, age range, city or location text, activity and sleep preferences, daily time, lifestyle choices, generated plan and progress may be saved in this browser’s local storage so you can return to them. Your language preference and an optional home-city lookup result may also be stored locally. This information is not sent to a Yiang user-profile server by the current version.</p>
+      <p>Anyone with access to the same browser profile or device may be able to view locally stored information. Clear this website’s storage and cached data in your browser settings to remove it from that device.</p>
 
-      <h2>What We Ask You Not to Enter</h2>
+      <h2>External services and requests</h2>
       <ul>
-        <li>Medical records or detailed clinical history</li>
-        <li>Passport or national ID numbers</li>
-        <li>Bank or payment card details</li>
-        <li>Passwords or account credentials</li>
-        <li>Emergency medical information that should go to emergency services instead</li>
+        <li><strong>Weather:</strong> selected city pages request forecast information from Open-Meteo using the page’s published location coordinates.</li>
+        <li><strong>Location search:</strong> if you choose to look up a home city, the city text you enter is sent to OpenStreetMap’s Nominatim service to find approximate coordinates.</li>
+        <li><strong>Fonts and hosting:</strong> some pages load fonts from Google Fonts. The website is hosted as static content on GitHub Pages; the hosting and delivery providers may process standard connection data such as IP address, browser and request information.</li>
+        <li><strong>Maps and external links:</strong> when you open a third-party map or external website, that provider’s own privacy terms apply.</li>
       </ul>
 
-      <h2>Local Storage</h2>
-      <p>We may store your language preference in the browser’s localStorage so the interface remembers your choice. You can clear this at any time via browser settings.</p>
+      <h2>Payments</h2>
+      <p>Yiang Health does not collect card or bank credentials and does not verify payment through a server in the current version. WeChat Pay and Alipay QR payments take place in the relevant payment app. A receipt is checked manually against the receiving account before an access code is issued. Opening the payment confirmation page does not prove that funds have arrived.</p>
+      <p>Access codes are checked in browser-side JavaScript and are not a secure server-side paywall. Do not treat the current code-entry feature as protection for confidential information.</p>
 
-      <h2>No Accounts in V1.0</h2>
-      <p>There is no user registration, login, or cloud account system in this version. Future versions may introduce accounts (email, Google, Apple, WeChat, etc.) with appropriate privacy notices at that time.</p>
-
-      <h2>Analytics & Logs</h2>
-      <p>V1.0 does not include third-party analytics SDKs by default. If hosting providers collect standard server logs (IP, user-agent), those are subject to the host’s policies.</p>
-
-      <h2>Future Changes</h2>
-      <p>When cloud sync, accounts, payments, or real AI APIs are introduced, this privacy notice will be updated before those features process personal data on servers.</p>
+      <h2>Accounts and sensitive information</h2>
+      <p>The current site does not provide user accounts or cloud synchronisation of planner profiles. Do not enter medical records, detailed clinical history, passport or national ID numbers, payment-card details, passwords or emergency medical information. Yiang Health provides general information and light planning only; it is not a medical provider.</p>
 
       <h2>Contact</h2>
-      <p>For privacy-related questions, use the official contact channel published on the site when available.</p>
+      <p>For privacy questions, use the contact channel displayed on the Pricing page. Do not send passwords, payment-card details or medical records.</p>
     </div>
   </main>
 
