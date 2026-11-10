@@ -79,7 +79,7 @@
       class: 'marker-label', x: pos.x + (left ? -8 : 8), y: pos.y + (lower ? 15 : -8),
       'text-anchor': left ? 'end' : 'start'
     });
-    label.textContent = place[1].replace(' / Hangzhou', '').replace(' / Jinan', '').replace(' / Guangzhou', '').replace(' / Nanning', '').replace(" / Xi'an", '').replace(' / Lanzhou', '').replace(' - Jincheng first', '');
+    label.textContent = place[0] === 'shanxi' ? 'Jincheng' : place[1].replace(' / Hangzhou', '').replace(' / Jinan', '').replace(' / Guangzhou', '').replace(' / Nanning', '').replace(" / Xi'an", '').replace(' / Lanzhou', '').replace(' - Jincheng first', '');
     marker.appendChild(label);
     marker.addEventListener('click', () => selectPlace(place, marker));
     marker.addEventListener('keydown', event => {
