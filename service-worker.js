@@ -1,7 +1,8 @@
-﻿const CACHE = 'yiang-health-v1.16-featured-shanxi-20261110';
+﻿const CACHE = 'yiang-health-v1.17-local-city-guides-20261110';
 const ASSETS = [
   './','./index.html','./planner.html','./dashboard.html','./destinations.html',
-  './city.html','./shanxi.html','./jincheng.html','./linfen.html','./pricing.html','./safety.html','./terms.html','./privacy.html',
+  './city.html','./shanxi.html','./jincheng.html','./jincheng-zh.html','./linfen.html','./linfen-zh.html','./pricing.html','./safety.html','./terms.html','./privacy.html',
+  './modules/city-language.js',
   './style.css','./shanxi.css','./china-map.css','./script.js','./manifest.json','./image/hero-wellness.webp','./image/china-blank-province-map.svg',
   './image/cities/jincheng-iron-flower.jpg','./image/cities/jincheng-wangmangling-cableway.jpg',
   './image/cities/jincheng-huangcheng-xiangfu-1.jpg','./image/cities/jincheng-huangcheng-xiangfu-2.jpg',
