@@ -1,7 +1,76 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-05",
+  "lastUpdated": "2026-11-10",
   "cities": [
+    {
+      "id": "jincheng",
+      "name": {
+        "en": "Jincheng",
+        "zh-CN": "晋城",
+        "zh-TW": "晉城"
+      },
+      "region": "Shanxi",
+      "pilot": false,
+      "featured": true,
+      "tags": [
+        "wellness",
+        "cultural",
+        "tcm",
+        "food",
+        "nature"
+      ],
+      "highlights": {
+        "en": [
+          "Southern Taihang scenery",
+          "Situ Town iron-flower performances",
+          "Historic courtyards and local food",
+          "Wangmangling and Manghe landscapes"
+        ],
+        "zh-CN": [
+          "太行山南段自然风光",
+          "司徒小镇打铁花演出",
+          "古堡院落与晋城地方美食",
+          "王莽岭、蟒河等山水景观"
+        ]
+      },
+      "officialSources": [],
+      "status": "local-guide"
+    },
+    {
+      "id": "linfen",
+      "name": {
+        "en": "Linfen",
+        "zh-CN": "临汾",
+        "zh-TW": "臨汾"
+      },
+      "region": "Shanxi",
+      "pilot": false,
+      "featured": true,
+      "tags": [
+        "wellness",
+        "cultural",
+        "tcm",
+        "food",
+        "nature",
+        "heritage"
+      ],
+      "highlights": {
+        "en": [
+          "Hukou Waterfall and Yellow River landscapes",
+          "Taosi archaeological heritage",
+          "Hongtong family-history traditions",
+          "Southern Shanxi food and county culture"
+        ],
+        "zh-CN": [
+          "壶口瀑布与黄河景观",
+          "陶寺考古遗址与早期文明",
+          "洪洞大槐树寻根文化",
+          "晋南美食与县域风物"
+        ]
+      },
+      "officialSources": [],
+      "status": "local-guide"
+    },
     {
       "id": "beijing",
       "name": {
