@@ -1,4 +1,4 @@
-﻿const CACHE = 'yiang-health-v1.17-local-city-guides-20261110';
+﻿const CACHE = 'yiang-health-v1.19-full-pilot-content-20261111';
 const ASSETS = [
   './','./index.html','./planner.html','./dashboard.html','./destinations.html',
   './city.html','./shanxi.html','./jincheng.html','./jincheng-zh.html','./linfen.html','./linfen-zh.html','./pricing.html','./safety.html','./terms.html','./privacy.html',
@@ -11,7 +11,7 @@ const ASSETS = [
   './image/cities/linfen-spring.jpg','./image/cities/linfen-summer.jpg','./image/cities/linfen-autumn.jpg','./image/cities/linfen-winter.jpg',
   './modules/config.js','./modules/data.js','./modules/safety.js','./modules/i18n.js','./modules/china-map.js','./modules/home-map-i18n.js',
   './modules/wellness.js','./modules/access.js','./modules/destinations.js','./modules/planner.js',
-  './data/pilots.json','./data/cities.json','./data/services.json'
+  './data/pilots.json','./data/guide-details.json','./data/cities.json','./data/services.json'
 ];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting()));

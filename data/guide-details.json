@@ -1,0 +1,878 @@
+{
+  "beijing": {
+    "overview": {
+      "en": "Explore the imperial core, hutong neighbourhoods, museums and major parks in separate area-based days. The Great Wall is a dedicated excursion, not a quick city-centre stop.",
+      "zh-CN": "北京适合按片区分日游览：皇家中轴线、胡同街区、博物馆和大型公园各有看点。长城应单独安排一整段行程，不宜当作市中心顺路景点。"
+    },
+    "attractionNotes": [
+      {
+        "en": "Reserve the Palace Museum through its official channel and allow half a day for the palace complex.",
+        "zh-CN": "故宫建议通过官方渠道预约，并预留半天游览宫殿建筑群。"
+      },
+      {
+        "en": "Combine the Hall of Prayer for Good Harvests with a relaxed walk through the surrounding park.",
+        "zh-CN": "可将祈年殿与周边公园步行结合起来游览。"
+      },
+      {
+        "en": "The Summer Palace is large; choose a focused lakeside and long-corridor route.",
+        "zh-CN": "颐和园面积较大，建议选择湖岸与长廊等重点路线。"
+      },
+      {
+        "en": "Choose one Great Wall section, such as Mutianyu or Badaling, and check access and transport before departure.",
+        "zh-CN": "可选择慕田峪或八达岭等一段长城，出发前核对开放情况与接驳交通。"
+      }
+    ],
+    "foodHighlights": [
+      {
+        "en": "Peking roast duck is a classic sit-down meal; popular restaurants may require booking.",
+        "zh-CN": "北京烤鸭是经典正餐，热门餐厅建议提前确认预约。"
+      },
+      {
+        "en": "Zhajiangmian and other noodle dishes offer everyday Beijing flavours.",
+        "zh-CN": "炸酱面及各类面食适合体验日常京味。"
+      },
+      {
+        "en": "Mutton hotpot and traditional snacks are especially appealing in colder months.",
+        "zh-CN": "涮羊肉与传统小吃尤其适合寒冷季节。"
+      }
+    ],
+    "stayAreas": {
+      "en": "Dongcheng and Xicheng suit first-time sightseeing; Chaoyang has more business hotels and modern shopping. Stay near a metro station.",
+      "zh-CN": "首次游览可考虑东城、西城；朝阳区商务酒店和现代商业较多。住宿优先选择靠近地铁站的位置。"
+    },
+    "day1": {
+      "en": "Imperial Beijing: group the Forbidden City and nearby central-axis landmarks, subject to reservation availability.",
+      "zh-CN": "皇家北京：把故宫与附近中轴线地标安排在同一片区，具体以预约情况为准。"
+    },
+    "day2": {
+      "en": "Choose either the Summer Palace for a slower garden day or a Great Wall section for a full-day excursion.",
+      "zh-CN": "可选择颐和园作为慢节奏园林日，或单独安排长城一日游。"
+    },
+    "practical": {
+      "en": "Book high-demand attractions ahead, confirm the exact railway station on your ticket and allow generous cross-city transfer time.",
+      "zh-CN": "热门景点提前预约；按车票确认具体火车站；跨城区移动要预留充足时间。"
+    }
+  },
+  "tianjin": {
+    "overview": {
+      "en": "Tianjin combines historic port-city architecture, Haihe riverfront scenery and a distinctive northern food culture. Central sights work well as compact neighbourhood walks.",
+      "zh-CN": "天津兼具近代港口城市风貌、海河景观和鲜明的北方饮食文化。市中心景点适合按街区串联步行。"
+    },
+    "attractionNotes": [
+      {
+        "en": "The Five Great Avenues area is best explored on foot, with time for surrounding cafés and historic streets.",
+        "zh-CN": "五大道一带适合步行慢逛，也可体验周边咖啡馆与历史街巷。"
+      },
+      {
+        "en": "Ancient Culture Street is a traditional commercial and cultural district; expect crowds at peak times.",
+        "zh-CN": "古文化街是传统商业文化街区，节假日人流较多。"
+      },
+      {
+        "en": "The Haihe is suited to an evening walk or cruise, with bridges and illuminated buildings.",
+        "zh-CN": "海河沿岸适合傍晚散步或乘船，欣赏桥梁与城市夜景。"
+      }
+    ],
+    "foodHighlights": [
+      {
+        "en": "Jianbing guozi is a classic Tianjin breakfast.",
+        "zh-CN": "煎饼馃子是天津代表性早餐。"
+      },
+      {
+        "en": "Mahua and ear-hole fried cake are traditional snacks around old commercial streets.",
+        "zh-CN": "麻花、耳朵眼炸糕是老商业街区常见的传统点心。"
+      },
+      {
+        "en": "Tianjin baozi and seafood offer a wider local food selection.",
+        "zh-CN": "天津包子和海鲜也值得体验。"
+      }
+    ],
+    "stayAreas": {
+      "en": "Heping and Nankai are convenient for central walks and rail connections; Binhai suits a separate coastal or business stay.",
+      "zh-CN": "和平、南开适合市中心步行与交通接驳；滨海新区更适合单独安排滨海或商务行程。"
+    },
+    "day1": {
+      "en": "Historic streets: explore Five Great Avenues and connect to nearby central districts.",
+      "zh-CN": "历史街区：游览五大道，并串联附近市区街巷。"
+    },
+    "day2": {
+      "en": "Old culture and river: visit Ancient Culture Street, then choose a Haihe cruise or museum.",
+      "zh-CN": "民俗文化与海河：游览古文化街，再选择海河游船或博物馆。"
+    },
+    "practical": {
+      "en": "Tianjin combines easily with Beijing by high-speed rail, but check the exact station and allow transfer time.",
+      "zh-CN": "天津适合与北京通过高铁组合游览，但要核对车站名称并为换乘留出时间。"
+    }
+  },
+  "hulunbuir": {
+    "overview": {
+      "en": "Hulunbuir is a vast northern travel region rather than a compact city break. Grassland, wetlands and forest experiences are spread across long road distances.",
+      "zh-CN": "呼伦贝尔是广阔的北方旅行区域，而不是紧凑的城市周末游。草原、湿地和森林之间往往需要较长公路行程。"
+    },
+    "attractionNotes": [
+      {
+        "en": "Grassland scenery changes with season and weather; confirm local access and the exact location of your accommodation.",
+        "zh-CN": "草原景观受季节和天气影响明显，需确认当地开放情况和住宿的准确位置。"
+      },
+      {
+        "en": "Ergun Wetland viewpoints and walking routes can be far apart, so plan transport in advance.",
+        "zh-CN": "额尔古纳湿地的观景点和步道可能相距较远，建议提前安排交通。"
+      }
+    ],
+    "foodHighlights": [
+      {
+        "en": "Hand-held mutton and lamb dishes are traditional grassland-style meals.",
+        "zh-CN": "手把肉及羊肉菜肴具有草原饮食特色。"
+      },
+      {
+        "en": "Milk tea, cheese and yoghurt are part of local dairy food culture.",
+        "zh-CN": "奶茶、奶酪和酸奶等是当地奶制品文化的一部分。"
+      },
+      {
+        "en": "Seasonal forest products may appear on menus; confirm ingredients with the restaurant.",
+        "zh-CN": "菜单中可能出现时令山野食材，食用前向餐厅确认原料。"
+      }
+    ],
+    "stayAreas": {
+      "en": "Hailar is a practical transport base; choose Ergun or a grassland stay only after confirming the route and transfers.",
+      "zh-CN": "海拉尔适合作为交通集散点；若住额尔古纳或草原住宿点，应先确认路线与接驳。"
+    },
+    "day1": {
+      "en": "Use Hailar as the arrival base and take a planned road excursion into a nearby grassland area.",
+      "zh-CN": "以海拉尔作为抵达落脚点，安排附近草原公路游览。"
+    },
+    "day2": {
+      "en": "Plan an Ergun Wetland visit only if the driving distance works with your accommodation; avoid late-night rural driving.",
+      "zh-CN": "只有在车程与住宿位置匹配时再安排额尔古纳湿地；尽量避免夜间长距离乡村道路行驶。"
+    },
+    "practical": {
+      "en": "Confirm road conditions, fuel stops, seasonal opening and a reliable driver; this is not a point-to-point city walk destination.",
+      "zh-CN": "应确认道路状况、补给点、季节性开放信息和可靠司机；这里不是适合点对点步行的城市目的地。"
+    }
+  },
+  "yanbian": {
+    "overview": {
+      "en": "Yanbian is a Korean-Chinese autonomous prefecture with a strong regional food culture and a useful base in Yanji. City experiences and Changbai Mountain excursions should be planned separately.",
+      "zh-CN": "延边朝鲜族自治州拥有鲜明的朝鲜族文化与饮食特色，延吉适合作为城市落脚点。延吉市区体验与长白山远途行程应分开规划。"
+    },
+    "attractionNotes": [
+      {
+        "en": "Yanji is known for Korean-Chinese food streets and cultural experiences; visit respectfully and distinguish performances from living traditions.",
+        "zh-CN": "延吉以朝鲜族美食街区和文化体验闻名，体验时应尊重当地生活文化。"
+      },
+      {
+        "en": "Changbai Mountain is a major regional nature excursion; check the selected scenic area, weather and seasonal access.",
+        "zh-CN": "长白山是重要的区域自然景区，预订前要确认景区、天气和季节性开放安排。"
+      }
+    ],
+    "foodHighlights": [
+      {
+        "en": "Yanji cold noodles are a signature local meal; broth and seasoning vary by restaurant.",
+        "zh-CN": "延吉冷面是代表性地方美食，不同餐馆的汤底与调味各有特点。"
+      },
+      {
+        "en": "Korean-style barbecue and marinated dishes are popular shared meals.",
+        "zh-CN": "朝鲜族风味烤肉与腌制菜是常见聚餐选择。"
+      },
+      {
+        "en": "Rice cakes and fermented side dishes are worth exploring in local eateries.",
+        "zh-CN": "打糕及发酵小菜值得在当地餐馆体验。"
+      }
+    ],
+    "stayAreas": {
+      "en": "Central Yanji is practical for restaurants and local transport. Consider a separate overnight stay near Changbai Mountain for an early start.",
+      "zh-CN": "延吉市中心方便就餐和市内交通。若长白山行程需要早出发，可考虑在景区周边另住一晚。"
+    },
+    "day1": {
+      "en": "Yanji city: explore the centre, local markets and Korean-Chinese food culture.",
+      "zh-CN": "延吉市区：游览市中心、当地市场和朝鲜族饮食文化。"
+    },
+    "day2": {
+      "en": "Treat Changbai Mountain as a full-day or overnight excursion; confirm transport and entry arrangements.",
+      "zh-CN": "把长白山作为一日或过夜行程，提前确认交通和入园安排。"
+    },
+    "practical": {
+      "en": "Border-area travel may have special access rules. Carry valid identification and follow local notices.",
+      "zh-CN": "边境区域可能有特别管理要求，请携带有效证件并遵守当地公告。"
+    }
+  },
+  "heihe": {
+    "overview": {
+      "en": "Heihe is a northern border city on the Amur River, with riverfront views and access to volcanic landscapes around Wudalianchi. Seasonal weather strongly shapes the experience.",
+      "zh-CN": "黑河是黑龙江沿岸的北方边境城市，可体验江畔风光，并以此为起点前往五大连池火山地貌。季节和天气对旅行体验影响很大。"
+    },
+    "attractionNotes": [
+      {
+        "en": "The Amur riverfront helps visitors understand the city’s border setting; follow access and photography notices near controlled areas.",
+        "zh-CN": "黑龙江沿岸是了解城市边境区位的直观地点，靠近管理区域时应遵守通行与拍摄规定。"
+      },
+      {
+        "en": "Wudalianchi is outside central Heihe and requires a separate road plan.",
+        "zh-CN": "五大连池位于黑河市区之外，需要单独安排公路交通。"
+      }
+    ],
+    "foodHighlights": [
+      {
+        "en": "River fish and northeastern home-style dishes are common choices.",
+        "zh-CN": "江鱼和东北家常菜是常见选择。"
+      },
+      {
+        "en": "Russian-influenced breads, pastries and dairy products reflect the cross-border history.",
+        "zh-CN": "带有俄罗斯风味的面包、糕点和乳制品体现当地跨境交流历史。"
+      },
+      {
+        "en": "Hearty stews and dumplings are practical meals in colder months.",
+        "zh-CN": "寒冷季节可体验炖菜、饺子等东北家常餐食。"
+      }
+    ],
+    "stayAreas": {
+      "en": "Stay in central Heihe for riverfront access; plan Wudalianchi with accommodation and transport near the scenic area.",
+      "zh-CN": "游览市区可住黑河中心城区；五大连池行程则应考虑景区附近住宿和交通。"
+    },
+    "day1": {
+      "en": "Heihe riverfront: explore the riverside and central city sights.",
+      "zh-CN": "黑河江畔：游览江畔和市区景点。"
+    },
+    "day2": {
+      "en": "Make Wudalianchi a separate day trip and confirm road transfers.",
+      "zh-CN": "将五大连池作为独立一日行程，提前确认公路接驳。"
+    },
+    "practical": {
+      "en": "Winters can be severe. Check weather warnings and border-area access rules before travelling.",
+      "zh-CN": "冬季天气可能十分严寒，出行前应关注天气预警和边境区域管理规定。"
+    }
+  },
+  "shanghai": {
+    "overview": {
+      "en": "Shanghai rewards neighbourhood-based exploration: historic waterfront, classical gardens, former concession streets, museums and contemporary architecture each create a different experience.",
+      "zh-CN": "上海适合按街区深入探索：历史滨江、古典园林、原租界街区、博物馆和现代建筑呈现出不同城市面貌。"
+    },
+    "attractionNotes": [
+      {
+        "en": "The Bund is a riverfront promenade; visit by day for architecture and after dark for illuminated skyline views.",
+        "zh-CN": "外滩是经典滨江步道，白天适合看建筑，夜晚适合欣赏灯光天际线。"
+      },
+      {
+        "en": "Yu Garden combines a classical garden with traditional shopping streets in the old city.",
+        "zh-CN": "豫园结合古典园林与老城厢传统商业街区。"
+      },
+      {
+        "en": "The former French Concession is best explored slowly on foot, with tree-lined streets and historic buildings.",
+        "zh-CN": "原法租界适合慢步探索，梧桐街道和历史建筑是主要看点。"
+      }
+    ],
+    "foodHighlights": [
+      {
+        "en": "Xiaolongbao are soup dumplings best eaten carefully while hot.",
+        "zh-CN": "小笼包是趁热食用的汤包，注意先轻轻咬开散热。"
+      },
+      {
+        "en": "Shengjian buns have a crisp base and juicy filling.",
+        "zh-CN": "生煎底部酥脆、内馅多汁。"
+      },
+      {
+        "en": "Benbang dishes such as braised pork reflect Shanghai’s sweet-savoury local cuisine.",
+        "zh-CN": "红烧肉等本帮菜体现上海咸甜结合的地方风味。"
+      }
+    ],
+    "stayAreas": {
+      "en": "People’s Square and the Bund suit first-time sightseeing; Jing’an offers shopping and dining; Hongqiao is practical for rail connections.",
+      "zh-CN": "人民广场与外滩适合首次观光；静安购物和餐饮便利；虹桥适合需要衔接高铁的旅客。"
+    },
+    "day1": {
+      "en": "Historic waterfront: combine the Bund, nearby historic streets and a Huangpu River view.",
+      "zh-CN": "历史滨江：串联外滩、附近历史街区与黄浦江景观。"
+    },
+    "day2": {
+      "en": "Gardens and neighbourhoods: visit Yu Garden and the old city, then choose the former French Concession or a museum district.",
+      "zh-CN": "园林与街区：游览豫园和老城厢，下午选择原法租界或博物馆片区。"
+    },
+    "practical": {
+      "en": "The metro is usually the most predictable way to cross the city. Check station exits and attraction reservation rules.",
+      "zh-CN": "跨城区出行通常地铁更可控，注意核对车站出口和景点预约规则。"
+    }
+  },
+  "nantong": {
+    "overview": {
+      "en": "Nantong sits between the Yangtze River and the Yellow Sea and is known for its historic moat, mountain temples, industrial heritage and regional food. Some attractions are in outlying county-level cities.",
+      "zh-CN": "南通位于长江与黄海交汇区域，以古护城河、山寺、近代工业文化和江海风味见长。部分景点分布在下辖县市，需要单独安排交通。"
+    },
+    "attractionNotes": [
+      {
+        "en": "Haohe is a historic moat encircling the old city, with bridges, museums and riverside paths.",
+        "zh-CN": "濠河环绕南通老城区，沿线有桥梁、博物馆和滨水步道。"
+      },
+      {
+        "en": "Langshan is a well-known hill and temple area; check current access and allow time for steps.",
+        "zh-CN": "狼山是南通知名的山地与寺院景区，需核对开放情况并为登阶预留时间。"
+      }
+    ],
+    "foodHighlights": [
+      {
+        "en": "Jianghai cuisine and freshwater seafood feature seasonal river and coastal ingredients.",
+        "zh-CN": "江海菜与淡水水产以当季江鲜、海鲜和地方河鲜为特色。"
+      },
+      {
+        "en": "Haimen and Rugao have local vegetable, taro and traditional snack specialities.",
+        "zh-CN": "海门、如皋一带有地方蔬菜、芋头及传统点心等特色。"
+      },
+      {
+        "en": "Local lamb dishes are highlighted in seasonal food coverage; availability varies.",
+        "zh-CN": "部分季节性美食报道会介绍当地羊肉菜肴，具体供应以餐馆为准。"
+      }
+    ],
+    "stayAreas": {
+      "en": "Chongchuan District near Haohe is convenient for a first visit. For Shuihui Garden or other county-level attractions, consider staying closer to that area.",
+      "zh-CN": "首次游览可住崇川区濠河附近；若重点游览水绘园等县市景点，可考虑在对应区域住宿。"
+    },
+    "day1": {
+      "en": "Old city: walk the Haohe loop and choose nearby museums such as Nantong Museum.",
+      "zh-CN": "老城：沿濠河安排步行路线，并选择南通博物苑等附近场馆参观。"
+    },
+    "day2": {
+      "en": "Choose Langshan for a city-area outing, or travel separately to Rugao for Shuihui Garden.",
+      "zh-CN": "可选择狼山作为市区周边行程，或单独前往如皋游览水绘园。"
+    },
+    "practical": {
+      "en": "Attractions are spread across districts and county-level cities. Check exact locations before choosing a hotel or train station.",
+      "zh-CN": "南通景点分布在不同区县，预订酒店和车票前要先核对目的地的准确位置。"
+    }
+  },
+  "zhejiang": {
+    "overview": {
+      "en": "This pilot entry uses Hangzhou as its main starting point, while Zhejiang Province contains many distinct destinations. West Lake, tea villages and the Grand Canal make a strong first visit.",
+      "zh-CN": "本试点入口以杭州为主要起点，但浙江省内还有许多不同目的地。西湖、茶村和大运河适合作为首次游览主线。"
+    },
+    "attractionNotes": [
+      {
+        "en": "West Lake is best enjoyed by choosing a shoreline, island or causeway route rather than trying to circle every area in one day.",
+        "zh-CN": "西湖适合选择湖岸、岛屿或苏堤等路线慢慢游览，不必一天环湖走完。"
+      },
+      {
+        "en": "Lingyin Temple sits among wooded hills; check temple notices and seasonal crowd conditions.",
+        "zh-CN": "灵隐寺位于山林环境之中，出行前应核对寺院公告和旺季客流。"
+      },
+      {
+        "en": "Longjing tea villages offer tea-growing landscapes and tasting culture; respect working tea gardens.",
+        "zh-CN": "龙井茶村可体验茶园景观与品茶文化，应尊重仍在生产的茶园。"
+      }
+    ],
+    "foodHighlights": [
+      {
+        "en": "Dongpo pork is a slow-braised Hangzhou dish with a rich savoury-sweet sauce.",
+        "zh-CN": "东坡肉是杭州代表性慢炖菜肴，口味浓郁并带有咸甜层次。"
+      },
+      {
+        "en": "Longjing shrimp pairs shrimp with the region’s famous green tea.",
+        "zh-CN": "龙井虾仁将虾仁与当地龙井茶风味结合。"
+      },
+      {
+        "en": "West Lake fish in vinegar sauce and seasonal bamboo shoots are other local dishes.",
+        "zh-CN": "西湖醋鱼与时令春笋也是值得了解的地方菜。"
+      }
+    ],
+    "stayAreas": {
+      "en": "The West Lake area suits first-time sightseeing; Qinghefang and the old city offer historic streets; Qianjiang New City is more modern.",
+      "zh-CN": "西湖周边适合首次观光；清河坊与老城适合历史街区体验；钱江新城更现代。"
+    },
+    "day1": {
+      "en": "West Lake and old Hangzhou: choose a lake route and connect it with nearby historic streets.",
+      "zh-CN": "西湖与杭州老城：选择一条西湖游览路线，并串联附近历史街区。"
+    },
+    "day2": {
+      "en": "Tea hills and canal culture: visit a Longjing tea area or the Grand Canal district, allowing extra transfer time for tea villages.",
+      "zh-CN": "茶山与运河文化：选择龙井茶村或大运河片区，前往茶村需额外预留接驳时间。"
+    },
+    "practical": {
+      "en": "This is a province-level pilot focused on Hangzhou. These notes do not cover Ningbo, Shaoxing, Wenzhou or other Zhejiang destinations.",
+      "zh-CN": "本试点为省级范围，本页重点介绍杭州，不能替代宁波、绍兴、温州等浙江其他目的地的独立指南。"
+    }
+  },
+  "shandong": {
+    "overview": {
+      "en": "This pilot entry uses Jinan as its starting point. Coastal cities, Mount Tai and Qufu are separate journeys rather than short add-ons to a Jinan city break.",
+      "zh-CN": "本试点入口以济南为起点。山东沿海城市、泰山和曲阜都应作为独立行程规划，而不是济南短途游的顺路附加点。"
+    },
+    "attractionNotes": [
+      {
+        "en": "Baotu Spring is a famous spring complex in the city centre; follow the park route to explore the spring-water landscape.",
+        "zh-CN": "趵突泉位于市中心，是著名泉群景区，可沿园区路线了解泉水景观。"
+      },
+      {
+        "en": "Daming Lake is closely tied to Jinan’s identity; combine lakeside paths with nearby old-city streets.",
+        "zh-CN": "大明湖与济南城市形象密切相关，可将湖畔步道与附近老城街巷结合游览。"
+      },
+      {
+        "en": "Thousand Buddha Mountain offers temples and city views; check weather if you plan to climb.",
+        "zh-CN": "千佛山以山地公园、寺院和城市视野为特色，登山前需关注天气。"
+      }
+    ],
+    "foodHighlights": [
+      {
+        "en": "Shandong-style braised and roast dishes reflect a broad regional culinary tradition.",
+        "zh-CN": "鲁菜中的烧制、烤制菜肴体现山东丰富的地方饮食传统。"
+      },
+      {
+        "en": "Sweet-and-sour carp is associated with Yellow River and Shandong food culture.",
+        "zh-CN": "糖醋鲤鱼与黄河及山东饮食文化有关。"
+      },
+      {
+        "en": "Jinan snacks and breakfast foods are worth exploring around traditional markets.",
+        "zh-CN": "济南小吃与早餐可在传统市场和老街区慢慢寻找。"
+      }
+    ],
+    "stayAreas": {
+      "en": "Quancheng Square and the old city are practical for spring and lake sightseeing. Choose lodging with convenient metro or taxi access.",
+      "zh-CN": "泉城广场及老城区域方便游览泉群和大明湖，住宿可优先考虑交通接驳便利的位置。"
+    },
+    "day1": {
+      "en": "Springs and old city: combine Baotu Spring, nearby historic streets and Daming Lake.",
+      "zh-CN": "泉群与老城：把趵突泉、附近历史街区和大明湖串联起来。"
+    },
+    "day2": {
+      "en": "Choose Thousand Buddha Mountain, or reserve a separate day for Mount Tai or Qufu with intercity transport.",
+      "zh-CN": "可选择千佛山，若前往泰山或曲阜则应单独预留一天并安排城际交通。"
+    },
+    "practical": {
+      "en": "This page focuses on Jinan. Qingdao, Mount Tai and Qufu are not nearby neighbourhood stops; plan them as separate legs.",
+      "zh-CN": "本页重点介绍济南。青岛、泰山、曲阜都不是附近街区景点，应作为独立行程安排。"
+    }
+  },
+  "guangdong": {
+    "overview": {
+      "en": "Guangzhou is a strong base for exploring Lingnan architecture, Cantonese food, the Pearl River and the Greater Bay Area. Neighbourhoods are best explored in clusters using the metro.",
+      "zh-CN": "广州适合作为探索岭南建筑、粤菜、珠江景观和大湾区的起点。市内景点适合按街区分组，并结合地铁出行。"
+    },
+    "attractionNotes": [
+      {
+        "en": "Canton Tower is a modern landmark beside the Pearl River; check ticket options and observation-deck availability.",
+        "zh-CN": "广州塔是珠江边的现代城市地标，参观前核对当前票种和观景平台开放情况。"
+      },
+      {
+        "en": "Chen Clan Ancestral Hall is a Qing-era complex known for decorative carving and folk-art collections; check booking rules.",
+        "zh-CN": "陈家祠是以装饰雕刻和民间工艺闻名的清代建筑群，需核对预约规定。"
+      },
+      {
+        "en": "Shamian Island has preserved historic buildings and tree-lined streets, suited to a slow walk.",
+        "zh-CN": "沙面岛保留历史建筑与林荫街道，适合慢节奏步行。"
+      }
+    ],
+    "foodHighlights": [
+      {
+        "en": "Dim sum is a classic morning or brunch experience; busy restaurants may use queue systems.",
+        "zh-CN": "早茶点心是经典的广州早餐或早午餐体验，热门茶楼可能需要排队取号。"
+      },
+      {
+        "en": "Roast goose and Cantonese barbecue are popular local dishes.",
+        "zh-CN": "烧鹅及广式烧味是常见地方美食。"
+      },
+      {
+        "en": "Wonton noodles, congee and rice rolls are everyday dishes found across neighbourhoods.",
+        "zh-CN": "云吞面、粥品和肠粉是各街区都能找到的日常粤式美食。"
+      }
+    ],
+    "stayAreas": {
+      "en": "Yuexiu and Liwan suit old-city food and heritage; Tianhe is modern and business-oriented; Haizhu offers riverfront access.",
+      "zh-CN": "越秀、荔湾适合老城美食与文化游；天河偏现代商务；海珠便于安排滨江区域。"
+    },
+    "day1": {
+      "en": "Old Guangzhou: group Chen Clan Ancestral Hall, nearby Liwan streets and Shamian Island.",
+      "zh-CN": "老广州：把陈家祠、荔湾街巷和沙面岛安排为同一片区。"
+    },
+    "day2": {
+      "en": "River and skyline: visit Yuexiu Park or a museum, then move to the Pearl River and Canton Tower area in the evening.",
+      "zh-CN": "珠江与天际线：白天游览越秀公园或博物馆，傍晚转至珠江与广州塔一带。"
+    },
+    "practical": {
+      "en": "Summer heat, humidity and heavy rain can affect walking plans. Group visits by metro station and check attraction notices.",
+      "zh-CN": "夏季炎热潮湿，强降雨也会影响步行安排。可按地铁站分组游览，并核对景点公告。"
+    }
+  },
+  "guangxi": {
+    "overview": {
+      "en": "This pilot entry uses Nanning as its main base, while Guangxi’s famous karst and waterfall landscapes are spread across a wide region. Guilin, Yangshuo and border waterfalls are separate trips.",
+      "zh-CN": "本试点入口以南宁为主要落脚点，但广西知名喀斯特山水与瀑布景观分布很广。桂林、阳朔和边境瀑布应作为独立行程规划。"
+    },
+    "attractionNotes": [
+      {
+        "en": "Qingxiu Mountain is a large urban park with lakes, gardens and viewpoints, introducing Nanning’s green-city character.",
+        "zh-CN": "青秀山是包含湖泊、园林和观景点的大型城市公园，适合感受南宁绿城特色。"
+      },
+      {
+        "en": "Three Streets and Two Alleys is a historic district with traditional architecture, food and local retail.",
+        "zh-CN": "三街两巷是结合传统建筑、美食和本地商业的历史街区。"
+      }
+    ],
+    "foodHighlights": [
+      {
+        "en": "Nanning rice noodles are a local breakfast staple, with different broths and toppings.",
+        "zh-CN": "南宁米粉是地方早餐代表，汤底和配料各有特色。"
+      },
+      {
+        "en": "Lemon duck is a regional speciality with a sour and aromatic profile.",
+        "zh-CN": "柠檬鸭是广西地方特色菜，酸香风味明显。"
+      },
+      {
+        "en": "Nanning, Guilin and Liuzhou cuisines differ; one city’s menu does not represent all Guangxi.",
+        "zh-CN": "南宁、桂林、柳州的地方菜差异明显，一座城市的菜单不能代表整个广西。"
+      }
+    ],
+    "stayAreas": {
+      "en": "Qingxiu District has modern hotels and city services; Chaoyang is practical for central transport and shopping.",
+      "zh-CN": "青秀区现代酒店和城市服务较集中；朝阳一带适合市中心交通与购物。"
+    },
+    "day1": {
+      "en": "Nanning city: combine Qingxiu Mountain with a city-centre food and historic-street visit.",
+      "zh-CN": "南宁市区：把青秀山与市中心美食、历史街区安排在同一天。"
+    },
+    "day2": {
+      "en": "Choose one regional destination such as Guilin/Yangshuo or a waterfall area after checking rail or road times.",
+      "zh-CN": "核对高铁或公路时间后，选择桂林阳朔或瀑布景区等一个区域目的地。"
+    },
+    "practical": {
+      "en": "Guangxi has long transfers between scenic areas. Check seasonal rainfall and road conditions, especially for rural routes.",
+      "zh-CN": "广西景区之间接驳距离可能很长，前往乡村路线时尤其要关注季节性降雨和道路情况。"
+    }
+  },
+  "hainan": {
+    "overview": {
+      "en": "Hainan is an island-wide destination with different rhythms in Haikou, Sanya and the eastern coast. Rail helps, but airport, hotel and scenic-area transfers still need planning.",
+      "zh-CN": "海南是全岛型目的地，海口、三亚和东海岸的旅行节奏各不相同。环岛高铁提供便利，但机场、酒店和景区之间仍需安排接驳。"
+    },
+    "attractionNotes": [
+      {
+        "en": "Group Sanya’s beaches and bays by coastline and hotel location; check sea conditions and swimming notices.",
+        "zh-CN": "三亚海滩与海湾应按海岸线和酒店位置分组，游泳前留意海况与安全提示。"
+      },
+      {
+        "en": "Boao Lecheng has a special medical-tourism policy context. This guide implies no eligibility, access or provider partnership; verify rules officially.",
+        "zh-CN": "博鳌乐城具有特殊医疗旅游政策背景。本指南不代表任何资格、服务可及性或机构合作，具体规定必须通过官方渠道核实。"
+      },
+      {
+        "en": "Rainforest parks offer an inland experience different from the coast; check weather, trails and transport.",
+        "zh-CN": "热带雨林公园提供不同于海岸的内陆体验，出发前应确认天气、步道和交通。"
+      }
+    ],
+    "foodHighlights": [
+      {
+        "en": "Wenchang chicken is one of Hainan’s best-known dishes.",
+        "zh-CN": "文昌鸡是海南最具代表性的地方菜之一。"
+      },
+      {
+        "en": "Hainan rice noodles and coconut-based snacks are common local choices.",
+        "zh-CN": "海南粉及椰子风味点心是常见地方美食。"
+      },
+      {
+        "en": "Seafood is widely available in coastal areas; confirm price and weight before ordering.",
+        "zh-CN": "沿海地区海鲜选择丰富，点餐前应确认计价方式、重量和价格。"
+      }
+    ],
+    "stayAreas": {
+      "en": "Haikou suits city culture and transport connections; Sanya suits beach-focused stays. Choose a main base rather than changing hotels too often.",
+      "zh-CN": "海口适合城市文化和交通衔接；三亚适合海滩度假。建议选定主要落脚点，不必频繁换酒店。"
+    },
+    "day1": {
+      "en": "Haikou heritage: explore Qilou Old Street and local food, then plan onward travel based on your next hotel area.",
+      "zh-CN": "海口人文：游览骑楼老街和城市美食，再根据下一段住宿位置安排交通。"
+    },
+    "day2": {
+      "en": "Choose one Sanya coastal area or a rainforest outing. Avoid an overpacked Haikou–Sanya–scenic-area loop in one day.",
+      "zh-CN": "选择一个三亚海岸片区或雨林行程，不宜一天内压缩海口、三亚和多个景区。"
+    },
+    "practical": {
+      "en": "The pilot entry covers a province, not one city. Confirm whether your trip is based in Haikou, Sanya or another county before booking.",
+      "zh-CN": "本试点为省级范围，不只对应一座城市。预订前先确认行程落脚在海口、三亚还是其他市县。"
+    }
+  },
+  "chongqing": {
+    "overview": {
+      "en": "Chongqing is a layered mountain city where river geography, steep streets, bridges and rail transit shape the journey. Map distance can be misleading because vertical movement takes time.",
+      "zh-CN": "重庆是一座层次丰富的山地城市，江河地形、坡道、桥梁和轨道交通共同塑造旅行体验。地图直线距离往往不能代表实际出行时间。"
+    },
+    "attractionNotes": [
+      {
+        "en": "Hongya Cave is known for riverside night views; expect crowds and check the best pedestrian approach.",
+        "zh-CN": "洪崖洞以滨江夜景闻名，客流较大，抵达前先确认步行入口。"
+      },
+      {
+        "en": "Liziba is a famous monorail viewpoint; observe from public areas and avoid blocking residents.",
+        "zh-CN": "李子坝是列车穿楼的知名观景点，应在公共区域观看，不要影响居民通行。"
+      },
+      {
+        "en": "Ciqikou is a historic riverside town with old lanes, food stalls and craft shops; it can be busy.",
+        "zh-CN": "磁器口是沿江历史街镇，有老街巷、美食摊和手工艺商铺，节假日较拥挤。"
+      }
+    ],
+    "foodHighlights": [
+      {
+        "en": "Chongqing hotpot is a shared meal with adjustable spice levels.",
+        "zh-CN": "重庆火锅适合多人分享，可根据口味选择辣度。"
+      },
+      {
+        "en": "Small noodles and spicy street snacks are everyday local favourites.",
+        "zh-CN": "重庆小面和麻辣小吃是当地常见日常美食。"
+      },
+      {
+        "en": "Sour-and-spicy dishes and river-region cooking add variety beyond hotpot.",
+        "zh-CN": "酸辣菜和江河流域风味菜肴也值得体验，不必只围绕火锅安排饮食。"
+      }
+    ],
+    "stayAreas": {
+      "en": "Jiefangbei and Yuzhong are practical for central sightseeing; Jiangbei offers modern shopping and business hotels. Check slopes and metro access.",
+      "zh-CN": "解放碑和渝中适合市中心游览；江北现代商业和商务酒店较多。选酒店时注意坡道和轨道站距离。"
+    },
+    "day1": {
+      "en": "Riverfront and city views: group central Yuzhong sights such as Hongya Cave and nearby old streets.",
+      "zh-CN": "江畔与城市景观：把渝中区洪崖洞周边和附近老街作为同一片区游览。"
+    },
+    "day2": {
+      "en": "Rail landmarks and old town: visit Liziba and Ciqikou as separate stops, allowing time for transfers.",
+      "zh-CN": "轨道地标与古镇：将李子坝和磁器口作为不同片区景点，预留跨区交通时间。"
+    },
+    "practical": {
+      "en": "Check metro exits and walking routes; steep slopes, stairs and complex interchanges can add significant time.",
+      "zh-CN": "注意核对地铁出口与步行路线；坡道、台阶和复杂换乘可能明显增加行程时间。"
+    }
+  },
+  "chengdu": {
+    "overview": {
+      "en": "Chengdu is known for teahouse culture, Sichuan food, historic sites and giant-panda conservation. It works well as a city stay with optional day trips beyond the urban core.",
+      "zh-CN": "成都以茶馆文化、川菜、历史遗迹和大熊猫保护体验闻名。适合安排城市停留，再视时间增加市郊一日游。"
+    },
+    "attractionNotes": [
+      {
+        "en": "The Panda Base is a major visitor draw; check official reservations and arrive within the current ticket window.",
+        "zh-CN": "大熊猫繁育研究基地是成都重要游览点，应核对官方预约规则并按当前票务时段入园。"
+      },
+      {
+        "en": "Wuhou Shrine and nearby Jinli offer an introduction to Three Kingdoms culture and traditional-style streets.",
+        "zh-CN": "武侯祠及相邻锦里可集中了解三国文化与传统街巷氛围。"
+      },
+      {
+        "en": "Du Fu Thatched Cottage provides a quieter garden and literary-history visit.",
+        "zh-CN": "杜甫草堂以园林环境和诗歌文化为特色，适合安排相对安静的人文参观。"
+      }
+    ],
+    "foodHighlights": [
+      {
+        "en": "Mapo tofu and dan dan noodles are well-known Sichuan dishes; spice levels vary.",
+        "zh-CN": "麻婆豆腐、担担面是知名川菜，辣度因店而异。"
+      },
+      {
+        "en": "Hotpot and skewers are social meals; ask about spice level and ingredients.",
+        "zh-CN": "火锅和串串适合多人聚餐，可提前沟通辣度和食材。"
+      },
+      {
+        "en": "Teahouse snacks and local breakfasts are an easy way to experience everyday Chengdu.",
+        "zh-CN": "茶馆小吃与本地早餐是体验成都日常生活的轻松方式。"
+      }
+    ],
+    "stayAreas": {
+      "en": "Chunxi Road and Taikoo Li are central for shopping and dining; Tianfu Square is practical for transport and historic-city visits.",
+      "zh-CN": "春熙路、太古里适合购物和餐饮；天府广场周边交通方便，也便于安排老城游览。"
+    },
+    "day1": {
+      "en": "Historic Chengdu: combine Wuhou Shrine, Jinli and a teahouse visit.",
+      "zh-CN": "历史成都：串联武侯祠、锦里和茶馆体验。"
+    },
+    "day2": {
+      "en": "Panda Base and city life: visit the base in the morning if reservations allow, then return for a park, museum or food district.",
+      "zh-CN": "熊猫基地与城市生活：若预约允许，可上午游览熊猫基地，下午回城安排公园、博物馆或美食街区。"
+    },
+    "practical": {
+      "en": "The Panda Base and popular attractions may require advance booking. Check current reservation rules before setting out.",
+      "zh-CN": "熊猫基地及热门景点可能需要提前预约，出发前应核对当前规则。"
+    }
+  },
+  "kunming": {
+    "overview": {
+      "en": "Kunming is a highland city with a relatively mild climate and serves as a gateway to wider Yunnan. City parks, lakeside areas and regional excursions are separate experiences.",
+      "zh-CN": "昆明是气候相对温和的高原城市，也是前往云南其他地区的重要门户。城市公园、湖畔和省内远途行程应分开安排。"
+    },
+    "attractionNotes": [
+      {
+        "en": "Dianchi is a large lakeside landscape south of the city; choose a specific shoreline or park area.",
+        "zh-CN": "滇池是昆明南部的大型湖泊景观，建议选定具体湖岸或公园片区。"
+      },
+      {
+        "en": "The Stone Forest is outside central Kunming and requires a dedicated day trip.",
+        "zh-CN": "石林位于昆明市区之外，需要单独安排一日游。"
+      },
+      {
+        "en": "Old streets and market areas are useful for exploring local food, flowers and everyday city life.",
+        "zh-CN": "昆明老街和市场片区适合体验地方美食、花卉市场与日常城市生活。"
+      }
+    ],
+    "foodHighlights": [
+      {
+        "en": "Crossing-the-bridge rice noodles are a signature Yunnan dish.",
+        "zh-CN": "过桥米线是云南代表性美食。"
+      },
+      {
+        "en": "Wild mushroom dishes are seasonal; confirm sourcing and preparation with the restaurant.",
+        "zh-CN": "野生菌菜肴有明显季节性，应确认餐馆的来源和烹制方式。"
+      },
+      {
+        "en": "Flower cakes and Yunnan-style snacks make common local gifts and light meals.",
+        "zh-CN": "鲜花饼及云南风味点心是常见伴手礼和轻食。"
+      }
+    ],
+    "stayAreas": {
+      "en": "Green Lake and central districts suit first-time visits; the south of the city is practical for Dianchi-focused plans.",
+      "zh-CN": "翠湖及中心城区适合首次游览；若重点安排滇池，可考虑城市南部住宿。"
+    },
+    "day1": {
+      "en": "Kunming city: explore central parks, old streets and local food markets.",
+      "zh-CN": "昆明市区：游览市中心公园、老街和地方美食市场。"
+    },
+    "day2": {
+      "en": "Choose a lakeside day around Dianchi or a full day for the Stone Forest; do not combine both without checking travel times.",
+      "zh-CN": "可选择滇池湖畔一日游，或单独安排石林一日游；未核实交通时间前不要强行合并。"
+    },
+    "practical": {
+      "en": "This is a Kunming starting guide, not a complete guide to Dali, Lijiang, Xishuangbanna or other distant Yunnan areas.",
+      "zh-CN": "本页是昆明起点指南，并不等于大理、丽江、西双版纳等远距离地区的完整指南。"
+    }
+  },
+  "shaanxi": {
+    "overview": {
+      "en": "This pilot entry focuses on Xi’an, a former imperial capital and Silk Road gateway. The Terracotta Army, city wall, museums and food streets deserve separate time blocks.",
+      "zh-CN": "本试点入口重点介绍西安。作为古都和丝绸之路重要起点，兵马俑、城墙、博物馆和美食街区都值得单独安排时间。"
+    },
+    "attractionNotes": [
+      {
+        "en": "The Terracotta Army is outside the city centre. Reserve officially and allow time for the return transfer.",
+        "zh-CN": "兵马俑位于市区之外，应通过官方渠道预约，并为返程接驳预留时间。"
+      },
+      {
+        "en": "The Ming city wall surrounds the old centre and can be explored on foot or by bicycle where available.",
+        "zh-CN": "明城墙环绕老城区，可步行或在允许区域骑行。"
+      },
+      {
+        "en": "The Muslim Quarter is a lively food and street-life area, busiest in the evening.",
+        "zh-CN": "回民街是热闹的美食与街巷体验区，晚间客流较大。"
+      }
+    ],
+    "foodHighlights": [
+      {
+        "en": "Roujiamo is a baked-bread sandwich with braised meat.",
+        "zh-CN": "肉夹馍是以烤制面饼夹入卤肉的地方小吃。"
+      },
+      {
+        "en": "Biangbiang noodles are broad hand-pulled noodles often served with chilli oil.",
+        "zh-CN": "油泼面、裤带面等宽面常配辣椒油和多种浇头。"
+      },
+      {
+        "en": "Yangrou paomo is a lamb-and-bread soup associated with Xi’an.",
+        "zh-CN": "羊肉泡馍是西安具有代表性的羊肉与馍块汤食。"
+      }
+    ],
+    "stayAreas": {
+      "en": "Inside or just outside the city wall near Bell Tower and South Gate is practical for first-time visits; Qujiang suits a modern stay.",
+      "zh-CN": "首次游览可考虑钟楼、南门附近城墙内外区域；曲江适合希望靠近现代文化景区的旅客。"
+    },
+    "day1": {
+      "en": "Old city and food streets: walk the city wall and central landmarks, then explore a food district in the evening.",
+      "zh-CN": "老城与美食街区：白天游览城墙和市中心地标，晚上安排美食片区。"
+    },
+    "day2": {
+      "en": "Terracotta Army: reserve a dedicated day for the museum and nearby heritage sites.",
+      "zh-CN": "兵马俑：为博物馆及周边遗址预留完整一天。"
+    },
+    "practical": {
+      "en": "The Terracotta Army and major museums may require real-name reservations. Confirm current ticket windows and entry documents.",
+      "zh-CN": "兵马俑和重要博物馆可能实行实名预约，需确认当前票务时段和入场证件。"
+    }
+  },
+  "gansu": {
+    "overview": {
+      "en": "This pilot entry focuses on Lanzhou, while Gansu’s Silk Road heritage and desert landscapes span a very large province. Dunhuang and Zhangye are separate multi-day routes.",
+      "zh-CN": "本试点入口重点介绍兰州，但甘肃的丝路遗产和沙漠景观横跨广阔省域。敦煌、张掖应作为独立多日路线安排。"
+    },
+    "attractionNotes": [
+      {
+        "en": "The Yellow River waterfront and Zhongshan Bridge are central landmarks; a riverside walk helps orient first-time visitors.",
+        "zh-CN": "黄河风情线与中山桥是兰州中心城区的重要地标，适合首次到访时沿河步行。"
+      },
+      {
+        "en": "Gansu Provincial Museum provides context for the Silk Road and regional archaeology; check reservation notices.",
+        "zh-CN": "甘肃省博物馆有助于了解丝绸之路与区域考古文化，参观前核对预约公告。"
+      }
+    ],
+    "foodHighlights": [
+      {
+        "en": "Lanzhou beef noodles are a signature everyday meal; shops differ in broth and noodle thickness.",
+        "zh-CN": "兰州牛肉面是代表性日常餐食，不同店铺汤底和面条粗细各有差异。"
+      },
+      {
+        "en": "Milk, egg and fermented-rice desserts are common in local snack shops.",
+        "zh-CN": "牛奶鸡蛋醪糟等甜品常见于当地小吃店。"
+      },
+      {
+        "en": "Northwest-style lamb and wheat-based dishes are widely available.",
+        "zh-CN": "西北风味羊肉和面食选择丰富。"
+      }
+    ],
+    "stayAreas": {
+      "en": "Central Chengguan District is practical for the Yellow River waterfront, museums and rail connections.",
+      "zh-CN": "城关区中心区域方便游览黄河沿岸、博物馆并衔接交通。"
+    },
+    "day1": {
+      "en": "Yellow River city: explore the waterfront, Zhongshan Bridge and nearby viewpoints, with time for local noodle shops.",
+      "zh-CN": "黄河之城：游览黄河沿岸、中山桥和附近观景点，并留时间体验牛肉面。"
+    },
+    "day2": {
+      "en": "Visit the provincial museum or begin planning a separate Silk Road route; western Gansu sights are not day trips from Lanzhou.",
+      "zh-CN": "可参观省博物馆，或开始规划独立丝路路线；甘肃西部景点并非兰州周边一日游。"
+    },
+    "practical": {
+      "en": "Check train schedules and distances carefully before combining Lanzhou with Dunhuang, Zhangye or other western stops.",
+      "zh-CN": "将兰州与敦煌、张掖等西部目的地组合前，务必核对车次和实际距离。"
+    }
+  },
+  "urumqi": {
+    "overview": {
+      "en": "Urumqi is a gateway city for Xinjiang, where long distances, varied landscapes and regional travel rules shape itinerary planning. Keep city visits separate from remote mountain or lake excursions.",
+      "zh-CN": "乌鲁木齐是新疆的重要门户城市。长距离交通、多样地貌和区域出行规定都会影响行程安排。市区游览应与远郊山地、湖泊行程分开规划。"
+    },
+    "attractionNotes": [
+      {
+        "en": "The Grand Bazaar is a large commercial and cultural area with regional food, crafts and architecture; follow local notices.",
+        "zh-CN": "国际大巴扎是大型商业文化区域，可体验地方美食、手工艺和建筑风貌，游览时遵守当地公告。"
+      },
+      {
+        "en": "Xinjiang Museum provides context for the region’s history, archaeology and cultural diversity; check reservation notices.",
+        "zh-CN": "新疆博物馆有助于了解新疆历史、考古与多元文化，参观前核对预约公告。"
+      }
+    ],
+    "foodHighlights": [
+      {
+        "en": "Lamb skewers and grilled meats are common regional dishes.",
+        "zh-CN": "烤羊肉串及各类烤肉是常见地方美食。"
+      },
+      {
+        "en": "Polo and laghman noodles are well-known Xinjiang dishes.",
+        "zh-CN": "抓饭和拉条子是新疆具有代表性的主食。"
+      },
+      {
+        "en": "Nang bread, dried fruit and local dairy products are common market foods and gifts.",
+        "zh-CN": "馕、干果和地方乳制品是常见市场食品与伴手礼。"
+      }
+    ],
+    "stayAreas": {
+      "en": "Central Urumqi is practical for museums, markets and city transport. Choose accommodation based on your arrival station or airport transfer.",
+      "zh-CN": "乌鲁木齐中心城区方便安排博物馆、集市和市内交通，住宿应结合实际抵达车站或机场接驳选择。"
+    },
+    "day1": {
+      "en": "City and regional culture: combine Xinjiang Museum, the Grand Bazaar and local food streets.",
+      "zh-CN": "城市与地域文化：把新疆博物馆、国际大巴扎和地方美食街区安排在同一天。"
+    },
+    "day2": {
+      "en": "Choose one full-day nature excursion such as Tianchi after checking transport, weather and access requirements.",
+      "zh-CN": "核对交通、天气和通行要求后，可选择天山天池等一个自然景区安排一日游。"
+    },
+    "practical": {
+      "en": "Distances in Xinjiang can be substantial. Check current travel requirements for each destination and use reliable transport for remote routes.",
+      "zh-CN": "新疆各目的地之间距离可能很远。前往不同地区前核对最新出行要求，远郊路线应选择可靠交通。"
+    }
+  }
+}

@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="description" content="Pilot city detail — TCM orientation, climate, food, transport, hotels. Yiang Health planning intermediary. Not medical advice.">
+  <meta name="description" content="Detailed destination guide with climate, transport, local food, places to explore, accommodation notes and public information sources. Not medical advice.">
   <meta name="theme-color" content="#1a7a72">
-  <title>City Guide — Yiang Health</title>
+  <title>Destination Guide — Yiang Health</title>
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="style.css">
+  <style>.guide-attraction-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:12px}.guide-attraction-card,.guide-itinerary-card{padding:14px;border:1px solid var(--border);border-radius:14px;background:var(--bg-card)}.guide-attraction-card strong,.guide-itinerary-card strong{display:block;margin-bottom:7px}.guide-attraction-card p,.guide-itinerary-card p{margin:0;line-height:1.7;color:var(--text-secondary)}.guide-food-list{padding-left:20px;line-height:1.8}.guide-itinerary-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:12px}@media(max-width:640px){.guide-attraction-grid,.guide-itinerary-grid{grid-template-columns:1fr}}</style>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -61,13 +62,13 @@
       } catch(e){ return null; }
     }
 
-    function paywallHtml(){ return '<div class="planner-card paywall-card"><h2>Research entry only</h2><p>This is a brief policy-research entry, not a complete city guide. Yiang Health currently publishes detailed local guides for Jincheng and Linfen only. No local partnership, hospital availability or provider recommendation is implied.</p><p><a href="jincheng-zh.html">Jincheng local guide ↗</a> · <a href="linfen-zh.html">Linfen local guide ↗</a></p></div>'; }
-
-    function render(city, meta){
+    function render(city, meta, extraData){
       const root = document.getElementById('city-root');
-      const unlocked = false;
       const name = L(city.name);
-      document.title = name + ' — Yiang Health';
+      const zh = ['zh-CN','zh-TW'].includes(lang());
+      const T = (en, zhText) => zh ? zhText : en;
+      const extra = extraData || {};
+      document.title = name + ' · ' + T('Destination Guide','目的地指南') + ' — Yiang Health';
 
       let distHtml = '';
       try {
@@ -79,23 +80,19 @@
       } catch(e){}
 
       const preview = `
-        <p class="breadcrumb"><a href="destinations.html">Policy Pilot Research Directory</a> / ${name}</p>
-        <h1 class="section-title">${name}</h1>
+        <p class="breadcrumb"><a href="index.html">Yiang Health</a> / <a href="destinations.html">${T('Destination guides','目的地指南')}</a> / ${name}</p>
+        <h1 class="section-title">${name} · ${T('Destination Guide','目的地详细指南')}</h1>
         <p class="section-sub">${L(city.region)} · ${city.pilotLevel || 'pilot'}</p>
         ${distHtml}
+        <div class="planner-card"><h2>${T('Destination overview','目的地概览')}</h2><p>${L(extra.overview)}</p></div>
         <div class="disclaimer-box"><p>${L(meta.dataDisclaimer)}</p></div>
         <div class="planner-card">
-          <h3>Climate</h3>
+          <h3>${T('Climate &amp; best time to plan','气候与适宜出行季节')}</h3>
           <p>${L(city.climate)}</p>
-          <h3>Price level</h3>
+          <h3>${T('Indicative price level','参考消费水平')}</h3>
           <p>${L(city.priceLevel)}</p>
         </div>`;
 
-      if(!unlocked){
-        root.innerHTML = preview + paywallHtml();
-        wireUnlock();
-        return;
-      }
 
       const hospitals = (city.hospitals||[]).map(h => `
         <div class="hospital-card">
@@ -104,48 +101,33 @@
           <div class="action-meta">${(h.focus||[]).map(f=>`<span class="action-cat">${f}</span>`).join(' ')}</div>
         </div>`).join('');
 
-      const attrs = (city.attractions||[]).map(a => `<li>${L(a)}</li>`).join('');
+      const attractionCards = (city.attractions||[]).map((a,i) => `<div class="guide-attraction-card"><strong>${L(a)}</strong><p>${L((extra.attractionNotes||[])[i]) || T('Check the official destination information before visiting.','出行前请核对景区官方信息。')}</p></div>`).join('');
+      const foodHighlights = (extra.foodHighlights||[]).map(x => `<li>${L(x)}</li>`).join('');
+      const itinerary = ['day1','day2'].filter(k => extra[k]).map((k,i) => `<div class="guide-itinerary-card"><strong>${i===0?T('Day 1','第1天'):T('Day 2','第2天')} · ${L(extra[k].title)||''}</strong><p>${L(extra[k])}</p></div>`).join('');
 
       root.innerHTML = preview + `
         <div class="planner-card">
-          <h3>TCM / wellness orientation</h3>
+          <h3>${T('TCM / wellness orientation','中医药与康养文化概览')}</h3>
           <p>${L(city.tcmFocus)}</p>
-          <h3>Publicly known institutions (DEMO)</h3>
+          <h3>${T('Publicly listed institutions (information only)','公开机构信息（仅供参考）')}</h3>
           ${hospitals || '<p>See official sources.</p>'}
         </div>
         <div class="planner-card">
-          <h3>Transport</h3><p>${L(city.transport)}</p>
-          <h3>Food</h3><p>${L(city.food)}</p>
-          <h3>Hotels</h3><p>${L(city.hotelsNote)}</p>
-          <h3>Attractions</h3><ul>${attrs}</ul>
+          <h3>${T('Getting there &amp; local transport','抵达方式与当地交通')}</h3><p>${L(city.transport)}</p>
+          <h3>${T('Food','当地美食')}</h3><p>${L(city.food)}</p>
+          <ul class="guide-food-list">${foodHighlights}</ul>
+          <h3>${T('Hotels','住宿参考')}</h3><p>${L(city.hotelsNote)}</p>
+          <h3>${T('Suggested stay areas','住宿区域参考')}</h3><p>${L(extra.stayAreas)}</p>
+          <h3>${T('Places to explore','值得探索的目的地')}</h3><div class="guide-attraction-grid">${attractionCards}</div>
+          <h3>${T('Suggested planning approach','行程规划提示')}</h3><p>${T('Group nearby places together, check opening days and ticket requirements through official channels, and allow realistic time for the final transfer. For region-level entries, confirm the actual city and route before booking.','建议按地理位置组合景点，通过官方渠道核对开放日期和门票要求，并为最后一段接驳预留充足时间。省级试点地区请先确认具体城市与路线，再预订交通和住宿。')}</p>
+          <h3>${T('A practical two-day starting plan','两日行程参考')}</h3><div class="guide-itinerary-grid">${itinerary}</div>
+          <h3>${T('Local travel notes','当地出行提示')}</h3><p>${L(extra.practical)}</p>
         </div>
         <div class="planner-card">
-          <h3>Official sources</h3>
+          <h3>${T('Official sources','官方信息来源')}</h3>
           ${(city.officialSources||[]).map(s=>`<div><a href="${s.url}" target="_blank" rel="noopener">${s.name}</a></div>`).join('')}
-          <p class="storage-notice">${city.disclaimer || ''}</p>
+          <p class="storage-notice">${T('Travel information only. Not medical advice, diagnosis, treatment, referrals or a statement of partnership. Verify current details with official sources.','本页面仅提供旅行与公开信息整理，不构成医疗建议、诊断、治疗或转诊，也不代表与相关机构存在合作。具体信息请以官方渠道最新发布为准。')}</p>
         </div>`;
-    }
-
-    function wireUnlock(){
-      const btn = document.getElementById('btn-unlock');
-      if(!btn) return;
-      btn.addEventListener('click', () => {
-        const code = (document.getElementById('unlock-code')||{}).value || '';
-        const r = AccessControl.unlock('essentials', code.trim());
-        if(r.ok){ location.reload(); }
-        else alert(r.message || 'Invalid code');
-      });
-      // fix empty payment urls
-      ['city-pay-ess','city-pay-full'].forEach((id,i)=>{
-        const a = document.getElementById(id);
-        if(!a) return;
-        if(!a.getAttribute('href') || a.getAttribute('href')==='#'){
-          a.addEventListener('click', e => {
-            e.preventDefault();
-            alert('Set Stripe Payment Link in modules/config.js (pricing.essentials.paymentUrl / full.paymentUrl), and optional QR images under assets/qr/');
-          });
-        }
-      });
     }
 
     document.addEventListener('DOMContentLoaded', async () => {
@@ -156,7 +138,9 @@
       if(!data){ document.getElementById('city-root').innerHTML = '<p>Failed to load data.</p>'; return; }
       const city = (data.pilots||[]).find(c => c.id === id);
       if(!city){ document.getElementById('city-root').innerHTML = '<p>City not found. <a href="destinations.html">Back</a></p>'; return; }
-      render(city, data);
+      let guideData = {};
+      try { guideData = await (await fetch('data/guide-details.json')).json(); } catch(e) { guideData = {}; }
+      render(city, data, guideData[city.id] || {});
     });
   })();
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('service-worker.js').catch(()=>{});
