@@ -44,13 +44,13 @@ const YiangConfig = {
       meUrl: ''
     },
     wechat: {
-      enabled: true,
+      enabled: false,
       essentialsQr: 'assets/qr/wechat-essentials.jpg',
       fullQr: 'assets/qr/wechat-full.jpg',
       note: { en: 'WeChat Pay — scan with WeChat', 'zh-CN': '微信扫码支付' }
     },
     alipay: {
-      enabled: true,
+      enabled: false,
       essentialsQr: 'assets/qr/alipay-essentials.jpg',
       fullQr: 'assets/qr/alipay-full.jpg',
       note: { en: 'Alipay — scan with Alipay', 'zh-CN': '支付宝扫码支付' }
@@ -61,11 +61,7 @@ const YiangConfig = {
    * 客户端演示解锁码：公开可见，不可作为安全的付费凭证。
    * 不得将这些公开演示码用于真实收费业务；付费访问需服务端验证。
    */
-  accessCodes: {
-    essentials: 'YH-ESSENTIALS-2026',
-    full: 'YH-FULL-2026',
-    master: 'YH-MASTER-DEMO'
-  },
+  accessCodes: {},
 
   /** 静态说明页；打开此页面不代表支付已成功或已到账 */
   successPage: 'success.html',
@@ -74,8 +70,8 @@ const YiangConfig = {
     wechatId: '+86 186 0356 7665',
     tel: '+8618603567665',
     note: {
-      en: 'After payment, send your receipt screenshot to us. We will issue an access code after manually confirming the payment.',
-      'zh-CN': '付款后请将支付凭证截图发送给我们；核实到账后会提供解锁码。'
+      en: 'Paid services are not currently available. Please do not send funds or payment receipts.',
+      'zh-CN': '目前暂不提供付费服务，请勿转账或发送付款凭证。'
     }
   },
 

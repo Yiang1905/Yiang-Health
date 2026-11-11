@@ -60,13 +60,14 @@
     air.textContent = zh ? '按抵达机场、住宿地点与最终接驳时间综合比较航班。' : place[6];
     rail.textContent = zh ? '核对车票上的具体车站，并提前规划车站至酒店或景点的接驳。' : place[7];
     road.textContent = zh ? '提前确认最后一段路程、停车与当地交通安排。' : place[8];
-    link.href = place[11];
+    link.href = zh ? (place[0] === 'linfen' ? 'linfen-zh.html' : place[0] === 'shanxi' ? 'jincheng-zh.html' : place[11]) : place[11];
     link.textContent = zh ? (place[0] === 'linfen' ? '探索临汾指南 ↗' : '查看目的地指南 ↗') : (place[0] === 'linfen' ? 'Explore Linfen local guide' : place[0] === 'shanxi' ? 'Explore Situ Town and Jincheng' : 'Explore destination overview');
     const isLocalGuide = place[4] === 'home';
     kicker.textContent = zh ? (isLocalGuide ? (place[0] === 'linfen' ? '山西本地指南 · 临汾' : '山西家乡 · 晋城指南') : place[4] === 'planned' ? '未来目的地 · 出行提示' : '试点目的地 · 出行提示') : (isLocalGuide ? (place[0] === 'linfen' ? 'SHANXI LOCAL GUIDE | LINFEN' : 'SHANXI LOCAL GUIDE | JINCHENG') : (place[4] === 'planned' ? 'FUTURE DESTINATION | TRAVEL NOTES' : 'OFFICIAL PILOT REGION | GETTING THERE'));
   }
 
-  places.forEach(place => {
+  const homePlaces = places.filter(place => place[4] === "home");
+  homePlaces.forEach(place => {
     const pos = xy(place);
     const marker = el('g', {
       class: 'china-marker' + (place[4] === 'home' ? ' is-home' : place[4] === 'planned' ? ' is-planned' : ''),
@@ -91,5 +92,5 @@
     });
     layer.appendChild(marker);
   });
-  selectPlace(places[places.length - 1], layer.lastElementChild);
+  selectPlace(homePlaces[homePlaces.length - 1], layer.lastElementChild);
 })();
