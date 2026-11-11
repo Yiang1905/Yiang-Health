@@ -33,60 +33,16 @@
   </header>
 
     <main class="main">
-    <h1 class="section-title text-center" data-i18n="pricing_title">Simple plans for your China journey</h1>
-    <p class="section-sub text-center">Pay with <strong>WeChat</strong> or <strong>Alipay</strong>. QR payments are manually checked; access codes are issued only after funds are confirmed. Planning fee only — not medical care.</p>
+    <h1 class="section-title text-center">Service availability</h1>
+    <p class="section-sub text-center">Paid access is temporarily unavailable while payment processing and secure access verification are being prepared. Please do not transfer money or send payment details based on this page.</p>
 
-    <div class="foreign-card-tip">
-      <span class="foreign-card-tip-icon">💳</span>
-      <div>
-        <strong>Using an international card?</strong> Card binding and QR-payment eligibility depend on your app account, card issuer and merchant settings. Please confirm that your app allows this payment before proceeding.
-        <div class="foreign-card-tip-zh">境外卡用户请先在支付宝或微信中确认已绑定的国际信用卡可用于当前商户二维码付款，再进行支付。</div>
-      </div>
-    </div>
 
-    <div class="pricing-grid">
-      <div class="price-card">
-        <h3>Explorer</h3>
-        <div class="price-amount">$0</div>
-        <p>Browse pilot cities, basic planner, notes on this device.</p>
-        <a href="destinations.html" class="btn btn-secondary btn-block">Browse free</a>
-      </div>
-      <div class="price-card featured">
-        <h3>Essentials</h3>
-        <div class="price-amount">$14.90 <span style="font-size:0.85rem;font-weight:500">/ ¥99</span></div>
-        <p>Unlock full guides for all 18 pilot regions (hospitals orientation, climate, food, hotels, transport).</p>
-        <button type="button" class="btn btn-primary btn-block" data-open-pay="essentials">Choose payment</button>
-      </div>
-      <div class="price-card">
-        <h3>Full Journey Pack</h3>
-        <div class="price-amount">$24.90 <span style="font-size:0.85rem;font-weight:500">/ ¥168</span></div>
-        <p>Everything in Essentials + richer journey framing. Still information &amp; planning only.</p>
-        <button type="button" class="btn btn-secondary btn-block" data-open-pay="full">Choose payment</button>
-      </div>
-    </div>
+
+    <div class="pricing-grid"><div class="price-card"><h3>Free preview</h3><div class="price-amount">$0</div><p>Explore the Jincheng and Linfen local guides and browse the policy pilot research directory.</p><div class="price-actions"><a href="jincheng-zh.html" class="btn btn-primary">晋城指南</a> <a href="linfen-zh.html" class="btn btn-secondary">临汾指南</a></div></div><div class="price-card"><h3>Paid plans</h3><div class="price-amount">Coming soon</div><p>Paid services will open only after payment, fulfilment and secure access controls have been tested.</p><span class="form-hint">No payment is currently being accepted.</span></div></div>
 
     <!-- Payment panel -->
-    <div id="pay-panel" class="planner-card pay-panel hidden" style="max-width:720px;margin:28px auto 0">
-      <h2 id="pay-panel-title">Pay — Essentials</h2>
-      <p id="pay-panel-desc" class="section-sub">Pick one method. After payment, send a screenshot to get your access code.</p>
-      <div class="pay-methods" id="pay-methods"></div>
-      <p class="storage-notice" id="pay-contact-note"></p>
-      <button type="button" class="btn btn-secondary" id="pay-panel-close">Close</button>
-    </div>
-
-    <div class="planner-card" style="max-width:640px;margin:32px auto 0">
-      <h2>Already paid?</h2>
-      <p>Enter the access code we send after confirming your payment.</p>
-      <div class="form-group">
-        <label for="unlock-code-pricing">Access code</label>
-        <input type="text" id="unlock-code-pricing" placeholder="YH-…">
-      </div>
-      <button type="button" class="btn btn-primary" id="btn-unlock-pricing">Unlock guides</button>
-    </div>
-
     <div class="pricing-note" style="max-width:720px;margin:24px auto">
-      Yiang Health is a light planning intermediary. Fees cover information organization only.
-      Hospital, hotel, flight and treatment costs are paid by you directly to providers.
+      Yiang Health is currently offering free local-guide previews only. Paid services will be announced after payment processing and secure access controls are ready.
     </div>
   </main>
 
@@ -112,71 +68,7 @@
   <script src="modules/planner.js"></script>
   <script src="script.js"></script>
 
-  <script>
-    (function(){
-      function $(s){ return document.querySelector(s); }
-      function showPay(tier){
-        var cfg = window.YiangConfig || {};
-        var pay = cfg.payments || {};
-        var pricing = cfg.pricing || {};
-        var panel = $('#pay-panel');
-        var methods = $('#pay-methods');
-        if(!panel || !methods) return;
-        var isFull = tier === 'full';
-        var price = isFull ? pricing.full : pricing.essentials;
-        $('#pay-panel-title').textContent = (isFull ? 'Pay — Full Journey Pack' : 'Pay — Essentials') +
-          '  ($' + ((price && price.priceUsd) || '') + ' / ¥' + ((price && price.priceCny) || '') + ')';
-        var html = '';
-        if(pay.paypal && pay.paypal.enabled !== false){
-          var url = isFull ? (pay.paypal.fullUrl || pay.paypal.meUrl) : (pay.paypal.essentialsUrl || pay.paypal.meUrl);
-          html += '<div class="pay-block"><h3>PayPal</h3><p style="font-size:0.85rem;color:var(--text-muted)">International cards</p>';
-          if(url) html += '<a class="btn btn-primary" href="'+url+'" target="_blank" rel="noopener">Pay with PayPal</a>';
-          else html += '<p class="form-hint">Set payments.paypal in config.js</p>';
-          html += '</div>';
-        }
-        if(pay.wechat && pay.wechat.enabled !== false){
-          var wqr = isFull ? pay.wechat.fullQr : pay.wechat.essentialsQr;
-          html += '<div class="pay-block"><h3>WeChat 微信</h3>';
-          if(wqr) html += '<img class="qr-img" src="'+wqr+'" alt="WeChat QR" onerror="this.style.display=\'none\'">';
-          html += '<p style="font-size:0.8rem;margin-top:8px">用微信扫一扫</p></div>';
-        }
-        if(pay.alipay && pay.alipay.enabled !== false){
-          var aqr = isFull ? pay.alipay.fullQr : pay.alipay.essentialsQr;
-          html += '<div class="pay-block"><h3>Alipay 支付宝</h3>';
-          if(aqr) html += '<img class="qr-img" src="'+aqr+'" alt="Alipay QR" onerror="this.style.display=\'none\'">';
-          html += '<p style="font-size:0.8rem;margin-top:8px">用支付宝扫一扫</p></div>';
-        }
-        methods.innerHTML = html;
-        var note = '';
-        if(cfg.contact && cfg.contact.note) note = cfg.contact.note['zh-CN'] || cfg.contact.note.en || '';
-        if(cfg.contact && cfg.contact.wechatId) note += ' 微信: ' + cfg.contact.wechatId;
-        var n = $('#pay-contact-note'); if(n) n.textContent = note;
-        panel.classList.remove('hidden');
-        panel.scrollIntoView({behavior:'smooth', block:'nearest'});
-      }
-      document.addEventListener('DOMContentLoaded', function(){
-        document.querySelectorAll('[data-open-pay]').forEach(function(btn){
-          btn.addEventListener('click', function(){ showPay(btn.getAttribute('data-open-pay')); });
-        });
-        var close = $('#pay-panel-close');
-        if(close) close.addEventListener('click', function(){ $('#pay-panel').classList.add('hidden'); });
-        var b = $('#btn-unlock-pricing');
-        if(b){
-          b.addEventListener('click', function(){
-            var code = ($('#unlock-code-pricing')||{}).value || '';
-            if(!window.AccessControl) return alert('Access module missing');
-            var r = AccessControl.unlock('full', code.trim());
-            if(!r.ok) r = AccessControl.unlock('essentials', code.trim());
-            if(r.ok){ alert('Unlocked!'); location.href='destinations.html'; }
-            else alert(r.message||'Invalid code');
-          });
-        }
-      });
-    })();
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js').catch(function(){});
-    }
-  </script>
+
 
 </body>
 </html>

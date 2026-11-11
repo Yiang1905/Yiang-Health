@@ -61,39 +61,11 @@
       } catch(e){ return null; }
     }
 
-    function paywallHtml(){
-      const cfg = window.YiangConfig || {};
-      const ess = (cfg.pricing||{}).essentials || {};
-      const full = (cfg.pricing||{}).full || {};
-      return `
-        <div class="planner-card paywall-card">
-          <h2>Unlock full city guides</h2>
-          <p>Free visitors see a short preview. Paid plans unlock hospitals (public orientation), climate, food, hotels, transport and more for all 18 pilot regions.</p>
-          <p class="storage-notice"><strong>Essentials $9.90</strong> · <strong>Full Journey $29</strong> — planning fees only. Not medical care.</p>
-          <div class="pay-row">
-            <div class="pay-block">
-              <h3>Essentials — $9.90</h3>
-              ${ess.qrImage ? `<img class="qr-img" src="${ess.qrImage}" alt="Pay QR Essentials" onerror="this.style.display='none'">` : ''}
-              <a class="btn btn-primary" id="city-pay-ess" href="${ess.paymentUrl || '#'}" target="_blank" rel="noopener">Pay / Scan</a>
-            </div>
-            <div class="pay-block">
-              <h3>Full — $29</h3>
-              ${full.qrImage ? `<img class="qr-img" src="${full.qrImage}" alt="Pay QR Full" onerror="this.style.display='none'">` : ''}
-              <a class="btn btn-secondary" id="city-pay-full" href="${full.paymentUrl || '#'}" target="_blank" rel="noopener">Pay / Scan</a>
-            </div>
-          </div>
-          <div class="form-group" style="margin-top:20px">
-            <label for="unlock-code">Already paid? Enter access code</label>
-            <input type="text" id="unlock-code" placeholder="YH-…">
-            <button type="button" class="btn btn-primary" id="btn-unlock" style="margin-top:10px">Unlock</button>
-            <p class="form-hint">After Stripe payment, we send you a code (or use the demo master code while testing).</p>
-          </div>
-        </div>`;
-    }
+    function paywallHtml(){ return '<div class="planner-card paywall-card"><h2>Research entry only</h2><p>This is a brief policy-research entry, not a complete city guide. Yiang Health currently publishes detailed local guides for Jincheng and Linfen only. No local partnership, hospital availability or provider recommendation is implied.</p><p><a href="jincheng-zh.html">Jincheng local guide ↗</a> · <a href="linfen-zh.html">Linfen local guide ↗</a></p></div>'; }
 
     function render(city, meta){
       const root = document.getElementById('city-root');
-      const unlocked = window.AccessControl && AccessControl.hasAccess('essentials');
+      const unlocked = false;
       const name = L(city.name);
       document.title = name + ' — Yiang Health';
 
@@ -107,7 +79,7 @@
       } catch(e){}
 
       const preview = `
-        <p class="breadcrumb"><a href="destinations.html">Pilot Cities</a> / ${name}</p>
+        <p class="breadcrumb"><a href="destinations.html">Policy Pilot Research Directory</a> / ${name}</p>
         <h1 class="section-title">${name}</h1>
         <p class="section-sub">${L(city.region)} · ${city.pilotLevel || 'pilot'}</p>
         ${distHtml}
