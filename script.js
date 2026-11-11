@@ -363,7 +363,7 @@
           const climate = locName(c.climate, l);
           const lock = unlocked ? '' : '<div class="city-status">Preview · Unlock for full guide</div>';
           return `
-            <a class="city-card city-card-link" href="city.html?id=${c.id}">
+            <a id="${c.id}" class="city-card city-card-link" href="city.html?id=${c.id}">
               <h3>${name}</h3>
               <div class="region">${region}</div>
               <p style="font-size:0.85rem;color:var(--text-secondary);margin-top:8px">${(climate || '').slice(0, 100)}…</p>
