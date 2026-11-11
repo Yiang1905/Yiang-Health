@@ -44,6 +44,42 @@
   const air = document.getElementById('china-route-air');
   const rail = document.getElementById('china-route-rail');
   const road = document.getElementById('china-route-road');
+  const expanded = document.getElementById('china-panel-expanded');
+  const pilotDataPromise = fetch('data/pilots.json').then(r => { if (!r.ok) throw new Error('pilot data unavailable'); return r.json(); }).catch(() => null);
+  const guideDetailsPromise = fetch('data/guide-details.json').then(r => { if (!r.ok) throw new Error('guide details unavailable'); return r.json(); }).catch(() => ({}));
+  const esc = value => String(value == null ? '' : value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+  const localized = (value, zh) => typeof value === 'string' ? value : (value && (value[zh ? 'zh-CN' : 'en'] || value.en || value['zh-CN'])) || '';
+  async function showPilotDetails(place, zh) {
+    if (!expanded) return;
+    if (place[4] !== 'pilot') { expanded.hidden = true; expanded.innerHTML = ''; return; }
+    const [data, guideDetails] = await Promise.all([pilotDataPromise, guideDetailsPromise]);
+    const city = data && (data.pilots || []).find(item => item.id === place[0]);
+    const extra = guideDetails && guideDetails[place[0]] || {};
+    if (!city) { expanded.hidden = false; expanded.textContent = zh ? '暂时无法加载该地区的详细资料。' : 'Detailed destination data is temporarily unavailable.'; return; }
+    const name = localized(city.name, zh);
+    const section = (heading, body) => body ? '<section class="china-guide-block"><h4>' + esc(heading) + '</h4>' + body + '</section>' : '';
+    const paragraph = value => value ? '<p>' + esc(localized(value, zh)) + '</p>' : '';
+    const list = values => values && values.length ? '<ul>' + values.map(v => '<li>' + esc(localized(v, zh)) + '</li>').join('') + '</ul>' : '';
+    const institutions = (city.hospitals || []).map(h => '<li><strong>' + esc(localized(h.name, zh)) + '</strong><span>' + esc(localized(h.note, zh)) + '</span></li>').join('');
+    const attractionNotes = (city.attractions || []).map((a,i) => '<li><strong>' + esc(localized(a, zh)) + '</strong><span>' + esc(localized((extra.attractionNotes || [])[i], zh)) + '</span></li>').join('');
+    const foodHighlights = list(extra.foodHighlights || []);
+    const dayPlan = [extra.day1, extra.day2].filter(Boolean).map((v,i) => '<p><strong>' + (zh ? (i===0?'第1天：':'第2天：') : (i===0?'Day 1: ':'Day 2: ')) + '</strong>' + esc(localized(v, zh)) + '</p>').join('');
+    const sources = (city.officialSources || []).map(x => '<a href="' + esc(x.url) + '" target="_blank" rel="noopener noreferrer">' + esc(x.name) + '</a>').join(' · ');
+    expanded.innerHTML = '<div class="china-guide-grid">' +
+      section(zh ? '目的地概览' : 'Destination overview', paragraph(extra.overview)) +
+      section(zh ? '气候与适合出行的季节' : 'Climate & seasonal planning', paragraph(city.climate)) +
+      section(zh ? '当地美食' : 'Local food', paragraph(city.food) + foodHighlights) +
+      section(zh ? '值得了解的目的地' : 'Places to explore', attractionNotes ? '<ul class=\"china-institution-list\">' + attractionNotes + '</ul>' : list(city.attractions)) +
+      section(zh ? '交通与抵达方式' : 'Getting there', paragraph(city.transport)) +
+      section(zh ? '住宿参考' : 'Where to stay', paragraph(city.hotelsNote) + paragraph(extra.stayAreas)) +
+      section(zh ? '两日行程参考' : 'Two-day starting plan', dayPlan) +
+      section(zh ? '当地出行提示' : 'Local travel notes', paragraph(extra.practical)) +
+      section(zh ? '中医药与康养文化背景' : 'TCM & wellness context', paragraph(city.tcmFocus)) +
+      section(zh ? '公开机构信息（需自行核实）' : 'Public institution information (verify independently)', institutions ? '<ul class="china-institution-list">' + institutions + '</ul>' : '') +
+      section(zh ? '官方信息来源' : 'Official information sources', '<p>' + sources + '</p>') +
+      '</div><div class="china-guide-footer"><span>' + esc(name) + (zh ? ' · 试点地区详细指南' : ' · Pilot destination guide') + '</span><a class="btn btn-primary" href="city.html?id=' + encodeURIComponent(city.id) + '">' + (zh ? '打开完整城市指南' : 'Open full destination guide') + '</a></div>';
+    expanded.hidden = false;
+  }
 
   function selectPlace(place, marker) {
     layer.querySelectorAll('.china-marker').forEach(node => node.classList.toggle('is-selected', node === marker));
@@ -51,7 +87,8 @@
     const zh = lang === 'zh-CN' || lang === 'zh-TW';
     const namesZh = {hulunbuir:'呼伦贝尔',heihe:'黑河',yanbian:'延边 / 延吉',beijing:'北京',tianjin:'天津',shanghai:'上海',nantong:'南通',zhejiang:'浙江 · 杭州',shandong:'山东 · 济南',guangdong:'广东 · 广州',guangxi:'广西 · 南宁',hainan:'海南',chongqing:'重庆',chengdu:'成都',kunming:'昆明',shaanxi:'陕西 · 西安',gansu:'甘肃 · 兰州',urumqi:'乌鲁木齐',zhengzhou:'郑州',nanjing:'南京',wuhan:'武汉',xiamen:'厦门',lhasa:'拉萨',linfen:'临汾',shanxi:'山西 · 晋城'};
     title.textContent = zh ? (namesZh[place[0]] || place[1]) : place[1];
-    desc.textContent = zh ? '这里提供目的地出行概览。航班、车次、景区开放时间和道路状况可能变化，请在出发前核对官方信息。' : place[5];
+    desc.textContent = zh ? '选择的地区资料正在展开。请查看下方的气候、美食、景点、交通、住宿与公开信息。' : place[5];
+    showPilotDetails(place, zh);
     tags.replaceChildren(...place.slice(9, 11).map(label => {
       const span = document.createElement('span');
       span.textContent = zh ? (place[0] === 'shanxi' ? '山西家乡' : place[0] === 'linfen' ? '黄河风光' : '目的地指南') : label;
@@ -60,18 +97,18 @@
     air.textContent = zh ? '按抵达机场、住宿地点与最终接驳时间综合比较航班。' : place[6];
     rail.textContent = zh ? '核对车票上的具体车站，并提前规划车站至酒店或景点的接驳。' : place[7];
     road.textContent = zh ? '提前确认最后一段路程、停车与当地交通安排。' : place[8];
-    link.href = zh ? (place[0] === 'linfen' ? 'linfen-zh.html' : place[0] === 'shanxi' ? 'jincheng-zh.html' : place[11]) : place[11];
-    link.textContent = zh ? (place[0] === 'linfen' ? '探索临汾指南 ↗' : '查看目的地指南 ↗') : (place[0] === 'linfen' ? 'Explore Linfen local guide' : place[0] === 'shanxi' ? 'Explore Situ Town and Jincheng' : 'Explore destination overview');
+    link.href = place[4] === 'pilot' ? ('city.html?id=' + encodeURIComponent(place[0])) : (zh ? (place[0] === 'linfen' ? 'linfen-zh.html' : 'jincheng-zh.html') : (place[0] === 'linfen' ? 'linfen.html' : 'jincheng.html'));
+    link.textContent = zh ? (place[4] === 'pilot' ? '打开完整地区指南 →' : (place[0] === 'linfen' ? '探索临汾完整指南 →' : '探索晋城完整指南 →')) : (place[4] === 'pilot' ? 'Open full destination guide' : (place[0] === 'linfen' ? 'Explore Linfen local guide' : 'Explore Jincheng local guide'));
     const isLocalGuide = place[4] === 'home';
-    kicker.textContent = zh ? (isLocalGuide ? (place[0] === 'linfen' ? '山西本地指南 · 临汾' : '山西家乡 · 晋城指南') : place[4] === 'planned' ? '未来目的地 · 出行提示' : '试点目的地 · 出行提示') : (isLocalGuide ? (place[0] === 'linfen' ? 'SHANXI LOCAL GUIDE | LINFEN' : 'SHANXI LOCAL GUIDE | JINCHENG') : (place[4] === 'planned' ? 'FUTURE DESTINATION | TRAVEL NOTES' : 'OFFICIAL PILOT REGION | GETTING THERE'));
+    kicker.textContent = zh ? (isLocalGuide ? (place[0] === 'linfen' ? '山西本地指南 · 临汾' : '山西家乡 · 晋城指南') : place[4] === 'planned' ? '未来目的地 · 出行提示' : '试点地区 · 详细目的地指南') : (isLocalGuide ? (place[0] === 'linfen' ? 'SHANXI LOCAL GUIDE | LINFEN' : 'SHANXI LOCAL GUIDE | JINCHENG') : (place[4] === 'planned' ? 'FUTURE DESTINATION | TRAVEL NOTES' : 'PILOT DESTINATION | FULL GUIDE'));
   }
 
-  const homePlaces = places.filter(place => place[4] === "home");
+  const homePlaces = places.filter(place => place[4] === "pilot" || place[4] === "home");
   homePlaces.forEach(place => {
     const pos = xy(place);
     const marker = el('g', {
       class: 'china-marker' + (place[4] === 'home' ? ' is-home' : place[4] === 'planned' ? ' is-planned' : ''),
-      tabindex: '0', role: 'button', 'aria-label': 'View travel information for ' + place[1]
+      tabindex: '0', role: 'button', 'data-city': place[0], 'aria-label': 'View travel information for ' + place[1]
     });
     marker.appendChild(el('circle', { class: 'marker-halo', cx: pos.x, cy: pos.y, r: place[4] === 'home' ? 15 : 11 }));
     marker.appendChild(el('circle', { class: 'marker-dot', cx: pos.x, cy: pos.y, r: place[4] === 'home' ? 5.8 : 4.6 }));
