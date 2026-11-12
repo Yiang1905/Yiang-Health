@@ -1,4 +1,4 @@
-﻿const CACHE = 'yiang-health-v1.24-destination-landmark-cards-20261112';
+const CACHE = 'yiang-health-v1.25-network-first-utf8-refresh-20261112';
 const ASSETS = [
   './','./index.html','./planner.html','./dashboard.html','./destinations.html',
   './city.html','./city-guide.css','./modules/city-guide.js','./shanxi.html','./jincheng.html','./jincheng-zh.html','./linfen.html','./linfen-zh.html','./pricing.html','./safety.html','./terms.html','./privacy.html',
@@ -21,14 +21,14 @@ self.addEventListener('activate', e => {
 });
 self.addEventListener('fetch', e => {
   if (e.request.method !== 'GET') return;
-  e.respondWith(caches.match(e.request).then(cached => {
-    const fetched = fetch(e.request).then(res => {
-      if (res && res.status === 200 && res.type === 'basic') {
-        const clone = res.clone();
-        caches.open(CACHE).then(c => c.put(e.request, clone));
-      }
-      return res;
-    }).catch(() => cached);
-    return cached || fetched;
+  e.respondWith(fetch(e.request).then(res => {
+    if (res && res.status === 200 && res.type === 'basic') {
+      const clone = res.clone();
+      caches.open(CACHE).then(c => c.put(e.request, clone));
+    }
+    return res;
+  }).catch(async () => {
+    const cached = await caches.match(e.request);
+    return cached || Response.error();
   }));
 });
