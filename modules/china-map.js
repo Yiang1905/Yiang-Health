@@ -35,7 +35,8 @@
     Object.entries(attrs).forEach(([key, value]) => n.setAttribute(key, value));
     return n;
   };
-  const xy = p => ({ x: 55 + (p[2] - 73) / (135 - 73) * 890, y: 28 + (54 - p[3]) / (54 - 18) * 760 });
+  const markerOffsets = { beijing: {x:-12,y:-8}, tianjin: {x:12,y:8}, shanghai: {x:-12,y:10}, nantong: {x:12,y:-10}, zhejiang: {x:20,y:8} };
+  const xy = p => ({ x: 55 + (p[2] - 73) / (135 - 73) * 890 + ((markerOffsets[p[0]] || {}).x || 0), y: 28 + (54 - p[3]) / (54 - 18) * 760 + ((markerOffsets[p[0]] || {}).y || 0) });
   const title = document.getElementById('china-panel-title');
   const desc = document.getElementById('china-panel-description');
   const tags = document.getElementById('china-panel-tags');
@@ -48,7 +49,7 @@
   const pilotDataPromise = fetch('data/pilots.json').then(r => { if (!r.ok) throw new Error('pilot data unavailable'); return r.json(); }).catch(() => null);
   const guideDetailsPromise = fetch('data/guide-details.json').then(r => { if (!r.ok) throw new Error('guide details unavailable'); return r.json(); }).catch(() => ({}));
   const esc = value => String(value == null ? '' : value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
-  const localized = (value, zh) => typeof value === 'string' ? value : (value && (value[zh ? 'zh-CN' : 'en'] || value.en || value['zh-CN'])) || '';
+  const localized = (value, zh) => typeof value === 'string' ? value : (value && (value[zh ? 'zh-CN' : 'en'] || (zh ? value.en : ''))) || '';
   async function showPilotDetails(place, zh) {
     if (!expanded) return;
     if (place[4] !== 'pilot') { expanded.hidden = true; expanded.innerHTML = ''; return; }
@@ -63,16 +64,23 @@
     const institutions = (city.hospitals || []).map(h => '<li><strong>' + esc(localized(h.name, zh)) + '</strong><span>' + esc(localized(h.note, zh)) + '</span></li>').join('');
     const attractionNotes = (city.attractions || []).map((a,i) => '<li><strong>' + esc(localized(a, zh)) + '</strong><span>' + esc(localized((extra.attractionNotes || [])[i], zh)) + '</span></li>').join('');
     const foodHighlights = list(extra.foodHighlights || []);
+    const localStrengths = (extra.localStrengths || []).map(item => '<li><strong>' + esc(localized(item.title, zh)) + '</strong><span>' + esc(localized(item.text, zh)) + '</span></li>').join('');
+    const photo = (src, alt, credit) => src ? '<figure class="china-guide-photo"><img src="' + esc(src) + '" alt="' + esc(alt) + '" loading="lazy" referrerpolicy="no-referrer"><figcaption>' + esc(alt) + ' · <a href="' + esc(credit || '#') + '" target="_blank" rel="noopener noreferrer">' + (zh ? '图片来源' : 'Image source') + '</a></figcaption></figure>' : '';
+    const districts = zh ? (extra.districts || []).map(d => '<li><strong>' + esc(localized(d.title, zh)) + '</strong><span>' + esc(localized(d.text, zh)) + '</span></li>').join('') : '';
     const dayPlan = [extra.day1, extra.day2].filter(Boolean).map((v,i) => '<p><strong>' + (zh ? (i===0?'第1天：':'第2天：') : (i===0?'Day 1: ':'Day 2: ')) + '</strong>' + esc(localized(v, zh)) + '</p>').join('');
     const sources = (city.officialSources || []).map(x => '<a href="' + esc(x.url) + '" target="_blank" rel="noopener noreferrer">' + esc(x.name) + '</a>').join(' · ');
-    expanded.innerHTML = '<div class="china-guide-grid">' +
-      section(zh ? '目的地概览' : 'Destination overview', paragraph(extra.overview)) +
+    expanded.innerHTML = (extra.images ? '<div class="china-guide-visuals">' + photo(extra.images.landmark, extra.images.landmarkLabel || name, extra.images.landmarkCredit) + photo(extra.images.food, extra.images.foodLabel || (zh ? '当地美食' : 'Local food'), extra.images.foodCredit) + photo(extra.images.climate, extra.images.climateLabel || (zh ? '当地风光与气候' : 'Local landscape & climate'), extra.images.climateCredit) + '</div>' : '') + '<div class="china-guide-grid">' +
+      section(zh ? '目的地概览' : 'Destination overview', paragraph(extra.cityStory) + paragraph(extra.overview)) +
+      section(zh ? '当地特色产业与优势项目' : 'Local strengths & signature sectors', localStrengths ? '<ul class="china-institution-list">' + localStrengths + '</ul>' : '') +
+      (zh ? section('\u533a\u57df\u4e0e\u8857\u533a\u4ecb\u7ecd', districts ? '<ul class=\"china-institution-list\">' + districts + '</ul>' : '') : '') +
       section(zh ? '气候与适合出行的季节' : 'Climate & seasonal planning', paragraph(city.climate)) +
       section(zh ? '当地美食' : 'Local food', paragraph(city.food) + foodHighlights) +
       section(zh ? '值得了解的目的地' : 'Places to explore', attractionNotes ? '<ul class=\"china-institution-list\">' + attractionNotes + '</ul>' : list(city.attractions)) +
       section(zh ? '交通与抵达方式' : 'Getting there', paragraph(city.transport)) +
       section(zh ? '住宿参考' : 'Where to stay', paragraph(city.hotelsNote) + paragraph(extra.stayAreas)) +
       section(zh ? '两日行程参考' : 'Two-day starting plan', dayPlan) +
+      section(zh ? '\u7b2c\u4e09\u5929\u884c\u7a0b\u53c2\u8003' : 'Day three option', extra.day3 ? '<p><strong>' + esc(localized(extra.day3.title, zh)) + '</strong></p>' + paragraph(extra.day3.text) : '') +
+      section(zh ? '\u5b63\u8282\u4e0e\u5b9e\u7528\u63d0\u793a' : 'Seasonal & practical notes', paragraph(extra.seasonSummary) + paragraph(extra.advice)) +
       section(zh ? '当地出行提示' : 'Local travel notes', paragraph(extra.practical)) +
       section(zh ? '中医药与康养文化背景' : 'TCM & wellness context', paragraph(city.tcmFocus)) +
       section(zh ? '公开机构信息（需自行核实）' : 'Public institution information (verify independently)', institutions ? '<ul class="china-institution-list">' + institutions + '</ul>' : '') +
@@ -110,6 +118,17 @@
       class: 'china-marker' + (place[4] === 'home' ? ' is-home' : place[4] === 'planned' ? ' is-planned' : ''),
       tabindex: '0', role: 'button', 'data-city': place[0], 'aria-label': 'View travel information for ' + place[1]
     });
+    const thumbClipId = 'city-thumb-' + place[0];
+    const thumbDefs = el('defs', {});
+    const thumbClip = el('clipPath', { id: thumbClipId });
+    thumbClip.appendChild(el('circle', { cx: pos.x, cy: pos.y, r: place[4] === 'home' ? 17 : 15 }));
+    thumbDefs.appendChild(thumbClip);
+    marker.appendChild(thumbDefs);
+    const thumb = el('image', { x: pos.x - (place[4] === 'home' ? 17 : 15), y: pos.y - (place[4] === 'home' ? 17 : 15), width: place[4] === 'home' ? 34 : 30, height: place[4] === 'home' ? 34 : 30, preserveAspectRatio: 'xMidYMid slice', 'clip-path': 'url(#' + thumbClipId + ')' });
+    thumb.addEventListener('error', () => marker.classList.add('is-image-missing'));
+    marker.appendChild(thumb);
+    guideDetailsPromise.then(all => { const src = all && all[place[0]] && all[place[0]].images && (all[place[0]].images.marker || all[place[0]].images.landmark); if (src) thumb.setAttribute('href', src); });
+    marker.appendChild(el('circle', { class: 'marker-photo-ring', cx: pos.x, cy: pos.y, r: place[4] === 'home' ? 18 : 16 }));
     marker.appendChild(el('circle', { class: 'marker-halo', cx: pos.x, cy: pos.y, r: place[4] === 'home' ? 15 : 11 }));
     marker.appendChild(el('circle', { class: 'marker-dot', cx: pos.x, cy: pos.y, r: place[4] === 'home' ? 5.8 : 4.6 }));
     const left = ['hulunbuir', 'heihe'].includes(place[0]);

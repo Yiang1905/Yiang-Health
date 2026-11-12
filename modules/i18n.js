@@ -36,7 +36,7 @@ const I18n = (function () {
       home_visual_title: 'Culture, nature & mindful discovery',
       home_float_note: 'Start with what matters to you',
       home_proof_languages: 'interface languages',
-      home_proof_regions: 'detailed Shanxi city guides',
+      home_proof_regions: 'detailed pilot destination guides',
       home_proof_rule: 'simple rule: your journey, your choice',
       home_how_kicker: 'A CLEARER WAY TO BEGIN',
       home_how_title: 'From a first idea to a journey outline.',
