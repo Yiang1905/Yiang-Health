@@ -334,8 +334,10 @@
 
     async function loadPilots() {
       try {
-        const r = await fetch('data/pilots.json');
-        return await r.json();
+        const responses = await Promise.all([fetch('data/pilots.json'), fetch('data/guide-details.json')]);
+        const pilots = await responses[0].json();
+        const guides = responses[1].ok ? await responses[1].json() : {};
+        return { pilots: pilots.pilots || [], guides: guides || {} };
       } catch (e) {
         console.warn(e);
         return null;
@@ -357,18 +359,17 @@
       function render() {
         const l = I18n.getCurrentLang();
         const unlocked = window.AccessControl && AccessControl.hasAccess('essentials');
-        grid.innerHTML = data.pilots.map(c => {
+        grid.innerHTML = data.pilots.map((c, index) => {
           const name = locName(c.name, l);
           const region = locName(c.region, l);
           const climate = locName(c.climate, l);
-          const lock = '<div class="city-status">Full destination guide · climate, transport, food, sights &amp; public information</div>';
-          return `
-            <a id="${c.id}" class="city-card city-card-link" href="city.html?id=${c.id}">
-              <h3>${name}</h3>
-              <div class="region">${region}</div>
-              <p style="font-size:0.85rem;color:var(--text-secondary);margin-top:8px">${(climate || '').slice(0, 100)}…</p>
-              ${lock}
-            </a>`;
+          const guide = data.guides[c.id] || {};
+          const photos = guide.images || {};
+          const landmark = photos.landmark || '';
+          const landmarkLabel = locName(photos.landmarkLabel || {}, l) || name;
+          const lock = '<span class="city-status">' + (l === 'zh-CN' ? '查看完整目的地指南' : 'Explore the full destination guide') + '</span>';
+          const photo = landmark ? '<img class="city-card-image" src="' + landmark + '" alt="' + landmarkLabel + '" loading="' + (index < 6 ? 'eager' : 'lazy') + '" referrerpolicy="no-referrer">' : '<span class="city-card-image city-card-image-fallback"></span>';
+          return '<a id="' + c.id + '" class="city-card city-card-link city-card-landmark" href="city.html?id=' + c.id + '" aria-label="' + name + ' — ' + landmarkLabel + '">' + photo + '<span class="city-card-shade"></span><span class="city-card-content"><span class="city-card-topline"><span class="city-card-region">' + region + '</span><span class="city-card-open">↗</span></span><span class="city-card-title">' + name + '</span><span class="city-card-landmark-label">' + landmarkLabel + '</span><span class="city-card-climate">' + (climate || '').slice(0,90) + '</span>' + lock + '</span></a>';
         }).join('');
       }
       render();

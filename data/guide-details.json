@@ -51,7 +51,105 @@
     "practical": {
       "en": "Book high-demand attractions ahead, confirm the exact railway station on your ticket and allow generous cross-city transfer time.",
       "zh-CN": "热门景点提前预约；按车票确认具体火车站；跨城区移动要预留充足时间。"
-    }
+    },
+    "cityStory": {
+      "en": "Explore the imperial core, hutong neighbourhoods, museums and major parks in separate area-based days. The Great Wall is a dedicated excursion, not a quick city-centre stop.",
+      "zh-CN": "北京的旅行不只是故宫与长城，还包括中轴线礼制建筑、胡同社区、坛庙园林和博物馆。建议按城区分日游览，给预约、安检和跨区交通留足时间。"
+    },
+    "districts": [
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "中轴线与老城"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "故宫、景山、什刹海可形成一条历史空间路线。故宫按官方渠道预约，胡同游览尊重居民生活，不随意进入院落。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "天坛与前门"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "天坛适合留出半天观察坛庙建筑和公园生活，前门周边可体验老字号与街巷商业，节假日需错峰。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "西北园林"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "颐和园、圆明园和香山面积较大，建议一次重点游览一处，提前核对开放区域和交通接驳。"
+        }
+      }
+    ],
+    "seasonSummary": {
+      "en": "",
+      "zh-CN": "北京四季分明，春季防风、夏季防暑防雨、秋季适合步行、冬季注意干冷与结冰。"
+    },
+    "day3": {
+      "title": {
+        "en": "",
+        "zh-CN": "博物馆与胡同生活"
+      },
+      "text": {
+        "en": "",
+        "zh-CN": "上午选择已预约的博物馆或专题展馆，下午安排一段胡同或什刹海步行，晚餐体验烤鸭、炸酱面或涮羊肉。"
+      }
+    },
+    "advice": {
+      "en": "",
+      "zh-CN": "热门景点常实行实名预约和分时入场，务必核对官方公告。火车站服务方向不同，按车票确认站名；长城与远郊路线应留出整天。"
+    },
+    "images": {
+      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Beijing%2C%20Forbidden%20City%20-%20panoramio%20(1).jpg?width=1280",
+      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Peking%20Duck.jpg?width=1280",
+      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Beijing%20pano.jpg?width=1280",
+      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Beijing%2C_Forbidden_City_-_panoramio_(1).jpg",
+      "foodCredit": "https://commons.wikimedia.org/wiki/File:Peking_Duck.jpg",
+      "climateCredit": "https://commons.wikimedia.org/wiki/File:Beijing_pano.jpg",
+      "landmarkLabel": "午门与紫禁城",
+      "foodLabel": "北京烤鸭",
+      "climateLabel": "中轴线与皇家园林",
+      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Beijing%2C%20Forbidden%20City%20-%20panoramio%20(1).jpg?width=180"
+    },
+    "localStrengths": [
+      {
+        "title": {
+          "zh-CN": "中医药科研与服务",
+          "en": "中医药科研与服务"
+        },
+        "text": {
+          "zh-CN": "国家级中医药科研、高校与大型医疗机构集聚，适合了解中医药文化、科研和国际交流。",
+          "en": "国家级中医药科研、高校与大型医疗机构集聚，适合了解中医药文化、科研和国际交流。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "文化遗产与博物馆",
+          "en": "文化遗产与博物馆"
+        },
+        "text": {
+          "zh-CN": "故宫、中轴线、坛庙园林与博物馆资源丰富，适合深度文化体验。",
+          "en": "故宫、中轴线、坛庙园林与博物馆资源丰富，适合深度文化体验。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "数字科技与会展",
+          "en": "数字科技与会展"
+        },
+        "text": {
+          "zh-CN": "科技创新、商务服务和国际会展资源集中。",
+          "en": "科技创新、商务服务和国际会展资源集中。"
+        }
+      }
+    ]
   },
   "tianjin": {
     "overview": {
@@ -101,7 +199,105 @@
     "practical": {
       "en": "Tianjin combines easily with Beijing by high-speed rail, but check the exact station and allow transfer time.",
       "zh-CN": "天津适合与北京通过高铁组合游览，但要核对车站名称并为换乘留出时间。"
-    }
+    },
+    "cityStory": {
+      "en": "Tianjin combines historic port-city architecture, Haihe riverfront scenery and a distinctive northern food culture. Central sights work well as compact neighbourhood walks.",
+      "zh-CN": "天津的城市气质来自海河港口历史、近代建筑、租界街区和市井饮食。中心城区适合步行串联，滨海新区则应作为独立行程安排。"
+    },
+    "districts": [
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "和平与五大道"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "适合步行观察不同年代的洋楼、街道尺度和绿荫环境，部分建筑仍有实际用途，拍摄时尊重场所规定。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "南开与老城"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "古文化街、鼓楼周边保留传统商业和民俗展示，节假日人流较大，可错峰体验地方点心。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "海河与滨海"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "海河沿岸适合傍晚散步，游船班次以当日公告为准；滨海新区景点距离市区较远，需单独安排交通。"
+        }
+      }
+    ],
+    "seasonSummary": {
+      "en": "",
+      "zh-CN": "春秋适合街区漫步；夏季注意湿热与雷雨；冬季海河风寒明显，宜缩短室外停留。"
+    },
+    "day3": {
+      "title": {
+        "en": "",
+        "zh-CN": "博物馆与海河夜景"
+      },
+      "text": {
+        "en": "",
+        "zh-CN": "上午安排一处博物馆或文化场馆，下午沿海河步行，傍晚根据天气选择游船或桥梁夜景。"
+      }
+    },
+    "advice": {
+      "en": "",
+      "zh-CN": "天津与北京高铁往来方便，但车站不止一个，购票时核对出发站和到达站。五大道、古文化街、海河和滨海新区不要压缩在同一天。"
+    },
+    "images": {
+      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Tianjin%20Eye%20and%20Tianjin.jpg?width=1280",
+      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Jianbing%20Guozi%2020170610.jpg?width=1280",
+      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Tianjin%20Eye.jpg?width=1280",
+      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Tianjin_Eye_and_Tianjin.jpg",
+      "foodCredit": "https://commons.wikimedia.org/wiki/File:Jianbing_Guozi_20170610.jpg",
+      "climateCredit": "https://commons.wikimedia.org/wiki/File:Tianjin_Eye.jpg",
+      "landmarkLabel": "天津之眼",
+      "foodLabel": "煎饼馃子",
+      "climateLabel": "海河与近代建筑",
+      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Tianjin%20Eye%20and%20Tianjin.jpg?width=180"
+    },
+    "localStrengths": [
+      {
+        "title": {
+          "zh-CN": "港口物流与装备制造",
+          "en": "港口物流与装备制造"
+        },
+        "text": {
+          "zh-CN": "港口、航运、航空航天和高端装备制造形成产业基础。",
+          "en": "港口、航运、航空航天和高端装备制造形成产业基础。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "中医药教育与科研",
+          "en": "中医药教育与科研"
+        },
+        "text": {
+          "zh-CN": "拥有中医药高校和相关医疗科研资源。",
+          "en": "拥有中医药高校和相关医疗科研资源。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "近代建筑与城市文旅",
+          "en": "近代建筑与城市文旅"
+        },
+        "text": {
+          "zh-CN": "五大道、海河、意式风情区适合建筑与城市文化体验。",
+          "en": "五大道、海河、意式风情区适合建筑与城市文化体验。"
+        }
+      }
+    ]
   },
   "hulunbuir": {
     "overview": {
@@ -147,7 +343,105 @@
     "practical": {
       "en": "Confirm road conditions, fuel stops, seasonal opening and a reliable driver; this is not a point-to-point city walk destination.",
       "zh-CN": "应确认道路状况、补给点、季节性开放信息和可靠司机；这里不是适合点对点步行的城市目的地。"
-    }
+    },
+    "cityStory": {
+      "en": "Hulunbuir is a vast northern travel region rather than a compact city break. Grassland, wetlands and forest experiences are spread across long road distances.",
+      "zh-CN": "呼伦贝尔是广阔旅行区域，不是紧凑的城市周末游。草原、湿地和森林之间需要长距离公路交通，行程应先确定住宿和每日车程。"
+    },
+    "districts": [
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "海拉尔城区"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "适合作为抵达、补给和调整节奏的起点，可安排城市文化场馆、市场和餐饮，并确认后续车辆与司机。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "陈巴尔虎旗草原"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "草原体验先确认住宿点、道路入口和实际路线，不驶离开放道路或进入围栏内的牧场。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "额尔古纳湿地"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "湿地观景点与步道可能相距较远，应按开放路线游览并提前安排返程和住宿。"
+        }
+      }
+    ],
+    "seasonSummary": {
+      "en": "",
+      "zh-CN": "夏季草原景观较丰富但客流大；秋季气温下降快；春季道路可能泥泞；冬季严寒积雪会显著改变交通。"
+    },
+    "day3": {
+      "title": {
+        "en": "",
+        "zh-CN": "海拉尔慢游与补给"
+      },
+      "text": {
+        "en": "",
+        "zh-CN": "长途草原或湿地行程后，可在海拉尔安排城市文化、市场和本地餐饮，休整后再决定是否继续远途。"
+      }
+    },
+    "advice": {
+      "en": "",
+      "zh-CN": "地图直线距离不能替代公路里程。确认车辆、保险、补给点和通信覆盖；恶劣天气或道路管制时及时调整，避免夜间长途乡村驾驶。"
+    },
+    "images": {
+      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Hailar%20Railway%20Station.jpg?width=1280",
+      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Roasted%20Lamb%20in%20Mongolia.jpg?width=1280",
+      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Hulunbuir.Hailar.mairie.jpg?width=1280",
+      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Hailar_Railway_Station.jpg",
+      "foodCredit": "https://commons.wikimedia.org/wiki/File:Roasted_Lamb_in_Mongolia.jpg",
+      "climateCredit": "https://commons.wikimedia.org/wiki/File:Hulunbuir.Hailar.mairie.jpg",
+      "landmarkLabel": "海拉尔火车站",
+      "foodLabel": "草原牛羊肉与奶制品",
+      "climateLabel": "草原、湿地与森林",
+      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Hailar%20Railway%20Station.jpg?width=180"
+    },
+    "localStrengths": [
+      {
+        "title": {
+          "zh-CN": "草原生态与户外体验",
+          "en": "草原生态与户外体验"
+        },
+        "text": {
+          "zh-CN": "草原、森林、湿地与边境风光，适合季节性生态旅游和户外活动。",
+          "en": "草原、森林、湿地与边境风光，适合季节性生态旅游和户外活动。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "牛羊肉与乳制品",
+          "en": "牛羊肉与乳制品"
+        },
+        "text": {
+          "zh-CN": "畜牧业基础突出，代表性产品包括牛羊肉、奶制品和草原食品。",
+          "en": "畜牧业基础突出，代表性产品包括牛羊肉、奶制品和草原食品。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "民族文化体验",
+          "en": "民族文化体验"
+        },
+        "text": {
+          "zh-CN": "蒙古族等民族文化、传统歌舞和草原生活体验。",
+          "en": "蒙古族等民族文化、传统歌舞和草原生活体验。"
+        }
+      }
+    ]
   },
   "yanbian": {
     "overview": {
@@ -193,7 +487,105 @@
     "practical": {
       "en": "Border-area travel may have special access rules. Carry valid identification and follow local notices.",
       "zh-CN": "边境区域可能有特别管理要求，请携带有效证件并遵守当地公告。"
-    }
+    },
+    "cityStory": {
+      "en": "Yanbian is a Korean-Chinese autonomous prefecture with a strong regional food culture and a useful base in Yanji. City experiences and Changbai Mountain excursions should be planned separately.",
+      "zh-CN": "延边的城市体验以延吉为重要落脚点，特色来自朝鲜族饮食、语言景观和当代城市生活。长白山是独立的区域自然行程，不应与延吉市区景点混为一日路线。"
+    },
+    "districts": [
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "延吉市中心"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "适合安排餐饮、市场和城市步行，热门街区晚间较热闹，排队和营业时间随季节变化。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "地方文化体验"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "可通过正规博物馆、文化场馆了解朝鲜族历史、服饰、音乐与饮食，拍摄人物前先征得同意。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "长白山区域"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "不同景区入口、交通和开放安排各异，预订前确认具体景区、天气、门票与接驳组合。"
+        }
+      }
+    ],
+    "seasonSummary": {
+      "en": "",
+      "zh-CN": "春季山地积雪消融、开放情况多变；夏季热门需预约；秋季温差大；冬季需充分准备防寒与道路交通。"
+    },
+    "day3": {
+      "title": {
+        "en": "",
+        "zh-CN": "延吉慢游与地方饮食"
+      },
+      "text": {
+        "en": "",
+        "zh-CN": "留在延吉体验市场、文化场馆和冷面、米肠、打糕、烤肉等地方饮食，避免为赶长白山而夜间奔波。"
+      }
+    },
+    "advice": {
+      "en": "",
+      "zh-CN": "边境区域携带有效证件并遵守现场管理。长白山天气变化快，不能保证看到天池；交通和住宿应按实际班次安排。"
+    },
+    "images": {
+      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Yanji%20West%20Market.jpg?width=1280",
+      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Cafeteria%20at%20West%20Market%2C%20Yanji.jpg?width=1280",
+      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Yanji.jpg?width=1280",
+      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Yanji_West_Market.jpg",
+      "foodCredit": "https://commons.wikimedia.org/wiki/File:Cafeteria_at_West_Market%2C_Yanji.jpg",
+      "climateCredit": "https://commons.wikimedia.org/wiki/File:Yanji.jpg",
+      "landmarkLabel": "延吉西市场",
+      "foodLabel": "朝鲜族风味饮食",
+      "climateLabel": "长白山与延边四季",
+      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Yanji%20West%20Market.jpg?width=180"
+    },
+    "localStrengths": [
+      {
+        "title": {
+          "zh-CN": "朝鲜族文化与旅游",
+          "en": "朝鲜族文化与旅游"
+        },
+        "text": {
+          "zh-CN": "朝鲜族民俗、传统村落、歌舞和边境文化体验。",
+          "en": "朝鲜族民俗、传统村落、歌舞和边境文化体验。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "特色食品加工",
+          "en": "特色食品加工"
+        },
+        "text": {
+          "zh-CN": "冷面、泡菜、米酒及地方风味食品具有辨识度。",
+          "en": "冷面、泡菜、米酒及地方风味食品具有辨识度。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "跨境商贸与交流",
+          "en": "跨境商贸与交流"
+        },
+        "text": {
+          "zh-CN": "面向东北亚的边境贸易、物流和文化交流。",
+          "en": "面向东北亚的边境贸易、物流和文化交流。"
+        }
+      }
+    ]
   },
   "heihe": {
     "overview": {
@@ -239,7 +631,105 @@
     "practical": {
       "en": "Winters can be severe. Check weather warnings and border-area access rules before travelling.",
       "zh-CN": "冬季天气可能十分严寒，出行前应关注天气预警和边境区域管理规定。"
-    }
+    },
+    "cityStory": {
+      "en": "Heihe is a northern border city on the Amur River, with riverfront views and access to volcanic landscapes around Wudalianchi. Seasonal weather strongly shapes the experience.",
+      "zh-CN": "黑河位于黑龙江沿岸，城市空间与边境地理、寒地气候和中俄交流历史紧密相关。市区江畔适合慢行，五大连池则需另作自然景观线路。"
+    },
+    "districts": [
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "黑龙江江畔"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "可了解城市边境区位，靠近管理区域时遵守通行与拍摄规定，不越过隔离设施。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "市中心文化区"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "可安排博物馆、历史街区、市场和地方餐饮，作为抵达日或返程日前的轻松活动。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "五大连池方向"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "火山地貌区不在黑河市中心，应按景区分布安排交通和住宿，不离开开放步道。"
+        }
+      }
+    ],
+    "seasonSummary": {
+      "en": "",
+      "zh-CN": "夏季适合江畔与火山地貌游览；秋季较凉爽；春季仍有风和融雪路况；冬季严寒，关注低温预警。"
+    },
+    "day3": {
+      "title": {
+        "en": "",
+        "zh-CN": "五大连池地质景观日"
+      },
+      "text": {
+        "en": "",
+        "zh-CN": "把五大连池作为独立一日或过夜行程，选择开放景点和步道，提前确认往返交通、餐饮与住宿。"
+      }
+    },
+    "advice": {
+      "en": "",
+      "zh-CN": "边境管理和拍摄要求以现场公告为准。冬季不要靠近冰面；五大连池需单独核算车程，恶劣天气时减少景点。"
+    },
+    "images": {
+      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Aihui%20History%20Museum%20-%20gate.jpg?width=1280",
+      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinese%20Food%20Fish.jpg?width=1280",
+      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Amur%20River%20and%20Heihe.jpg?width=1280",
+      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Aihui_History_Museum_-_gate.jpg",
+      "foodCredit": "https://commons.wikimedia.org/wiki/File:Chinese_Food_Fish.jpg",
+      "climateCredit": "https://commons.wikimedia.org/wiki/File:Amur_River_and_Heihe.jpg",
+      "landmarkLabel": "瑷珲历史陈列馆",
+      "foodLabel": "黑龙江江鱼与边城饮食",
+      "climateLabel": "黑龙江界江与寒地风光",
+      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Aihui%20History%20Museum%20-%20gate.jpg?width=180"
+    },
+    "localStrengths": [
+      {
+        "title": {
+          "zh-CN": "中俄口岸贸易",
+          "en": "中俄口岸贸易"
+        },
+        "text": {
+          "zh-CN": "依托黑龙江界江口岸，发展跨境贸易、物流与边境服务。",
+          "en": "依托黑龙江界江口岸，发展跨境贸易、物流与边境服务。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "寒地生态与冰雪旅游",
+          "en": "寒地生态与冰雪旅游"
+        },
+        "text": {
+          "zh-CN": "界江风光、火山地貌和寒地户外体验。",
+          "en": "界江风光、火山地貌和寒地户外体验。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "绿色农产品",
+          "en": "绿色农产品"
+        },
+        "text": {
+          "zh-CN": "大豆、玉米等寒地农业和农产品加工。",
+          "en": "大豆、玉米等寒地农业和农产品加工。"
+        }
+      }
+    ]
   },
   "shanghai": {
     "overview": {
@@ -289,7 +779,105 @@
     "practical": {
       "en": "The metro is usually the most predictable way to cross the city. Check station exits and attraction reservation rules.",
       "zh-CN": "跨城区出行通常地铁更可控，注意核对车站出口和景点预约规则。"
-    }
+    },
+    "cityStory": {
+      "en": "Shanghai rewards neighbourhood-based exploration: historic waterfront, classical gardens, former concession streets, museums and contemporary architecture each create a different experience.",
+      "zh-CN": "上海适合以街区为单位深入体验：外滩与黄浦江、豫园老城厢、梧桐街区、博物馆和现代建筑各有不同节奏。留出时间观察社区生活，比匆忙打卡更有收获。"
+    },
+    "districts": [
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "外滩与黄浦江"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "白天观察历史建筑，傍晚欣赏浦东天际线。节假日江边人流较多，游船码头与航线以当日运营信息为准。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "豫园与老城厢"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "古典园林结合传统商业街区，热门时段排队较多，先核实园林开放时间再安排周边餐饮。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "静安与梧桐街区"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "适合慢步观察历史建筑、咖啡馆和社区生活，尊重居民隐私，不在住宅门口长时间拍摄。"
+        }
+      }
+    ],
+    "seasonSummary": {
+      "en": "",
+      "zh-CN": "春季适合步行但雨水较多；夏季高温高湿；秋季适合街区游览；冬季湿冷，安排室内展馆作为替代。"
+    },
+    "day3": {
+      "title": {
+        "en": "",
+        "zh-CN": "博物馆与梧桐街区"
+      },
+      "text": {
+        "en": "",
+        "zh-CN": "上午参观已预约的博物馆或展览，下午到静安或原法租界步行，晚上再回黄浦江边看夜景。"
+      }
+    },
+    "advice": {
+      "en": "",
+      "zh-CN": "大型博物馆和部分园林可能需要预约。地铁换乘步行距离较长，带老人儿童预留时间；海鲜时价菜先确认计价单位。"
+    },
+    "images": {
+      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Shanghai%20Oriental%20Pearl%20Tower.JPG?width=1280",
+      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Xiaolongbao%20Shanghai.jpg?width=1280",
+      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Oriental%20Pearl%20Tower%20in%20Shanghai.jpg?width=1280",
+      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Shanghai_Oriental_Pearl_Tower.JPG",
+      "foodCredit": "https://commons.wikimedia.org/wiki/File:Xiaolongbao_Shanghai.jpg",
+      "climateCredit": "https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_in_Shanghai.jpg",
+      "landmarkLabel": "东方明珠塔",
+      "foodLabel": "上海小笼包",
+      "climateLabel": "黄浦江与城市天际线",
+      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Shanghai%20Oriental%20Pearl%20Tower.JPG?width=180"
+    },
+    "localStrengths": [
+      {
+        "title": {
+          "zh-CN": "国际医疗与中医药创新",
+          "en": "国际医疗与中医药创新"
+        },
+        "text": {
+          "zh-CN": "国际医疗服务、医学科研和中医药创新资源集中。",
+          "en": "国际医疗服务、医学科研和中医药创新资源集中。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "金融、设计与会展",
+          "en": "金融、设计与会展"
+        },
+        "text": {
+          "zh-CN": "金融服务、工业设计、国际展会和专业服务业发达。",
+          "en": "金融服务、工业设计、国际展会和专业服务业发达。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "国际消费与城市文旅",
+          "en": "国际消费与城市文旅"
+        },
+        "text": {
+          "zh-CN": "商业、艺术、建筑、餐饮和滨江公共空间资源丰富。",
+          "en": "商业、艺术、建筑、餐饮和滨江公共空间资源丰富。"
+        }
+      }
+    ]
   },
   "nantong": {
     "overview": {
@@ -335,7 +923,105 @@
     "practical": {
       "en": "Attractions are spread across districts and county-level cities. Check exact locations before choosing a hotel or train station.",
       "zh-CN": "南通景点分布在不同区县，预订酒店和车票前要先核对目的地的准确位置。"
-    }
+    },
+    "cityStory": {
+      "en": "Nantong sits between the Yangtze River and the Yellow Sea and is known for its historic moat, mountain temples, industrial heritage and regional food. Some attractions are in outlying county-level cities.",
+      "zh-CN": "南通兼有江海水网、近代实业文化和江南水乡生活。濠河及老城适合初次认识南通，狼山可作为周边行程，如皋等县市景点则需另作交通安排。"
+    },
+    "districts": [
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "崇川老城与濠河"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "选择一段滨水步道，结合南通博物苑了解城市历史，注意场馆闭馆日与预约要求。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "狼山与滨江"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "狼山兼有山地与寺院景观，登阶需结合体力和天气；长江沿岸遵守护栏和现场安全提示。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "如皋与县域目的地"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "水绘园等景点位于不同县市，先确认公共交通和返程时间，再决定是否当天往返。"
+        }
+      }
+    ],
+    "seasonSummary": {
+      "en": "",
+      "zh-CN": "春秋适合濠河和园林步行；夏季湿热多雨；冬季江风较冷，滨水活动注意防风。"
+    },
+    "day3": {
+      "title": {
+        "en": "",
+        "zh-CN": "县域园林与江海风味"
+      },
+      "text": {
+        "en": "",
+        "zh-CN": "可把第三天留给如皋水绘园或一个县域目的地，不要同日跨多个县市赶路，体验时令江海食材。"
+      }
+    },
+    "advice": {
+      "en": "",
+      "zh-CN": "南通景点分布范围较大，选住宿前先确定主要目的地。跨区交通受路况影响，车站、酒店和景区入口逐一核对。"
+    },
+    "images": {
+      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Nantong%20Bell%20Tower%20and%20Watch%20Tower%202013-01.JPG?width=1280",
+      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinese%20Food%20Fish.jpg?width=1280",
+      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Nantong%20banner.jpg?width=1280",
+      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Nantong_Bell_Tower_and_Watch_Tower_2013-01.JPG",
+      "foodCredit": "https://commons.wikimedia.org/wiki/File:Chinese_Food_Fish.jpg",
+      "climateCredit": "https://commons.wikimedia.org/wiki/File:Nantong_banner.jpg",
+      "landmarkLabel": "南通钟楼与谯楼",
+      "foodLabel": "江海风味与河鲜",
+      "climateLabel": "南通狼山与江海风光",
+      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Nantong%20Bell%20Tower%20and%20Watch%20Tower%202013-01.JPG?width=180"
+    },
+    "localStrengths": [
+      {
+        "title": {
+          "zh-CN": "家纺与纺织产业",
+          "en": "家纺与纺织产业"
+        },
+        "text": {
+          "zh-CN": "家纺、纺织及相关制造业是具有代表性的产业方向。",
+          "en": "家纺、纺织及相关制造业是具有代表性的产业方向。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "船舶海工与装备",
+          "en": "船舶海工与装备"
+        },
+        "text": {
+          "zh-CN": "沿江沿海产业基础，涉及船舶海工和高端装备制造。",
+          "en": "沿江沿海产业基础，涉及船舶海工和高端装备制造。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "江海生态与文化旅游",
+          "en": "江海生态与文化旅游"
+        },
+        "text": {
+          "zh-CN": "濠河、长江与黄海沿岸形成江海旅游资源。",
+          "en": "濠河、长江与黄海沿岸形成江海旅游资源。"
+        }
+      }
+    ]
   },
   "zhejiang": {
     "overview": {
@@ -385,7 +1071,105 @@
     "practical": {
       "en": "This is a province-level pilot focused on Hangzhou. These notes do not cover Ningbo, Shaoxing, Wenzhou or other Zhejiang destinations.",
       "zh-CN": "本试点为省级范围，本页重点介绍杭州，不能替代宁波、绍兴、温州等浙江其他目的地的独立指南。"
-    }
+    },
+    "cityStory": {
+      "en": "This pilot entry uses Hangzhou as its main starting point, while Zhejiang Province contains many distinct destinations. West Lake, tea villages and the Grand Canal make a strong first visit.",
+      "zh-CN": "本试点以杭州为主要入口，不能代表浙江全省。杭州的西湖、灵隐、龙井茶村和大运河适合组成初次旅行主线，宁波、绍兴、温州等地应另行规划。"
+    },
+    "districts": [
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "西湖与湖滨"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "不必强求环湖，可按体力选择苏堤、白堤、湖滨或湖中岛屿的一段，节假日关注客流和交通管理。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "灵隐与龙井茶区"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "寺院游览遵守场所礼仪和预约要求；茶村适合了解茶园与制茶文化，进入生产区域前征得经营者同意。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "运河与老城"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "大运河沿线、桥西历史街区和清河坊展现杭州商业与水运历史，选择一段路线慢游即可。"
+        }
+      }
+    ],
+    "seasonSummary": {
+      "en": "",
+      "zh-CN": "春季西湖景色丰富但客流高；夏季湿热多雨；秋季适合茶山与湖岸；冬季湿冷，准备雨具和保暖衣物。"
+    },
+    "day3": {
+      "title": {
+        "en": "",
+        "zh-CN": "大运河与茶文化"
+      },
+      "text": {
+        "en": "",
+        "zh-CN": "上午游览运河沿线历史街区或博物馆，下午安排茶文化体验，前往茶村预留最后一段接驳时间。"
+      }
+    },
+    "advice": {
+      "en": "",
+      "zh-CN": "本页重点介绍杭州。若计划去绍兴、宁波、温州或舟山，应另行规划交通和住宿；景区预约及游船信息以官方公告为准。"
+    },
+    "images": {
+      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Leifeng%20Pagoda%2C%20Hangzhou.JPG?width=1280",
+      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Longjing%20tea.jpg?width=1280",
+      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Longjing%20tea%20district%20Hangzhou.jpg?width=1280",
+      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Leifeng_Pagoda%2C_Hangzhou.JPG",
+      "foodCredit": "https://commons.wikimedia.org/wiki/File:Longjing_tea.jpg",
+      "climateCredit": "https://commons.wikimedia.org/wiki/File:Longjing_tea_district_Hangzhou.jpg",
+      "landmarkLabel": "杭州雷峰塔",
+      "foodLabel": "西湖龙井茶",
+      "climateLabel": "西湖山水与茶园",
+      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Leifeng%20Pagoda%2C%20Hangzhou.JPG?width=180"
+    },
+    "localStrengths": [
+      {
+        "title": {
+          "zh-CN": "龙井茶与茶文化",
+          "en": "龙井茶与茶文化"
+        },
+        "text": {
+          "zh-CN": "西湖龙井及茶园体验具有鲜明地域特色。",
+          "en": "西湖龙井及茶园体验具有鲜明地域特色。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "数字经济与电子商务",
+          "en": "数字经济与电子商务"
+        },
+        "text": {
+          "zh-CN": "杭州数字经济、平台服务和电商生态活跃。",
+          "en": "杭州数字经济、平台服务和电商生态活跃。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "丝绸与江南文旅",
+          "en": "丝绸与江南文旅"
+        },
+        "text": {
+          "zh-CN": "丝绸、传统工艺、西湖和江南园林文化。",
+          "en": "丝绸、传统工艺、西湖和江南园林文化。"
+        }
+      }
+    ]
   },
   "shandong": {
     "overview": {
@@ -435,7 +1219,105 @@
     "practical": {
       "en": "This page focuses on Jinan. Qingdao, Mount Tai and Qufu are not nearby neighbourhood stops; plan them as separate legs.",
       "zh-CN": "本页重点介绍济南。青岛、泰山、曲阜都不是附近街区景点，应作为独立行程安排。"
-    }
+    },
+    "cityStory": {
+      "en": "This pilot entry uses Jinan as its starting point. Coastal cities, Mount Tai and Qufu are separate journeys rather than short add-ons to a Jinan city break.",
+      "zh-CN": "本试点以济南为主要入口。济南泉水与老城适合城市文化游；青岛海滨、泰山和曲阜需要独立交通与时间，不应视为济南附近顺路景点。"
+    },
+    "districts": [
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "泉城广场与趵突泉"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "趵突泉、大明湖和老城构成济南初访主线，泉水景观受季节和降雨影响，开放时间以现场公告为准。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "大明湖与老城街巷"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "适合湖岸步行并体验地方早餐，夏季高温时避开正午长时间暴晒。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "千佛山与区域延伸"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "千佛山可作为城市周边登高活动；泰山、曲阜和青岛应单独安排城际交通和住宿。"
+        }
+      }
+    ],
+    "seasonSummary": {
+      "en": "",
+      "zh-CN": "春秋适合泉群和公园步行；夏季炎热多雨；秋季适合登山；冬季注意山路结冰和滨水风寒。"
+    },
+    "day3": {
+      "title": {
+        "en": "",
+        "zh-CN": "济南博物馆与泉水生活"
+      },
+      "text": {
+        "en": "",
+        "zh-CN": "安排一处博物馆或老街文化体验，体验把子肉、甜沫、油旋等地方饮食，再为下一站核对车票。"
+      }
+    },
+    "advice": {
+      "en": "",
+      "zh-CN": "山东省域跨度大，济南、青岛、泰山和曲阜应分段安排。泰山路线受天气和体力影响，海滨活动注意海况与现场提示。"
+    },
+    "images": {
+      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Baotu%20Spring%20Pavilion.jpg?width=1280",
+      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Basi%20digua%202009%2003.jpg?width=1280",
+      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Deyue%20Pavillion%2C%20Daming%20Lake%2C%20Jinan%20in%20October%202019.jpg?width=1280",
+      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Baotu_Spring_Pavilion.jpg",
+      "foodCredit": "https://commons.wikimedia.org/wiki/File:Basi_digua_2009_03.jpg",
+      "climateCredit": "https://commons.wikimedia.org/wiki/File:Deyue_Pavillion%2C_Daming_Lake%2C_Jinan_in_October_2019.jpg",
+      "landmarkLabel": "趵突泉亭",
+      "foodLabel": "泉水与鲁菜风味",
+      "climateLabel": "济南大明湖与得月亭",
+      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Baotu%20Spring%20Pavilion.jpg?width=180"
+    },
+    "localStrengths": [
+      {
+        "title": {
+          "zh-CN": "中医药与健康服务",
+          "en": "中医药与健康服务"
+        },
+        "text": {
+          "zh-CN": "中医药服务、健康管理和相关教育科研资源。",
+          "en": "中医药服务、健康管理和相关教育科研资源。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "装备制造与信息技术",
+          "en": "装备制造与信息技术"
+        },
+        "text": {
+          "zh-CN": "省会及周边具备装备制造、信息技术和现代服务业基础。",
+          "en": "省会及周边具备装备制造、信息技术和现代服务业基础。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "泉水文化与鲁菜",
+          "en": "泉水文化与鲁菜"
+        },
+        "text": {
+          "zh-CN": "趵突泉、大明湖及鲁菜文化形成城市特色。",
+          "en": "趵突泉、大明湖及鲁菜文化形成城市特色。"
+        }
+      }
+    ]
   },
   "guangdong": {
     "overview": {
@@ -485,7 +1367,105 @@
     "practical": {
       "en": "Summer heat, humidity and heavy rain can affect walking plans. Group visits by metro station and check attraction notices.",
       "zh-CN": "夏季炎热潮湿，强降雨也会影响步行安排。可按地铁站分组游览，并核对景点公告。"
-    }
+    },
+    "cityStory": {
+      "en": "Guangzhou is a strong base for exploring Lingnan architecture, Cantonese food, the Pearl River and the Greater Bay Area. Neighbourhoods are best explored in clusters using the metro.",
+      "zh-CN": "本试点以广州为重点，展示岭南建筑、广府饮食、珠江水岸和现代交通。老城文化、博物馆、沙面和珠江夜景适合按街区与地铁线路分组。"
+    },
+    "districts": [
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "越秀与荔湾老城"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "陈家祠的木雕、石雕、砖雕和灰塑值得细看，周边街巷可体验广府生活，游览时注意居民通行。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "沙面与珠江沿岸"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "沙面保留历史建筑与林荫街道，适合步行；珠江游船航线和码头以当日运营公告为准。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "天河与现代广州"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "商业区体现现代商务和购物生活，广州塔及观景设施需确认票种、开放时段和排队情况。"
+        }
+      }
+    ],
+    "seasonSummary": {
+      "en": "",
+      "zh-CN": "春季潮湿多雨；夏季高温并有强对流；秋季适合步行但仍炎热；冬季较温和，适合老城漫步。"
+    },
+    "day3": {
+      "title": {
+        "en": "",
+        "zh-CN": "广府生活与珠江夜色"
+      },
+      "text": {
+        "en": "",
+        "zh-CN": "上午游览陈家祠或传统市场，午餐体验早茶、云吞面或肠粉，下午走访沙面，傍晚安排珠江沿岸。"
+      }
+    },
+    "advice": {
+      "en": "",
+      "zh-CN": "夏季关注暴雨预警。前往珠三角其他城市时核对广州南站、广州站等具体车站；热门场馆预约和饮食过敏原需逐项确认。"
+    },
+    "images": {
+      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Canton%20Tower%20at%20night.jpg?width=1280",
+      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Dim%20sum%20collection%20in%20Cantonese%20restaurant.jpg?width=1280",
+      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Canton%20Tower%20at%20night.jpg?width=1280",
+      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Canton_Tower_at_night.jpg",
+      "foodCredit": "https://commons.wikimedia.org/wiki/File:Dim_sum_collection_in_Cantonese_restaurant.jpg",
+      "climateCredit": "https://commons.wikimedia.org/wiki/File:Canton_Tower_at_night.jpg",
+      "landmarkLabel": "广州塔",
+      "foodLabel": "广府早茶与粤菜",
+      "climateLabel": "珠江与岭南城市景观",
+      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Canton%20Tower%20at%20night.jpg?width=180"
+    },
+    "localStrengths": [
+      {
+        "title": {
+          "zh-CN": "中医药产业与医疗服务",
+          "en": "中医药产业与医疗服务"
+        },
+        "text": {
+          "zh-CN": "中医药产业、医疗服务和相关科研资源较为集中。",
+          "en": "中医药产业、医疗服务和相关科研资源较为集中。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "先进制造与商贸",
+          "en": "先进制造与商贸"
+        },
+        "text": {
+          "zh-CN": "电子信息、汽车、家电、跨境贸易和供应链服务。",
+          "en": "电子信息、汽车、家电、跨境贸易和供应链服务。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "广府饮食与会展",
+          "en": "广府饮食与会展"
+        },
+        "text": {
+          "zh-CN": "粤菜、广府文化和大型会展商务资源。",
+          "en": "粤菜、广府文化和大型会展商务资源。"
+        }
+      }
+    ]
   },
   "guangxi": {
     "overview": {
@@ -531,7 +1511,105 @@
     "practical": {
       "en": "Guangxi has long transfers between scenic areas. Check seasonal rainfall and road conditions, especially for rural routes.",
       "zh-CN": "广西景区之间接驳距离可能很长，前往乡村路线时尤其要关注季节性降雨和道路情况。"
-    }
+    },
+    "cityStory": {
+      "en": "This pilot entry uses Nanning as its main base, while Guangxi’s famous karst and waterfall landscapes are spread across a wide region. Guilin, Yangshuo and border waterfalls are separate trips.",
+      "zh-CN": "本试点以南宁为入口，广西山水景观分布范围广。南宁适合体验绿城公园、老街和米粉饮食；桂林、阳朔、柳州和德天瀑布属于不同方向的区域行程。"
+    },
+    "districts": [
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "青秀山与城市绿地"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "大型城市公园步行距离不短，按入口和想看的区域选路线，雨后注意步道湿滑。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "朝阳与三街两巷"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "市中心商业、历史街巷和地方餐饮适合半日步行，节假日注意客流与商铺营业时间。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "桂林、阳朔与德天方向"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "这些地方不属于南宁市区周边街区，应按交通方向分别规划，边境景区携带证件并遵守管理。"
+        }
+      }
+    ],
+    "seasonSummary": {
+      "en": "",
+      "zh-CN": "春夏降雨增多，关注山洪和道路预警；秋季适合山水游；冬季南宁较温和但山区可能偏冷。"
+    },
+    "day3": {
+      "title": {
+        "en": "",
+        "zh-CN": "从南宁选择一条区域路线"
+      },
+      "text": {
+        "en": "",
+        "zh-CN": "第三天可留在南宁，也可另行前往桂林山水、柳州或边境瀑布，不要把远距离景点塞进一天。"
+      }
+    },
+    "advice": {
+      "en": "",
+      "zh-CN": "雨季关注山洪、塌方和景区临时关闭。漂流、乘船和徒步遵守运营方安全规定，边境区域不进入未开放道路。"
+    },
+    "images": {
+      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Nanning%20Confucian%20Temple%20and%20Mount%20Qingxiu%20Shan%2C%20June%202023.jpg?width=1280",
+      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Guangxi%20Yulin%20rice%20noodles.jpg?width=1280",
+      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Nanning%20seen%20from%20Qingxiu%20Mountain.jpg?width=1280",
+      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Nanning_Confucian_Temple_and_Mount_Qingxiu_Shan%2C_June_2023.jpg",
+      "foodCredit": "https://commons.wikimedia.org/wiki/File:Guangxi_Yulin_rice_noodles.jpg",
+      "climateCredit": "https://commons.wikimedia.org/wiki/File:Nanning_seen_from_Qingxiu_Mountain.jpg",
+      "landmarkLabel": "南宁孔庙与青秀山",
+      "foodLabel": "桂系米粉与地方风味",
+      "climateLabel": "青秀山俯瞰南宁",
+      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Nanning%20Confucian%20Temple%20and%20Mount%20Qingxiu%20Shan%2C%20June%202023.jpg?width=180"
+    },
+    "localStrengths": [
+      {
+        "title": {
+          "zh-CN": "面向东盟的经贸会展",
+          "en": "面向东盟的经贸会展"
+        },
+        "text": {
+          "zh-CN": "南宁是中国—东盟交流合作和会展活动的重要平台。",
+          "en": "南宁是中国—东盟交流合作和会展活动的重要平台。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "中药材与民族医药",
+          "en": "中药材与民族医药"
+        },
+        "text": {
+          "zh-CN": "广西中药材资源及壮瑶医药文化具有地方特色。",
+          "en": "广西中药材资源及壮瑶医药文化具有地方特色。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "喀斯特生态旅游",
+          "en": "喀斯特生态旅游"
+        },
+        "text": {
+          "zh-CN": "山水、瀑布、河谷与民族文化旅游。",
+          "en": "山水、瀑布、河谷与民族文化旅游。"
+        }
+      }
+    ]
   },
   "hainan": {
     "overview": {
@@ -581,7 +1659,105 @@
     "practical": {
       "en": "The pilot entry covers a province, not one city. Confirm whether your trip is based in Haikou, Sanya or another county before booking.",
       "zh-CN": "本试点为省级范围，不只对应一座城市。预订前先确认行程落脚在海口、三亚还是其他市县。"
-    }
+    },
+    "cityStory": {
+      "en": "Hainan is an island-wide destination with different rhythms in Haikou, Sanya and the eastern coast. Rail helps, but airport, hotel and scenic-area transfers still need planning.",
+      "zh-CN": "海南是全岛型目的地，海口、三亚、琼海博鳌和中部雨林的旅行节奏不同。环岛高铁连接部分城市，但酒店、海滩和景区之间仍需安排最后一段接驳。"
+    },
+    "districts": [
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "海口骑楼与老城"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "骑楼老街可了解港口贸易和南洋建筑影响，结合市场与海南粉体验；拍摄时尊重店主和居民。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "三亚湾与海湾片区"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "不同海湾的住宿和交通体验不同，选择酒店时确认海滩距离；游泳前观察海况、救生旗和安全提示。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "博鳌与中部雨林"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "乐城有特定政策背景，本指南不代表医疗资格或机构合作；雨林游览按开放步道并关注降雨与交通。"
+        }
+      }
+    ],
+    "seasonSummary": {
+      "en": "",
+      "zh-CN": "春季温暖；夏秋需重点关注台风、强降雨和海况；冬季适合避寒但住宿需求较高。"
+    },
+    "day3": {
+      "title": {
+        "en": "",
+        "zh-CN": "海口文化或三亚海湾慢游"
+      },
+      "text": {
+        "en": "",
+        "zh-CN": "第三天围绕住宿地安排，海口可游骑楼和博物馆，三亚选择一个海湾休闲，不建议一天往返海口与三亚。"
+      }
+    },
+    "advice": {
+      "en": "",
+      "zh-CN": "预订前确认机场、车站、酒店和景区所在市县。台风和暴雨可能影响航班、轮渡与海上活动；海鲜点餐先确认计价单位和加工费。"
+    },
+    "images": {
+      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Haikou%20Century%20Bridge.JPG?width=1280",
+      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Yeziji%20Hainanese%20coconut%20chicken%20soup.jpg?width=1280",
+      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Haikou%20Banner.jpg?width=1280",
+      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Haikou_Century_Bridge.JPG",
+      "foodCredit": "https://commons.wikimedia.org/wiki/File:Yeziji_Hainanese_coconut_chicken_soup.jpg",
+      "climateCredit": "https://commons.wikimedia.org/wiki/File:Haikou_Banner.jpg",
+      "landmarkLabel": "海口世纪大桥",
+      "foodLabel": "椰子与热带海岛饮食",
+      "climateLabel": "热带海岸与海岛气候",
+      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Haikou%20Century%20Bridge.JPG?width=180"
+    },
+    "localStrengths": [
+      {
+        "title": {
+          "zh-CN": "热带康养与医疗旅游",
+          "en": "热带康养与医疗旅游"
+        },
+        "text": {
+          "zh-CN": "热带气候、海岛环境和医疗旅游服务是重点发展方向。",
+          "en": "热带气候、海岛环境和医疗旅游服务是重点发展方向。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "热带农业与特色产品",
+          "en": "热带农业与特色产品"
+        },
+        "text": {
+          "zh-CN": "椰子、热带水果、咖啡和南繁种业等特色资源。",
+          "en": "椰子、热带水果、咖啡和南繁种业等特色资源。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "海洋休闲与度假",
+          "en": "海洋休闲与度假"
+        },
+        "text": {
+          "zh-CN": "海岸、海岛、潜水和滨海度假体验。",
+          "en": "海岸、海岛、潜水和滨海度假体验。"
+        }
+      }
+    ]
   },
   "chongqing": {
     "overview": {
@@ -631,7 +1807,105 @@
     "practical": {
       "en": "Check metro exits and walking routes; steep slopes, stairs and complex interchanges can add significant time.",
       "zh-CN": "注意核对地铁出口与步行路线；坡道、台阶和复杂换乘可能明显增加行程时间。"
-    }
+    },
+    "cityStory": {
+      "en": "Chongqing is a layered mountain city where river geography, steep streets, bridges and rail transit shape the journey. Map distance can be misleading because vertical movement takes time.",
+      "zh-CN": "重庆是一座由山地、江河、桥梁和轨道交通塑造的立体城市。地图直线距离不能代表真实步行时间，建议按渝中、江北、沙坪坝等片区分日安排。"
+    },
+    "districts": [
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "渝中半岛"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "解放碑、洪崖洞、山城步道和江岸构成经典体验，景点间有高差和台阶，夜间热门区域遵守分流。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "李子坝与江北"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "李子坝适合短暂停留观看轨道交通景观，不进入设施或影响居民；江北嘴与观音桥展现现代城市生活。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "沙坪坝与磁器口"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "磁器口保留传统街巷与商业文化，节假日拥挤，可避开主街高峰；远郊景点另行核对交通。"
+        }
+      }
+    ],
+    "seasonSummary": {
+      "en": "",
+      "zh-CN": "春秋适合步行但雨后台阶湿滑；夏季闷热需补水；冬季湿冷，雾雨天气减少高处停留。"
+    },
+    "day3": {
+      "title": {
+        "en": "",
+        "zh-CN": "山城步道与公共交通"
+      },
+      "text": {
+        "en": "",
+        "zh-CN": "选择一段步道或轨道体验线路，观察城市高差与公共交通连接方式，下午安排博物馆或茶馆。"
+      }
+    },
+    "advice": {
+      "en": "",
+      "zh-CN": "按实际高差估算时间，导航显示相邻不代表好走。带老人儿童优先选择电梯和少台阶路线，夜景点不翻越护栏。"
+    },
+    "images": {
+      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%87%8D%E5%BA%86%E6%B4%AA%E5%B4%96%E6%B4%9E.jpg?width=1280",
+      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Chongqing%20hotpot.1.jpg?width=1280",
+      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20skyscrapers%20of%20Chongqing%20CBD%20with%20Hongya%20Cave%20at%20sunset.jpeg?width=1280",
+      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:%E9%87%8D%E5%BA%86%E6%B4%AA%E5%B4%96%E6%B4%9E.jpg",
+      "foodCredit": "https://commons.wikimedia.org/wiki/File:Chongqing_hotpot.1.jpg",
+      "climateCredit": "https://commons.wikimedia.org/wiki/File:The_skyscrapers_of_Chongqing_CBD_with_Hongya_Cave_at_sunset.jpeg",
+      "landmarkLabel": "洪崖洞吊脚楼",
+      "foodLabel": "重庆火锅",
+      "climateLabel": "两江交汇与山城夜景",
+      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%87%8D%E5%BA%86%E6%B4%AA%E5%B4%96%E6%B4%9E.jpg?width=180"
+    },
+    "localStrengths": [
+      {
+        "title": {
+          "zh-CN": "汽车与电子信息制造",
+          "en": "汽车与电子信息制造"
+        },
+        "text": {
+          "zh-CN": "汽车、电子信息、装备制造和智能网联产业。",
+          "en": "汽车、电子信息、装备制造和智能网联产业。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "山地城市文旅",
+          "en": "山地城市文旅"
+        },
+        "text": {
+          "zh-CN": "两江、桥梁、索道、山城街巷和夜景体验。",
+          "en": "两江、桥梁、索道、山城街巷和夜景体验。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "火锅与食品产业",
+          "en": "火锅与食品产业"
+        },
+        "text": {
+          "zh-CN": "火锅、调味品和特色食品加工具有鲜明品牌辨识度。",
+          "en": "火锅、调味品和特色食品加工具有鲜明品牌辨识度。"
+        }
+      }
+    ]
   },
   "chengdu": {
     "overview": {
@@ -681,7 +1955,105 @@
     "practical": {
       "en": "The Panda Base and popular attractions may require advance booking. Check current reservation rules before setting out.",
       "zh-CN": "熊猫基地及热门景点可能需要提前预约，出发前应核对当前规则。"
-    }
+    },
+    "cityStory": {
+      "en": "Chengdu is known for teahouse culture, Sichuan food, historic sites and giant-panda conservation. It works well as a city stay with optional day trips beyond the urban core.",
+      "zh-CN": "成都兼有历史文化、茶馆生活、川菜和城市公园。熊猫基地、武侯祠、杜甫草堂与宽窄巷子分布在不同方向，应按片区安排；四川远郊景区需要多日规划。"
+    },
+    "districts": [
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "武侯祠与锦里"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "适合了解三国历史叙事与园林建筑，邻近商业街节假日客流较大，商业展示不等于全部传统生活。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "人民公园与宽窄巷子"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "人民公园茶馆体现日常休闲，宽窄巷子保留街巷空间，也有较多商业店铺，可结合周边文化场馆。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "熊猫基地与城北"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "结合预约时段和园区步行安排，遵守动物保护规定，不敲玻璃、不投喂、不使用闪光灯。"
+        }
+      }
+    ],
+    "seasonSummary": {
+      "en": "",
+      "zh-CN": "春秋适合公园与街区漫步；夏季湿热需避开正午；冬季湿冷，远郊山区天气变化快。"
+    },
+    "day3": {
+      "title": {
+        "en": "",
+        "zh-CN": "公园茶馆与川味日常"
+      },
+      "text": {
+        "en": "",
+        "zh-CN": "上午在人民公园体验茶馆文化，下午选择博物馆或社区市场，尝试担担面、钟水饺和川味小吃。"
+      }
+    },
+    "advice": {
+      "en": "",
+      "zh-CN": "熊猫基地和热门场馆预约规则可能调整。按车票确认成都各火车站；动物场馆不投喂、不使用闪光灯，尊重动物福利。"
+    },
+    "images": {
+      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Anshun%20Bridge%20Chengdu.jpg?width=1280",
+      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Chongqing%20hotpot.1.jpg?width=1280",
+      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Anshun%20Bridge%20in%20Chengdu.jpg?width=1280",
+      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Anshun_Bridge_Chengdu.jpg",
+      "foodCredit": "https://commons.wikimedia.org/wiki/File:Chongqing_hotpot.1.jpg",
+      "climateCredit": "https://commons.wikimedia.org/wiki/File:Anshun_Bridge_in_Chengdu.jpg",
+      "landmarkLabel": "成都安顺廊桥",
+      "foodLabel": "川味火锅与川菜",
+      "climateLabel": "锦江、茶馆与湿润盆地",
+      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Anshun%20Bridge%20Chengdu.jpg?width=180"
+    },
+    "localStrengths": [
+      {
+        "title": {
+          "zh-CN": "电子信息与软件服务",
+          "en": "电子信息与软件服务"
+        },
+        "text": {
+          "zh-CN": "电子信息、软件、数字文创和科技服务业。",
+          "en": "电子信息、软件、数字文创和科技服务业。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "川菜与食品产业",
+          "en": "川菜与食品产业"
+        },
+        "text": {
+          "zh-CN": "川菜、调味品、休闲食品和餐饮供应链。",
+          "en": "川菜、调味品、休闲食品和餐饮供应链。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "中医药与康养文旅",
+          "en": "中医药与康养文旅"
+        },
+        "text": {
+          "zh-CN": "中医药资源、茶馆文化、熊猫与川西旅游门户。",
+          "en": "中医药资源、茶馆文化、熊猫与川西旅游门户。"
+        }
+      }
+    ]
   },
   "kunming": {
     "overview": {
@@ -731,7 +2103,105 @@
     "practical": {
       "en": "This is a Kunming starting guide, not a complete guide to Dali, Lijiang, Xishuangbanna or other distant Yunnan areas.",
       "zh-CN": "本页是昆明起点指南，并不等于大理、丽江、西双版纳等远距离地区的完整指南。"
-    }
+    },
+    "cityStory": {
+      "en": "Kunming is a highland city with a relatively mild climate and serves as a gateway to wider Yunnan. City parks, lakeside areas and regional excursions are separate experiences.",
+      "zh-CN": "昆明位于云贵高原，是进入云南的重要交通门户。城市可体验翠湖、公园、老街和滇池周边；石林需独立安排。云南省内城市间距离较远，不能把昆明、大理、丽江和西双版纳当作短途接驳。"
+    },
+    "districts": [
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "翠湖与中心城区"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "适合慢步，结合博物馆、老街和公园了解城市生活；观鸟时保持距离，不投喂或追逐。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "滇池与西山方向"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "滇池岸线很长，应选择具体公园或湿地区域；西山登高关注天气、索道和步道公告。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "石林与县域目的地"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "石林需单独安排一日游；前往抚仙湖等县域景点应重新规划住宿和交通。"
+        }
+      }
+    ],
+    "seasonSummary": {
+      "en": "",
+      "zh-CN": "春季日照强且温差明显；夏季雨季关注山路天气；秋季适合自然游；冬季市区温和但高海拔夜间较冷。"
+    },
+    "day3": {
+      "title": {
+        "en": "",
+        "zh-CN": "滇池生态与城市公园"
+      },
+      "text": {
+        "en": "",
+        "zh-CN": "选择一个开放湖岸或湿地区域了解高原湖泊生态；若前往石林，应把它作为完整一日行程。"
+      }
+    },
+    "advice": {
+      "en": "",
+      "zh-CN": "初到高原安排轻松活动。野生菌只在正规餐馆选择并确认充分烹制，不自行采食来源不明的野生菌。"
+    },
+    "images": {
+      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Kunming%20Golden%20Horse%20Memorial%20Archway.JPG?width=1280",
+      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/%E8%BF%87%E6%A1%A5%E7%B1%B3%E7%BA%BF-%E4%BA%91%E5%8D%97%E6%98%86%E6%98%8E%2001.jpg?width=1280",
+      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Dianchi%20Lake.jpg?width=1280",
+      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Kunming_Golden_Horse_Memorial_Archway.JPG",
+      "foodCredit": "https://commons.wikimedia.org/wiki/File:%E8%BF%87%E6%A1%A5%E7%B1%B3%E7%BA%BF-%E4%BA%91%E5%8D%97%E6%98%86%E6%98%8E_01.jpg",
+      "climateCredit": "https://commons.wikimedia.org/wiki/File:Dianchi_Lake.jpg",
+      "landmarkLabel": "金马碧鸡坊",
+      "foodLabel": "云南米线与鲜花饼",
+      "climateLabel": "昆明滇池与高原湖泊风光",
+      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Kunming%20Golden%20Horse%20Memorial%20Archway.JPG?width=180"
+    },
+    "localStrengths": [
+      {
+        "title": {
+          "zh-CN": "花卉与园艺产业",
+          "en": "花卉与园艺产业"
+        },
+        "text": {
+          "zh-CN": "鲜切花、园艺和花卉交易市场具有全国影响力。",
+          "en": "鲜切花、园艺和花卉交易市场具有全国影响力。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "中药材与生物资源",
+          "en": "中药材与生物资源"
+        },
+        "text": {
+          "zh-CN": "云南特色药材、天然产物和生物资源开发。",
+          "en": "云南特色药材、天然产物和生物资源开发。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "高原生态与民族文化",
+          "en": "高原生态与民族文化"
+        },
+        "text": {
+          "zh-CN": "滇池、石林、高原湖泊及多民族文化旅游。",
+          "en": "滇池、石林、高原湖泊及多民族文化旅游。"
+        }
+      }
+    ]
   },
   "shaanxi": {
     "overview": {
@@ -781,7 +2251,105 @@
     "practical": {
       "en": "The Terracotta Army and major museums may require real-name reservations. Confirm current ticket windows and entry documents.",
       "zh-CN": "兵马俑和重要博物馆可能实行实名预约，需确认当前票务时段和入场证件。"
-    }
+    },
+    "cityStory": {
+      "en": "This pilot entry focuses on Xi’an, a former imperial capital and Silk Road gateway. The Terracotta Army, city wall, museums and food streets deserve separate time blocks.",
+      "zh-CN": "本试点以西安为重点，可从古城墙、博物馆、秦汉唐遗迹和地方饮食认识陕西。兵马俑位于临潼方向，需要单独安排；陕西其他区域应另作攻略。"
+    },
+    "districts": [
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "城墙与钟鼓楼"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "明城墙可步行或按开放规定骑行，钟鼓楼周边适合观察老城中心与街区商业，节假日人流较大。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "临潼与秦始皇陵"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "兵马俑需要完整参观时间，结合预约、交通和现场讲解安排，不相信未经核实的所谓快速通道。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "曲江与大雁塔"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "大雁塔、陕西历史博物馆及周边文化空间可组成另一条线路，博物馆预约和闭馆日以公告为准。"
+        }
+      }
+    ],
+    "seasonSummary": {
+      "en": "",
+      "zh-CN": "春季适合步行但可能有风沙；夏季高温需避开正午；秋季适合古迹游；冬季寒冷干燥注意保暖。"
+    },
+    "day3": {
+      "title": {
+        "en": "",
+        "zh-CN": "陕西历史文化专题日"
+      },
+      "text": {
+        "en": "",
+        "zh-CN": "选择一处已预约的博物馆或文化场馆慢慢参观，下午回到城墙内街区体验地方饮食。"
+      }
+    },
+    "advice": {
+      "en": "",
+      "zh-CN": "兵马俑和重要博物馆可能实行实名预约。按车票确认西安站或西安北站；尊重清真餐饮区域习俗并核实食材。"
+    },
+    "images": {
+      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Xi'an%20-%20Bell%20tower.jpg?width=1280",
+      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Xi'an%20roujiamo%2001.jpg?width=1280",
+      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Xi'an%20bell%20tower.jpg?width=1280",
+      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Xi'an_-_Bell_tower.jpg",
+      "foodCredit": "https://commons.wikimedia.org/wiki/File:Xi'an_roujiamo_01.jpg",
+      "climateCredit": "https://commons.wikimedia.org/wiki/File:Xi'an_bell_tower.jpg",
+      "landmarkLabel": "西安钟楼",
+      "foodLabel": "西安肉夹馍",
+      "climateLabel": "关中平原与古城四季",
+      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Xi'an%20-%20Bell%20tower.jpg?width=180"
+    },
+    "localStrengths": [
+      {
+        "title": {
+          "zh-CN": "航空航天与装备制造",
+          "en": "航空航天与装备制造"
+        },
+        "text": {
+          "zh-CN": "西安航空航天、电子信息和高端装备制造基础突出。",
+          "en": "西安航空航天、电子信息和高端装备制造基础突出。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "历史文化与遗产旅游",
+          "en": "历史文化与遗产旅游"
+        },
+        "text": {
+          "zh-CN": "秦始皇陵、古城墙、钟鼓楼和丝路遗产。",
+          "en": "秦始皇陵、古城墙、钟鼓楼和丝路遗产。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "中医药教育与科研",
+          "en": "中医药教育与科研"
+        },
+        "text": {
+          "zh-CN": "中医药高校、科研机构和传统医药文化资源。",
+          "en": "中医药高校、科研机构和传统医药文化资源。"
+        }
+      }
+    ]
   },
   "gansu": {
     "overview": {
@@ -827,7 +2395,105 @@
     "practical": {
       "en": "Check train schedules and distances carefully before combining Lanzhou with Dunhuang, Zhangye or other western stops.",
       "zh-CN": "将兰州与敦煌、张掖等西部目的地组合前，务必核对车次和实际距离。"
-    }
+    },
+    "cityStory": {
+      "en": "This pilot entry focuses on Lanzhou, while Gansu’s Silk Road heritage and desert landscapes span a very large province. Dunhuang and Zhangye are separate multi-day routes.",
+      "zh-CN": "本试点以兰州为起点，甘肃是一条横跨河谷、戈壁、绿洲与丝路遗址的长距离旅行带。兰州适合黄河沿岸和博物馆，张掖、嘉峪关、敦煌需按交通走廊安排多日路线。"
+    },
+    "districts": [
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "黄河风情线与中山桥"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "适合初访时沿河步行观察河谷城市景观，水情、风力和天气会影响滨水体验。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "城关与博物馆"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "城关区便于衔接交通和餐饮，可结合甘肃省博物馆了解丝路历史与区域考古，预约以场馆公告为准。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "河西走廊与敦煌"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "张掖、嘉峪关和敦煌属于独立远途线路，莫高窟等遗址需按官方预约与文物保护规则参观。"
+        }
+      }
+    ],
+    "seasonSummary": {
+      "en": "",
+      "zh-CN": "春季风沙和温差明显；夏季日照强；秋季适合河西走廊；冬季寒冷，部分户外服务可能调整。"
+    },
+    "day3": {
+      "title": {
+        "en": "",
+        "zh-CN": "兰州博物馆与黄河生活"
+      },
+      "text": {
+        "en": "",
+        "zh-CN": "安排半日文化场馆，再沿黄河风情线散步，体验牛肉面和地方甜品，为下一站提前核对车次。"
+      }
+    },
+    "advice": {
+      "en": "",
+      "zh-CN": "兰州到敦煌、张掖等地距离不可低估。戈壁路线准备饮水、防晒和保暖；重要遗址不购买来历不明的票务。"
+    },
+    "images": {
+      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Zhongshan%20Bridge%20in%20Lanzhou.jpg?width=1280",
+      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Lanzhou%20Beef%20Noodles.jpg?width=1280",
+      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Zhongshan%20Bridge%2C%20Lanzhou%2C%20%26%20Yellow%20River%20(10093826343).jpg?width=1280",
+      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Zhongshan_Bridge_in_Lanzhou.jpg",
+      "foodCredit": "https://commons.wikimedia.org/wiki/File:Lanzhou_Beef_Noodles.jpg",
+      "climateCredit": "https://commons.wikimedia.org/wiki/File:Zhongshan_Bridge%2C_Lanzhou%2C_%26_Yellow_River_(10093826343).jpg",
+      "landmarkLabel": "兰州中山桥",
+      "foodLabel": "兰州牛肉面",
+      "climateLabel": "黄河峡谷与西北干燥气候",
+      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Zhongshan%20Bridge%20in%20Lanzhou.jpg?width=180"
+    },
+    "localStrengths": [
+      {
+        "title": {
+          "zh-CN": "中医药材与制药",
+          "en": "中医药材与制药"
+        },
+        "text": {
+          "zh-CN": "甘肃道地药材、中药材种植加工和制药产业。",
+          "en": "甘肃道地药材、中药材种植加工和制药产业。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "能源化工与装备",
+          "en": "能源化工与装备"
+        },
+        "text": {
+          "zh-CN": "石油化工、新能源和相关装备制造。",
+          "en": "石油化工、新能源和相关装备制造。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "黄河文化与丝路旅游",
+          "en": "黄河文化与丝路旅游"
+        },
+        "text": {
+          "zh-CN": "黄河风情、丝绸之路遗产、丹霞与西北饮食文化。",
+          "en": "黄河风情、丝绸之路遗产、丹霞与西北饮食文化。"
+        }
+      }
+    ]
   },
   "urumqi": {
     "overview": {
@@ -873,6 +2539,104 @@
     "practical": {
       "en": "Distances in Xinjiang can be substantial. Check current travel requirements for each destination and use reliable transport for remote routes.",
       "zh-CN": "新疆各目的地之间距离可能很远。前往不同地区前核对最新出行要求，远郊路线应选择可靠交通。"
-    }
+    },
+    "cityStory": {
+      "en": "Urumqi is a gateway city for Xinjiang, where long distances, varied landscapes and regional travel rules shape itinerary planning. Keep city visits separate from remote mountain or lake excursions.",
+      "zh-CN": "乌鲁木齐是进入新疆的重要门户，市区可了解新疆历史、多元文化、地方饮食和现代生活；天山天池等自然景区需要独立交通。新疆地域广阔，不能用市区两日游代表整个新疆。"
+    },
+    "districts": [
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "国际大巴扎与老城商业"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "适合了解建筑、手工艺、食品和市场氛围，购物前确认价格、重量、产地和退换规则。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "新疆博物馆与文化场馆"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "了解区域历史、考古和多元文化，参观前核对预约、证件、展览和闭馆安排。"
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "zh-CN": "天山方向与远郊自然"
+        },
+        "text": {
+          "en": "",
+          "zh-CN": "天山天池等景区需单独安排往返交通，确认开放入口、天气、车辆和返程，不临时增加远距离景点。"
+        }
+      }
+    ],
+    "seasonSummary": {
+      "en": "",
+      "zh-CN": "春秋昼夜温差大；夏季日照强且干燥；冬季寒冷，山地天气与市区差异明显。"
+    },
+    "day3": {
+      "title": {
+        "en": "",
+        "zh-CN": "城市文化与地方市场"
+      },
+      "text": {
+        "en": "",
+        "zh-CN": "把新疆博物馆、国际大巴扎和地方餐饮作为城市主题日，按开放时段调整顺序，购买食品留意产地和保质期。"
+      }
+    },
+    "advice": {
+      "en": "",
+      "zh-CN": "跨区域旅行前查询最新交通、开放和通行要求。远郊选择可靠运营方，携带有效证件并遵守现场规定。"
+    },
+    "images": {
+      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Urumqi%20Hong%20Shan%20pagoda.jpg?width=1280",
+      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%96%B0%E7%96%86%E7%BE%8A%E8%82%89%E4%B8%B2.jpg?width=1280",
+      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20glance%20at%20Urumqi%20from%20Hongshan%20Park.jpg?width=1280",
+      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Urumqi_Hong_Shan_pagoda.jpg",
+      "foodCredit": "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E7%96%86%E7%BE%8A%E8%82%89%E4%B8%B2.jpg",
+      "climateCredit": "https://commons.wikimedia.org/wiki/File:A_glance_at_Urumqi_from_Hongshan_Park.jpg",
+      "landmarkLabel": "乌鲁木齐红山塔",
+      "foodLabel": "新疆烤肉与馕",
+      "climateLabel": "天山与干旱大陆性气候",
+      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Urumqi%20Hong%20Shan%20pagoda.jpg?width=180"
+    },
+    "localStrengths": [
+      {
+        "title": {
+          "zh-CN": "丝路贸易与国际物流",
+          "en": "丝路贸易与国际物流"
+        },
+        "text": {
+          "zh-CN": "面向中亚的国际商贸、物流和陆路通道服务。",
+          "en": "面向中亚的国际商贸、物流和陆路通道服务。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "能源化工与装备",
+          "en": "能源化工与装备"
+        },
+        "text": {
+          "zh-CN": "石油天然气、煤化工和能源装备相关产业。",
+          "en": "石油天然气、煤化工和能源装备相关产业。"
+        }
+      },
+      {
+        "title": {
+          "zh-CN": "民族文化与冰雪旅游",
+          "en": "民族文化与冰雪旅游"
+        },
+        "text": {
+          "zh-CN": "多民族饮食文化、天山景观和冬季冰雪体验。",
+          "en": "多民族饮食文化、天山景观和冬季冰雪体验。"
+        }
+      }
+    ]
   }
 }

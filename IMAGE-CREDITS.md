@@ -1,24 +1,111 @@
-# Yiang Health image credits
+# Yiang Health 图片来源与授权
 
-All local copies are served from image/cities/ so pages do not depend on third-party image hotlinks.
+本页试点城市的地标建筑、地方美食与自然风光图片来自 Wikimedia Commons。每张图片的说明文字均链接到原始文件页；原作者、具体许可协议及使用条件以对应文件页为准。上线或转让项目之前，应保留这些署名与许可链接。
 
-## Jincheng
+## 北京
 
-- jincheng-iron-flower.jpg — “Datiehua / Iron Fireworks in Shanxi Situ Town”, photo by Witcater, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). [Original file](https://commons.wikimedia.org/wiki/File:%E5%B1%B1%E8%A5%BF%E5%8F%B8%E5%BE%92%E5%B0%8F%E9%95%87%E6%89%93%E9%93%81%E8%8A%B1_Datiehua_Iron_Fireworks_in_Shanxi_Situ_Town.jpg).
-- jincheng-wangmangling-cableway.jpg — Wangmangling cableway, photo by Windmemories, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [Original file](https://commons.wikimedia.org/wiki/File:20260726_Wangmangling_Cableway.jpg).
-- jincheng-huangcheng-xiangfu-1.jpg and jincheng-huangcheng-xiangfu-2.jpg — Huangcheng Xiangfu, photo by Underbar dk, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [Image 1](https://commons.wikimedia.org/wiki/File:Huangcheng_Xiangfu_1.JPG) · [Image 2](https://commons.wikimedia.org/wiki/File:Huangcheng_Xiangfu_2.JPG).
-- jincheng-manghe-illustrative.jpg, jincheng-diji-illustrative.jpg, and jincheng-dayang-illustrative.jpg — representative, non-location-specific images from Unsplash, used under the [Unsplash License](https://unsplash.com/license). They are explicitly labeled illustrative and are not presented as photographs of the named attractions.
-- Gaodu Yuhuang Temple is intentionally shown without a photo until a location-verified image with reusable rights is confirmed.
+- 地标建筑/地图点击窗口：[地标建筑/地图点击窗口](https://commons.wikimedia.org/wiki/File:Beijing%2C_Forbidden_City_-_panoramio_(1).jpg)
+- 地方美食：[地方美食](https://commons.wikimedia.org/wiki/File:Peking_Duck.jpg)
+- 自然风光与季节：[自然风光与季节](https://commons.wikimedia.org/wiki/File:Beijing_pano.jpg)
 
-## Linfen
+## 天津
 
-- linfen-hukou-waterfall.jpg — Hukou Waterfalls (2017), photo by N509FZ, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [Original file](https://commons.wikimedia.org/wiki/File:Hukou_Waterfalls_(20170930163540).jpg).
-- linfen-guangsheng-temple.jpg — Guangsheng Temple, photo by Artsxiang, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Original file](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E8%83%9C%E5%AF%BA_03.JPG).
-- linfen-xiaoxitian.jpg — Xiaoxitian, photo by 三猎, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [Original file](https://commons.wikimedia.org/wiki/File:%E9%9A%B0%E5%8E%BF%E5%B0%8F%E8%A5%BF%E5%A4%A9%E5%A4%A7%E9%9B%84%E5%AE%9D%E6%AE%BF.JPG).
-- linfen-taosi-pottery.jpg — Taosi painted pottery vessel, a museum collection object (not an in-situ site photograph), credited to Fo Guang Shan via Chinese Notes, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [Original file](https://commons.wikimedia.org/wiki/File:Painted_Pottery_Pot_Taosi_Culture,_Early_Period_(2,300%E2%80%942,100_BCE)_Excavated_at_the_Taosi_Site,_Xiangfen_County,_Shanxi._Capital_Museum,_Beijing.jpg).
-- linfen-spring.jpg, linfen-summer.jpg, linfen-autumn.jpg, and linfen-winter.jpg — representative seasonal illustrations from Unsplash, used under the [Unsplash License](https://unsplash.com/license); they are not location-specific photographs.
+- 地标建筑/地图点击窗口：[地标建筑/地图点击窗口](https://commons.wikimedia.org/wiki/File:Tianjin_Eye_and_Tianjin.jpg)
+- 地方美食：[地方美食](https://commons.wikimedia.org/wiki/File:Jianbing_Guozi_20170610.jpg)
+- 自然风光与季节：[自然风光与季节](https://commons.wikimedia.org/wiki/File:Tianjin_Eye.jpg)
 
-## Notes
+## 呼伦贝尔
 
-- Wikimedia assets are resized thumbnail copies from the linked source files; Unsplash assets are downloaded cropped/resized variants. No retouching or compositing was applied.
-- Representative images are labeled in page alt text and explanatory copy to avoid implying that they depict the exact named attraction.
+- 地标建筑/地图点击窗口：[地标建筑/地图点击窗口](https://commons.wikimedia.org/wiki/File:Hailar_Railway_Station.jpg)
+- 地方美食：[地方美食](https://commons.wikimedia.org/wiki/File:Roasted_Lamb_in_Mongolia.jpg)
+- 自然风光与季节：[自然风光与季节](https://commons.wikimedia.org/wiki/File:Hulunbuir.Hailar.mairie.jpg)
+
+## 延边（延吉）
+
+- 地标建筑/地图点击窗口：[地标建筑/地图点击窗口](https://commons.wikimedia.org/wiki/File:Yanji_West_Market.jpg)
+- 地方美食：[地方美食](https://commons.wikimedia.org/wiki/File:Cafeteria_at_West_Market%2C_Yanji.jpg)
+- 自然风光与季节：[自然风光与季节](https://commons.wikimedia.org/wiki/File:Yanji.jpg)
+
+## 黑河
+
+- 地标建筑/地图点击窗口：[地标建筑/地图点击窗口](https://commons.wikimedia.org/wiki/File:Aihui_History_Museum_-_gate.jpg)
+- 地方美食：[地方美食](https://commons.wikimedia.org/wiki/File:Chinese_Food_Fish.jpg)
+- 自然风光与季节：[自然风光与季节](https://commons.wikimedia.org/wiki/File:Amur_River_and_Heihe.jpg)
+
+## 上海
+
+- 地标建筑/地图点击窗口：[地标建筑/地图点击窗口](https://commons.wikimedia.org/wiki/File:Shanghai_Oriental_Pearl_Tower.JPG)
+- 地方美食：[地方美食](https://commons.wikimedia.org/wiki/File:Xiaolongbao_Shanghai.jpg)
+- 自然风光与季节：[自然风光与季节](https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_in_Shanghai.jpg)
+
+## 南通
+
+- 地标建筑/地图点击窗口：[地标建筑/地图点击窗口](https://commons.wikimedia.org/wiki/File:Nantong_Bell_Tower_and_Watch_Tower_2013-01.JPG)
+- 地方美食：[地方美食](https://commons.wikimedia.org/wiki/File:Chinese_Food_Fish.jpg)
+- 自然风光与季节：[自然风光与季节](https://commons.wikimedia.org/wiki/File:Nantong_banner.jpg)
+
+## 浙江（杭州）
+
+- 地标建筑/地图点击窗口：[地标建筑/地图点击窗口](https://commons.wikimedia.org/wiki/File:Leifeng_Pagoda%2C_Hangzhou.JPG)
+- 地方美食：[地方美食](https://commons.wikimedia.org/wiki/File:Longjing_tea.jpg)
+- 自然风光与季节：[自然风光与季节](https://commons.wikimedia.org/wiki/File:Longjing_tea_district_Hangzhou.jpg)
+
+## 山东（济南）
+
+- 地标建筑/地图点击窗口：[地标建筑/地图点击窗口](https://commons.wikimedia.org/wiki/File:Baotu_Spring_Pavilion.jpg)
+- 地方美食：[地方美食](https://commons.wikimedia.org/wiki/File:Basi_digua_2009_03.jpg)
+- 自然风光与季节：[自然风光与季节](https://commons.wikimedia.org/wiki/File:Deyue_Pavillion%2C_Daming_Lake%2C_Jinan_in_October_2019.jpg)
+
+## 广东（广州）
+
+- 地标建筑/地图点击窗口：[地标建筑/地图点击窗口](https://commons.wikimedia.org/wiki/File:Canton_Tower_at_night.jpg)
+- 地方美食：[地方美食](https://commons.wikimedia.org/wiki/File:Dim_sum_collection_in_Cantonese_restaurant.jpg)
+- 自然风光与季节：[自然风光与季节](https://commons.wikimedia.org/wiki/File:Canton_Tower_at_night.jpg)
+
+## 广西（南宁）
+
+- 地标建筑/地图点击窗口：[地标建筑/地图点击窗口](https://commons.wikimedia.org/wiki/File:Nanning_Confucian_Temple_and_Mount_Qingxiu_Shan%2C_June_2023.jpg)
+- 地方美食：[地方美食](https://commons.wikimedia.org/wiki/File:Guangxi_Yulin_rice_noodles.jpg)
+- 自然风光与季节：[自然风光与季节](https://commons.wikimedia.org/wiki/File:Nanning_seen_from_Qingxiu_Mountain.jpg)
+
+## 海南
+
+- 地标建筑/地图点击窗口：[地标建筑/地图点击窗口](https://commons.wikimedia.org/wiki/File:Haikou_Century_Bridge.JPG)
+- 地方美食：[地方美食](https://commons.wikimedia.org/wiki/File:Yeziji_Hainanese_coconut_chicken_soup.jpg)
+- 自然风光与季节：[自然风光与季节](https://commons.wikimedia.org/wiki/File:Haikou_Banner.jpg)
+
+## 重庆
+
+- 地标建筑/地图点击窗口：[地标建筑/地图点击窗口](https://commons.wikimedia.org/wiki/File:%E9%87%8D%E5%BA%86%E6%B4%AA%E5%B4%96%E6%B4%9E.jpg)
+- 地方美食：[地方美食](https://commons.wikimedia.org/wiki/File:Chongqing_hotpot.1.jpg)
+- 自然风光与季节：[自然风光与季节](https://commons.wikimedia.org/wiki/File:The_skyscrapers_of_Chongqing_CBD_with_Hongya_Cave_at_sunset.jpeg)
+
+## 成都
+
+- 地标建筑/地图点击窗口：[地标建筑/地图点击窗口](https://commons.wikimedia.org/wiki/File:Anshun_Bridge_Chengdu.jpg)
+- 地方美食：[地方美食](https://commons.wikimedia.org/wiki/File:Chongqing_hotpot.1.jpg)
+- 自然风光与季节：[自然风光与季节](https://commons.wikimedia.org/wiki/File:Anshun_Bridge_in_Chengdu.jpg)
+
+## 昆明
+
+- 地标建筑/地图点击窗口：[地标建筑/地图点击窗口](https://commons.wikimedia.org/wiki/File:Kunming_Golden_Horse_Memorial_Archway.JPG)
+- 地方美食：[地方美食](https://commons.wikimedia.org/wiki/File:%E8%BF%87%E6%A1%A5%E7%B1%B3%E7%BA%BF-%E4%BA%91%E5%8D%97%E6%98%86%E6%98%8E_01.jpg)
+- 自然风光与季节：[自然风光与季节](https://commons.wikimedia.org/wiki/File:Dianchi_Lake.jpg)
+
+## 陕西（西安）
+
+- 地标建筑/地图点击窗口：[地标建筑/地图点击窗口](https://commons.wikimedia.org/wiki/File:Xi'an_-_Bell_tower.jpg)
+- 地方美食：[地方美食](https://commons.wikimedia.org/wiki/File:Xi'an_roujiamo_01.jpg)
+- 自然风光与季节：[自然风光与季节](https://commons.wikimedia.org/wiki/File:Xi'an_bell_tower.jpg)
+
+## 甘肃（兰州）
+
+- 地标建筑/地图点击窗口：[地标建筑/地图点击窗口](https://commons.wikimedia.org/wiki/File:Zhongshan_Bridge_in_Lanzhou.jpg)
+- 地方美食：[地方美食](https://commons.wikimedia.org/wiki/File:Lanzhou_Beef_Noodles.jpg)
+- 自然风光与季节：[自然风光与季节](https://commons.wikimedia.org/wiki/File:Zhongshan_Bridge%2C_Lanzhou%2C_%26_Yellow_River_(10093826343).jpg)
+
+## 乌鲁木齐
+
+- 地标建筑/地图点击窗口：[地标建筑/地图点击窗口](https://commons.wikimedia.org/wiki/File:Urumqi_Hong_Shan_pagoda.jpg)
+- 地方美食：[地方美食](https://commons.wikimedia.org/wiki/File:%E6%96%B0%E7%96%86%E7%BE%8A%E8%82%89%E4%B8%B2.jpg)
+- 自然风光与季节：[自然风光与季节](https://commons.wikimedia.org/wiki/File:A_glance_at_Urumqi_from_Hongshan_Park.jpg)
