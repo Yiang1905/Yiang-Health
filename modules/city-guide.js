@@ -8,7 +8,7 @@ const T=(a,b)=>zh()?a:b;
 const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const para=v=>L(v)?'<p>'+esc(L(v))+'</p>':'';
 const head=(eyebrow,title,desc)=>'<div class="guide-head"><span class="guide-eyebrow">'+eyebrow+'</span><h2>'+title+'</h2>'+(desc?'<p>'+desc+'</p>':'')+'</div>';
-const image=(src,alt,credit)=>src?'<figure class="guide-photo"><img src="'+esc(src)+'" alt="'+esc(alt)+'" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><figcaption>'+esc(alt)+' · <a href="'+esc(credit||'#')+'" target="_blank" rel="noopener noreferrer">'+T('图片来源与授权','Image source & licence')+'</a></figcaption></figure>':'';
+const image=(src,alt,credit)=>src?'<figure class="guide-photo"><img src="'+esc(src)+'" alt="'+esc(alt)+'" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest(&#39;figure&#39;).hidden=true"><figcaption>'+esc(alt)+' · <a href="'+esc(credit||'#')+'" target="_blank" rel="noopener noreferrer">'+T('图片来源与授权','Image source & licence')+'</a></figcaption></figure>':'';
 const card=(title,body,label)=>body?'<article class="guide-card">'+(label?'<span class="guide-label">'+esc(label)+'</span>':'')+'<h3>'+esc(title)+'</h3>'+para(body)+'</article>':'';
 async function load(){
  try{

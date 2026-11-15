@@ -1,4 +1,4 @@
-const CACHE = 'yiang-health-v1.25-network-first-utf8-refresh-20261112';
+const CACHE = 'yiang-health-v1.27-image-fallback-20261115';
 const ASSETS = [
   './','./index.html','./planner.html','./dashboard.html','./destinations.html',
   './city.html','./city-guide.css','./modules/city-guide.js','./shanxi.html','./jincheng.html','./jincheng-zh.html','./linfen.html','./linfen-zh.html','./pricing.html','./safety.html','./terms.html','./privacy.html',

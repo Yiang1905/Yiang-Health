@@ -65,15 +65,16 @@
     const attractionNotes = (city.attractions || []).map((a,i) => '<li><strong>' + esc(localized(a, zh)) + '</strong><span>' + esc(localized((extra.attractionNotes || [])[i], zh)) + '</span></li>').join('');
     const foodHighlights = list(extra.foodHighlights || []);
     const localStrengths = (extra.localStrengths || []).map(item => '<li><strong>' + esc(localized(item.title, zh)) + '</strong><span>' + esc(localized(item.text, zh)) + '</span></li>').join('');
-    const photo = (src, alt, credit) => src ? '<figure class="china-guide-photo"><img src="' + esc(src) + '" alt="' + esc(alt) + '" loading="lazy" referrerpolicy="no-referrer"><figcaption>' + esc(alt) + ' · <a href="' + esc(credit || '#') + '" target="_blank" rel="noopener noreferrer">' + (zh ? '图片来源' : 'Image source') + '</a></figcaption></figure>' : '';
-    const districts = zh ? (extra.districts || []).map(d => '<li><strong>' + esc(localized(d.title, zh)) + '</strong><span>' + esc(localized(d.text, zh)) + '</span></li>').join('') : '';
+    const photo = (src, alt, credit) => src ? '<figure class="china-guide-photo"><img src="' + esc(src) + '" alt="' + esc(alt) + '" loading="lazy" referrerpolicy="no-referrer" onerror="const f=this.closest(\'figure\');f.hidden=true;const p=f.parentElement;if(p&&p.querySelectorAll(\'figure:not([hidden])\').length===0)p.hidden=true"><figcaption>' + esc(alt) + ' · <a href="' + esc(credit || '#') + '" target="_blank" rel="noopener noreferrer">' + (zh ? '图片来源' : 'Image source') + '</a></figcaption></figure>' : '';
+    const districts = (extra.districts || []).map(d => '<li><strong>' + esc(localized(d.title, zh)) + '</strong><span>' + esc(localized(d.text, zh)) + '</span></li>').join('');
     const dayPlan = [extra.day1, extra.day2].filter(Boolean).map((v,i) => '<p><strong>' + (zh ? (i===0?'第1天：':'第2天：') : (i===0?'Day 1: ':'Day 2: ')) + '</strong>' + esc(localized(v, zh)) + '</p>').join('');
     const sources = (city.officialSources || []).map(x => '<a href="' + esc(x.url) + '" target="_blank" rel="noopener noreferrer">' + esc(x.name) + '</a>').join(' · ');
     expanded.innerHTML = (extra.images ? '<div class="china-guide-visuals">' + photo(extra.images.landmark, extra.images.landmarkLabel || name, extra.images.landmarkCredit) + photo(extra.images.food, extra.images.foodLabel || (zh ? '当地美食' : 'Local food'), extra.images.foodCredit) + photo(extra.images.climate, extra.images.climateLabel || (zh ? '当地风光与气候' : 'Local landscape & climate'), extra.images.climateCredit) + '</div>' : '') + '<div class="china-guide-grid">' +
       section(zh ? '目的地概览' : 'Destination overview', paragraph(extra.cityStory) + paragraph(extra.overview)) +
       section(zh ? '当地特色产业与优势项目' : 'Local strengths & signature sectors', localStrengths ? '<ul class="china-institution-list">' + localStrengths + '</ul>' : '') +
-      (zh ? section('\u533a\u57df\u4e0e\u8857\u533a\u4ecb\u7ecd', districts ? '<ul class=\"china-institution-list\">' + districts + '</ul>' : '') : '') +
+      section(zh ? '区域与街区介绍' : 'Areas & neighbourhoods', districts ? '<ul class="china-institution-list">' + districts + '</ul>' : '') +
       section(zh ? '气候与适合出行的季节' : 'Climate & seasonal planning', paragraph(city.climate)) +
+      section(zh ? '参考消费水平' : 'Indicative budget', paragraph(city.priceLevel)) +
       section(zh ? '当地美食' : 'Local food', paragraph(city.food) + foodHighlights) +
       section(zh ? '值得了解的目的地' : 'Places to explore', attractionNotes ? '<ul class=\"china-institution-list\">' + attractionNotes + '</ul>' : list(city.attractions)) +
       section(zh ? '交通与抵达方式' : 'Getting there', paragraph(city.transport)) +

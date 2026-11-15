@@ -59,31 +59,31 @@
     "districts": [
       {
         "title": {
-          "en": "",
+          "en": "Central Axis & Old City",
           "zh-CN": "中轴线与老城"
         },
         "text": {
-          "en": "",
+          "en": "The Forbidden City, Jingshan Hill and Shichahai form a rewarding historic route. Reserve the Palace Museum through its official channel and respect residents when walking through hutong neighbourhoods.",
           "zh-CN": "故宫、景山、什刹海可形成一条历史空间路线。故宫按官方渠道预约，胡同游览尊重居民生活，不随意进入院落。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Temple of Heaven & Qianmen",
           "zh-CN": "天坛与前门"
         },
         "text": {
-          "en": "",
+          "en": "Allow time to explore the Temple of Heaven and its surrounding park. Around Qianmen, traditional shops and historic lanes offer a glimpse of old Beijing; expect crowds during holidays.",
           "zh-CN": "天坛适合留出半天观察坛庙建筑和公园生活，前门周边可体验老字号与街巷商业，节假日需错峰。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Northwestern Imperial Gardens",
           "zh-CN": "西北园林"
         },
         "text": {
-          "en": "",
+          "en": "The Summer Palace, Old Summer Palace and Fragrant Hills cover large areas. Focus on one major site per visit and check opening areas and onward transport.",
           "zh-CN": "颐和园、圆明园和香山面积较大，建议一次重点游览一处，提前核对开放区域和交通接驳。"
         }
       }
@@ -207,31 +207,31 @@
     "districts": [
       {
         "title": {
-          "en": "",
+          "en": "Heping & Five Great Avenues",
           "zh-CN": "和平与五大道"
         },
         "text": {
-          "en": "",
+          "en": "Walk among historic villas, tree-lined streets and buildings from different periods. Some buildings remain in active use, so follow site rules when taking photographs.",
           "zh-CN": "适合步行观察不同年代的洋楼、街道尺度和绿荫环境，部分建筑仍有实际用途，拍摄时尊重场所规定。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Nankai & the Old City",
           "zh-CN": "南开与老城"
         },
         "text": {
-          "en": "",
+          "en": "The Ancient Culture Street and Drum Tower area combine traditional commerce and folk displays. Visit outside peak holiday hours to enjoy local snacks at a gentler pace.",
           "zh-CN": "古文化街、鼓楼周边保留传统商业和民俗展示，节假日人流较大，可错峰体验地方点心。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Haihe River & Binhai",
           "zh-CN": "海河与滨海"
         },
         "text": {
-          "en": "",
+          "en": "The Haihe riverfront is pleasant for an evening walk. Cruise schedules depend on daily operations; Binhai attractions are far from the city centre and need separate transport planning.",
           "zh-CN": "海河沿岸适合傍晚散步，游船班次以当日公告为准；滨海新区景点距离市区较远，需单独安排交通。"
         }
       }
@@ -351,31 +351,31 @@
     "districts": [
       {
         "title": {
-          "en": "",
+          "en": "Hailar Urban Area",
           "zh-CN": "海拉尔城区"
         },
         "text": {
-          "en": "",
+          "en": "Use Hailar as an arrival, supply and recovery base. City museums, markets and restaurants make a practical first stop before confirming vehicles and drivers for onward travel.",
           "zh-CN": "适合作为抵达、补给和调整节奏的起点，可安排城市文化场馆、市场和餐饮，并确认后续车辆与司机。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Chen Barag Banner Grasslands",
           "zh-CN": "陈巴尔虎旗草原"
         },
         "text": {
-          "en": "",
+          "en": "Before a grassland visit, confirm the accommodation, road access and actual route. Stay on open roads and do not enter fenced or private pastures.",
           "zh-CN": "草原体验先确认住宿点、道路入口和实际路线，不驶离开放道路或进入围栏内的牧场。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Ergun Wetlands",
           "zh-CN": "额尔古纳湿地"
         },
         "text": {
-          "en": "",
+          "en": "Viewpoints and walking routes can be far apart. Follow designated open trails and arrange return transport and accommodation in advance.",
           "zh-CN": "湿地观景点与步道可能相距较远，应按开放路线游览并提前安排返程和住宿。"
         }
       }
@@ -495,31 +495,31 @@
     "districts": [
       {
         "title": {
-          "en": "",
+          "en": "Yanji City Centre",
           "zh-CN": "延吉市中心"
         },
         "text": {
-          "en": "",
+          "en": "Plan meals, markets and easy city walks here. Popular streets become lively in the evening, while queues and business hours can vary by season.",
           "zh-CN": "适合安排餐饮、市场和城市步行，热门街区晚间较热闹，排队和营业时间随季节变化。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Local Cultural Experiences",
           "zh-CN": "地方文化体验"
         },
         "text": {
-          "en": "",
+          "en": "Use established museums and cultural venues to learn about Korean-Chinese history, clothing, music and food. Ask permission before photographing people.",
           "zh-CN": "可通过正规博物馆、文化场馆了解朝鲜族历史、服饰、音乐与饮食，拍摄人物前先征得同意。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Changbai Mountain Area",
           "zh-CN": "长白山区域"
         },
         "text": {
-          "en": "",
+          "en": "Different scenic areas have different entrances, transport and opening arrangements. Confirm the exact park, weather, tickets and transfers before booking.",
           "zh-CN": "不同景区入口、交通和开放安排各异，预订前确认具体景区、天气、门票与接驳组合。"
         }
       }
@@ -639,31 +639,31 @@
     "districts": [
       {
         "title": {
-          "en": "",
+          "en": "Heilongjiang Riverfront",
           "zh-CN": "黑龙江江畔"
         },
         "text": {
-          "en": "",
+          "en": "Learn about the city’s border setting along the river. Follow access and photography rules near controlled areas and never cross barriers or restricted facilities.",
           "zh-CN": "可了解城市边境区位，靠近管理区域时遵守通行与拍摄规定，不越过隔离设施。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Central Cultural District",
           "zh-CN": "市中心文化区"
         },
         "text": {
-          "en": "",
+          "en": "Museums, historic streets, markets and local dining make a relaxed arrival-day or pre-departure itinerary.",
           "zh-CN": "可安排博物馆、历史街区、市场和地方餐饮，作为抵达日或返程日前的轻松活动。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Wudalianchi Area",
           "zh-CN": "五大连池方向"
         },
         "text": {
-          "en": "",
+          "en": "The volcanic landscape is outside central Heihe. Plan transport and accommodation around the specific scenic area and remain on designated trails.",
           "zh-CN": "火山地貌区不在黑河市中心，应按景区分布安排交通和住宿，不离开开放步道。"
         }
       }
@@ -787,31 +787,31 @@
     "districts": [
       {
         "title": {
-          "en": "",
+          "en": "The Bund & Huangpu River",
           "zh-CN": "外滩与黄浦江"
         },
         "text": {
-          "en": "",
+          "en": "See the historic waterfront buildings by day and the Pudong skyline around dusk. Crowds increase on holidays; check current cruise piers and routes before setting out.",
           "zh-CN": "白天观察历史建筑，傍晚欣赏浦东天际线。节假日江边人流较多，游船码头与航线以当日运营信息为准。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Yu Garden & Old City",
           "zh-CN": "豫园与老城厢"
         },
         "text": {
-          "en": "",
+          "en": "Pair the classical garden with the surrounding traditional commercial streets. Check garden opening hours first and expect queues at popular times.",
           "zh-CN": "古典园林结合传统商业街区，热门时段排队较多，先核实园林开放时间再安排周边餐饮。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Jing’an & the Tree-Lined Streets",
           "zh-CN": "静安与梧桐街区"
         },
         "text": {
-          "en": "",
+          "en": "A good area for slow walks among historic buildings, cafés and neighbourhood life. Respect residents’ privacy and avoid lingering with cameras at private doorways.",
           "zh-CN": "适合慢步观察历史建筑、咖啡馆和社区生活，尊重居民隐私，不在住宅门口长时间拍摄。"
         }
       }
@@ -931,31 +931,31 @@
     "districts": [
       {
         "title": {
-          "en": "",
+          "en": "Chongchuan Old Town & Hao River",
           "zh-CN": "崇川老城与濠河"
         },
         "text": {
-          "en": "",
+          "en": "Choose a section of the waterfront promenade and combine it with the Nantong Museum to understand local history. Check museum closing days and reservation requirements.",
           "zh-CN": "选择一段滨水步道，结合南通博物苑了解城市历史，注意场馆闭馆日与预约要求。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Wolf Hill & Riverside",
           "zh-CN": "狼山与滨江"
         },
         "text": {
-          "en": "",
+          "en": "Wolf Hill combines hillside scenery and temple architecture; match the climb to your fitness and the weather. Follow safety signs along the Yangtze waterfront.",
           "zh-CN": "狼山兼有山地与寺院景观，登阶需结合体力和天气；长江沿岸遵守护栏和现场安全提示。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Rugao & County Destinations",
           "zh-CN": "如皋与县域目的地"
         },
         "text": {
-          "en": "",
+          "en": "Attractions such as Shuihui Garden are spread across different county-level areas. Confirm public transport and return times before planning a same-day trip.",
           "zh-CN": "水绘园等景点位于不同县市，先确认公共交通和返程时间，再决定是否当天往返。"
         }
       }
@@ -1079,31 +1079,31 @@
     "districts": [
       {
         "title": {
-          "en": "",
+          "en": "West Lake & Lakeside",
           "zh-CN": "西湖与湖滨"
         },
         "text": {
-          "en": "",
+          "en": "There is no need to walk the entire lake. Choose a manageable section such as Su Causeway, Bai Causeway, the lakeside or an island, and check holiday crowd controls.",
           "zh-CN": "不必强求环湖，可按体力选择苏堤、白堤、湖滨或湖中岛屿的一段，节假日关注客流和交通管理。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Lingyin & Longjing Tea Country",
           "zh-CN": "灵隐与龙井茶区"
         },
         "text": {
-          "en": "",
+          "en": "Follow temple etiquette and reservation rules. Tea villages offer insight into tea gardens and production; ask operators before entering working areas.",
           "zh-CN": "寺院游览遵守场所礼仪和预约要求；茶村适合了解茶园与制茶文化，进入生产区域前征得经营者同意。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Grand Canal & Old Streets",
           "zh-CN": "运河与老城"
         },
         "text": {
-          "en": "",
+          "en": "The Grand Canal, Qiaoxi Historic District and Qinghefang reveal Hangzhou’s trading and water-transport history. A short, focused walk is often enough.",
           "zh-CN": "大运河沿线、桥西历史街区和清河坊展现杭州商业与水运历史，选择一段路线慢游即可。"
         }
       }
@@ -1227,31 +1227,31 @@
     "districts": [
       {
         "title": {
-          "en": "",
+          "en": "Spring City Square & Baotu Spring",
           "zh-CN": "泉城广场与趵突泉"
         },
         "text": {
-          "en": "",
+          "en": "Baotu Spring, Daming Lake and the old city form a practical first-visit route. Spring-water levels vary with season and rainfall; check current opening notices.",
           "zh-CN": "趵突泉、大明湖和老城构成济南初访主线，泉水景观受季节和降雨影响，开放时间以现场公告为准。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Daming Lake & Old City Lanes",
           "zh-CN": "大明湖与老城街巷"
         },
         "text": {
-          "en": "",
+          "en": "Enjoy lakeside walks and local breakfast culture. In hot summer weather, avoid prolonged outdoor walks around midday.",
           "zh-CN": "适合湖岸步行并体验地方早餐，夏季高温时避开正午长时间暴晒。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Thousand Buddha Mountain & Beyond",
           "zh-CN": "千佛山与区域延伸"
         },
         "text": {
-          "en": "",
+          "en": "Thousand Buddha Mountain is a convenient nearby outing. Mount Tai, Qufu and Qingdao require separate intercity transport and accommodation plans.",
           "zh-CN": "千佛山可作为城市周边登高活动；泰山、曲阜和青岛应单独安排城际交通和住宿。"
         }
       }
@@ -1375,31 +1375,31 @@
     "districts": [
       {
         "title": {
-          "en": "",
+          "en": "Yuexiu & Historic Liwan",
           "zh-CN": "越秀与荔湾老城"
         },
         "text": {
-          "en": "",
+          "en": "Chen Clan Ancestral Hall is known for its wood, stone and brick carving and decorative plasterwork. Nearby lanes offer a glimpse of Cantonese life; keep residential routes clear.",
           "zh-CN": "陈家祠的木雕、石雕、砖雕和灰塑值得细看，周边街巷可体验广府生活，游览时注意居民通行。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Shamian & the Pearl River",
           "zh-CN": "沙面与珠江沿岸"
         },
         "text": {
-          "en": "",
+          "en": "Shamian preserves historic architecture and shaded streets and is well suited to walking. Pearl River cruise routes and piers depend on daily operating notices.",
           "zh-CN": "沙面保留历史建筑与林荫街道，适合步行；珠江游船航线和码头以当日运营公告为准。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Tianhe & Modern Guangzhou",
           "zh-CN": "天河与现代广州"
         },
         "text": {
-          "en": "",
+          "en": "Explore the city’s contemporary business and shopping districts. For Canton Tower and observation facilities, confirm ticket types, opening hours and queue conditions.",
           "zh-CN": "商业区体现现代商务和购物生活，广州塔及观景设施需确认票种、开放时段和排队情况。"
         }
       }
@@ -1519,31 +1519,31 @@
     "districts": [
       {
         "title": {
-          "en": "",
+          "en": "Qingxiu Mountain & Urban Green Space",
           "zh-CN": "青秀山与城市绿地"
         },
         "text": {
-          "en": "",
+          "en": "This large urban park involves substantial walking. Choose a route based on the entrance and areas you want to see, and watch for slippery paths after rain.",
           "zh-CN": "大型城市公园步行距离不短，按入口和想看的区域选路线，雨后注意步道湿滑。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Chaoyang & Three Streets and Two Lanes",
           "zh-CN": "朝阳与三街两巷"
         },
         "text": {
-          "en": "",
+          "en": "Central shopping streets, historic lanes and local dining work well for a half-day walk. Check holiday crowds and individual shop hours.",
           "zh-CN": "市中心商业、历史街巷和地方餐饮适合半日步行，节假日注意客流与商铺营业时间。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Guilin, Yangshuo & Detian Direction",
           "zh-CN": "桂林、阳朔与德天方向"
         },
         "text": {
-          "en": "",
+          "en": "These destinations are not neighbourhoods around Nanning. Plan them as separate routes with suitable transport; carry required documents and follow local rules at border-area attractions.",
           "zh-CN": "这些地方不属于南宁市区周边街区，应按交通方向分别规划，边境景区携带证件并遵守管理。"
         }
       }
@@ -1667,31 +1667,31 @@
     "districts": [
       {
         "title": {
-          "en": "",
+          "en": "Haikou Arcade Streets & Old Town",
           "zh-CN": "海口骑楼与老城"
         },
         "text": {
-          "en": "",
+          "en": "Explore the port-trade history and Southeast Asian architectural influences of the arcade streets, then sample local markets and Hainan noodles. Respect shopkeepers and residents when taking photos.",
           "zh-CN": "骑楼老街可了解港口贸易和南洋建筑影响，结合市场与海南粉体验；拍摄时尊重店主和居民。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Sanya Bay & Coastal Areas",
           "zh-CN": "三亚湾与海湾片区"
         },
         "text": {
-          "en": "",
+          "en": "Accommodation and transport vary between bays. Check the actual beach distance before booking, and observe sea conditions, lifeguard flags and swimming notices.",
           "zh-CN": "不同海湾的住宿和交通体验不同，选择酒店时确认海滩距离；游泳前观察海况、救生旗和安全提示。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Boao & Central Rainforest",
           "zh-CN": "博鳌与中部雨林"
         },
         "text": {
-          "en": "",
+          "en": "The Boao Lecheng area has a specific policy context; this guide does not imply medical eligibility or institutional partnerships. For rainforest visits, follow open trails and check rain and transport conditions.",
           "zh-CN": "乐城有特定政策背景，本指南不代表医疗资格或机构合作；雨林游览按开放步道并关注降雨与交通。"
         }
       }
@@ -1815,31 +1815,31 @@
     "districts": [
       {
         "title": {
-          "en": "",
+          "en": "Yuzhong Peninsula",
           "zh-CN": "渝中半岛"
         },
         "text": {
-          "en": "",
+          "en": "Jiefangbei, Hongyadong, the mountain trails and riverfront make a classic route. Elevation changes and stairs add effort; follow crowd-control instructions in busy evening areas.",
           "zh-CN": "解放碑、洪崖洞、山城步道和江岸构成经典体验，景点间有高差和台阶，夜间热门区域遵守分流。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Liziba & Jiangbei",
           "zh-CN": "李子坝与江北"
         },
         "text": {
-          "en": "",
+          "en": "Liziba is a short stop to view the rail transit scene; do not enter facilities or disrupt residents. Jiangbeizui and Guanyinqiao show a more contemporary side of the city.",
           "zh-CN": "李子坝适合短暂停留观看轨道交通景观，不进入设施或影响居民；江北嘴与观音桥展现现代城市生活。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Shapingba & Ciqikou",
           "zh-CN": "沙坪坝与磁器口"
         },
         "text": {
-          "en": "",
+          "en": "Ciqikou preserves traditional lanes and commercial culture. It gets crowded on holidays, so avoid peak periods; check transport separately for outlying attractions.",
           "zh-CN": "磁器口保留传统街巷与商业文化，节假日拥挤，可避开主街高峰；远郊景点另行核对交通。"
         }
       }
@@ -1963,31 +1963,31 @@
     "districts": [
       {
         "title": {
-          "en": "",
+          "en": "Wuhou Shrine & Jinli",
           "zh-CN": "武侯祠与锦里"
         },
         "text": {
-          "en": "",
+          "en": "Explore Three Kingdoms history and garden architecture. The nearby commercial street is busy during holidays, and its shops represent only one part of Chengdu’s living culture.",
           "zh-CN": "适合了解三国历史叙事与园林建筑，邻近商业街节假日客流较大，商业展示不等于全部传统生活。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "People’s Park & Kuanzhai Alleys",
           "zh-CN": "人民公园与宽窄巷子"
         },
         "text": {
-          "en": "",
+          "en": "The teahouses in People’s Park reflect everyday leisure. Kuanzhai retains historic lane patterns alongside many shops; consider nearby cultural venues as well.",
           "zh-CN": "人民公园茶馆体现日常休闲，宽窄巷子保留街巷空间，也有较多商业店铺，可结合周边文化场馆。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Panda Base & Northern Chengdu",
           "zh-CN": "熊猫基地与城北"
         },
         "text": {
-          "en": "",
+          "en": "Plan around the reserved entry time and walking distances. Follow animal-welfare rules: do not tap glass, feed animals or use flash photography.",
           "zh-CN": "结合预约时段和园区步行安排，遵守动物保护规定，不敲玻璃、不投喂、不使用闪光灯。"
         }
       }
@@ -2111,31 +2111,31 @@
     "districts": [
       {
         "title": {
-          "en": "",
+          "en": "Green Lake & Central Kunming",
           "zh-CN": "翠湖与中心城区"
         },
         "text": {
-          "en": "",
+          "en": "A relaxed walking area that can be combined with museums, old streets and parks. Keep a respectful distance from birds and do not feed or chase them.",
           "zh-CN": "适合慢步，结合博物馆、老街和公园了解城市生活；观鸟时保持距离，不投喂或追逐。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Dianchi Lake & Western Hills",
           "zh-CN": "滇池与西山方向"
         },
         "text": {
-          "en": "",
+          "en": "Dianchi has a long shoreline, so choose a specific park or wetland area. Check weather and current cableway and trail notices before visiting the Western Hills.",
           "zh-CN": "滇池岸线很长，应选择具体公园或湿地区域；西山登高关注天气、索道和步道公告。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Stone Forest & County Destinations",
           "zh-CN": "石林与县域目的地"
         },
         "text": {
-          "en": "",
+          "en": "Stone Forest deserves a separate day trip. Destinations such as Fuxian Lake require a fresh transport and, where appropriate, accommodation plan.",
           "zh-CN": "石林需单独安排一日游；前往抚仙湖等县域景点应重新规划住宿和交通。"
         }
       }
@@ -2259,31 +2259,31 @@
     "districts": [
       {
         "title": {
-          "en": "",
+          "en": "City Wall & Bell and Drum Towers",
           "zh-CN": "城墙与钟鼓楼"
         },
         "text": {
-          "en": "",
+          "en": "Walk or cycle on the Ming City Wall according to current access rules. The Bell and Drum Tower area is useful for exploring the old city centre and its commercial streets; expect holiday crowds.",
           "zh-CN": "明城墙可步行或按开放规定骑行，钟鼓楼周边适合观察老城中心与街区商业，节假日人流较大。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Lintong & the Mausoleum of Qin Shi Huang",
           "zh-CN": "临潼与秦始皇陵"
         },
         "text": {
-          "en": "",
+          "en": "Allow ample time for the Terracotta Army and plan around reservations, transport and on-site interpretation. Be wary of unofficial claims about special fast-track access.",
           "zh-CN": "兵马俑需要完整参观时间，结合预约、交通和现场讲解安排，不相信未经核实的所谓快速通道。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Qujiang & the Giant Wild Goose Pagoda",
           "zh-CN": "曲江与大雁塔"
         },
         "text": {
-          "en": "",
+          "en": "The pagoda, Shaanxi History Museum and nearby cultural spaces form a separate route. Check museum reservations and closure days through official notices.",
           "zh-CN": "大雁塔、陕西历史博物馆及周边文化空间可组成另一条线路，博物馆预约和闭馆日以公告为准。"
         }
       }
@@ -2403,31 +2403,31 @@
     "districts": [
       {
         "title": {
-          "en": "",
+          "en": "Yellow River Waterfront & Zhongshan Bridge",
           "zh-CN": "黄河风情线与中山桥"
         },
         "text": {
-          "en": "",
+          "en": "A useful first-visit walk for seeing Lanzhou’s river-valley setting. Water levels, wind and weather can affect the waterfront experience.",
           "zh-CN": "适合初访时沿河步行观察河谷城市景观，水情、风力和天气会影响滨水体验。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Chengguan & Museums",
           "zh-CN": "城关与博物馆"
         },
         "text": {
-          "en": "",
+          "en": "Chengguan is convenient for transport and dining. The Gansu Provincial Museum offers context on Silk Road history and regional archaeology; check reservation rules with the museum.",
           "zh-CN": "城关区便于衔接交通和餐饮，可结合甘肃省博物馆了解丝路历史与区域考古，预约以场馆公告为准。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Hexi Corridor & Dunhuang",
           "zh-CN": "河西走廊与敦煌"
         },
         "text": {
-          "en": "",
+          "en": "Zhangye, Jiayuguan and Dunhuang are long-distance destinations that need separate itineraries. Visit Mogao Caves and other heritage sites under official booking and conservation rules.",
           "zh-CN": "张掖、嘉峪关和敦煌属于独立远途线路，莫高窟等遗址需按官方预约与文物保护规则参观。"
         }
       }
@@ -2547,31 +2547,31 @@
     "districts": [
       {
         "title": {
-          "en": "",
+          "en": "International Grand Bazaar & Old-City Commerce",
           "zh-CN": "国际大巴扎与老城商业"
         },
         "text": {
-          "en": "",
+          "en": "Explore architecture, handicrafts, food and market life. Before buying, confirm the price, weight, origin and return policy.",
           "zh-CN": "适合了解建筑、手工艺、食品和市场氛围，购物前确认价格、重量、产地和退换规则。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Xinjiang Museum & Cultural Venues",
           "zh-CN": "新疆博物馆与文化场馆"
         },
         "text": {
-          "en": "",
+          "en": "Learn about regional history, archaeology and cultural diversity. Check reservation, identification, exhibition and closure requirements before visiting.",
           "zh-CN": "了解区域历史、考古和多元文化，参观前核对预约、证件、展览和闭馆安排。"
         }
       },
       {
         "title": {
-          "en": "",
+          "en": "Tianshan & Outlying Nature",
           "zh-CN": "天山方向与远郊自然"
         },
         "text": {
-          "en": "",
+          "en": "Scenic areas such as Tianshan Tianchi require separate return-transport planning. Confirm the open entrance, weather, vehicle arrangements and return journey; avoid adding distant stops at the last minute.",
           "zh-CN": "天山天池等景区需单独安排往返交通，确认开放入口、天气、车辆和返程，不临时增加远距离景点。"
         }
       }
