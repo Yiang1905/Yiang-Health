@@ -107,16 +107,10 @@
       "zh-CN": "热门景点常实行实名预约和分时入场，务必核对官方公告。火车站服务方向不同，按车票确认站名；长城与远郊路线应留出整天。"
     },
     "images": {
-      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Beijing%2C%20Forbidden%20City%20-%20panoramio%20(1).jpg?width=1280",
-      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Peking%20Duck.jpg?width=1280",
-      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Beijing%20pano.jpg?width=1280",
-      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Beijing%2C_Forbidden_City_-_panoramio_(1).jpg",
-      "foodCredit": "https://commons.wikimedia.org/wiki/File:Peking_Duck.jpg",
-      "climateCredit": "https://commons.wikimedia.org/wiki/File:Beijing_pano.jpg",
-      "landmarkLabel": "午门与紫禁城",
-      "foodLabel": "北京烤鸭",
-      "climateLabel": "中轴线与皇家园林",
-      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Beijing%2C%20Forbidden%20City%20-%20panoramio%20(1).jpg?width=180"
+      "landmark": "image/cities/beijing-local.jpg",
+      "landmarkCredit": "https://unsplash.com/photos/forbidden-city-architecture-in-beijing-oEULD9LnXPM",
+      "landmarkLabel": "故宫建筑群",
+      "marker": "image/cities/beijing-local.jpg"
     },
     "localStrengths": [
       {
@@ -255,16 +249,10 @@
       "zh-CN": "天津与北京高铁往来方便，但车站不止一个，购票时核对出发站和到达站。五大道、古文化街、海河和滨海新区不要压缩在同一天。"
     },
     "images": {
-      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Tianjin%20Eye%20and%20Tianjin.jpg?width=1280",
-      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Jianbing%20Guozi%2020170610.jpg?width=1280",
-      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Tianjin%20Eye.jpg?width=1280",
-      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Tianjin_Eye_and_Tianjin.jpg",
-      "foodCredit": "https://commons.wikimedia.org/wiki/File:Jianbing_Guozi_20170610.jpg",
-      "climateCredit": "https://commons.wikimedia.org/wiki/File:Tianjin_Eye.jpg",
-      "landmarkLabel": "天津之眼",
-      "foodLabel": "煎饼馃子",
-      "climateLabel": "海河与近代建筑",
-      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Tianjin%20Eye%20and%20Tianjin.jpg?width=180"
+      "landmark": "image/cities/tianjin-local.jpg",
+      "landmarkCredit": "https://unsplash.com/photos/a-body-of-water-with-buildings-in-the-background-nxHeyv4kieY",
+      "landmarkLabel": "海河沿岸历史建筑",
+      "marker": "image/cities/tianjin-local.jpg"
     },
     "localStrengths": [
       {
@@ -399,16 +387,10 @@
       "zh-CN": "地图直线距离不能替代公路里程。确认车辆、保险、补给点和通信覆盖；恶劣天气或道路管制时及时调整，避免夜间长途乡村驾驶。"
     },
     "images": {
-      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Hailar%20Railway%20Station.jpg?width=1280",
-      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Roasted%20Lamb%20in%20Mongolia.jpg?width=1280",
-      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Hulunbuir.Hailar.mairie.jpg?width=1280",
-      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Hailar_Railway_Station.jpg",
-      "foodCredit": "https://commons.wikimedia.org/wiki/File:Roasted_Lamb_in_Mongolia.jpg",
-      "climateCredit": "https://commons.wikimedia.org/wiki/File:Hulunbuir.Hailar.mairie.jpg",
-      "landmarkLabel": "海拉尔火车站",
-      "foodLabel": "草原牛羊肉与奶制品",
-      "climateLabel": "草原、湿地与森林",
-      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Hailar%20Railway%20Station.jpg?width=180"
+      "landmark": "image/cities/hulunbuir-local.jpg",
+      "landmarkCredit": "https://unsplash.com/photos/a-field-with-a-few-hills-in-the-distance-wW61p3Gt0G4",
+      "landmarkLabel": "呼伦贝尔草原河流",
+      "marker": "image/cities/hulunbuir-local.jpg"
     },
     "localStrengths": [
       {
@@ -543,16 +525,10 @@
       "zh-CN": "边境区域携带有效证件并遵守现场管理。长白山天气变化快，不能保证看到天池；交通和住宿应按实际班次安排。"
     },
     "images": {
-      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Yanji%20West%20Market.jpg?width=1280",
-      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Cafeteria%20at%20West%20Market%2C%20Yanji.jpg?width=1280",
-      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Yanji.jpg?width=1280",
-      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Yanji_West_Market.jpg",
-      "foodCredit": "https://commons.wikimedia.org/wiki/File:Cafeteria_at_West_Market%2C_Yanji.jpg",
-      "climateCredit": "https://commons.wikimedia.org/wiki/File:Yanji.jpg",
-      "landmarkLabel": "延吉西市场",
-      "foodLabel": "朝鲜族风味饮食",
-      "climateLabel": "长白山与延边四季",
-      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Yanji%20West%20Market.jpg?width=180"
+      "landmark": "image/cities/yanbian-local.jpg",
+      "landmarkCredit": "https://unsplash.com/photos/a-living-room-filled-with-yellow-couches-and-tables-WqWvLdSDai0",
+      "landmarkLabel": "延吉咖啡馆空间",
+      "marker": "image/cities/yanbian-local.jpg"
     },
     "localStrengths": [
       {
@@ -687,16 +663,10 @@
       "zh-CN": "边境管理和拍摄要求以现场公告为准。冬季不要靠近冰面；五大连池需单独核算车程，恶劣天气时减少景点。"
     },
     "images": {
-      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Aihui%20History%20Museum%20-%20gate.jpg?width=1280",
-      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinese%20Food%20Fish.jpg?width=1280",
-      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Amur%20River%20and%20Heihe.jpg?width=1280",
-      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Aihui_History_Museum_-_gate.jpg",
-      "foodCredit": "https://commons.wikimedia.org/wiki/File:Chinese_Food_Fish.jpg",
-      "climateCredit": "https://commons.wikimedia.org/wiki/File:Amur_River_and_Heihe.jpg",
-      "landmarkLabel": "瑷珲历史陈列馆",
-      "foodLabel": "黑龙江江鱼与边城饮食",
-      "climateLabel": "黑龙江界江与寒地风光",
-      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Aihui%20History%20Museum%20-%20gate.jpg?width=180"
+      "landmark": "image/cities/heihe-local.jpg",
+      "landmarkCredit": "https://unsplash.com/photos/a-stream-running-through-a-forest-filled-with-lots-of-trees-_yyU9aN6Ce8",
+      "landmarkLabel": "五大连池森林溪流",
+      "marker": "image/cities/heihe-local.jpg"
     },
     "localStrengths": [
       {
@@ -835,16 +805,10 @@
       "zh-CN": "大型博物馆和部分园林可能需要预约。地铁换乘步行距离较长，带老人儿童预留时间；海鲜时价菜先确认计价单位。"
     },
     "images": {
-      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Shanghai%20Oriental%20Pearl%20Tower.JPG?width=1280",
-      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Xiaolongbao%20Shanghai.jpg?width=1280",
-      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Oriental%20Pearl%20Tower%20in%20Shanghai.jpg?width=1280",
-      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Shanghai_Oriental_Pearl_Tower.JPG",
-      "foodCredit": "https://commons.wikimedia.org/wiki/File:Xiaolongbao_Shanghai.jpg",
-      "climateCredit": "https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_in_Shanghai.jpg",
-      "landmarkLabel": "东方明珠塔",
-      "foodLabel": "上海小笼包",
-      "climateLabel": "黄浦江与城市天际线",
-      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Shanghai%20Oriental%20Pearl%20Tower.JPG?width=180"
+      "landmark": "image/cities/shanghai-local.jpg",
+      "landmarkCredit": "https://unsplash.com/photos/oriental-pearl-tower-in-shanghai-during-daytime-mnyJEvSLtvk",
+      "landmarkLabel": "上海外滩与东方明珠",
+      "marker": "image/cities/shanghai-local.jpg"
     },
     "localStrengths": [
       {
@@ -979,16 +943,10 @@
       "zh-CN": "南通景点分布范围较大，选住宿前先确定主要目的地。跨区交通受路况影响，车站、酒店和景区入口逐一核对。"
     },
     "images": {
-      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Nantong%20Bell%20Tower%20and%20Watch%20Tower%202013-01.JPG?width=1280",
-      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinese%20Food%20Fish.jpg?width=1280",
-      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Nantong%20banner.jpg?width=1280",
-      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Nantong_Bell_Tower_and_Watch_Tower_2013-01.JPG",
-      "foodCredit": "https://commons.wikimedia.org/wiki/File:Chinese_Food_Fish.jpg",
-      "climateCredit": "https://commons.wikimedia.org/wiki/File:Nantong_banner.jpg",
-      "landmarkLabel": "南通钟楼与谯楼",
-      "foodLabel": "江海风味与河鲜",
-      "climateLabel": "南通狼山与江海风光",
-      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Nantong%20Bell%20Tower%20and%20Watch%20Tower%202013-01.JPG?width=180"
+      "landmark": "image/cities/nantong-local.jpg",
+      "landmarkCredit": "https://unsplash.com/photos/traditional-east-asian-building-with-pagoda-on-hill-LhFGbvlIqjk",
+      "landmarkLabel": "南通狼山寺院建筑",
+      "marker": "image/cities/nantong-local.jpg"
     },
     "localStrengths": [
       {
@@ -1127,16 +1085,10 @@
       "zh-CN": "本页重点介绍杭州。若计划去绍兴、宁波、温州或舟山，应另行规划交通和住宿；景区预约及游船信息以官方公告为准。"
     },
     "images": {
-      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Leifeng%20Pagoda%2C%20Hangzhou.JPG?width=1280",
-      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Longjing%20tea.jpg?width=1280",
-      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Longjing%20tea%20district%20Hangzhou.jpg?width=1280",
-      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Leifeng_Pagoda%2C_Hangzhou.JPG",
-      "foodCredit": "https://commons.wikimedia.org/wiki/File:Longjing_tea.jpg",
-      "climateCredit": "https://commons.wikimedia.org/wiki/File:Longjing_tea_district_Hangzhou.jpg",
-      "landmarkLabel": "杭州雷峰塔",
-      "foodLabel": "西湖龙井茶",
-      "climateLabel": "西湖山水与茶园",
-      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Leifeng%20Pagoda%2C%20Hangzhou.JPG?width=180"
+      "landmark": "image/cities/zhejiang-local.jpg",
+      "landmarkCredit": "https://unsplash.com/photos/mist-hangs-over-a-tranquil-lake-U9i8CrmdPdE",
+      "landmarkLabel": "杭州西湖",
+      "marker": "image/cities/zhejiang-local.jpg"
     },
     "localStrengths": [
       {
@@ -1275,16 +1227,10 @@
       "zh-CN": "山东省域跨度大，济南、青岛、泰山和曲阜应分段安排。泰山路线受天气和体力影响，海滨活动注意海况与现场提示。"
     },
     "images": {
-      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Baotu%20Spring%20Pavilion.jpg?width=1280",
-      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Basi%20digua%202009%2003.jpg?width=1280",
-      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Deyue%20Pavillion%2C%20Daming%20Lake%2C%20Jinan%20in%20October%202019.jpg?width=1280",
-      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Baotu_Spring_Pavilion.jpg",
-      "foodCredit": "https://commons.wikimedia.org/wiki/File:Basi_digua_2009_03.jpg",
-      "climateCredit": "https://commons.wikimedia.org/wiki/File:Deyue_Pavillion%2C_Daming_Lake%2C_Jinan_in_October_2019.jpg",
-      "landmarkLabel": "趵突泉亭",
-      "foodLabel": "泉水与鲁菜风味",
-      "climateLabel": "济南大明湖与得月亭",
-      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Baotu%20Spring%20Pavilion.jpg?width=180"
+      "landmark": "image/cities/shandong-local.jpg",
+      "landmarkCredit": "https://unsplash.com/photos/traditional-pavilion-in-jinan-t-Q5HH8_BF4",
+      "landmarkLabel": "济南传统园林亭阁",
+      "marker": "image/cities/shandong-local.jpg"
     },
     "localStrengths": [
       {
@@ -1423,16 +1369,10 @@
       "zh-CN": "夏季关注暴雨预警。前往珠三角其他城市时核对广州南站、广州站等具体车站；热门场馆预约和饮食过敏原需逐项确认。"
     },
     "images": {
-      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Canton%20Tower%20at%20night.jpg?width=1280",
-      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Dim%20sum%20collection%20in%20Cantonese%20restaurant.jpg?width=1280",
-      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Canton%20Tower%20at%20night.jpg?width=1280",
-      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Canton_Tower_at_night.jpg",
-      "foodCredit": "https://commons.wikimedia.org/wiki/File:Dim_sum_collection_in_Cantonese_restaurant.jpg",
-      "climateCredit": "https://commons.wikimedia.org/wiki/File:Canton_Tower_at_night.jpg",
-      "landmarkLabel": "广州塔",
-      "foodLabel": "广府早茶与粤菜",
-      "climateLabel": "珠江与岭南城市景观",
-      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Canton%20Tower%20at%20night.jpg?width=180"
+      "landmark": "image/cities/guangdong-local.jpg",
+      "landmarkCredit": "https://unsplash.com/photos/canton-tower-stands-tall-over-a-hazy-cityscape-and-river-kMzMK36LCeA",
+      "landmarkLabel": "广州塔与珠江",
+      "marker": "image/cities/guangdong-local.jpg"
     },
     "localStrengths": [
       {
@@ -1567,16 +1507,10 @@
       "zh-CN": "雨季关注山洪、塌方和景区临时关闭。漂流、乘船和徒步遵守运营方安全规定，边境区域不进入未开放道路。"
     },
     "images": {
-      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Nanning%20Confucian%20Temple%20and%20Mount%20Qingxiu%20Shan%2C%20June%202023.jpg?width=1280",
-      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Guangxi%20Yulin%20rice%20noodles.jpg?width=1280",
-      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Nanning%20seen%20from%20Qingxiu%20Mountain.jpg?width=1280",
-      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Nanning_Confucian_Temple_and_Mount_Qingxiu_Shan%2C_June_2023.jpg",
-      "foodCredit": "https://commons.wikimedia.org/wiki/File:Guangxi_Yulin_rice_noodles.jpg",
-      "climateCredit": "https://commons.wikimedia.org/wiki/File:Nanning_seen_from_Qingxiu_Mountain.jpg",
-      "landmarkLabel": "南宁孔庙与青秀山",
-      "foodLabel": "桂系米粉与地方风味",
-      "climateLabel": "青秀山俯瞰南宁",
-      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Nanning%20Confucian%20Temple%20and%20Mount%20Qingxiu%20Shan%2C%20June%202023.jpg?width=180"
+      "landmark": "image/cities/guangxi-local.jpg",
+      "landmarkCredit": "https://unsplash.com/photos/a-man-standing-in-front-of-a-store-filled-with-items-IseGlk5lsNo",
+      "landmarkLabel": "南宁街巷生活",
+      "marker": "image/cities/guangxi-local.jpg"
     },
     "localStrengths": [
       {
@@ -1715,16 +1649,10 @@
       "zh-CN": "预订前确认机场、车站、酒店和景区所在市县。台风和暴雨可能影响航班、轮渡与海上活动；海鲜点餐先确认计价单位和加工费。"
     },
     "images": {
-      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Haikou%20Century%20Bridge.JPG?width=1280",
-      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Yeziji%20Hainanese%20coconut%20chicken%20soup.jpg?width=1280",
-      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Haikou%20Banner.jpg?width=1280",
-      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Haikou_Century_Bridge.JPG",
-      "foodCredit": "https://commons.wikimedia.org/wiki/File:Yeziji_Hainanese_coconut_chicken_soup.jpg",
-      "climateCredit": "https://commons.wikimedia.org/wiki/File:Haikou_Banner.jpg",
+      "landmark": "image/cities/hainan-local.jpg",
+      "landmarkCredit": "https://unsplash.com/photos/a-large-bridge-spanning-over-a-large-body-of-water-M_d4idPsMn4",
       "landmarkLabel": "海口世纪大桥",
-      "foodLabel": "椰子与热带海岛饮食",
-      "climateLabel": "热带海岸与海岛气候",
-      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Haikou%20Century%20Bridge.JPG?width=180"
+      "marker": "image/cities/hainan-local.jpg"
     },
     "localStrengths": [
       {
@@ -1863,16 +1791,10 @@
       "zh-CN": "按实际高差估算时间，导航显示相邻不代表好走。带老人儿童优先选择电梯和少台阶路线，夜景点不翻越护栏。"
     },
     "images": {
-      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%87%8D%E5%BA%86%E6%B4%AA%E5%B4%96%E6%B4%9E.jpg?width=1280",
-      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Chongqing%20hotpot.1.jpg?width=1280",
-      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20skyscrapers%20of%20Chongqing%20CBD%20with%20Hongya%20Cave%20at%20sunset.jpeg?width=1280",
-      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:%E9%87%8D%E5%BA%86%E6%B4%AA%E5%B4%96%E6%B4%9E.jpg",
-      "foodCredit": "https://commons.wikimedia.org/wiki/File:Chongqing_hotpot.1.jpg",
-      "climateCredit": "https://commons.wikimedia.org/wiki/File:The_skyscrapers_of_Chongqing_CBD_with_Hongya_Cave_at_sunset.jpeg",
-      "landmarkLabel": "洪崖洞吊脚楼",
-      "foodLabel": "重庆火锅",
-      "climateLabel": "两江交汇与山城夜景",
-      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%87%8D%E5%BA%86%E6%B4%AA%E5%B4%96%E6%B4%9E.jpg?width=180"
+      "landmark": "image/cities/chongqing-local.jpg",
+      "landmarkCredit": "https://unsplash.com/photos/hongya-cave-and-chongqing-skyline-KMt83C-4pFw",
+      "landmarkLabel": "重庆洪崖洞与城市天际线",
+      "marker": "image/cities/chongqing-local.jpg"
     },
     "localStrengths": [
       {
@@ -2011,16 +1933,10 @@
       "zh-CN": "熊猫基地和热门场馆预约规则可能调整。按车票确认成都各火车站；动物场馆不投喂、不使用闪光灯，尊重动物福利。"
     },
     "images": {
-      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Anshun%20Bridge%20Chengdu.jpg?width=1280",
-      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Chongqing%20hotpot.1.jpg?width=1280",
-      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Anshun%20Bridge%20in%20Chengdu.jpg?width=1280",
-      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Anshun_Bridge_Chengdu.jpg",
-      "foodCredit": "https://commons.wikimedia.org/wiki/File:Chongqing_hotpot.1.jpg",
-      "climateCredit": "https://commons.wikimedia.org/wiki/File:Anshun_Bridge_in_Chengdu.jpg",
+      "landmark": "image/cities/chengdu-local.jpg",
+      "landmarkCredit": "https://unsplash.com/photos/illuminated-bridge-at-night-reflecting-in-the-water-zvhhsB_s9iA",
       "landmarkLabel": "成都安顺廊桥",
-      "foodLabel": "川味火锅与川菜",
-      "climateLabel": "锦江、茶馆与湿润盆地",
-      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Anshun%20Bridge%20Chengdu.jpg?width=180"
+      "marker": "image/cities/chengdu-local.jpg"
     },
     "localStrengths": [
       {
@@ -2159,16 +2075,10 @@
       "zh-CN": "初到高原安排轻松活动。野生菌只在正规餐馆选择并确认充分烹制，不自行采食来源不明的野生菌。"
     },
     "images": {
-      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Kunming%20Golden%20Horse%20Memorial%20Archway.JPG?width=1280",
-      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/%E8%BF%87%E6%A1%A5%E7%B1%B3%E7%BA%BF-%E4%BA%91%E5%8D%97%E6%98%86%E6%98%8E%2001.jpg?width=1280",
-      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Dianchi%20Lake.jpg?width=1280",
-      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Kunming_Golden_Horse_Memorial_Archway.JPG",
-      "foodCredit": "https://commons.wikimedia.org/wiki/File:%E8%BF%87%E6%A1%A5%E7%B1%B3%E7%BA%BF-%E4%BA%91%E5%8D%97%E6%98%86%E6%98%8E_01.jpg",
-      "climateCredit": "https://commons.wikimedia.org/wiki/File:Dianchi_Lake.jpg",
-      "landmarkLabel": "金马碧鸡坊",
-      "foodLabel": "云南米线与鲜花饼",
-      "climateLabel": "昆明滇池与高原湖泊风光",
-      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Kunming%20Golden%20Horse%20Memorial%20Archway.JPG?width=180"
+      "landmark": "image/cities/kunming-local.jpg",
+      "landmarkCredit": "https://unsplash.com/photos/a-large-body-of-water-surrounded-by-a-city-fLM4EqfAppc",
+      "landmarkLabel": "昆明滇池",
+      "marker": "image/cities/kunming-local.jpg"
     },
     "localStrengths": [
       {
@@ -2307,16 +2217,10 @@
       "zh-CN": "兵马俑和重要博物馆可能实行实名预约。按车票确认西安站或西安北站；尊重清真餐饮区域习俗并核实食材。"
     },
     "images": {
-      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Xi'an%20-%20Bell%20tower.jpg?width=1280",
-      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Xi'an%20roujiamo%2001.jpg?width=1280",
-      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Xi'an%20bell%20tower.jpg?width=1280",
-      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Xi'an_-_Bell_tower.jpg",
-      "foodCredit": "https://commons.wikimedia.org/wiki/File:Xi'an_roujiamo_01.jpg",
-      "climateCredit": "https://commons.wikimedia.org/wiki/File:Xi'an_bell_tower.jpg",
+      "landmark": "image/cities/shaanxi-local.jpg",
+      "landmarkCredit": "https://unsplash.com/photos/xian-bell-tower-at-dusk-with-blurred-city-traffic-VdXrn-3ucpI",
       "landmarkLabel": "西安钟楼",
-      "foodLabel": "西安肉夹馍",
-      "climateLabel": "关中平原与古城四季",
-      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Xi'an%20-%20Bell%20tower.jpg?width=180"
+      "marker": "image/cities/shaanxi-local.jpg"
     },
     "localStrengths": [
       {
@@ -2451,16 +2355,10 @@
       "zh-CN": "兰州到敦煌、张掖等地距离不可低估。戈壁路线准备饮水、防晒和保暖；重要遗址不购买来历不明的票务。"
     },
     "images": {
-      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Zhongshan%20Bridge%20in%20Lanzhou.jpg?width=1280",
-      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/Lanzhou%20Beef%20Noodles.jpg?width=1280",
-      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/Zhongshan%20Bridge%2C%20Lanzhou%2C%20%26%20Yellow%20River%20(10093826343).jpg?width=1280",
-      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Zhongshan_Bridge_in_Lanzhou.jpg",
-      "foodCredit": "https://commons.wikimedia.org/wiki/File:Lanzhou_Beef_Noodles.jpg",
-      "climateCredit": "https://commons.wikimedia.org/wiki/File:Zhongshan_Bridge%2C_Lanzhou%2C_%26_Yellow_River_(10093826343).jpg",
-      "landmarkLabel": "兰州中山桥",
-      "foodLabel": "兰州牛肉面",
-      "climateLabel": "黄河峡谷与西北干燥气候",
-      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Zhongshan%20Bridge%20in%20Lanzhou.jpg?width=180"
+      "landmark": "image/cities/gansu-local.jpg",
+      "landmarkCredit": "https://unsplash.com/photos/a-beautiful-asian-temple-silhouetted-at-night-0ojeQA5cp9s",
+      "landmarkLabel": "兰州夜景",
+      "marker": "image/cities/gansu-local.jpg"
     },
     "localStrengths": [
       {
@@ -2595,16 +2493,10 @@
       "zh-CN": "跨区域旅行前查询最新交通、开放和通行要求。远郊选择可靠运营方，携带有效证件并遵守现场规定。"
     },
     "images": {
-      "landmark": "https://commons.wikimedia.org/wiki/Special:FilePath/Urumqi%20Hong%20Shan%20pagoda.jpg?width=1280",
-      "food": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%96%B0%E7%96%86%E7%BE%8A%E8%82%89%E4%B8%B2.jpg?width=1280",
-      "climate": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20glance%20at%20Urumqi%20from%20Hongshan%20Park.jpg?width=1280",
-      "landmarkCredit": "https://commons.wikimedia.org/wiki/File:Urumqi_Hong_Shan_pagoda.jpg",
-      "foodCredit": "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E7%96%86%E7%BE%8A%E8%82%89%E4%B8%B2.jpg",
-      "climateCredit": "https://commons.wikimedia.org/wiki/File:A_glance_at_Urumqi_from_Hongshan_Park.jpg",
-      "landmarkLabel": "乌鲁木齐红山塔",
-      "foodLabel": "新疆烤肉与馕",
-      "climateLabel": "天山与干旱大陆性气候",
-      "marker": "https://commons.wikimedia.org/wiki/Special:FilePath/Urumqi%20Hong%20Shan%20pagoda.jpg?width=180"
+      "landmark": "image/cities/urumqi-local.jpg",
+      "landmarkCredit": "https://unsplash.com/photos/a-view-of-a-city-with-tall-buildings-mXFDsF7nIAs",
+      "landmarkLabel": "乌鲁木齐国际大巴扎",
+      "marker": "image/cities/urumqi-local.jpg"
     },
     "localStrengths": [
       {
