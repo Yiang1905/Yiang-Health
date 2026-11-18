@@ -1,8 +1,4 @@
-把收款码图片放在本目录，文件名需与 modules/config.js 中一致：
-
-  wechat-essentials.jpg   微信 - 基础档
-  wechat-full.jpg         微信 - 完整档
-  alipay-essentials.jpg   支付宝 - 基础档
-  alipay-full.jpg         支付宝 - 完整档
-
-若两档共用一个码，复制同一张图为两个文件名即可。
+Public repository asset policy
+This directory intentionally contains no active payment QR codes.
+Do not commit personal WeChat Pay or Alipay receiving codes to this public repository.
+If payment is enabled in a future release, use an approved business receiving account and a secure, reviewed payment flow.

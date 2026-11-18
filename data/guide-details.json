@@ -89,21 +89,21 @@
       }
     ],
     "seasonSummary": {
-      "en": "",
+      "en": "Beijing has four distinct seasons. In spring, prepare for wind; in summer, expect heat, rain and occasional storms; autumn is comfortable for walking; winter is cold and dry, with possible icy surfaces.",
       "zh-CN": "北京四季分明，春季防风、夏季防暑防雨、秋季适合步行、冬季注意干冷与结冰。"
     },
     "day3": {
       "title": {
-        "en": "",
+        "en": "Museums and hutong life",
         "zh-CN": "博物馆与胡同生活"
       },
       "text": {
-        "en": "",
+        "en": "Choose a museum or special exhibition with a confirmed reservation in the morning. Spend the afternoon walking through a hutong area or around Shichahai, then try roast duck, zhajiangmian or hot pot for dinner.",
         "zh-CN": "上午选择已预约的博物馆或专题展馆，下午安排一段胡同或什刹海步行，晚餐体验烤鸭、炸酱面或涮羊肉。"
       }
     },
     "advice": {
-      "en": "",
+      "en": "Major attractions often require real-name reservations and timed entry; check official notices before setting out. Beijing's railway stations serve different routes, so follow the station printed on your ticket. Allow a full day for the Great Wall or other suburban trips.",
       "zh-CN": "热门景点常实行实名预约和分时入场，务必核对官方公告。火车站服务方向不同，按车票确认站名；长城与远郊路线应留出整天。"
     },
     "images": {
@@ -116,31 +116,31 @@
       {
         "title": {
           "zh-CN": "中医药科研与服务",
-          "en": "中医药科研与服务"
+          "en": "Traditional Chinese Medicine research and services"
         },
         "text": {
           "zh-CN": "国家级中医药科研、高校与大型医疗机构集聚，适合了解中医药文化、科研和国际交流。",
-          "en": "国家级中医药科研、高校与大型医疗机构集聚，适合了解中医药文化、科研和国际交流。"
+          "en": "Beijing brings together national TCM research institutions, universities and major medical institutions, offering opportunities to learn about TCM culture, research and international exchange."
         }
       },
       {
         "title": {
           "zh-CN": "文化遗产与博物馆",
-          "en": "文化遗产与博物馆"
+          "en": "Cultural heritage and museums"
         },
         "text": {
           "zh-CN": "故宫、中轴线、坛庙园林与博物馆资源丰富，适合深度文化体验。",
-          "en": "故宫、中轴线、坛庙园林与博物馆资源丰富，适合深度文化体验。"
+          "en": "The Palace Museum, the Central Axis, imperial altars and gardens, and a wide range of museums support in-depth cultural exploration."
         }
       },
       {
         "title": {
           "zh-CN": "数字科技与会展",
-          "en": "数字科技与会展"
+          "en": "Digital technology and exhibitions"
         },
         "text": {
           "zh-CN": "科技创新、商务服务和国际会展资源集中。",
-          "en": "科技创新、商务服务和国际会展资源集中。"
+          "en": "Beijing has a strong concentration of technology innovation, business services and international exhibition resources."
         }
       }
     ]
@@ -231,21 +231,21 @@
       }
     ],
     "seasonSummary": {
-      "en": "",
+      "en": "Spring and autumn are pleasant for neighbourhood walks. Summer can be humid, with thunderstorms; in winter, winds along the Haihe River make outdoor visits feel colder, so keep outdoor stops shorter.",
       "zh-CN": "春秋适合街区漫步；夏季注意湿热与雷雨；冬季海河风寒明显，宜缩短室外停留。"
     },
     "day3": {
       "title": {
-        "en": "",
+        "en": "Museums and the Haihe River at night",
         "zh-CN": "博物馆与海河夜景"
       },
       "text": {
-        "en": "",
+        "en": "Visit a museum or cultural venue in the morning, walk along the Haihe River in the afternoon, and consider an evening river cruise or illuminated bridges if weather permits.",
         "zh-CN": "上午安排一处博物馆或文化场馆，下午沿海河步行，傍晚根据天气选择游船或桥梁夜景。"
       }
     },
     "advice": {
-      "en": "",
+      "en": "High-speed trains make travel between Tianjin and Beijing convenient, but each city has several railway stations. Check the exact departure and arrival stations. Do not try to fit the Five Great Avenues, Ancient Culture Street, the Haihe River and Binhai New Area into one day.",
       "zh-CN": "天津与北京高铁往来方便，但车站不止一个，购票时核对出发站和到达站。五大道、古文化街、海河和滨海新区不要压缩在同一天。"
     },
     "images": {
@@ -258,31 +258,31 @@
       {
         "title": {
           "zh-CN": "港口物流与装备制造",
-          "en": "港口物流与装备制造"
+          "en": "Port logistics and advanced manufacturing"
         },
         "text": {
           "zh-CN": "港口、航运、航空航天和高端装备制造形成产业基础。",
-          "en": "港口、航运、航空航天和高端装备制造形成产业基础。"
+          "en": "The port, shipping, aerospace and advanced equipment industries form an important part of Tianjin's industrial base."
         }
       },
       {
         "title": {
           "zh-CN": "中医药教育与科研",
-          "en": "中医药教育与科研"
+          "en": "Traditional Chinese Medicine education and research"
         },
         "text": {
           "zh-CN": "拥有中医药高校和相关医疗科研资源。",
-          "en": "拥有中医药高校和相关医疗科研资源。"
+          "en": "Tianjin has universities specializing in Traditional Chinese Medicine and related medical research resources."
         }
       },
       {
         "title": {
           "zh-CN": "近代建筑与城市文旅",
-          "en": "近代建筑与城市文旅"
+          "en": "Historic architecture and urban culture"
         },
         "text": {
           "zh-CN": "五大道、海河、意式风情区适合建筑与城市文化体验。",
-          "en": "五大道、海河、意式风情区适合建筑与城市文化体验。"
+          "en": "The Five Great Avenues, Haihe River and Italian Style Town offer opportunities to explore architecture and urban history."
         }
       }
     ]
@@ -369,21 +369,21 @@
       }
     ],
     "seasonSummary": {
-      "en": "",
+      "en": "Summer offers lush grassland scenery but attracts more visitors. Temperatures fall quickly in autumn; spring roads can be muddy as snow melts; severe winter cold and snow can substantially affect transport.",
       "zh-CN": "夏季草原景观较丰富但客流大；秋季气温下降快；春季道路可能泥泞；冬季严寒积雪会显著改变交通。"
     },
     "day3": {
       "title": {
-        "en": "",
+        "en": "A relaxed day in Hailar",
         "zh-CN": "海拉尔慢游与补给"
       },
       "text": {
-        "en": "",
+        "en": "After a long grassland or wetland excursion, spend time in Hailar exploring local culture, markets and food. Rest before deciding whether to continue to more distant destinations.",
         "zh-CN": "长途草原或湿地行程后，可在海拉尔安排城市文化、市场和本地餐饮，休整后再决定是否继续远途。"
       }
     },
     "advice": {
-      "en": "",
+      "en": "Straight-line distances on a map are not a substitute for road travel times. Confirm vehicles, insurance, fuel and supply stops, and mobile coverage. Adjust plans during severe weather or road restrictions, and avoid long rural drives at night.",
       "zh-CN": "地图直线距离不能替代公路里程。确认车辆、保险、补给点和通信覆盖；恶劣天气或道路管制时及时调整，避免夜间长途乡村驾驶。"
     },
     "images": {
@@ -396,31 +396,31 @@
       {
         "title": {
           "zh-CN": "草原生态与户外体验",
-          "en": "草原生态与户外体验"
+          "en": "Grassland ecology and outdoor activities"
         },
         "text": {
           "zh-CN": "草原、森林、湿地与边境风光，适合季节性生态旅游和户外活动。",
-          "en": "草原、森林、湿地与边境风光，适合季节性生态旅游和户外活动。"
+          "en": "Grasslands, forests, wetlands and border landscapes support seasonal nature tourism and outdoor activities."
         }
       },
       {
         "title": {
           "zh-CN": "牛羊肉与乳制品",
-          "en": "牛羊肉与乳制品"
+          "en": "Beef, lamb and dairy products"
         },
         "text": {
           "zh-CN": "畜牧业基础突出，代表性产品包括牛羊肉、奶制品和草原食品。",
-          "en": "畜牧业基础突出，代表性产品包括牛羊肉、奶制品和草原食品。"
+          "en": "Livestock farming is an important local industry, with representative products including beef, lamb, dairy products and grassland foods."
         }
       },
       {
         "title": {
           "zh-CN": "民族文化体验",
-          "en": "民族文化体验"
+          "en": "Ethnic culture and experiences"
         },
         "text": {
           "zh-CN": "蒙古族等民族文化、传统歌舞和草原生活体验。",
-          "en": "蒙古族等民族文化、传统歌舞和草原生活体验。"
+          "en": "Visitors can learn about Mongolian and other local cultures through traditional music, dance and grassland life experiences."
         }
       }
     ]
@@ -507,21 +507,21 @@
       }
     ],
     "seasonSummary": {
-      "en": "",
+      "en": "In spring, melting snow can affect mountain access and opening schedules. Summer is popular and may require advance bookings; autumn temperatures vary; winter visits require careful cold-weather and road preparation.",
       "zh-CN": "春季山地积雪消融、开放情况多变；夏季热门需预约；秋季温差大；冬季需充分准备防寒与道路交通。"
     },
     "day3": {
       "title": {
-        "en": "",
+        "en": "A relaxed day in Yanji and local food",
         "zh-CN": "延吉慢游与地方饮食"
       },
       "text": {
-        "en": "",
+        "en": "Stay in Yanji to explore markets, cultural venues and local dishes such as naengmyeon, sundae, rice cakes and grilled meat. Avoid rushing through the city and then making a late-night drive to Changbai Mountain.",
         "zh-CN": "留在延吉体验市场、文化场馆和冷面、米肠、打糕、烤肉等地方饮食，避免为赶长白山而夜间奔波。"
       }
     },
     "advice": {
-      "en": "",
+      "en": "Carry valid identification in border areas and follow local management notices. Weather on Changbai Mountain changes quickly, and views of Tianchi Lake cannot be guaranteed. Plan accommodation and transfers around actual transport schedules.",
       "zh-CN": "边境区域携带有效证件并遵守现场管理。长白山天气变化快，不能保证看到天池；交通和住宿应按实际班次安排。"
     },
     "images": {
@@ -534,31 +534,31 @@
       {
         "title": {
           "zh-CN": "朝鲜族文化与旅游",
-          "en": "朝鲜族文化与旅游"
+          "en": "Korean-Chinese culture and tourism"
         },
         "text": {
           "zh-CN": "朝鲜族民俗、传统村落、歌舞和边境文化体验。",
-          "en": "朝鲜族民俗、传统村落、歌舞和边境文化体验。"
+          "en": "Local experiences include Korean-Chinese customs, traditional villages, music and dance, and borderland culture."
         }
       },
       {
         "title": {
           "zh-CN": "特色食品加工",
-          "en": "特色食品加工"
+          "en": "Specialty food production"
         },
         "text": {
           "zh-CN": "冷面、泡菜、米酒及地方风味食品具有辨识度。",
-          "en": "冷面、泡菜、米酒及地方风味食品具有辨识度。"
+          "en": "Cold noodles, kimchi, rice wine and other regional foods are distinctive local products."
         }
       },
       {
         "title": {
           "zh-CN": "跨境商贸与交流",
-          "en": "跨境商贸与交流"
+          "en": "Northeast Asian trade and exchange"
         },
         "text": {
           "zh-CN": "面向东北亚的边境贸易、物流和文化交流。",
-          "en": "面向东北亚的边境贸易、物流和文化交流。"
+          "en": "Yanbian's location supports border trade, logistics and cultural exchange across Northeast Asia."
         }
       }
     ]
@@ -645,21 +645,21 @@
       }
     ],
     "seasonSummary": {
-      "en": "",
+      "en": "Summer is suitable for riverside visits and volcanic landscapes. Autumn is cooler and comfortable; spring can still be windy with thawing-road conditions; winter is extremely cold, so monitor low-temperature warnings.",
       "zh-CN": "夏季适合江畔与火山地貌游览；秋季较凉爽；春季仍有风和融雪路况；冬季严寒，关注低温预警。"
     },
     "day3": {
       "title": {
-        "en": "",
+        "en": "A geological landscape day at Wudalianchi",
         "zh-CN": "五大连池地质景观日"
       },
       "text": {
-        "en": "",
+        "en": "Treat Wudalianchi as a separate full-day or overnight excursion. Choose open scenic areas and trails, and confirm return transport, meals and accommodation in advance.",
         "zh-CN": "把五大连池作为独立一日或过夜行程，选择开放景点和步道，提前确认往返交通、餐饮与住宿。"
       }
     },
     "advice": {
-      "en": "",
+      "en": "Follow on-site notices about border management and photography. Do not venture onto river ice in winter. Calculate the separate road journey to Wudalianchi and reduce the number of stops in poor weather.",
       "zh-CN": "边境管理和拍摄要求以现场公告为准。冬季不要靠近冰面；五大连池需单独核算车程，恶劣天气时减少景点。"
     },
     "images": {
@@ -672,31 +672,31 @@
       {
         "title": {
           "zh-CN": "中俄口岸贸易",
-          "en": "中俄口岸贸易"
+          "en": "China-Russia border trade"
         },
         "text": {
           "zh-CN": "依托黑龙江界江口岸，发展跨境贸易、物流与边境服务。",
-          "en": "依托黑龙江界江口岸，发展跨境贸易、物流与边境服务。"
+          "en": "The Heilongjiang River border port supports cross-border trade, logistics and related border services."
         }
       },
       {
         "title": {
           "zh-CN": "寒地生态与冰雪旅游",
-          "en": "寒地生态与冰雪旅游"
+          "en": "Cold-climate nature and winter tourism"
         },
         "text": {
           "zh-CN": "界江风光、火山地貌和寒地户外体验。",
-          "en": "界江风光、火山地貌和寒地户外体验。"
+          "en": "The area offers river scenery, volcanic landscapes and outdoor experiences in a cold-climate environment."
         }
       },
       {
         "title": {
           "zh-CN": "绿色农产品",
-          "en": "绿色农产品"
+          "en": "Green agricultural products"
         },
         "text": {
           "zh-CN": "大豆、玉米等寒地农业和农产品加工。",
-          "en": "大豆、玉米等寒地农业和农产品加工。"
+          "en": "Soybeans, corn and other cold-region crops support local agriculture and food processing."
         }
       }
     ]
@@ -787,21 +787,21 @@
       }
     ],
     "seasonSummary": {
-      "en": "",
+      "en": "Spring is good for walking but can be rainy; summer is hot and humid; autumn is comfortable for neighbourhood visits; winter is damp and chilly, so keep indoor museums and exhibitions as alternatives.",
       "zh-CN": "春季适合步行但雨水较多；夏季高温高湿；秋季适合街区游览；冬季湿冷，安排室内展馆作为替代。"
     },
     "day3": {
       "title": {
-        "en": "",
+        "en": "Museums and tree-lined neighbourhoods",
         "zh-CN": "博物馆与梧桐街区"
       },
       "text": {
-        "en": "",
+        "en": "Visit a museum or exhibition with a confirmed reservation in the morning. Walk through Jing'an or the former French Concession in the afternoon, then return to the Huangpu River for the evening views.",
         "zh-CN": "上午参观已预约的博物馆或展览，下午到静安或原法租界步行，晚上再回黄浦江边看夜景。"
       }
     },
     "advice": {
-      "en": "",
+      "en": "Major museums and some gardens may require reservations. Metro transfers can involve long walks, so allow extra time when travelling with older adults or children. Confirm the unit and pricing basis before ordering seafood sold by weight.",
       "zh-CN": "大型博物馆和部分园林可能需要预约。地铁换乘步行距离较长，带老人儿童预留时间；海鲜时价菜先确认计价单位。"
     },
     "images": {
@@ -814,31 +814,31 @@
       {
         "title": {
           "zh-CN": "国际医疗与中医药创新",
-          "en": "国际医疗与中医药创新"
+          "en": "International healthcare and TCM innovation"
         },
         "text": {
           "zh-CN": "国际医疗服务、医学科研和中医药创新资源集中。",
-          "en": "国际医疗服务、医学科研和中医药创新资源集中。"
+          "en": "Shanghai has a concentration of international healthcare services, medical research and Traditional Chinese Medicine innovation resources."
         }
       },
       {
         "title": {
           "zh-CN": "金融、设计与会展",
-          "en": "金融、设计与会展"
+          "en": "Finance, design and exhibitions"
         },
         "text": {
           "zh-CN": "金融服务、工业设计、国际展会和专业服务业发达。",
-          "en": "金融服务、工业设计、国际展会和专业服务业发达。"
+          "en": "The city has strong financial services, industrial design, international exhibitions and professional services."
         }
       },
       {
         "title": {
           "zh-CN": "国际消费与城市文旅",
-          "en": "国际消费与城市文旅"
+          "en": "International consumption and urban culture"
         },
         "text": {
           "zh-CN": "商业、艺术、建筑、餐饮和滨江公共空间资源丰富。",
-          "en": "商业、艺术、建筑、餐饮和滨江公共空间资源丰富。"
+          "en": "Shopping, arts, architecture, dining and public spaces along the waterfront offer a wide range of urban experiences."
         }
       }
     ]
@@ -925,21 +925,21 @@
       }
     ],
     "seasonSummary": {
-      "en": "",
+      "en": "Spring and autumn are pleasant for walks around the Hao River and local gardens. Summer is humid with frequent rain; winter winds along the river can feel cold, so dress for the waterfront.",
       "zh-CN": "春秋适合濠河和园林步行；夏季湿热多雨；冬季江风较冷，滨水活动注意防风。"
     },
     "day3": {
       "title": {
-        "en": "",
+        "en": "County gardens and river-sea cuisine",
         "zh-CN": "县域园林与江海风味"
       },
       "text": {
-        "en": "",
+        "en": "Use the third day for a county-level destination such as Rugao Water Painting Garden, rather than trying to cross several counties in one day. Explore seasonal river and coastal ingredients.",
         "zh-CN": "可把第三天留给如皋水绘园或一个县域目的地，不要同日跨多个县市赶路，体验时令江海食材。"
       }
     },
     "advice": {
-      "en": "",
+      "en": "Attractions in Nantong are spread over a wide area. Choose accommodation only after deciding which places matter most. Road conditions can affect transfers between districts, stations, hotels and scenic entrances.",
       "zh-CN": "南通景点分布范围较大，选住宿前先确定主要目的地。跨区交通受路况影响，车站、酒店和景区入口逐一核对。"
     },
     "images": {
@@ -952,31 +952,31 @@
       {
         "title": {
           "zh-CN": "家纺与纺织产业",
-          "en": "家纺与纺织产业"
+          "en": "Home textiles and textile manufacturing"
         },
         "text": {
           "zh-CN": "家纺、纺织及相关制造业是具有代表性的产业方向。",
-          "en": "家纺、纺织及相关制造业是具有代表性的产业方向。"
+          "en": "Home textiles, fabrics and related manufacturing are representative industries in Nantong."
         }
       },
       {
         "title": {
           "zh-CN": "船舶海工与装备",
-          "en": "船舶海工与装备"
+          "en": "Shipbuilding, marine engineering and equipment"
         },
         "text": {
           "zh-CN": "沿江沿海产业基础，涉及船舶海工和高端装备制造。",
-          "en": "沿江沿海产业基础，涉及船舶海工和高端装备制造。"
+          "en": "The city's river and coastal industrial base includes shipbuilding, marine engineering and advanced equipment manufacturing."
         }
       },
       {
         "title": {
           "zh-CN": "江海生态与文化旅游",
-          "en": "江海生态与文化旅游"
+          "en": "River-sea ecology and cultural tourism"
         },
         "text": {
           "zh-CN": "濠河、长江与黄海沿岸形成江海旅游资源。",
-          "en": "濠河、长江与黄海沿岸形成江海旅游资源。"
+          "en": "The Hao River, Yangtze River and Yellow Sea coast create a varied mix of river and coastal tourism resources."
         }
       }
     ]
@@ -1067,21 +1067,21 @@
       }
     ],
     "seasonSummary": {
-      "en": "",
+      "en": "Spring brings beautiful West Lake scenery but also large crowds; summer is hot, humid and rainy; autumn is good for tea hills and lakeside walks; winter is damp and chilly, so bring rain protection and warm layers.",
       "zh-CN": "春季西湖景色丰富但客流高；夏季湿热多雨；秋季适合茶山与湖岸；冬季湿冷，准备雨具和保暖衣物。"
     },
     "day3": {
       "title": {
-        "en": "",
+        "en": "The Grand Canal and tea culture",
         "zh-CN": "大运河与茶文化"
       },
       "text": {
-        "en": "",
+        "en": "Explore a historic neighbourhood or museum along the Grand Canal in the morning. Add a tea-culture experience in the afternoon, allowing extra time for the final transfer to a tea village.",
         "zh-CN": "上午游览运河沿线历史街区或博物馆，下午安排茶文化体验，前往茶村预留最后一段接驳时间。"
       }
     },
     "advice": {
-      "en": "",
+      "en": "This guide focuses on Hangzhou. Shaoxing, Ningbo, Wenzhou and Zhoushan require separate transport and accommodation plans. Check official notices for attraction reservations and boat services.",
       "zh-CN": "本页重点介绍杭州。若计划去绍兴、宁波、温州或舟山，应另行规划交通和住宿；景区预约及游船信息以官方公告为准。"
     },
     "images": {
@@ -1094,31 +1094,31 @@
       {
         "title": {
           "zh-CN": "龙井茶与茶文化",
-          "en": "龙井茶与茶文化"
+          "en": "Longjing tea and tea culture"
         },
         "text": {
           "zh-CN": "西湖龙井及茶园体验具有鲜明地域特色。",
-          "en": "西湖龙井及茶园体验具有鲜明地域特色。"
+          "en": "West Lake Longjing tea and visits to tea-growing areas are distinctive regional experiences."
         }
       },
       {
         "title": {
           "zh-CN": "数字经济与电子商务",
-          "en": "数字经济与电子商务"
+          "en": "Digital economy and e-commerce"
         },
         "text": {
           "zh-CN": "杭州数字经济、平台服务和电商生态活跃。",
-          "en": "杭州数字经济、平台服务和电商生态活跃。"
+          "en": "Hangzhou has an active digital economy, platform services and e-commerce ecosystem."
         }
       },
       {
         "title": {
           "zh-CN": "丝绸与江南文旅",
-          "en": "丝绸与江南文旅"
+          "en": "Silk and Jiangnan culture"
         },
         "text": {
           "zh-CN": "丝绸、传统工艺、西湖和江南园林文化。",
-          "en": "丝绸、传统工艺、西湖和江南园林文化。"
+          "en": "Silk, traditional crafts, West Lake and Jiangnan gardens form an important part of the region's cultural identity."
         }
       }
     ]
@@ -1209,21 +1209,21 @@
       }
     ],
     "seasonSummary": {
-      "en": "",
+      "en": "Spring and autumn are comfortable for visiting springs and parks; summer is hot with rain; autumn is suitable for mountain trips; in winter, watch for icy mountain paths and cold winds along the waterfront.",
       "zh-CN": "春秋适合泉群和公园步行；夏季炎热多雨；秋季适合登山；冬季注意山路结冰和滨水风寒。"
     },
     "day3": {
       "title": {
-        "en": "",
+        "en": "Jinan museums and spring-side life",
         "zh-CN": "济南博物馆与泉水生活"
       },
       "text": {
-        "en": "",
+        "en": "Visit a museum or historic street, try local dishes such as bazirou, tianmo soup or youxuan, and leave time to check train details for the next destination.",
         "zh-CN": "安排一处博物馆或老街文化体验，体验把子肉、甜沫、油旋等地方饮食，再为下一站核对车票。"
       }
     },
     "advice": {
-      "en": "",
+      "en": "Shandong is a large province. Jinan, Qingdao, Mount Tai and Qufu should be planned as separate sections. Mount Tai routes depend on weather and fitness; follow local notices for coastal and water activities.",
       "zh-CN": "山东省域跨度大，济南、青岛、泰山和曲阜应分段安排。泰山路线受天气和体力影响，海滨活动注意海况与现场提示。"
     },
     "images": {
@@ -1236,31 +1236,31 @@
       {
         "title": {
           "zh-CN": "中医药与健康服务",
-          "en": "中医药与健康服务"
+          "en": "Traditional Chinese Medicine and health services"
         },
         "text": {
           "zh-CN": "中医药服务、健康管理和相关教育科研资源。",
-          "en": "中医药服务、健康管理和相关教育科研资源。"
+          "en": "The province has Traditional Chinese Medicine services, health-management resources and related education and research."
         }
       },
       {
         "title": {
           "zh-CN": "装备制造与信息技术",
-          "en": "装备制造与信息技术"
+          "en": "Equipment manufacturing and information technology"
         },
         "text": {
           "zh-CN": "省会及周边具备装备制造、信息技术和现代服务业基础。",
-          "en": "省会及周边具备装备制造、信息技术和现代服务业基础。"
+          "en": "Jinan and surrounding areas have a base in equipment manufacturing, information technology and modern services."
         }
       },
       {
         "title": {
           "zh-CN": "泉水文化与鲁菜",
-          "en": "泉水文化与鲁菜"
+          "en": "Spring-water culture and Shandong cuisine"
         },
         "text": {
           "zh-CN": "趵突泉、大明湖及鲁菜文化形成城市特色。",
-          "en": "趵突泉、大明湖及鲁菜文化形成城市特色。"
+          "en": "Baotu Spring, Daming Lake and Shandong culinary traditions are central to Jinan's local identity."
         }
       }
     ]
@@ -1351,21 +1351,21 @@
       }
     ],
     "seasonSummary": {
-      "en": "",
+      "en": "Spring is humid and rainy; summer is hot with possible severe thunderstorms; autumn is suitable for walking but can remain hot; winter is relatively mild and good for exploring historic neighbourhoods.",
       "zh-CN": "春季潮湿多雨；夏季高温并有强对流；秋季适合步行但仍炎热；冬季较温和，适合老城漫步。"
     },
     "day3": {
       "title": {
-        "en": "",
+        "en": "Cantonese daily life and the Pearl River",
         "zh-CN": "广府生活与珠江夜色"
       },
       "text": {
-        "en": "",
+        "en": "Visit Chen Clan Ancestral Hall or a traditional market in the morning. Enjoy dim sum, wonton noodles or rice noodle rolls for lunch, explore Shamian Island in the afternoon, and finish along the Pearl River.",
         "zh-CN": "上午游览陈家祠或传统市场，午餐体验早茶、云吞面或肠粉，下午走访沙面，傍晚安排珠江沿岸。"
       }
     },
     "advice": {
-      "en": "",
+      "en": "Monitor heavy-rain warnings in summer. When travelling elsewhere in the Pearl River Delta, check the exact railway station, such as Guangzhou South or Guangzhou Railway Station. Confirm reservations and food allergens at popular venues.",
       "zh-CN": "夏季关注暴雨预警。前往珠三角其他城市时核对广州南站、广州站等具体车站；热门场馆预约和饮食过敏原需逐项确认。"
     },
     "images": {
@@ -1378,31 +1378,31 @@
       {
         "title": {
           "zh-CN": "中医药产业与医疗服务",
-          "en": "中医药产业与医疗服务"
+          "en": "Traditional Chinese Medicine industries and healthcare services"
         },
         "text": {
           "zh-CN": "中医药产业、医疗服务和相关科研资源较为集中。",
-          "en": "中医药产业、医疗服务和相关科研资源较为集中。"
+          "en": "The region has a concentration of Traditional Chinese Medicine industries, healthcare services and related research resources."
         }
       },
       {
         "title": {
           "zh-CN": "先进制造与商贸",
-          "en": "先进制造与商贸"
+          "en": "Advanced manufacturing and trade"
         },
         "text": {
           "zh-CN": "电子信息、汽车、家电、跨境贸易和供应链服务。",
-          "en": "电子信息、汽车、家电、跨境贸易和供应链服务。"
+          "en": "Key sectors include electronics, automobiles, home appliances, cross-border trade and supply-chain services."
         }
       },
       {
         "title": {
           "zh-CN": "广府饮食与会展",
-          "en": "广府饮食与会展"
+          "en": "Cantonese food and exhibitions"
         },
         "text": {
           "zh-CN": "粤菜、广府文化和大型会展商务资源。",
-          "en": "粤菜、广府文化和大型会展商务资源。"
+          "en": "Cantonese cuisine, Lingnan culture and major business and exhibition venues are important parts of the local offer."
         }
       }
     ]
@@ -1489,21 +1489,21 @@
       }
     ],
     "seasonSummary": {
-      "en": "",
+      "en": "Rainfall increases in spring and summer, so monitor flash-flood and road warnings. Autumn is suitable for landscape trips; Nanning is relatively mild in winter, while mountain areas can be colder.",
       "zh-CN": "春夏降雨增多，关注山洪和道路预警；秋季适合山水游；冬季南宁较温和但山区可能偏冷。"
     },
     "day3": {
       "title": {
-        "en": "",
+        "en": "Choose one regional route from Nanning",
         "zh-CN": "从南宁选择一条区域路线"
       },
       "text": {
-        "en": "",
+        "en": "Spend the third day in Nanning, or plan a separate trip to Guilin, Liuzhou or a border waterfall area. Do not try to combine distant attractions in one day.",
         "zh-CN": "第三天可留在南宁，也可另行前往桂林山水、柳州或边境瀑布，不要把远距离景点塞进一天。"
       }
     },
     "advice": {
-      "en": "",
+      "en": "During the rainy season, watch for flash floods, landslides and temporary scenic-area closures. Follow operator safety rules for rafting, boat trips and hiking, and do not enter closed roads in border areas.",
       "zh-CN": "雨季关注山洪、塌方和景区临时关闭。漂流、乘船和徒步遵守运营方安全规定，边境区域不进入未开放道路。"
     },
     "images": {
@@ -1516,31 +1516,31 @@
       {
         "title": {
           "zh-CN": "面向东盟的经贸会展",
-          "en": "面向东盟的经贸会展"
+          "en": "Trade and exhibitions with ASEAN"
         },
         "text": {
           "zh-CN": "南宁是中国—东盟交流合作和会展活动的重要平台。",
-          "en": "南宁是中国—东盟交流合作和会展活动的重要平台。"
+          "en": "Nanning is an important platform for China-ASEAN exchanges, trade and exhibition activities."
         }
       },
       {
         "title": {
           "zh-CN": "中药材与民族医药",
-          "en": "中药材与民族医药"
+          "en": "Medicinal plants and ethnic medicine"
         },
         "text": {
           "zh-CN": "广西中药材资源及壮瑶医药文化具有地方特色。",
-          "en": "广西中药材资源及壮瑶医药文化具有地方特色。"
+          "en": "Guangxi has regional resources in Chinese medicinal plants and Zhuang and Yao traditional medicine cultures."
         }
       },
       {
         "title": {
           "zh-CN": "喀斯特生态旅游",
-          "en": "喀斯特生态旅游"
+          "en": "Karst landscapes and nature tourism"
         },
         "text": {
           "zh-CN": "山水、瀑布、河谷与民族文化旅游。",
-          "en": "山水、瀑布、河谷与民族文化旅游。"
+          "en": "Mountains, waterfalls, river valleys and ethnic cultures shape the region's nature-tourism offer."
         }
       }
     ]
@@ -1631,21 +1631,21 @@
       }
     ],
     "seasonSummary": {
-      "en": "",
+      "en": "Spring is warm. In summer and autumn, pay close attention to typhoons, heavy rain and sea conditions. Winter is popular for warm-weather escapes, so accommodation demand can be high.",
       "zh-CN": "春季温暖；夏秋需重点关注台风、强降雨和海况；冬季适合避寒但住宿需求较高。"
     },
     "day3": {
       "title": {
-        "en": "",
+        "en": "Haikou culture or a relaxed Sanya bay day",
         "zh-CN": "海口文化或三亚海湾慢游"
       },
       "text": {
-        "en": "",
+        "en": "Plan the third day around your accommodation. In Haikou, explore the arcade streets and a museum; in Sanya, choose one bay for a relaxed day. Avoid travelling between Haikou and Sanya and back in a single day.",
         "zh-CN": "第三天围绕住宿地安排，海口可游骑楼和博物馆，三亚选择一个海湾休闲，不建议一天往返海口与三亚。"
       }
     },
     "advice": {
-      "en": "",
+      "en": "Before booking, confirm which city your airport, railway station, hotel and attractions are in. Typhoons and heavy rain can affect flights, ferries and marine activities. Confirm the unit price and preparation fee before ordering seafood.",
       "zh-CN": "预订前确认机场、车站、酒店和景区所在市县。台风和暴雨可能影响航班、轮渡与海上活动；海鲜点餐先确认计价单位和加工费。"
     },
     "images": {
@@ -1658,31 +1658,31 @@
       {
         "title": {
           "zh-CN": "热带康养与医疗旅游",
-          "en": "热带康养与医疗旅游"
+          "en": "Tropical wellness and medical tourism"
         },
         "text": {
           "zh-CN": "热带气候、海岛环境和医疗旅游服务是重点发展方向。",
-          "en": "热带气候、海岛环境和医疗旅游服务是重点发展方向。"
+          "en": "The tropical climate, island environment and medical-tourism services are important areas of regional development."
         }
       },
       {
         "title": {
           "zh-CN": "热带农业与特色产品",
-          "en": "热带农业与特色产品"
+          "en": "Tropical agriculture and specialty products"
         },
         "text": {
           "zh-CN": "椰子、热带水果、咖啡和南繁种业等特色资源。",
-          "en": "椰子、热带水果、咖啡和南繁种业等特色资源。"
+          "en": "Coconut, tropical fruit, coffee and seed-breeding industries are among the region's distinctive resources."
         }
       },
       {
         "title": {
           "zh-CN": "海洋休闲与度假",
-          "en": "海洋休闲与度假"
+          "en": "Marine leisure and resort tourism"
         },
         "text": {
           "zh-CN": "海岸、海岛、潜水和滨海度假体验。",
-          "en": "海岸、海岛、潜水和滨海度假体验。"
+          "en": "Coastlines, islands, diving and seaside resorts support a broad range of leisure experiences."
         }
       }
     ]
@@ -1773,21 +1773,21 @@
       }
     ],
     "seasonSummary": {
-      "en": "",
+      "en": "Spring and autumn are good for walking, but steps can be slippery after rain. Summer is hot and humid, so avoid midday exertion and stay hydrated. Winter is damp and chilly; reduce high-elevation outdoor stops in fog or rain.",
       "zh-CN": "春秋适合步行但雨后台阶湿滑；夏季闷热需补水；冬季湿冷，雾雨天气减少高处停留。"
     },
     "day3": {
       "title": {
-        "en": "",
+        "en": "Hillside walks and public transport",
         "zh-CN": "山城步道与公共交通"
       },
       "text": {
-        "en": "",
+        "en": "Choose one hillside walking route or a rail-transit experience to understand the city's steep terrain and transport links. Spend the afternoon at a museum or traditional teahouse.",
         "zh-CN": "选择一段步道或轨道体验线路，观察城市高差与公共交通连接方式，下午安排博物馆或茶馆。"
       }
     },
     "advice": {
-      "en": "",
+      "en": "Estimate travel time based on elevation changes, not just map distance. When travelling with older adults or children, choose routes with lifts and fewer stairs. Never cross barriers at night-view locations.",
       "zh-CN": "按实际高差估算时间，导航显示相邻不代表好走。带老人儿童优先选择电梯和少台阶路线，夜景点不翻越护栏。"
     },
     "images": {
@@ -1800,31 +1800,31 @@
       {
         "title": {
           "zh-CN": "汽车与电子信息制造",
-          "en": "汽车与电子信息制造"
+          "en": "Automotive and electronic information manufacturing"
         },
         "text": {
           "zh-CN": "汽车、电子信息、装备制造和智能网联产业。",
-          "en": "汽车、电子信息、装备制造和智能网联产业。"
+          "en": "Automobiles, electronics, equipment manufacturing and intelligent connected-vehicle industries are important regional sectors."
         }
       },
       {
         "title": {
           "zh-CN": "山地城市文旅",
-          "en": "山地城市文旅"
+          "en": "Mountain-city tourism and culture"
         },
         "text": {
           "zh-CN": "两江、桥梁、索道、山城街巷和夜景体验。",
-          "en": "两江、桥梁、索道、山城街巷和夜景体验。"
+          "en": "The two rivers, bridges, cableways, hillside streets and night views create Chongqing's distinctive urban experience."
         }
       },
       {
         "title": {
           "zh-CN": "火锅与食品产业",
-          "en": "火锅与食品产业"
+          "en": "Hotpot and food industries"
         },
         "text": {
           "zh-CN": "火锅、调味品和特色食品加工具有鲜明品牌辨识度。",
-          "en": "火锅、调味品和特色食品加工具有鲜明品牌辨识度。"
+          "en": "Hotpot, seasoning products and specialty food processing are recognizable parts of the local food industry."
         }
       }
     ]
@@ -1915,21 +1915,21 @@
       }
     ],
     "seasonSummary": {
-      "en": "",
+      "en": "Spring and autumn are good for parks and neighbourhood walks. Summer is humid, so avoid strenuous outdoor activity at midday. Winter is damp and chilly, while weather in nearby mountain areas can change quickly.",
       "zh-CN": "春秋适合公园与街区漫步；夏季湿热需避开正午；冬季湿冷，远郊山区天气变化快。"
     },
     "day3": {
       "title": {
-        "en": "",
+        "en": "Parks, teahouses and everyday Sichuan life",
         "zh-CN": "公园茶馆与川味日常"
       },
       "text": {
-        "en": "",
+        "en": "Spend the morning experiencing teahouse culture at People's Park. Visit a museum or neighbourhood market in the afternoon, and try local dishes such as dan dan noodles, Zhong dumplings and Sichuan snacks.",
         "zh-CN": "上午在人民公园体验茶馆文化，下午选择博物馆或社区市场，尝试担担面、钟水饺和川味小吃。"
       }
     },
     "advice": {
-      "en": "",
+      "en": "Reservation rules for the panda base and popular venues can change. Check the exact Chengdu railway station on your ticket. Do not feed animals or use flash photography in animal facilities, and follow animal-welfare rules.",
       "zh-CN": "熊猫基地和热门场馆预约规则可能调整。按车票确认成都各火车站；动物场馆不投喂、不使用闪光灯，尊重动物福利。"
     },
     "images": {
@@ -1942,31 +1942,31 @@
       {
         "title": {
           "zh-CN": "电子信息与软件服务",
-          "en": "电子信息与软件服务"
+          "en": "Electronics, software and digital services"
         },
         "text": {
           "zh-CN": "电子信息、软件、数字文创和科技服务业。",
-          "en": "电子信息、软件、数字文创和科技服务业。"
+          "en": "Chengdu has a strong base in electronics, software, digital creative industries and technology services."
         }
       },
       {
         "title": {
           "zh-CN": "川菜与食品产业",
-          "en": "川菜与食品产业"
+          "en": "Sichuan cuisine and food industries"
         },
         "text": {
           "zh-CN": "川菜、调味品、休闲食品和餐饮供应链。",
-          "en": "川菜、调味品、休闲食品和餐饮供应链。"
+          "en": "Sichuan cuisine, seasonings, packaged snacks and restaurant supply chains are important regional sectors."
         }
       },
       {
         "title": {
           "zh-CN": "中医药与康养文旅",
-          "en": "中医药与康养文旅"
+          "en": "Traditional Chinese Medicine and wellness culture"
         },
         "text": {
           "zh-CN": "中医药资源、茶馆文化、熊猫与川西旅游门户。",
-          "en": "中医药资源、茶馆文化、熊猫与川西旅游门户。"
+          "en": "Traditional Chinese Medicine resources, teahouse culture, panda experiences and access to western Sichuan shape the city's cultural and wellness offer."
         }
       }
     ]
@@ -2057,21 +2057,21 @@
       }
     ],
     "seasonSummary": {
-      "en": "",
+      "en": "Spring has strong sunshine and noticeable day-night temperature changes. In the summer rainy season, monitor mountain-road conditions. Autumn is suitable for nature trips; winter is mild in the city but cold at night at higher elevations.",
       "zh-CN": "春季日照强且温差明显；夏季雨季关注山路天气；秋季适合自然游；冬季市区温和但高海拔夜间较冷。"
     },
     "day3": {
       "title": {
-        "en": "",
+        "en": "Dianchi ecology and city parks",
         "zh-CN": "滇池生态与城市公园"
       },
       "text": {
-        "en": "",
+        "en": "Choose an open lakeside or wetland area to learn about the ecology of a highland lake. If visiting the Stone Forest, plan it as a full-day excursion with dedicated transport.",
         "zh-CN": "选择一个开放湖岸或湿地区域了解高原湖泊生态；若前往石林，应把它作为完整一日行程。"
       }
     },
     "advice": {
-      "en": "",
+      "en": "Keep the first day light while adjusting to the altitude. Eat wild mushrooms only at reputable restaurants and confirm they are thoroughly cooked; never collect or eat wild mushrooms of unknown origin.",
       "zh-CN": "初到高原安排轻松活动。野生菌只在正规餐馆选择并确认充分烹制，不自行采食来源不明的野生菌。"
     },
     "images": {
@@ -2084,31 +2084,31 @@
       {
         "title": {
           "zh-CN": "花卉与园艺产业",
-          "en": "花卉与园艺产业"
+          "en": "Flowers and horticulture"
         },
         "text": {
           "zh-CN": "鲜切花、园艺和花卉交易市场具有全国影响力。",
-          "en": "鲜切花、园艺和花卉交易市场具有全国影响力。"
+          "en": "Fresh-cut flowers, horticulture and flower-trading markets are nationally influential local industries."
         }
       },
       {
         "title": {
           "zh-CN": "中药材与生物资源",
-          "en": "中药材与生物资源"
+          "en": "Chinese medicinal plants and biological resources"
         },
         "text": {
           "zh-CN": "云南特色药材、天然产物和生物资源开发。",
-          "en": "云南特色药材、天然产物和生物资源开发。"
+          "en": "Yunnan's specialty medicinal plants, natural products and biological resources support related industries."
         }
       },
       {
         "title": {
           "zh-CN": "高原生态与民族文化",
-          "en": "高原生态与民族文化"
+          "en": "Highland ecology and ethnic cultures"
         },
         "text": {
           "zh-CN": "滇池、石林、高原湖泊及多民族文化旅游。",
-          "en": "滇池、石林、高原湖泊及多民族文化旅游。"
+          "en": "Dianchi Lake, the Stone Forest, highland lakes and diverse ethnic cultures are important regional tourism resources."
         }
       }
     ]
@@ -2199,21 +2199,21 @@
       }
     ],
     "seasonSummary": {
-      "en": "",
+      "en": "Spring is suitable for walking but can be dusty and windy. Summer can be very hot, so avoid midday outdoor visits. Autumn is good for heritage sites; winter is cold and dry, so dress warmly.",
       "zh-CN": "春季适合步行但可能有风沙；夏季高温需避开正午；秋季适合古迹游；冬季寒冷干燥注意保暖。"
     },
     "day3": {
       "title": {
-        "en": "",
+        "en": "A focused day of Shaanxi history and culture",
         "zh-CN": "陕西历史文化专题日"
       },
       "text": {
-        "en": "",
+        "en": "Choose one museum or cultural venue with a confirmed reservation and take time to explore. Return to the old city within the walls in the afternoon to enjoy local food.",
         "zh-CN": "选择一处已预约的博物馆或文化场馆慢慢参观，下午回到城墙内街区体验地方饮食。"
       }
     },
     "advice": {
-      "en": "",
+      "en": "The Terracotta Army and major museums may require real-name reservations. Check whether your ticket uses Xi'an Railway Station or Xi'an North. Respect customs in halal dining areas and confirm ingredients when needed.",
       "zh-CN": "兵马俑和重要博物馆可能实行实名预约。按车票确认西安站或西安北站；尊重清真餐饮区域习俗并核实食材。"
     },
     "images": {
@@ -2226,31 +2226,31 @@
       {
         "title": {
           "zh-CN": "航空航天与装备制造",
-          "en": "航空航天与装备制造"
+          "en": "Aerospace and advanced equipment manufacturing"
         },
         "text": {
           "zh-CN": "西安航空航天、电子信息和高端装备制造基础突出。",
-          "en": "西安航空航天、电子信息和高端装备制造基础突出。"
+          "en": "Xi'an has a strong base in aerospace, electronics and advanced equipment manufacturing."
         }
       },
       {
         "title": {
           "zh-CN": "历史文化与遗产旅游",
-          "en": "历史文化与遗产旅游"
+          "en": "History, heritage and cultural tourism"
         },
         "text": {
           "zh-CN": "秦始皇陵、古城墙、钟鼓楼和丝路遗产。",
-          "en": "秦始皇陵、古城墙、钟鼓楼和丝路遗产。"
+          "en": "The Mausoleum of the First Qin Emperor, the ancient city wall, Bell and Drum Towers and Silk Road heritage are major cultural resources."
         }
       },
       {
         "title": {
           "zh-CN": "中医药教育与科研",
-          "en": "中医药教育与科研"
+          "en": "Traditional Chinese Medicine education and research"
         },
         "text": {
           "zh-CN": "中医药高校、科研机构和传统医药文化资源。",
-          "en": "中医药高校、科研机构和传统医药文化资源。"
+          "en": "The region has universities, research institutions and cultural resources related to Traditional Chinese Medicine."
         }
       }
     ]
@@ -2337,21 +2337,21 @@
       }
     ],
     "seasonSummary": {
-      "en": "",
+      "en": "Spring can bring dust and large temperature swings. Summer has strong sunshine; autumn is suitable for the Hexi Corridor; winter is cold and some outdoor services may be adjusted.",
       "zh-CN": "春季风沙和温差明显；夏季日照强；秋季适合河西走廊；冬季寒冷，部分户外服务可能调整。"
     },
     "day3": {
       "title": {
-        "en": "",
+        "en": "Lanzhou museums and life along the Yellow River",
         "zh-CN": "兰州博物馆与黄河生活"
       },
       "text": {
-        "en": "",
+        "en": "Spend half a day at a cultural venue, then walk along the Yellow River waterfront. Try local beef noodles and desserts, and check train schedules for your next stop in advance.",
         "zh-CN": "安排半日文化场馆，再沿黄河风情线散步，体验牛肉面和地方甜品，为下一站提前核对车次。"
       }
     },
     "advice": {
-      "en": "",
+      "en": "Do not underestimate the distance from Lanzhou to Dunhuang or Zhangye. Carry water, sun protection and warm layers on desert routes. Buy tickets for heritage sites only through reliable, authorized channels.",
       "zh-CN": "兰州到敦煌、张掖等地距离不可低估。戈壁路线准备饮水、防晒和保暖；重要遗址不购买来历不明的票务。"
     },
     "images": {
@@ -2364,31 +2364,31 @@
       {
         "title": {
           "zh-CN": "中医药材与制药",
-          "en": "中医药材与制药"
+          "en": "Traditional Chinese medicinal herbs and pharmaceuticals"
         },
         "text": {
           "zh-CN": "甘肃道地药材、中药材种植加工和制药产业。",
-          "en": "甘肃道地药材、中药材种植加工和制药产业。"
+          "en": "Gansu's locally grown medicinal herbs, cultivation and processing, and pharmaceutical industries are important regional resources."
         }
       },
       {
         "title": {
           "zh-CN": "能源化工与装备",
-          "en": "能源化工与装备"
+          "en": "Energy, chemicals and equipment"
         },
         "text": {
           "zh-CN": "石油化工、新能源和相关装备制造。",
-          "en": "石油化工、新能源和相关装备制造。"
+          "en": "Petrochemicals, renewable energy and related equipment manufacturing are key industrial sectors."
         }
       },
       {
         "title": {
           "zh-CN": "黄河文化与丝路旅游",
-          "en": "黄河文化与丝路旅游"
+          "en": "Yellow River culture and Silk Road tourism"
         },
         "text": {
           "zh-CN": "黄河风情、丝绸之路遗产、丹霞与西北饮食文化。",
-          "en": "黄河风情、丝绸之路遗产、丹霞与西北饮食文化。"
+          "en": "The Yellow River, Silk Road heritage, Danxia landscapes and northwestern food culture shape the region's tourism identity."
         }
       }
     ]
@@ -2475,21 +2475,21 @@
       }
     ],
     "seasonSummary": {
-      "en": "",
+      "en": "Spring and autumn have large day-night temperature differences. Summer is sunny and dry; winter is cold, and mountain weather can differ sharply from conditions in the city.",
       "zh-CN": "春秋昼夜温差大；夏季日照强且干燥；冬季寒冷，山地天气与市区差异明显。"
     },
     "day3": {
       "title": {
-        "en": "",
+        "en": "City culture and local markets",
         "zh-CN": "城市文化与地方市场"
       },
       "text": {
-        "en": "",
+        "en": "Make the Xinjiang Museum, International Grand Bazaar and local dining part of a city-focused day. Adjust the order to opening hours, and check the origin and expiry date of packaged foods.",
         "zh-CN": "把新疆博物馆、国际大巴扎和地方餐饮作为城市主题日，按开放时段调整顺序，购买食品留意产地和保质期。"
       }
     },
     "advice": {
-      "en": "",
+      "en": "Before travelling between regions, check current transport, opening and access requirements. Use reliable operators for remote excursions, carry valid identification and follow local rules.",
       "zh-CN": "跨区域旅行前查询最新交通、开放和通行要求。远郊选择可靠运营方，携带有效证件并遵守现场规定。"
     },
     "images": {
@@ -2502,31 +2502,31 @@
       {
         "title": {
           "zh-CN": "丝路贸易与国际物流",
-          "en": "丝路贸易与国际物流"
+          "en": "Silk Road trade and international logistics"
         },
         "text": {
           "zh-CN": "面向中亚的国际商贸、物流和陆路通道服务。",
-          "en": "面向中亚的国际商贸、物流和陆路通道服务。"
+          "en": "Urumqi supports international trade, logistics and overland transport links with Central Asia."
         }
       },
       {
         "title": {
           "zh-CN": "能源化工与装备",
-          "en": "能源化工与装备"
+          "en": "Energy, chemicals and equipment"
         },
         "text": {
           "zh-CN": "石油天然气、煤化工和能源装备相关产业。",
-          "en": "石油天然气、煤化工和能源装备相关产业。"
+          "en": "Oil and gas, coal chemicals and related energy equipment are important regional industries."
         }
       },
       {
         "title": {
           "zh-CN": "民族文化与冰雪旅游",
-          "en": "民族文化与冰雪旅游"
+          "en": "Ethnic cultures and winter tourism"
         },
         "text": {
           "zh-CN": "多民族饮食文化、天山景观和冬季冰雪体验。",
-          "en": "多民族饮食文化、天山景观和冬季冰雪体验。"
+          "en": "Multicultural food traditions, the Tianshan landscape and winter-sports experiences contribute to the region's tourism offer."
         }
       }
     ]

@@ -12,7 +12,7 @@ Yiang Health is a China-focused information and light journey-planning site cove
 
 - Stripe: disabled; no active Payment Links are configured.
 - PayPal: disabled; no payment URLs are configured.
-- WeChat Pay / Alipay: QR image files are present and configured for display. The owner must independently scan each code and confirm the receiving account, amount and payment status before advertising the method as ready for customers.
+- WeChat Pay / Alipay: disabled. Active personal receiving QR images have been removed from the public working tree and retained only in a local restricted backup. Do not restore them to the public repository. A future payment launch requires an approved business receiving account and end-to-end review.
 - QR payments require manual receipt review. An access code must only be issued after the funds are confirmed in the receiving account.
 - success.html is an informational page only. Opening it does not confirm that a payment was made.
 - The current access-code check is client-side JavaScript and stores unlock state in the visitor's browser. It is not secure server-side payment verification and must not be described as a secure paywall or automated purchase flow.
